@@ -1,0 +1,701 @@
+﻿<!DOCTYPE html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style="" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Real Property</title>
+<link rel="stylesheet" id="dt-sc-css-css" href="css/shortcodes.css" type="text/css" media="all">
+<link rel="stylesheet" id="ls-google-fonts-css" href="css/css.css" type="text/css" media="all">
+<link rel="stylesheet" id="meanmenu-css-css" href="css/meanmenu.css" type="text/css" media="all">
+<link rel="stylesheet" id="realproperty-default-css" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="skin-css" href="css/style_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="realproperty-print-css" href="css/print.css" type="text/css" media="print">
+<link rel="stylesheet" id="custom-font-awesome-css" href="css/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="responsive-css" href="css/responsive.css" type="text/css" media="all">
+<link rel="stylesheet" id="mytheme-google-fonts-css" href="css/css_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="ws-plugin--s2member-css" href="css/s2member-o.css" type="text/css" media="all">
+
+<script src="js/bl.js"></script>
+
+<script src="js/mixpanel-2.js" async="" type="text/javascript"></script>
+<style media="screen" type="text/css">
+#dddContent {
+	visibility: hidden
+}
+</style>
+<script src="js/lang.js"></script>
+<script src="js/fo.js"></script>
+<script src="js/wl.js"></script>
+<script src="js/ga.js"></script>
+<script src="js/jquery_016.js"></script>
+
+<link href="css/main.css" rel="stylesheet">
+<link href="css/new-css.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- **Wrapper** -->
+<div class="wrapper"> 
+  <!-- **Inner Wrapper** -->
+  <div class="inner-wrapper"> 
+    
+    <!-- Header Wrapper -->
+    <div id="header-wrapper"> <!-- **Header** -->
+      <header id="header" class="header1">
+        <div class="top-bar">
+          <div class="container">
+            <ul id="menu-top-menu" class="top-menu">
+              <li id="menu-item-1577" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1577"><a href="#">Terms</a></li>
+              <li id="menu-item-1578" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1578"><a href="#">Privacy Policy</a></li>
+              <li id="menu-item-1579" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1579"><a href="#">Legal Agreement</a></li>
+            </ul>
+            <div class="top-right">
+              <ul class="user-account">
+                <li> <a href="#"> <span class="fa fa-user"> </span> Login </a> </li>
+              </ul>
+              <div class="contact-number"> <span class="fa fa-phone-square"> </span> 1 (800) 567 8765 </div>
+            </div>
+          </div>
+        </div>
+        <div class="container"> 
+          
+          <!-- **Logo - Start** -->
+          <div id="logo"> <a href="#" title="Real Property"> <img src="images/logo.png" alt="Real Property" title="Real Property"> </a> </div>
+          <!-- **Logo - End** --> 
+          
+          <!-- **Navigation** -->
+          <div id="primary-menu">
+            <nav id="main-menu">
+              <ul id="menu-main-menu" class="menu">
+                <li id="menu-item-1541" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-depth-0 menu-item-simple-parent "><a href="#"><i class="fa fa-home"></i>Home<span class="menu-item-description">get started</span></a>
+                  
+                </li>
+                <li id="menu-item-1607" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-megamenu-parent  megamenu-4-columns-group"><a href="#"><i class="fa fa-trophy"></i>Properties<span class="menu-item-description">we have</span></a>
+                  
+                </li>
+                <li id="menu-item-1609" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent "><a href="#"><i class="fa fa-gears"></i>IDX<span class="menu-item-description">plugin</span></a>
+                  
+                </li>
+                <li id="menu-item-1605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent "><a href="#"><i class="fa fa-paste"></i>Pages<span class="menu-item-description">we have</span></a>
+                  
+                </li>
+                <li id="menu-item-1542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-megamenu-parent  megamenu-4-columns-group"><a href="#"><i class="fa fa-pencil"></i>Blog<span class="menu-item-description">on the fly</span></a>
+                  
+                </li>
+                <li id="menu-item-1544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-megamenu-parent  megamenu-4-columns-group"><a href="#"><i class="fa fa-camera"></i>Gallery<span class="menu-item-description">we have done</span></a>
+                  
+                </li>
+                <li id="menu-item-1606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-megamenu-parent  megamenu-3-columns-group"><a href="#"><i class="fa fa-rocket"></i>Shortcodes<span class="menu-item-description">we provide</span></a>
+                  
+                </li>
+                <li id="menu-item-1543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent "><a href="#"><i class="fa fa-location-arrow"></i>Contact<span class="menu-item-description">get in touch</span></a>
+                  
+                </li>
+              </ul>
+            </nav>
+            <!-- **Navigation - End** --> 
+          </div>
+        </div>
+      </header>
+      <!-- **Header - End** --> </div>
+    <!-- Header Wrapper --> 
+    
+    <!-- **Main** -->
+    <div id="main"> 
+      
+      <!-- Slider Section --> 
+      <!-- **Slider Section** -->
+      <div id="slider">
+        <div id="slider-container">
+          <div class="slider-image-only"><img src="images/slider-image_new1.jpg" alt=""></div>
+        </div>
+        <!-- **Property Search Container** -->
+        <div class="property-search-container">
+          <div class="dt-sc-tabs-container" style="width:100%;">
+            <ul class="dt-sc-tabs-frame">
+              <li><a class="current" href="#">All</a></li>
+              <li><a href="#">For Rent</a></li>
+              <li><a href="#">For Sale</a></li>
+            </ul>
+            <div style="display: block;" class="dt-sc-tabs-frame-content">
+              <form action="search.htm" method="get">
+                <input name="searchby" value="default" type="hidden">
+                <div class="property-type-module medium-module">
+                  
+                  <input type="text" value="search">
+                  
+                </div>
+                
+                
+                
+                <div class="beds-module small-module">
+                  <label>Beds</label>
+                  <select name="pbeds">
+                    <option selected="selected" value="&gt;0">Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <div class="baths-module small-module">
+                  <label>Baths</label>
+                  <select name="pbaths">
+                    <option selected="selected" value="&gt;0">Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <div class="floors-module small-module">
+                  <label>Floors</label>
+                  <select name="pfloors">
+                    <option selected="selected" value="&gt;0">Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <div class="garages-module small-module">
+                  <label>Garages</label>
+                  <select name="pgarages">
+                    <option selected="selected" value="&gt;0">Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+                <a href="search.htm"><input name="dt-propery-search-submit" value="Search" type="submit"></a>
+              </form>
+            </div>
+            <div style="display: none;" class="dt-sc-tabs-frame-content">
+              <form action="search.htm" method="get">
+                <input name="searchby" value="rent" type="hidden">
+                <div class="property-type-module medium-module">
+                  <label>Type</label>
+                  <select name="ptype">
+                    <option selected="selected" value="0">Property Type</option>
+                    <option value="2">Apartment</option>
+                    <option value="43">Building Area</option>
+                    <option value="42">Commercial</option>
+                    <option value="32">Condo</option>
+                    <option value="9">Cottage</option>
+                    <option value="33">Factory</option>
+                    <option value="34">Farm House</option>
+                    <option value="35">Guest House</option>
+                    <option value="28">Office</option>
+                    <option value="40">Residential</option>
+                    <option value="36">Restaurant</option>
+                    <option value="38">Shopping Mall</option>
+                    <option value="39">Show Rooms</option>
+                    <option value="44">Single Family</option>
+                    <option value="41">Vacant Land</option>
+                    <option value="25">Villa</option>
+                    <option value="37">Warehouse</option>
+                  </select>
+                </div>
+                <div class="location-module medium-module">
+                  <label>Locations</label>
+                  <select name="plocation">
+                    <option selected="selected" value="0">Location</option>
+                    <option value="31">Adelaide</option>
+                    <option value="61">Auckland</option>
+                    <option value="81">Calgary</option>
+                    <option value="80">Cessnock</option>
+                    <option value="79">Dubbo</option>
+                    <option value="78">Helsinki</option>
+                    <option value="77">Melbourne</option>
+                    <option value="65">Perth</option>
+                    <option value="64">Sydney</option>
+                    <option value="76">Toronto</option>
+                    <option value="75">Vienna</option>
+                    <option value="62">Wellington</option>
+                  </select>
+                </div>
+                <div class="min-price-module medium-module">
+                  <label>Min Price</label>
+                  <select name="minprice">
+                    <option selected="selected" value="0">Any</option>
+                    <option value="10000">10000</option>
+                    <option value="20000">20000</option>
+                    <option value="30000">30000</option>
+                    <option value="40000">40000</option>
+                  </select>
+                </div>
+                <div class="max-price-module medium-module">
+                  <label>Max Price</label>
+                  <select name="maxprice">
+                    <option selected="selected" value="0">Any</option>
+                    <option value="10000">10000</option>
+                    <option value="20000">20000</option>
+                    <option value="30000">30000</option>
+                    <option value="40000">40000</option>
+                  </select>
+                </div>
+                <div class="beds-module small-module">
+                  <label>Beds</label>
+                  <select name="pbeds">
+                    <option selected="selected" value="&gt;0">Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <div class="baths-module small-module">
+                  <label>Baths</label>
+                  <select name="pbaths">
+                    <option selected="selected" value="&gt;0">Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <div class="floors-module small-module">
+                  <label>Floors</label>
+                  <select name="pfloors">
+                    <option selected="selected" value="&gt;0">Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <div class="garages-module small-module">
+                  <label>Garages</label>
+                  <select name="pgarages">
+                    <option selected="selected" value="&gt;0">Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <a href="search.htm"><input name="dt-propery-search-submit" value="Search" type="submit"></a>
+              </form>
+            </div>
+            <div style="display: none;" class="dt-sc-tabs-frame-content">
+              <form action="search.htm" method="get">
+                <input name="searchby" value="sale" type="hidden">
+                <div class="property-type-module medium-module">
+                  <label>Type</label>
+                  <select name="ptype">
+                    <option selected="selected" value="0">Property Type</option>
+                    <option value="2">Apartment</option>
+                    <option value="43">Building Area</option>
+                    <option value="42">Commercial</option>
+                    <option value="32">Condo</option>
+                    <option value="9">Cottage</option>
+                    <option value="33">Factory</option>
+                    <option value="34">Farm House</option>
+                    <option value="35">Guest House</option>
+                    <option value="28">Office</option>
+                    <option value="40">Residential</option>
+                    <option value="36">Restaurant</option>
+                    <option value="38">Shopping Mall</option>
+                    <option value="39">Show Rooms</option>
+                    <option value="44">Single Family</option>
+                    <option value="41">Vacant Land</option>
+                    <option value="25">Villa</option>
+                    <option value="37">Warehouse</option>
+                  </select>
+                </div>
+                <div class="location-module medium-module">
+                  <label>Locations</label>
+                  <select name="plocation">
+                    <option selected="selected" value="0">Location</option>
+                    <option value="31">Adelaide</option>
+                    <option value="61">Auckland</option>
+                    <option value="81">Calgary</option>
+                    <option value="80">Cessnock</option>
+                    <option value="79">Dubbo</option>
+                    <option value="78">Helsinki</option>
+                    <option value="77">Melbourne</option>
+                    <option value="65">Perth</option>
+                    <option value="64">Sydney</option>
+                    <option value="76">Toronto</option>
+                    <option value="75">Vienna</option>
+                    <option value="62">Wellington</option>
+                  </select>
+                </div>
+                <div class="min-price-module medium-module">
+                  <label>Min Price</label>
+                  <select name="minprice">
+                    <option selected="selected" value="0">Any</option>
+                    <option value="10000">10000</option>
+                    <option value="20000">20000</option>
+                    <option value="30000">30000</option>
+                    <option value="40000">40000</option>
+                  </select>
+                </div>
+                <div class="max-price-module medium-module">
+                  <label>Max Price</label>
+                  <select name="maxprice">
+                    <option selected="selected" value="0">Any</option>
+                    <option value="10000">10000</option>
+                    <option value="20000">20000</option>
+                    <option value="30000">30000</option>
+                    <option value="40000">40000</option>
+                  </select>
+                </div>
+                <div class="beds-module small-module">
+                  <label>Beds</label>
+                  <select name="pbeds">
+                    <option selected="selected" value="&gt;0">Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+                <div class="baths-module small-module">
+                  <label>Baths</label>
+                  <select name="pbaths">
+                    <option selected="selected" value="&gt;0">Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+                <div class="floors-module small-module">
+                  <label>Floors</label>
+                  <select name="pfloors">
+                    <option selected="selected" value="&gt;0">Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+                <div class="garages-module small-module">
+                  <label>Garages</label>
+                  <select name="pgarages">
+                    <option selected="selected" value="&gt;0">Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+              <a href="search.htm">  <input name="dt-propery-search-submit" value="Search" type="submit"></a>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- **Property Search Container - End** --></div>
+      <!-- **Slider Section - End** --> 
+      <!-- Sub Title Section --> 
+      <!-- Sub Title Section --> 
+      
+      <!-- ** Primary Section ** -->
+      <section id="primary" class="content-full-width"><!-- #post-9 -->
+        <div id="post-9" class="post-9 page type-page status-publish hentry">
+          <div class="dt-sc-hr-invisible  "></div>
+          <div class="fullwidth-section ">
+            <div class="container">
+              <h2 style="text-align: center;">We are Providing the Best Real Esate Deals</h2>
+              <p style="text-align: center; font-weight: 300; font-size: 16px; color: #a0a0a0;">Lorem
+                ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+                eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+              <p style="text-align: center; font-weight: 300; font-size: 16px; color: #a0a0a0;">erat, sed&nbsp;diam voluptua.</p>
+              <div class="dt-sc-hr-invisible  "></div>
+              <div class="column dt-sc-one-fourth  space first">
+                <div class="dt-sc-services">
+                  <h4><span class="fa fa-home"></span><a href="#">Search Home</a></h4>
+                  <img src="images/caption-image1.jpg" alt="Search Home">
+                  <p>Looking to buy your new dream home?</p>
+                </div>
+              </div>
+              <div class="column dt-sc-one-fourth  space ">
+                <div class="dt-sc-services">
+                  <h4><span class="fa fa-users"></span><a href="#">Find Realtor</a></h4>
+                  <img src="images/caption-image2.jpg" alt="Find Realtor">
+                  <p>Find a Realtor that suits your needs.</p>
+                </div>
+              </div>
+              <div class="column dt-sc-one-fourth  space ">
+                <div class="dt-sc-services">
+                  <h4><span class="fa fa-file-text-o"></span><a href="#">List Property</a></h4>
+                  <img src="images/caption-image3.jpg" alt="List Property">
+                  <p>Want to list your own property?</p>
+                </div>
+              </div>
+              <div class="column dt-sc-one-fourth  space ">
+                <div class="dt-sc-services">
+                  <h4><span class="fa fa-key"></span><a href="#">Search for rent</a></h4>
+                  <img src="images/caption-image4.jpg" alt="Search for rent">
+                  <p>Rent for a Home in Few Minutes</p>
+                </div>
+              </div>
+              <div class="dt-sc-hr-invisible-medium  "></div>
+              <h2 class="border-title "><span>Featured Properties</span></h2>
+              <div class="column  dt-sc-one-third  first">
+                <div class="property-item ">
+                  <div class="property-thumb"><span class="property-contract-type rent"><a href="#">Rent</a></span>
+                    <ul class="porperty-slider">
+                      <li><a href="#"><img src="images/property5.jpg" alt="" title=""></a></li>
+                    </ul>
+                    <div class="property-thumb-meta"><span class="property-type"><a href="#">Restaurant</a></span><span class="property-price">$ 56000 </span></div>
+                  </div>
+                  <div class="property-details">
+                    <div class="property-details-inner">
+                      <h2><a href="#">Luxury Villa In Rego Park</a></h2>
+                      <h3>Franzensbrückenstraße 6, 1020 Vienna, Austria</h3>
+                      <ul class="property-meta">
+                        <li>37000/m<sup>2</sup><span>Area</span></li>
+                        <li>6<span>Beds</span></li>
+                        <li>4<span>Baths</span></li>
+                        <li>5<span>Floors</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column  dt-sc-one-third ">
+                <div class="property-item ">
+                  <div class="property-thumb"><span class="property-contract-type sale"><a href="#">Sale</a></span>
+                    <ul class="porperty-slider">
+                      <li><a href="#"><img src="images/property8.jpg" alt="" title=""></a></li>
+                    </ul>
+                    <div class="property-thumb-meta"><span class="property-type"><a href="#">Farm House</a></span><span class="property-price">$ 35,580 </span></div>
+                  </div>
+                  <div class="property-details">
+                    <div class="property-details-inner">
+                      <h2><a href="#">Gorgeous Farm House</a></h2>
+                      <h3>20 Mount Royal Avenue, New Zealand</h3>
+                      <ul class="property-meta">
+                        <li>2800/m<sup>2</sup><span>Area</span></li>
+                        <li>4<span>Beds</span></li>
+                        <li>4<span>Baths</span></li>
+                        <li>2<span>Floors</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column  dt-sc-one-third ">
+                <div class="property-item ">
+                  <div class="property-thumb"><span class="property-contract-type sale"><a href="#">Sale</a></span>
+                    <ul class="porperty-slider">
+                      <li><a href="#"><img src="images/property9.jpg" alt="" title=""></a></li>
+                    </ul>
+                    <div class="property-thumb-meta"><span class="property-type"><a href="#">Cottage</a></span><span class="property-price">$ 650,000 </span></div>
+                  </div>
+                  <div class="property-details">
+                    <div class="property-details-inner">
+                      <h2><a href="#">Splendid Boat House</a></h2>
+                      <h3>51 Victoria Street West, New Zealand</h3>
+                      <ul class="property-meta">
+                        <li>37000/m<sup>2</sup><span>Area</span></li>
+                        <li>2<span>Beds</span></li>
+                        <li>2<span>Baths</span></li>
+                        <li>2<span>Floors</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column  dt-sc-one-third  first">
+                <div class="property-item ">
+                  <div class="property-thumb"><span class="property-contract-type rent"><a href="#">Rent</a></span>
+                    <ul class="porperty-slider">
+                      <li><a href="#"><img src="images/property3.jpg" alt="" title=""></a></li>
+                    </ul>
+                    <div class="property-thumb-meta"><span class="property-type"><a href="#">Condo</a></span><span class="property-price">$ 350,210 </span></div>
+                  </div>
+                  <div class="property-details">
+                    <div class="property-details-inner">
+                      <h2><a href="#">Majestic Residence in Valencia</a></h2>
+                      <h3>22 Laurence Street, Dover Gardens SA 5048</h3>
+                      <ul class="property-meta">
+                        <li>55000/m<sup>2</sup><span>Area</span></li>
+                        <li>4<span>Beds</span></li>
+                        <li>5<span>Baths</span></li>
+                        <li>1<span>Floors</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column  dt-sc-one-third ">
+                <div class="property-item ">
+                  <div class="property-thumb"><span class="property-contract-type rent"><a href="#">Rent</a></span>
+                    <ul class="porperty-slider">
+                      <li><a href="#"><img src="images/property8.jpg" alt="" title=""></a></li>
+                    </ul>
+                    <div class="property-thumb-meta"><span class="property-type"><a href="#">Shopping Mall</a></span><span class="property-price">$ 358,500 </span></div>
+                  </div>
+                  <div class="property-details">
+                    <div class="property-details-inner">
+                      <h2><a href="#">Splendid Country House</a></h2>
+                      <h3>6 Station Lane, North Haven SA 5018, Australia</h3>
+                      <ul class="property-meta">
+                        <li>55000/m<sup>2</sup><span>Area</span></li>
+                        <li>2<span>Beds</span></li>
+                        <li>3<span>Baths</span></li>
+                        <li>2<span>Floors</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column  dt-sc-one-third ">
+                <div class="property-item ">
+                  <div class="property-thumb"><span class="property-contract-type sale"><a href="#">Sale</a></span>
+                    <div style="max-width: 100%; margin: 0px auto;" class="bx-wrapper">
+                      <div style="width: 100%; overflow: hidden; position: relative; height: 229px;" class="bx-viewport">
+                        <ul style="width: 515%; position: relative; left: -338px;" class="porperty-slider">
+                          <li class="bx-clone" style="float: left; list-style: none outside none; position: relative; width: 338px;"><a href="#"><img src="images/property12.jpg" alt="" title=""></a></li>
+                          <li style="float: left; list-style: none outside none; position: relative; width: 338px;"><a href="#"><img src="images/property8_002.jpg" alt="" title=""></a></li>
+                          <li style="float: left; list-style: none outside none; position: relative; width: 338px;"><a href="#"><img src="images/property7.jpg" alt="" title=""></a></li>
+                          <li style="float: left; list-style: none outside none; position: relative; width: 338px;"><a href="#"><img src="images/property12.jpg" alt="" title=""></a></li>
+                          <li class="bx-clone" style="float: left; list-style: none outside none; position: relative; width: 338px;"><a href="#"><img src="images/property8_002.jpg" alt="" title=""></a></li>
+                        </ul>
+                      </div>
+                      <div class="bx-controls bx-has-controls-direction">
+                        <div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div>
+                      </div>
+                    </div>
+                    <div class="property-thumb-meta"><span class="property-type"><a href="#">Villa</a></span><span class="property-price">$ 250,000 </span></div>
+                  </div>
+                  <div class="property-details">
+                    <div class="property-details-inner">
+                      <h2><a href="#">Unique Villa With Private Beach</a></h2>
+                      <h3>5 Grove Avenue, Everard Park SA 5035, Australia</h3>
+                      <ul class="property-meta">
+                        <li>5400/m<sup>2</sup><span>Area</span></li>
+                        <li>3<span>Beds</span></li>
+                        <li>4<span>Baths</span></li>
+                        <li>2<span>Floors</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+         
+        
+          
+        
+        <!-- #post-1821 --> 
+        
+      </section>
+      <!-- ** Primary Section End ** --> 
+    </div>
+    <!-- **Main - End** --> 
+    
+    <!-- **Footer** -->
+    <footer id="footer">
+      <div class="footer-widgets-wrapper">
+        <div class="container">
+          <div class="column dt-sc-one-fourth first">
+            <aside id="categories-3" class="widget widget_categories">
+              <h3 class="widgettitle">Categories</h3>
+              <ul>
+                <li class="cat-item cat-item-2"><a href="#" title="View all posts filed under Apartment">Apartment<span> 4</span></a> </li>
+                <li class="cat-item cat-item-14"><a href="#" title="View all posts filed under Audio">Audio<span> 4</span></a> </li>
+                <li class="cat-item cat-item-9"><a href="#" title="View all posts filed under Cottage">Cottage<span> 7</span></a> </li>
+                <li class="cat-item cat-item-21"><a href="#" title="View all posts filed under Magazine">Magazine<span> 1</span></a> </li>
+                <li class="cat-item cat-item-3"><a href="#" title="View all posts filed under Retail">Retail<span> 10</span></a> </li>
+                <li class="cat-item cat-item-5"><a href="#" title="View all posts filed under Technical">Technical<span> 4</span></a> </li>
+                <li class="cat-item cat-item-4"><a href="#" title="View all posts filed under Video">Video<span> 3</span></a> </li>
+              </ul>
+            </aside>
+          </div>
+          <div class="column dt-sc-one-fourth ">
+            <aside id="my_property_widget-2" class="widget widget_popular_entries">
+              <h3 class="widgettitle">Latest Properties</h3>
+              <div class="recent-property-widget">
+                <ul>
+                  <li><a href="#" class="thumb"><img src="images/property2-150x150.jpg" alt="Limestone Estate"></a>
+                    <h6><a href="#">Limestone Estate</a></h6>
+                    <span class="property-price">$ 45000 </span></li>
+                  <li><a href="#" class="thumb"><img src="images/property6-150x150.jpg" alt="Snowy Mountain Cabin"></a>
+                    <h6><a href="#">Snowy Mountain Cabin</a></h6>
+                    <span class="property-price">$ 55000 </span></li>
+                  <li><a href="#" class="thumb"><img src="images/property4-150x150.jpg" alt="The Urban Life"></a>
+                    <h6><a href="#">The Urban Life</a></h6>
+                    <span class="property-price">$ 35000 </span></li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+          <div class="column dt-sc-one-fourth ">
+            <aside id="my_twitter-2" class="widget tweetbox">
+              <h3 class="widgettitle"><a href="#" title="Latest Tweets">Latest Tweets</a></h3>
+              <ul class="tweet_list">
+                <li class="tweet"><span class="tweet-time">May 23, 2014</span> <span class="tweet-thumb"><a href="#" title=""><img src="images/1316a31c9c4481517fbb3fca65e96f3d_normal.png" alt=""></a></span><span class="tweet-text avatar_1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span></li>
+                <li class="tweet"><span class="tweet-time">May 21, 2014</span> <span class="tweet-thumb"><a href="#" title=""><img src="images/1316a31c9c4481517fbb3fca65e96f3d_normal.png" alt=""></a></span><span class="tweet-text avatar_1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span></li>
+              </ul>
+            </aside>
+          </div>
+          <div class="column dt-sc-one-fourth ">
+            <aside id="my_mailchimp-2" class="widget mailchimp">
+              <h3 class="widgettitle">Get in touch</h3>
+              <p>Vestibulum viverra leo eget dolor tincidunt ullamcorper. Phasellus lobortis, velit non dictum.</p>
+              <form method="post" class="mailchimp-form">
+                <input placeholder="Enter Email Address" name="mythem_mc_emailid" required="" type="email">
+                <input name="mythem_mc_listid" value="314bbca712" type="hidden">
+                <input name="submit" class="nl-submit" value="Signup" type="submit">
+              </form>
+            </aside>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="copyright-info">Copyright © 2014 </div>
+          <div class="footer-links">
+            <p>Follow us</p>
+            <ul class="dt-sc-social-icons">
+              <li class="flickr"><a href="#" target="_blank"><img src="images/flickr_002.png" alt="flickr.png"><img src="images/flickr.png" alt="flickr.png"> </a></li>
+              <li class="google"><a href="#" target="_blank"><img src="images/google_002.png" alt="google.png"><img src="images/google.png" alt="google.png"> </a></li>
+              <li class="technorati"><a href="#" target="_blank"><img src="images/technorati_002.png" alt="technorati.png"><img src="images/technorati.png" alt="technorati.png"> </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- **Footer - End** --> 
+  </div>
+  <!-- **Inner Wrapper - End** --> 
+</div>
+<!-- **Wrapper - End** --> 
+
+
+<script type="text/javascript" src="js/jquery_009.js"></script> 
+
+ 
+<script type="text/javascript" src="js/shortcodes.js"></script> 
+<script type="text/javascript" src="js/jquery_010.js"></script> 
+ 
+<script type="text/javascript" src="js/scripts.js"></script> 
+<script type="text/javascript" src="js/jquery_008.js"></script> 
+<script type="text/javascript" src="js/easing.js"></script> 
+<script type="text/javascript" src="js/jquery_003.js"></script> 
+<script type="text/javascript" src="js/jquery_011.js"></script> 
+<script type="text/javascript" src="js/jquery_006.js"></script> 
+<script type="text/javascript" src="js/jquery_002.js"></script> 
+<script type="text/javascript" src="js/jquery_004.js"></script> 
+<script type="text/javascript" src="js/jquery_005.js"></script> 
+<script type="text/javascript" src="jstoucheffects.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script> 
+<script type="text/javascript" src="js/s2member-o.js"></script> 
+<script type="text/javascript" src="js/comment-reply.js"></script> 
+
+
+
+
+
+
+
+
+</body>
+
+</html>
