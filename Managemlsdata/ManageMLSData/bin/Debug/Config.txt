@@ -1,0 +1,2 @@
+ActiveMLS=C:\Managemlsdata\ManageMLSData\bin\Debug\;
+ProcessImages=D:\MLSData;
