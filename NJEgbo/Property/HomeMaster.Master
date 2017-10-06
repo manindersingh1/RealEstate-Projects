@@ -1,0 +1,459 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeMaster.Master.cs" Inherits="Property.HomeMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxtoolkit" %>
+<%@ Register TagName="FeaturedProperties" TagPrefix="uc" Src="~/Controls/FeaturedProperties.ascx" %>
+<%@ Register TagName="Logo" TagPrefix="uc" Src="~/Controls/logo.ascx" %>
+<%@ Register TagName="SearchBar" TagPrefix="uc" Src="~/Controls/SearchBar.ascx" %>
+<%@ Register TagName="ContactInfo" TagPrefix="uc" Src="~/Controls/ContactInfo.ascx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link id="favicon" runat="server" rel="shortcut icon" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+    <title>
+        <asp:Literal ID="siteTitle" runat="server"></asp:Literal></title>
+    <%--<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>--%>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/jquery_009.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/media-queries.css" rel="stylesheet" />
+    <link href="css/font.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/styleBackup.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="slider/css/media-queries.css" rel="stylesheet" />
+    <link href="css/nivo-slider.css" rel="stylesheet" />
+    <link href="css/shortcodes.css" rel="stylesheet" />
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .contact_number {
+            float: left;
+            height: 100px;
+            padding: 20px;
+            position: absolute;
+            top: 512px;
+            z-index: 99999;
+        }
+
+            .contact_number span {
+                color: white;
+                font-size: 24px;
+            }
+
+        #Homebanner {
+            float: left;
+            margin-bottom: 0px;
+            width: 100%;
+        }
+
+        #map {
+            border: 2px solid #3f6f55;
+            height: 229px;
+            width: 90%;
+        }
+    </style>
+    <style type="text/css">
+        blockquote {
+            clear: both;
+            font-style: italic;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 10px 10px 0 50px;
+            quotes: none;
+            background: url(https://dl.dropbox.com/u/96099766/RotatingTestimonial/open-quote.png) 0 0 no-repeat;
+            border: 0px;
+            font-size: 120%;
+            line-height: 200%;
+        }
+    </style>
+</head>
+
+
+<body>
+    <form runat="server" id="form">
+        <%--<asp:ScriptManager ID="scrmngr" EnablePageMethods="true" runat="server">
+    </asp:ScriptManager>--%>
+        <!--header start-->
+
+
+        <div class="top_menu_bg">
+            <div class="container">
+                <div>
+                    <div class="col-md-12 col-sm-12">
+                        <div class="menu_section">
+                            <asp:Literal ID="dynamicmenus" runat="server"></asp:Literal>
+                            <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="glyphicon glyphicon-bookmark"></i></a>
+                        </div>
+
+                        <script type="text/javascript">
+                            $("#menu-close").click(function (e) {
+                                e.preventDefault();
+                                $("#sidebar-wrapper").toggleClass("active");
+                            });
+                            $("#menu-toggle").click(function (e) {
+                                e.preventDefault();
+                                $("#sidebar-wrapper").toggleClass("active");
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <%--  <div class="top_register_section">
+                <div class="register-btn">
+                    <h2><a href="UpCommingProjects.aspx">Register for <br/>Upcoming Projects</a></h2>
+                </div>
+            </div>--%>
+            <div class="banner_sctn">
+                <div id="Homebanner" runat="server">
+                    <div class="banner_section">
+                        <div class="slider-wrapper theme-default">
+                            <div id="slider" class="nivoSlider">
+                                <asp:Literal ID="ltrImgsf" runat="server"></asp:Literal>
+                            </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        $(window).load(function () {
+                            $('#slider').nivoSlider();
+                        });
+                    </script>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="city_section_bg">
+            <div class="container">
+                <div class="row frnt_line_cls">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="city_box">
+                            <a href="Search.aspx?PropertyType=Residential">
+                                <img src="images/resi_img.jpg" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="city_box">
+                            <a href="Search.aspx?PropertyType=Commercial">
+                                <img src="images/commo_img.jpg" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="city_box">
+                            <a href="Search.aspx?PropertyType=Condo">
+                                <img src="images/cond_img.jpg" alt="" />
+
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="city_box">
+                            <a href="Featured_Properties.aspx">
+                                <img src="images/fetrd_img.jpg" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <asp:HiddenField ID="VideoName" runat="server"/>
+        <div class="width-48 white left">
+            <button type="button" class="red width-100 height-40" data-id="" data-toggle="modal" id="openpopup" data-target="#myModal">Open Video</button></div>
+
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-body table-responsive">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                            <div align="center">                               
+                                <video  id="videotag" src="/admin/uploadfiles/" controls="controls" />
+                            </div>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <div class="item active">
+
+                                    <div class="carousel-caption">
+                                        <h3>hello</h3>
+                                        <p>hello</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+
+                                    <div class="carousel-caption">
+                                        <h3>hello</h3>
+                                        <p>hello.</p>
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#carouselHelp" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#carouselHelp" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="modal-footer cls_footr">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="latst_srch_bg">
+            <div class="container">
+                <div class="main_sction">
+                    <div class="row frnt_line_cls">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="featurd_heading">
+                                <h2>Pre-Constructions</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row frnt_line_cls">
+                        <div class="featured_sction">
+
+
+                            <ul id="flexiselDemo3">
+                                <asp:Repeater ID="rptImages" runat="server">
+                                    <ItemTemplate>
+                                        <li><a href="DreamHouseDetail.aspx?ID=<%#Eval("Id")  %>">
+                                            <img src='/admin/uploadfiles/<%#Eval("ImageUrl")  %>' /></a></li>
+
+                                    </ItemTemplate>
+                                </asp:Repeater>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_sct_bg">
+            <div class="container">
+                <div class="row frnt_line_cls">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="left_services_bg">
+                            <div class="services_box">
+                                <div class="col-md-8 col-sm-8">
+                                    <div class="srvce_box_cntent">
+                                        <h2><a href="VirtualTour.aspx">Virtual Tour</a></h2>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="srvce_box_imgg">
+                                        <img src="images/open_house.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services_box">
+                                <div class="col-md-8 col-sm-8">
+                                    <div class="srvce_box_cntent">
+                                        <h2><a href="Calculators.aspx">Calculators</a></h2>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="srvce_box_imgg">
+                                        <img src="images/calculator.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services_box">
+                                <div class="col-md-8 col-sm-8">
+                                    <div class="srvce_box_cntent">
+                                        <h2><a href="PowerOfSale.aspx">Bank Sale</a></h2>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="srvce_box_imgg">
+                                        <img src="images/blog.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-5">
+                        <div class="about_section_bg">
+                            <div class="about_section">
+                                <h2>About Us</h2>
+                                <p>
+                                    It is said, "Doing what you like is FREEDOM, but liking what you do is HAPPINESS ! And trust me, nothing gives me more happiness than sincerely helping you satisfy your Real Estate needs !!
+Because Real estate is what i like, love & am passionate about . Therefore, i've dedicated myself to providing you the entire range & spectrum of Real Estate Services expected from a trusted, most professional & compassionate Realtor.
+                                </p>
+                                <a href="about.aspx" class="about_read_btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="featured_sction">
+                            <a href="../Buyers.aspx">
+                                <img src="images/buyer_img.jpg" alt="" title="" />
+                            </a>
+                        </div>
+                        <div class="featured_sction">
+                            <a href="../StaticPages.aspx?PageID=22">
+                                <img src="images/seller_img.jpg" alt="" title="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container" id="containerdiv">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="fuutr_menu_bg">
+            <div class="container">
+                <div class="row no_paddnggg">
+                    <div class="col-md-8 col-sm-8">
+                        <div class="futer_mennu">
+                            <ul>
+                                <li><a href="../StaticPages.aspx?PageID=22">Sellers</a></li>
+                                <li><a href="../Buyers.aspx">Buyers</a></li>
+                                <li><a href="../Calculators.aspx">Calculators</a></li>
+                                <li><a href="../RealEstateNews.aspx">Real Estate News</a></li>
+                                <li><a href="../ContactUs.aspx">Contact Us</a></li>
+                                <li><a href="../admin/adminlogin.aspx">Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="futer_detail">
+                            <ul>
+                                <li><a href="https://www.facebook.com/ranbir.randhawa.9?fref=ts">
+                                    <img src="images/futer_scio1.png" alt="" title="" /></a></li>
+                                <li><a href="#">
+                                    <img src="images/futer_scio2.png" alt="" title="" /></a></li>
+                                <li><a href="#">
+                                    <img src="images/futer_scio3.png" alt="" title="" /></a></li>
+                                <li><a href="#">
+                                    <img src="images/futer_scio4.png" alt="" title="" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bottom_futer">
+            <div class="col-md-12 col-sm-12">
+                <div class="Designed_and_Developed">
+                    <div>
+                        <b>© 2016 Ranbir Randhawa. All Right Reserved. Designed & Developed by <a href="http://only4Agents.com/">Only4Agents</a>
+                        </b>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fuutr_phne_bg">
+            <div class="futer_mail_bg">
+                <div class="futer_mail">
+                    <ul>
+                        <li><a href="mailto: ranbirrandhawa4@gmail.com">
+                            <img alt="" src="images/mail_icnnn.png" /></a></li>
+                        <li><a href="tel:416-737-2520">
+                            <img alt="" src="images/mbl_icnnn.png" /></a></li>
+                        <li><a href="sms:416-737-2520">
+                            <img alt="" src="images/sms.png" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script type="text/javascript">
+
+        $(window).load(function () {
+            debugger;
+            //For slider video
+            var hv = $('input[id$=VideoName]').val();
+          
+            $("#videotag").attr("src", "/admin/uploadfiles/" + hv + "");
+            //End
+
+            $("#flexiselDemo1").flexisel();
+            $("#flexiselDemo2").flexisel({
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint: 640,
+                        visibleItems: 2
+                    },
+                    tablet: {
+                        changePoint: 768,
+                        visibleItems: 3
+                    }
+                }
+            });
+
+            $("#flexiselDemo3").flexisel({
+                visibleItems: 5,
+                animationSpeed: 800,
+                autoPlay: true,
+                autoPlaySpeed: 4000,
+                pauseOnHover: true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint: 640,
+                        visibleItems: 2
+                    },
+                    tablet: {
+                        changePoint: 768,
+                        visibleItems: 3
+                    }
+                }
+            });
+
+            $("#flexiselDemo4").flexisel({
+                clone: false
+            });
+
+        });
+    </script>
+</body>
+
+</html>
