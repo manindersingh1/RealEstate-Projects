@@ -1,0 +1,258 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeMaster.Master.cs" Inherits="Property.HomeMaster" %>
+<%@ Register TagName="Logo" TagPrefix="uc" Src="~/Controls/logo.ascx" %>
+<!DOCTYPE HTML>
+<html>
+<head runat="server">
+    <link id="favicon" runat="server" rel="shortcut icon" type="image/x-icon" />
+    <title>
+        <asp:Literal ID="siteTitle" runat="server"></asp:Literal></title>
+        <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- disable iPhone inital scale -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/media-queries.css" rel="stylesheet" />
+    <link href="css/font.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/nivo-slider.css" rel="stylesheet" />
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link type="text/css" href="slider/css/jquery.bxslider.css" rel="stylesheet" />
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .contact_number {
+            float: left;
+            height: 100px;
+            padding: 20px;
+            position: absolute;
+            top: 512px;
+            z-index: 99999;
+        }
+
+            .contact_number span {
+                color: white;
+                font-size: 24px;
+            }
+
+        #Homebanner {
+            float: left;
+            margin-bottom: 12px;
+            width: 100%;
+        }
+
+        #map {
+            border: 2px solid #3f6f55;
+            height: 229px;
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+     <!--header start-->
+    <div class="header_bg">
+        <div class="container">
+            <div class="col-md-4 col-sm-4">
+                <div class="header_detail">
+                    <h2>
+                        <asp:Label ID="lblBrkrOneName" runat="server"></asp:Label></h2>
+                    <p>Broker</p>
+                    <span>
+                        <asp:Label ID="lblbrkerOnephn" runat="server" Text="Label"></asp:Label></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <figure class="logo">
+                    <uc:Logo ID="logo" runat="server" />
+                </figure>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="header_detail1">
+                    <h2>
+                        <asp:Label ID="lblBrkrTwoNme" runat="server"></asp:Label></h2>
+                    <p>Broker of Record</p>
+                    <span>
+                        <asp:Label ID="lblbrkrTwoPhn" runat="server"></asp:Label></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+  <div class="top_menu_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <div class="menu_section">
+                     <asp:Literal ID="dynamicmenus" runat="server"></asp:Literal>
+                </div>
+                    <script type="text/javascript" src="../js/script.js"></script>
+            </div>
+        </div>
+    </div>
+    <!--header end-->
+    <!--banner start-->
+    <div class="container">
+       <div id="Homebanner" runat="server">
+                <div class="banner_section">
+                        <div class="slider-wrapper theme-default">
+                            <div id="slider" class="nivoSlider">
+                               <img src="images/banner1.jpg"  data-thumb="images/banner1.jpg" alt="" />
+                                <img src="images/banner2.jpg"  data-thumb="images/banner2.jpg" alt="" data-transition="slideInLeft" />
+                                <img src="images/banner3.jpg" data-thumb="images/banner3.jpg" alt="" title="#htmlcaption" />
+                            </div>
+                        </div>
+                </div>
+            <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+            <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+            <script type="text/javascript">
+                $(window).load(function () {
+                    $('#slider').nivoSlider();
+                });
+            </script>
+        </div>
+        </div>
+    <!--banner end-->
+     <div class="main_sct_bg">
+        <div class="container">
+            <div class="main_sction">
+                <div class="col-md-4 col-sm-4">
+                    <div class="box_sct_bg">
+                        <h2>Residential</h2>
+                        <a href="Search.aspx?PropertyType=Residential"><img src="images/img12.png"  alt="" title="" /></a>
+                        <div class="box_shadow">
+                            <img src="images/box-shadow.png" alt="" title="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="box_sct_bg2">
+                        <h2>Condos</h2>
+                        <a href="Search.aspx?PropertyType=Condo"><img src="images/img13.png" alt="" title="" /></a>
+                        <div class="box_shadow">
+                            <img src="images/box-shadow.png" alt="" title="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="box_sct_bg3">
+                        <h2>Commercial</h2>
+                        <a href="Search.aspx?PropertyType=Commercial"><img src="images/img11.png" alt="" title="" /></a>
+                        <div class="box_shadow">
+                            <img src="images/box-shadow.png" alt="" title="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form id="Form1" runat="server">
+        <div class="container" id="containerdiv">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+<div class="bottom_section_bg">
+        <div class="container">
+            <div class="col-md-6 col-md-6">
+                <div class="video_sction">
+                  <%-- <iframe width="420" height="345"
+                src="https://www.youtube.com/embed/XFPLSUZBCB8">
+                </iframe>--%><img src="images/video_img.jpg" alt="" title="" />
+                </div>
+            </div>
+       
+            <div class="col-md-6 col-md-6">
+                <div class="buyer_seller_bg">
+                    <div class="buyer_section">
+                        <a href="Buyers.aspx"><img src="images/buyer.png" alt="" title="" /></a>
+                    </div>
+                    <div class="buyer_section">
+                        <a href="StaticPages.aspx?PageID=22"><img src="images/seller.png" alt="" title="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="fuutr_menu_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <div class="futr_menu_sect">
+                    <ul>
+                        <li><a href="../StaticPages.aspx?PageID=22">Sellers</a></li>
+                        <li><a href="../Buyers.aspx">Buyers</a></li>
+                        <li><a href="../Calculators.aspx">Calculators</a></li>
+                        <li><a href="../Home_Worth.aspx">Home Evaluation</a></li>
+                        <li><a href="../ContactUs.aspx">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fuuter_bg" id="one-footer">
+        <div class="container">
+            <div class="col-md-8 col-sm-8">
+              
+                    <div class="fuuter_name">
+                        <h2>Rajiv Datta and Sandy Gill</h2>
+                        <span>Broker Of Record/Broker</span>
+                    </div>
+                    <div class="fuuter_adress">
+                        <%--<h3>Homelife Lifetime Realty Inc., Brokerage</h3>--%>
+                        <p>2250 Bovaird Drive East,<br />
+                       Suite #502, Brampton, ON<br />
+                        L6R 0W3 </p>
+                    </div>
+                <div class="fuuter_dtl">
+                        <p><i class="fa fa-envelope ftr_hdng" style="font-size:13px;"></i><a href="mailto:team@live.ca"><asp:Label ID="lblemail" runat="server"></asp:Label></a></p>
+                        <p><i class="fa fa-mobile ftr_hdng" style="font-size:20px; margin-right:11px;"></i><a href="tel:647-297-0699"><asp:Label ID="lblmobile" runat="server"></asp:Label></a></p>
+                        <p><i class="fa fa-phone ftr_hdng"></i><a href="tel:905-497-2300"><asp:Label ID="lblbrokertwophone" runat="server"></asp:Label></a></p>
+                        <p><i class="fa fa-print ftr_hdng"></i><asp:Label ID="lblfax" runat="server"></asp:Label></p>
+                    </div>
+
+                
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="fuuter_map">
+                    <div>
+                        <a href="Map.aspx">
+                             <img alt="" src="images/rajivfootermap.jpg" />
+                        </a>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12">
+                <div class="Designed_and_Developed">
+                    <div>
+                        <b>Designed & Developed by <a target="_blank" href="http://only4agents.com/">Only4agents</a>
+                        </b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fuutr_phne_bg">
+                <div class="futer_mail_bg">
+                    <div class="futer_mail">
+                        <ul>
+                            <li><a href="mailto:rajivdatta92@gmail.com">
+                                <img alt="" src="images/mail_icnnn.png" /></a></li>
+                            <li><a href="tel:647-297-0699">
+                                <img alt="" src="images/mbl_icnnn.png" /></a></li>
+                            <li><a href="sms:647-297-0699">
+                                <img alt="" src="images/sms.png" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+</body>
+
+</html>

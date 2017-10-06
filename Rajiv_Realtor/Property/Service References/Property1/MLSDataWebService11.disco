@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://169.45.133.92:8060/MLSDataWebService.asmx?wsdl" docRef="http://169.45.133.92:8060/MLSDataWebService.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://169.45.133.92:8060/MLSDataWebService.asmx" xmlns:q1="http://tempuri.org/" binding="q1:MLSDataWebServiceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://169.45.133.92:8060/MLSDataWebService.asmx" xmlns:q2="http://tempuri.org/" binding="q2:MLSDataWebServiceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

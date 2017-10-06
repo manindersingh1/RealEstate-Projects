@@ -1,0 +1,187 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Property_New1.master.cs" Inherits="Property.Property_New1" %>
+
+
+<%@ Register TagName="Logo" TagPrefix="uc" Src="~/Controls/logo.ascx" %>
+<%@ Register TagName="ContactInfo" TagPrefix="uc" Src="~/Controls/ContactInfo.ascx" %>
+<%@ Register TagName="SearchControl" TagPrefix="uc" Src="~/Controls/SearchControl.ascx" %>
+<%@ Register TagName="SearchBar" TagPrefix="uc" Src="~/Controls/SearchBar.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE HTML>
+<html>
+<head runat="server">
+    <link id="favicon" runat="server" rel="shortcut icon" type="image/x-icon" />
+ 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+    <title><asp:Literal ID="siteTitle" runat="server"></asp:Literal></title> 
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/styleBackup.css" rel="stylesheet" />
+    <link href="css/style_002.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/shortcodes.css" rel="stylesheet" />
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+    <link href="css/font.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/media-queries.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery_009.js"></script>
+    <script type="text/javascript" src="js/shortcodes.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            var docHeight = $(window).height();
+            var footerHeight = $('#one-footer').height();
+            var footerTop = $('#one-footer').position().top + footerHeight;
+
+            if (footerTop < docHeight) {
+                $('#one-footer').css('margin-top', 10 + (docHeight - footerTop) + 'px');
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="header_bg_1">
+        <div class="container">
+            <div class="col-md-4 col-sm-4">
+                <div class="header_detail">
+                    <h2>
+                        <asp:Label ID="lblBrkrOneName" runat="server"></asp:Label></h2>
+                    <p>Broker</p>
+                    <span class="mobile-phone">
+                        <asp:Label ID="lblbrkerOnephn" runat="server" Text="Label"></asp:Label></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <figure class="logo">
+                                   <uc:Logo ID="logo" runat="server" />
+                            </figure>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="header_detail1">
+                    <h2>
+                        <asp:Label ID="lblBrkrTwoNme" runat="server"></asp:Label></h2>
+                    <p>Broker of Record</p>
+                    <span class="mobile-phone">
+                        <asp:Label ID="lblbrkrTwoPhn" runat="server"></asp:Label></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top_menu_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <div class="menu_section">
+
+                    <asp:Literal ID="dynamicmenus" runat="server"></asp:Literal>
+
+                </div>
+                <script type="text/javascript" src="js/script.js"></script>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="inner_banner">
+            <img src="images/rajiv-new.png" />
+        </div>
+    </div>
+
+
+    <form id="Form1" runat="server">
+        <div class="container" id="containerdiv">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div class="fuutr_menu_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <div class="futr_menu_sect">
+                    <ul>
+                        <li><a href="../StaticPages.aspx?PageID=22">Sellers</a></li>
+                        <li><a href="../Buyers.aspx">Buyers</a></li>
+                        <li><a href="../Calculators.aspx">Calculators</a></li>
+                        <%--             <li><a href="../About.aspx">About Us</a></li>--%>
+                        <li><a href="../Home_Worth.aspx">Home Evaluation</a></li>
+                        <li><a href="../ContactUs.aspx">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fuuter_bg" id="one-footer">
+        <div class="container">
+            <div class="col-md-8 col-sm-8">
+                <div class="fuuter_name">
+                    <h2>Rajiv Datta and Sandy Gill</h2>
+                    <span>Broker Of Record/Broker</span>
+                </div>
+                <div class="fuuter_adress">
+                   <%-- <h3>Homelife Lifetime Realty Inc., Brokerage</h3>--%>
+                    <p>2250 Bovaird Drive East,<br />
+                       Suite #502, Brampton, ON<br />
+                        L6R 0W3 </p>
+                </div>
+                    <div class="fuuter_dtl">
+                        <p><i class="fa fa-envelope ftr_hdng" style="font-size:13px;"></i><a href="mailto:team@live.ca"><asp:Label ID="lblemail" runat="server"></asp:Label></a></p>
+                        <p><i class="fa fa-mobile ftr_hdng" style="font-size:20px; margin-right:11px;"></i><a href="tel:647-297-0699"><asp:Label ID="lblmobile" runat="server"></asp:Label></a></p>
+                        <p><i class="fa fa-phone ftr_hdng"></i><a href="tel:905-497-2300"><asp:Label ID="lblbrokertwophone" runat="server"></asp:Label></a></p>
+                        <p><i class="fa fa-print ftr_hdng"></i><asp:Label ID="lblfax" runat="server"></asp:Label></p>
+                    </div>
+            </div>
+
+            <%-- <div  class="col-md-4 col-sm-4">
+                    <div class="fuuter_map" >
+                        <a target="_blank"  href="Map.aspx"><img alt="" src="images/futer_map.jpg" /></a>
+                    </div>
+                </div>--%>
+
+         <div class="col-md-4 col-sm-4">
+                <div class="fuuter_map">
+                    <div >
+                        <a href="Map.aspx">
+                             <img src="images/rajivfootermap.jpg" />
+                        </a>
+                       
+                    </div>
+                </div>
+            </div>
+ <div class="col-md-12 col-sm-12">
+                <div class="Designed_and_Developed">
+                    <div>
+                        <b>Designed & Developed by <a target="_blank" href="http://only4agents.com/">Only4agents</a>
+                        </b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="fuutr_phne_bg">
+                <div class="futer_mail_bg">
+                    <div class="futer_mail">
+                        <ul>
+                            <li><a href="mailto:rajivdatta92@gmail.com">
+                                <img alt="" src="images/mail_icnnn.png" /></a></li>
+                            <li><a href="tel:647-297-0699">
+                                <img alt="" src="images/mbl_icnnn.png" /></a></li>
+                          <%--  <li><a href="tel:416-893-2061">
+                                <img alt="" src="images/phne_icnnn.png" /></a></li>--%>
+                            <li><a href="sms:647-297-0699">
+                                <img alt="" src="images/sms.png" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+      <script type="text/javascript" src="js/jquery_009.js"></script>
+    <script type="text/javascript" src="js/shortcodes.js"></script> 
+</body>
+</html>
