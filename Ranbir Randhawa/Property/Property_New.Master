@@ -1,0 +1,169 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Property_New.master.cs" Inherits="Property.Property_New" %>
+
+<%@ Register TagName="ContactInfo" TagPrefix="uc" Src="~/Controls/ContactInfo.ascx" %>
+<%@ Register TagName="SearchControl" TagPrefix="uc" Src="~/Controls/SearchControl.ascx" %>
+<%@ Register TagName="SearchBar" TagPrefix="uc" Src="~/Controls/SearchBar.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE HTML>
+<html>
+<head runat="server">
+    <link id="Link1" runat="server" rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- disable iPhone inital scale -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+    <title>Real Estate</title>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jssor.js"></script>
+    <script src="js/jssor.slider.js"></script>
+    <link href="slider/css/bootstrap.css" rel="stylesheet" />
+    <link href="slider/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="slider/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="slider/css/style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .contact_number {
+            float: left;
+            height: 100px;
+            padding: 20px;
+            position: absolute;
+            top: 512px;
+            z-index: 99999;
+        }
+
+            .contact_number span {
+                color: white;
+                font-size: 24px;
+            }
+
+        #Homebanner {
+            background: #2c2c2c none repeat scroll 0 0;
+            margin-bottom: 40px;
+            height: 576px;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#plyaudio").on("click", function (e) {
+                if ($("#plyaudio").attr('data-status') == "play") {
+                    $("#plyaudio").attr('data-status', 'pause');
+                    $("#plyaudio").trigger('pause');
+
+                }
+                else if ($("#plyaudio").attr('data-status') == "pause") {
+                    $("#plyaudio").attr('data-status', 'play');
+                    $("#plyaudio").trigger('play');
+                }
+                e.preventDefault();
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="header_bg">
+        <div class="container">
+            <div class="col-md-3 col-sm-3">
+                <div class="header_detail">
+                    <h2>Sandy Gill</h2>
+                    <span>Broker</span>
+                    <span>416-454-5683</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="logo_section">
+                    <a href="#">
+                        <img src="images/LOGO1.png" alt="" title="" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="header_detail">
+                    <h2>Rajiv (Raj) Datta</h2>
+                    <span>Broker of record</span>
+                    <span>647-297-0699</span>
+                   <a style="color:white" href="admin/adminlogin.aspx">login</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="top_menu_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <div class="menu_section">
+                    <ul class="nav nav-pills">
+                     <asp:Literal ID="dynamicmenus" runat="server"></asp:Literal>
+                    </ul>
+        <script src="js/script.js"></script>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <%--<div class="main_sct_bg">
+        <div class="container">
+            <div class="main_sction">
+                <div class="col-md-4 col-sm-4">
+                    <div class="box_sct_bg">
+                        <h2>Home Listing</h2>
+                        <a href="Search.aspx?PropertyType=Residential"><img src="images/img12.png"  alt="" title="" /></a>
+                        <div class="box_shadow">
+                            <img src="images/box-shadow.png" alt="" title="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="box_sct_bg2">
+                        <h2>New Projects</h2>
+                        <a href="Search.aspx?PropertyType=Commercial"><img src="images/img13.png" alt="" title="" /></a>
+                        <div class="box_shadow">
+                            <img src="images/box-shadow.png" alt="" title="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="box_sct_bg3">
+                        <h2>Commercial</h2>
+                        <a href="Search.aspx?PropertyType=Condo"><img src="images/img11.png" alt="" title="" /></a>
+                        <div class="box_shadow">
+                            <img src="images/box-shadow.png" alt="" title="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>--%>
+
+    
+    <form id="Form1" runat="server">
+                <div class="container" id="containerdiv">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>      
+    </form>
+    <div class="footer_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <div class="footer_social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/"><img src="images/social1.png" alt="" title="" /></a>
+                        <li><a href="https://twitter.com/"><img src="images/social2.png" alt="" title="" /></a>
+                        <li><a href="https://instagram.com/"><img src="images/social3.png" alt="" title="" /></a>
+                        <li><a href="https://in.linkedin.com/"><img src="images/social4.png" alt="" title="" /></a>
+                        <li><a href="https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dgplp0#identifier"><img src="images/social5.png" alt="" title="" /></a>
+                        <li><a href="https://www.pinterest.com/"><img src="images/social6.png" alt="" title="" /></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ <%--   <script type="text/javascript" src="js/jquery_009.js"></script>
+    <script type="text/javascript" src="js/shortcodes.js"></script> --%>
+</body>
+</html>
