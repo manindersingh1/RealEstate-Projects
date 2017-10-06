@@ -1,0 +1,204 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PropertyNew.master.cs" Inherits="Property.PropertyNew" %>
+
+<%@ Register TagName="Logo" TagPrefix="uc" Src="~/Controls/logo.ascx" %>
+<%@ Register TagName="ContactInfo" TagPrefix="uc" Src="~/Controls/ContactInfo.ascx" %>
+<%@ Register TagName="SearchControl" TagPrefix="uc" Src="~/Controls/SearchControl.ascx" %>
+<%@ Register TagName="SearchBar" TagPrefix="uc" Src="~/Controls/SearchBar.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE HTML>
+<html>
+<head runat="server">
+    <link id="favicon" runat="server" rel="shortcut icon" type="image/x-icon" />
+ 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+    <title><asp:Literal ID="siteTitle" runat="server"></asp:Literal></title> 
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script type="text/javascript" src="js/jssor.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/styleBackup.css" rel="stylesheet" />
+    <link href="css/style_002.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/shortcodes.css" rel="stylesheet" />
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+    <link href="css/font.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/media-queries.css" rel="stylesheet" />
+    <link href="slider/css/media-queries.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+    <body>
+    <div class="top_header_bg">
+            <div class="container">
+                <div class="col-md-2 col-sm-2">
+                    <div class="top_login">
+                        <h2><a href="../admin/adminlogin.aspx">Login</a></h2>
+                    </div>
+                </div>
+                <div class="col-md-10 col-sm-10">
+                    <div class="top_detail_sect_bg">
+                        <div class="top_detail_sect">
+                             <h5>
+                        <a href="tel:416-807-9290">Call:
+                            <asp:Label ID="lblphone" runat="server"></asp:Label></a></h5>
+
+                        </div>
+                            <div class="top_detail_sect">
+                             <p>
+                        <a href="mailto:ravisbakshi@gmail.com">E-Mail:
+                                            <asp:Label ID="lblemail" runat="server"></asp:Label></a></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+   <div class="header_bg">
+            <div class="container">
+                <div class="col-md-4 col-sm-4">
+                    <div class="header_detail">
+                        <h2>
+                            <asp:Label ID="lblBrkrOneName" runat="server"></asp:Label></h2>
+                        <p>Sales Representative</p>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-8">
+                    <div class="top_header_section">
+                        <div class="top_social">
+                            <ul>
+                                <li><a href="#"><img src="images/top_scio1.png" alt="" title="" /></a></li>
+                                <li><a href="#"><img src="images/top_scio2.png" alt="" title="" /></a></li>
+                                <li><a href="#"><img src="images/top_scio3.png" alt="" title="" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top_menu_bg">
+            <div class="container">
+                 <div class="row frnt_line_cls">
+                <div class="col-md-12 col-sm-12">
+                    <div class="menu_section">
+                        <asp:Literal ID="dynamicmenus" runat="server"></asp:Literal>
+                    </div>
+                    <script type="text/javascript" src="../js/script.js"></script>
+                </div>
+                     </div>
+            </div>
+        </div>
+				
+        <div class="inner_banner">
+        <img alt="" src="images/inner-banner.jpg" />
+    </div>
+        
+    <form id="Form1" runat="server">
+        <div class="container" id="containerdiv">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+	   <div class="fuutr_menu_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <div class="futer_mennu">
+                    <ul>
+                      <li><a href="../StaticPages.aspx?PageID=22">Sellers</a></li>
+                        <li><a href="../Buyers.aspx">Buyers</a></li>
+                        <li><a href="../Calculators.aspx">Calculators</a></li>
+                        <li><a href="../Home_Worth.aspx">Free Market Evaluation</a></li>
+                        <li><a href="../RealEstateNews.aspx">Real Estate News</a></li>
+                        <li><a href="../ContactUs.aspx">Contact Us</a></li>
+						 <li><a href="../admin/adminlogin.aspx">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="fuuter_bg" id="one-footer">
+            <div class="container">
+                <div class="row no_paddnggg">
+                    <div class="futer_sctnn">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="futer_addres">
+                               <h2>Ravi S Bakshi</h2>
+                                <div class="futer_detail">
+                                    <img src="images/futer_icon2.png" alt="" /><p>
+                                        <a href="tel:416-807-9290">
+                                            <asp:Label ID="lblphn" runat="server"></asp:Label></a>
+                                    </p>
+                                </div>
+                                <div class="futer_detail">
+                                    <img src="images/futer_icon3.png" alt="" />
+                                    <p>
+                                        <a href="mailto:ravisbakshi@gmail.com">
+                                            <asp:Label ID="lblemail2" runat="server"></asp:Label></a>
+                                    </p>
+                                </div>
+                               <div class="futer_detail">
+                                   <ul>
+                                       <li><a href="#"><img src="images/futer_scio1.png" alt="" title="" /></a></li>
+                                         <li><a href="#"><img src="images/futer_scio2.png" alt="" title="" /></a></li>
+                                         <li><a href="#"><img src="images/futer_scio3.png" alt="" title="" /></a></li>
+                                         <li><a href="#"><img src="images/futer_scio4.png" alt="" title="" /></a></li>
+                                   </ul>
+                                   </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="futer_addres">
+                                  <div class="fuuter_logo">
+                                <uc:Logo ID="logo2" runat="server" />
+                            </div>
+                                <div class="futer_detail">
+                                    <img src="images/futer_icon1.png" alt="" /><p>2260 Bovaird Dr. E., Unit 202-204,<br /> Brampton, ON L6R 3J5 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="fuuter_map">
+                              <a href="https://www.google.co.in/maps/place/2260+Bovaird+Dr+E+%23202,+Brampton,+ON+L6R+1Z1,+Canada/@43.7514336,-79.7407874,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3d7e2d5264a7:0x19601835a6bf1c2!8m2!3d43.7514336!4d-79.7385987" target="_blank"><img src="images/futer_map.png" alt="" title=""/></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_futer">
+            <div class="col-md-12 col-sm-12">
+                <div class="Designed_and_Developed">
+                    <div>
+                        <b>© 2016 Ravi S Bakshi. All Right Reserved. Designed & Developed by <a href="http://only4Agents.com/">Only4Agents</a>
+                        </b>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fuutr_phne_bg">
+            <div class="futer_mail_bg">
+                <div class="futer_mail">
+                    <ul>
+                        <li><a href="mailto: ravisbakshi@gmail.com">
+                            <img alt="" src="images/mail_icnnn.png" /></a></li>
+                        <li><a href="tel:416-807-9290">
+                            <img alt="" src="images/mbl_icnnn.png" /></a></li>
+                        <li><a href="sms:416-807-9290">
+                            <img alt="" src="images/sms.png" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript" src="js/jquery_009.js"></script>
+    <script type="text/javascript" src="js/shortcodes.js"></script>
+</body>
+</html>
