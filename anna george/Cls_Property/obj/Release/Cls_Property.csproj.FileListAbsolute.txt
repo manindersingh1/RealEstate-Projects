@@ -1,0 +1,4 @@
+C:\Users\Admin\Desktop\Property Projects\anna george\Cls_Property\bin\Release\Cls_Property.dll
+C:\Users\Admin\Desktop\Property Projects\anna george\Cls_Property\bin\Release\Cls_Property.pdb
+C:\Users\Admin\Desktop\Property Projects\anna george\Cls_Property\obj\Release\Cls_Property.dll
+C:\Users\Admin\Desktop\Property Projects\anna george\Cls_Property\obj\Release\Cls_Property.pdb

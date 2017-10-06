@@ -1,0 +1,18 @@
+D:\Maninder\ParamSites\Paresh_DesaiRealtor\Cls_Property\bin\Debug\Cls_Property.dll
+D:\Maninder\ParamSites\Paresh_DesaiRealtor\Cls_Property\bin\Debug\Cls_Property.pdb
+D:\Maninder\ParamSites\Paresh_DesaiRealtor\Cls_Property\obj\Debug\Cls_Property.dll
+D:\Maninder\ParamSites\Paresh_DesaiRealtor\Cls_Property\obj\Debug\Cls_Property.pdb
+C:\Sites\Paramsites\Paresh_DesaiRealtor\Cls_Property\bin\Debug\Cls_Property.dll
+C:\Sites\Paramsites\Paresh_DesaiRealtor\Cls_Property\bin\Debug\Cls_Property.pdb
+C:\Sites\Paramsites\Paresh_DesaiRealtor\Cls_Property\obj\Debug\Cls_Property.dll
+C:\Sites\Paramsites\Paresh_DesaiRealtor\Cls_Property\obj\Debug\Cls_Property.pdb
+E:\real estate projects\Paresh_DesaiRealtor\Paresh_DesaiRealtor\Cls_Property\bin\Debug\Cls_Property.dll
+E:\real estate projects\Paresh_DesaiRealtor\Paresh_DesaiRealtor\Cls_Property\bin\Debug\Cls_Property.pdb
+E:\real estate projects\Paresh_DesaiRealtor\Paresh_DesaiRealtor\Cls_Property\obj\Debug\Cls_Property.csproj.CoreCompileInputs.cache
+E:\real estate projects\Paresh_DesaiRealtor\Paresh_DesaiRealtor\Cls_Property\obj\Debug\Cls_Property.dll
+E:\real estate projects\Paresh_DesaiRealtor\Paresh_DesaiRealtor\Cls_Property\obj\Debug\Cls_Property.pdb
+E:\real estate projects\Paresh_DesaiRealtor\Paresh_DesaiRealtor\Cls_Property\obj\Debug\Cls_Property.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Property Projects\anna george\Cls_Property\bin\Debug\Cls_Property.dll
+C:\Users\Admin\Desktop\Property Projects\anna george\Cls_Property\bin\Debug\Cls_Property.pdb
+C:\Users\Admin\Desktop\Property Projects\anna george\Cls_Property\obj\Debug\Cls_Property.dll
+C:\Users\Admin\Desktop\Property Projects\anna george\Cls_Property\obj\Debug\Cls_Property.pdb

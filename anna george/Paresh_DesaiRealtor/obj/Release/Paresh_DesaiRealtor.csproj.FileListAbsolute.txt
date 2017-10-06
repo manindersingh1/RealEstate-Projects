@@ -1,0 +1,8 @@
+C:\Users\Admin\Desktop\Property Projects\anna george\Paresh_DesaiRealtor\bin\Paresh_DesaiRealtor.dll.config
+C:\Users\Admin\Desktop\Property Projects\anna george\Paresh_DesaiRealtor\bin\Paresh_DesaiRealtor.dll
+C:\Users\Admin\Desktop\Property Projects\anna george\Paresh_DesaiRealtor\bin\Paresh_DesaiRealtor.pdb
+C:\Users\Admin\Desktop\Property Projects\anna george\Paresh_DesaiRealtor\bin\Cls_Property.dll
+C:\Users\Admin\Desktop\Property Projects\anna george\Paresh_DesaiRealtor\bin\Cls_Property.pdb
+C:\Users\Admin\Desktop\Property Projects\anna george\Paresh_DesaiRealtor\obj\Release\Paresh_DesaiRealtor.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Property Projects\anna george\Paresh_DesaiRealtor\obj\Release\Paresh_DesaiRealtor.dll
+C:\Users\Admin\Desktop\Property Projects\anna george\Paresh_DesaiRealtor\obj\Release\Paresh_DesaiRealtor.pdb
