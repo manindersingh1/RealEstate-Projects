@@ -1,0 +1,339 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<style>
+    .onblur {       
+        filter: blur(3px);
+    }
+</style>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>North Oakville</title>
+    <!-- Bootstrap -->
+    <link href="~/PeakCondo/css/bootstrap.css" rel="stylesheet">
+    <link href="~/PeakCondo/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/PeakCondo/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="~/PeakCondo/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="~/PeakCondo/css/font.css" rel="stylesheet">
+    <link href="~/PeakCondo/css/font-awesome.css" rel="stylesheet">
+    <link href="~/PeakCondo/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/PeakCondo/css/style.css" rel="stylesheet">
+    <link href="~/PeakCondo/css/media-queries.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <script src="~/PeakCondo/js/npm.js"></script>
+    @*<script src="~/PeakCondo/js/jquery-1.11.1.min.js"></script>
+    <script src="~/PeakCondo/js/bootstrap.js"></script>
+    <script src="~/PeakCondo/js/bootstrap.min.js"></script>*@
+
+
+
+
+</head>
+<body>
+
+    <div class="background_sect">
+
+
+
+        <div class="container ">
+            <div class="back_border">
+                <div class="middle_bg">
+                    <div class="top_sect_bg">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="logo_sctn">
+                                <a href="#">
+                                    <img src="~/PeakCondo/images/logo.png" alt="" title="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="top_right_sect">
+                                <div class="top_sect"><h2>Call: 416-826-4435</h2></div>
+                                <div class="top_sect"><h2>E-Mail: peelhouses@yahoo.com</h2></div>
+                            </div>
+                            <div class="menu_section">
+                                <nav class="navbar navbar-inverse" role="navigation">
+                                    <div>
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+
+                                        </div>
+
+                                        <!-- Collect the nav links, forms, and other content for toggling -->
+                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                            <ul class="nav navbar-nav">
+                                                <li><a href="#" onclick="location.href='@Url.Action("index")'" ">Home</a></li>
+                                                <li><a href="#" onclick="location.href='@Url.Action("about")'">About us</a></li>
+                                                <li><a href="#" onclick="location.href='@Url.Action("neighbourhood")'">Awards</a></li>
+                                                <li><a href="#" onclick="location.href='@Url.Action("location")'">Past Communities</a></li>
+                                                <li><a href="#" onclick="location.href='@Url.Action("register")'">Register Now</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /.navbar-collapse -->
+                                    </div>
+                                    <!-- /.container-fluid -->
+                                </nav>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="banner_sct_bg">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="inner_banner">
+                                <img src="../PeakCondo/images/banner1.jpg" data-thumb="../PeakCondo/images/banner1.jpg" alt="" title="" />
+                            </div>
+
+                            <div class="contact_sectn">
+                                <div class="row no_padding">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="contact_form">
+                                            <form id="contact" action="" method="post">
+                                                <h3>Register Now</h3>
+                                                <h4>Resgister yourself today, and get reply with in 24 hours!</h4>
+                                                <fieldset>
+                                                    <input name="userName" id="userName" placeholder="Your name" type="text" tabindex="1" autofocus>
+                                                </fieldset>
+                                                <fieldset>
+                                                    <input name="userEmail" id="userEmail" placeholder="Your Email Address" type="email" tabindex="2">
+                                                </fieldset>
+                                                <fieldset>
+                                                    <input name="userPhone" id="userPhone" placeholder=" 123-123-1234" type="tel" tabindex="3">
+                                                </fieldset>
+                                                @*<fieldset>
+                                                    <input name="userSubject" id="userSubject" placeholder="Your Subject" type="url" tabindex="4">
+                                                </fieldset>
+                                                <fieldset>
+                                                    <textarea name="message" id="Message" placeholder="Type your Message Here...." tabindex="5"></textarea>
+                                                </fieldset>*@
+                                                <fieldset>
+                                                    <button name="submit" type="button" onclick="send()" id="contact submit" class="regis_btn" data-submit="...Sending">Submit</button>
+                                                </fieldset>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="right_cntct_sect">
+                                            <div class="map_sect">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.130027529304!2d-79.53117708421571!3d43.81166225018689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2f0f045d73fd%3A0x46157d970701e104!2s8400+Jane+St+%239%2C+Concord%2C+ON+L4K+4L8%2C+Canada!5e0!3m2!1sen!2sin!4v1499283137428" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                                            </div>
+                                            <div class="contact_addrss">
+                                                <h2>Address:  8400 Jane St., Unit 9 Vaughan, Ontario L4K 4L8</h2>
+                                                <p>E-Mail: peelhouses@yahoo.com</p>
+                                                <p>Call: 416-826-4435</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="futer_section">
+                                <h2>Designed & Developed by: Only4Agents</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+<div class="fuutr_phne_bg">
+            <div class="futer_mail_bg">
+                <div class="futer_mail">
+                    <ul>
+                        <li><a href="mailto: peelhouses@yahoo.com">
+                            <img alt="" src="~/PeakCondo/images/mail_icnnn.png"></a></li>
+                        <li><a href="tel:416-826-4435">
+                            <img alt="" src="~/PeakCondo/images/mbl_icnnn.png"></a></li>
+                        <li><a href="sms:416-826-4435">
+                            <img alt="" src="~/PeakCondo/images/sms.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<script>
+    function send() {
+        
+        
+        if (ValidUsername() && ValidEmail() && ValidPhone() ) {
+            var person = {
+                name: $("#userName").val(),
+                email: $("#userEmail").val(),
+                phone: $("#userPhone").val(),
+                subject: $("#userSubject").val(),
+                Message: $("#Message").val(),
+            }
+
+            $('.container').addClass('onblur');
+
+            $.ajax({
+                url: '/PeakCondo/sendmail',
+                type: 'post',
+                dataType: 'json',
+                success: function (data) {
+                    $('#target').html(data.msg);
+                    alert('mail send successfully.');
+                    $('.container').removeClass('onblur');
+                    $("#userName").val(''),
+                    $("#userEmail").val(''),
+                    $("#userPhone").val(''),
+                    $("#userSubject").val(''),
+                    $("#Message").val('')
+                },
+                data: person
+            });
+        }
+        else {
+            return false;
+        }
+    }
+    function ValidUsername() {
+
+        //first name validation
+        var firstname = $("#userName").val();
+        if (firstname !== '') {
+            if (!/^[a-zA-Z]*$/g.test(firstname)) {
+                $("#userName").addClass('validation_control');
+                alert("Invalid user name.");
+                return false;
+            } else if (firstname.length > 30) {
+                $("#userName").addClass('validation_control');
+                alert('firstname cannot exceed more than 30 characters.');
+                return false;
+            }
+            else {
+                $("#userName").removeClass('validation_control');
+                return true;
+            }
+        }
+        else {
+            $("#userName").addClass('validation_control');
+            alert('must enter username.');
+
+        }
+
+        //End
+
+    }
+    function ValidEmail() {
+        //Email validation
+        var Email = $("#userEmail").val();
+        if (Email !== '') {
+            var emailReg = /^([\w-\.]+@@([\w-]+\.)+[\w-]{2,4})?$/;
+            if (Email.length > 30) {
+                alert('email length cannot exceed more than 30 characters.');
+                $("#userEmail").addClass('validation_control');
+                return false;
+            } else if (!emailReg.test(Email)) {
+                alert('please enter the valid email.');
+                $("#userEmail").addClass('validation_control');
+                return false;
+            }
+            else {
+                $("#userEmail").removeClass('validation_control');
+                return true;
+            }
+        }
+        else {
+            $("#userEmail").addClass('validation_control');
+            alert('must enter emails.');
+            return false;
+        }
+
+        //End
+    }
+    function ValidPhone() {
+        //phone no. validation
+        var phone = $("#userPhone").val();
+        if (phone !== '') {
+            var phonereg = /^\d{3}-\d{3}-\d{4}$/;
+            if (phone.length > 12) {
+                $("#userPhone").addClass('validation_control');
+                alert('phone no. length cannot exceed more than 12 characters.');
+                return false;
+            }
+                //else if (!phonereg.test(phone)) {
+            //    $("#userPhone").addClass('validation_control');
+            //    alert('please enter the valid phone no.');
+            //    return false;
+            //}
+            else {
+                $("#userPhone").removeClass('validation_control');
+                return true;
+            }
+        }
+        else {
+            $("#userPhone").addClass('validation_control');
+            alert('must phone no.');
+            return false;
+        }
+
+
+        //end
+    }
+    function ValidSubject() {
+        //subject validation
+        var subject = $("#userSubject").val();
+        if (subject !== '') {
+            if (subject.length > 50) {
+                $("#userSubject").addClass('validation_control');
+                alert(' subject length cannot exceed more than 50 characters.');
+                return false;
+            }
+            else {
+                $("#userSubject").removeClass('validation_control');
+                return true;
+            }
+        }
+        else {
+            $("#userSubject").addClass('validation_control');
+            alert('must enter subject.');
+        }
+
+        //end
+    }
+    function Validmessage() {
+        //subject validation
+        var subject = $("#userSubject").val();
+        if (subject.length > 500) {
+            alert(' Body length cannot exceed more than 500 characters.');
+            return false;
+        }
+        else {
+            return true;
+        }
+        //end
+    }
+</script>
+<script type="text/javascript">
+    $('ul.nav li.dropdown').hover(function () {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+    }, function () {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+    });
+</script>
+
+
+</html>

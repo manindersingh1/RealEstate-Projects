@@ -1,0 +1,295 @@
+/************************************************************************************
+smaller than 1366
+*************************************************************************************/
+@media screen and (max-width: 1366px) {
+
+}
+/************************************************************************************
+smaller than 1280
+*************************************************************************************/
+@media screen and (max-width: 1280px) {
+
+
+
+}
+
+
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+
+}
+
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+@media screen and (max-width: 768px) {
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 736px) {
+.main_content h2 {
+    border-bottom: 2px solid;
+    color: #0154a4;
+    float: left;
+    font-family: "Conv_Poppins-Medium";
+    font-size: 24px;
+    margin: 6px 0;
+    padding-bottom: 3px;
+    width: 46%;
+}
+.middle_content_sct {
+    background-color: #fff;
+    float: left;
+    margin: 12px 0;
+    padding: 2px;
+    width: 100%;
+}
+.service_box_right {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.right_cntct_sect {
+    background: white none repeat scroll 0 0;
+    float: left;
+    margin: 12px 0;
+    padding: 0;
+    width: 100%;
+}
+.top_right_sect
+{
+	display:none;
+}
+.nav > li > a {
+    display: block;
+    padding: 8px 20px !important;
+    position: relative;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 667px) {
+.main_content h2 {
+    border-bottom: 2px solid;
+    color: #0154a4;
+    float: left;
+    font-family: "Conv_Poppins-Medium";
+    font-size: 24px;
+    margin: 6px 0;
+    padding-bottom: 3px;
+    width: 100%;
+	line-height:28px;
+}
+.futer_socio ul {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.futer_socio {
+    float: left;
+    margin: 12px 0 0;
+    width: 100%;
+}
+
+.bottom_box p {
+    color: black;
+    float: left;
+    font-family: 'Poppins';
+    font-size: 15px;
+    line-height: 29px;
+    margin: 6px 0;
+    text-align: justify;
+    width: 100%;
+    height: auto !important;
+}
+.background_sect {
+    float: left;
+    width: 100%;
+    background-image: url(../images/bag_img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+}
+
+
+
+/************************************************************************************
+smaller than 767
+*************************************************************************************/
+
+@media screen and (max-width: 640px) {
+
+
+}
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+
+.top_right_sect {
+    float: left;
+    margin: 5px 0;
+    text-align: center;
+    width: 100%;
+	display:none;
+}
+.profile_box p {
+    color: #363636;
+    float: left;
+    font-family: times new roman;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0 0 2px;
+    text-align: justify;
+    width: 100%;
+}
+.map_sect iframe {
+    height: 222px !important;
+    border: 1px solid #a0a0a0 !important;
+    width: 100%;
+}
+.top_middle {
+    float: left;
+    width: 100%;
+    background: rgba(0, 0, 0, 0) url("../images/Screen-Shot-2017-05-06-at-5.05.16-AM.png");
+    padding: 16px 0;
+    background-size: cover;
+}
+
+
+.disclaimer_sect {
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+.bottom_box {
+    background: #e4ecf9;
+    float: left;
+    width: 100%;
+    border: 1px solid #d8dce2;
+    padding: 6px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#contact {
+    background: #e4ecf9 none repeat scroll 0 0;
+    border: 1px solid #d8dce2;
+    padding: 8px !important;
+}
+.futer_section {
+    float: left;
+    width: 100%;
+    background: #10499e;
+    padding: 10px 0;
+    margin: 0 0 12px 0 !important;
+}
+
+.mortgage_payment iframe {
+    float: left;
+    height: 800px;
+    width: 100%;
+}
+.land_calculator iframe {
+    float: left;
+    height: 440px;
+    width: 100%;
+}
+.fuutr_phne_bg {
+    bottom: 0;
+    display: block !important;
+    position: fixed;
+    z-index:999999;
+}
+.futer_mail_bg {
+    background: #343434 none repeat scroll 0 0;
+    border-radius: 0px;
+    display: block !important;
+    float: left;
+    margin: 15px 0 0;
+    padding: 10px;
+    width: 100%;
+}
+.futer_mail {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.futer_mail > ul {
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+.futer_mail > ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 7px 0 12px;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 414px) {
+.nbs-flexisel-item img {
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-height: 280px;
+    max-width: 260px;
+    position: relative;
+    width: 100%;
+}
+.services_slider h2 {
+    color: white;
+    float: left;
+    font-family: "Poppins";
+    font-size: 18px;
+    width: 100%;
+}
+
+
+
+}
+/************************************************************************************
+smaller than 360
+*************************************************************************************/
+@media screen and (max-width: 360px) {
+
+.main_content h2 {
+    border-bottom: 2px solid;
+    color: #0154a4;
+    float: left;
+    font-family: "Conv_Poppins-Medium";
+    font-size: 22px;
+    margin: 6px 0;
+    padding-bottom: 3px;
+    width: 100%;
+}
+
+
+}
+/************************************************************************************
+smaller than 320
+*************************************************************************************/
+@media screen and (max-width: 320px) {
+
+
+
+
+}

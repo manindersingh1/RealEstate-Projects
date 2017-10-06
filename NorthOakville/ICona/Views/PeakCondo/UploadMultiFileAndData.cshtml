@@ -1,0 +1,72 @@
+﻿@{
+    Layout = null;
+}
+
+<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+<script src="~/Scripts/jquery.MultiFile.js"></script>
+<html>
+<body>
+    <form>
+        <input type="file" name="file[]" id="file" class="multi" maxlength="5" />
+        <button type="submit" style="height: 26px;width: 71px;margin-top: 10px;" id="uploadfile">Upload</button>
+    </form>
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+
+        $("#uploadfile").click(function () {
+
+            debugger;
+            var Name = "maninder";
+            var Address = "house";
+            var Phone = "123456789";
+
+
+            var $file = document.getElementById('file'),
+                    $formData = new FormData();
+
+            if ($file.files.length > 0) {
+
+                for (var i = 0; i < 5; i++) {
+                    if (i === 0) {
+                        $file = document.getElementById('file');
+                    }
+                    else {
+                        if ($('#file_F' + i).length > 0) {
+                            $file = document.getElementById('file_F' + i);
+                        }
+
+                    }
+
+                    $formData.append('file-' + i, $file.files[0]);
+                }
+
+                $formData.append('Name', Name);
+                $formData.append('Address', Address);
+                $formData.append('Phone', Phone);
+            }
+
+            $.ajax({
+                url: '/home/upload',
+                type: 'POST',
+                data: $formData,
+                dataType: 'json',
+                contentType: false,
+                processData: false,
+                success: function ($data) {
+                    alert('success');
+                    reset($('#file'));
+                }
+            });
+        }
+        )
+
+
+    })
+    window.reset = function (e) {
+        e.wrap('<form>').closest('form').get(0).reset();
+        e.unwrap();
+    }
+</script>
+
