@@ -1,0 +1,62 @@
+﻿<%@ Page Title="" Language="C#" ValidateRequest="false" MasterPageFile="~/Admin/AdminMaster.Master"
+    AutoEventWireup="true" CodeBehind="CreateBlog.aspx.cs" Inherits="Property.Admin.CreateBlog" %>
+
+<%@ Register Assembly="FredCK.FCKeditorV2" Namespace="FredCK.FCKeditorV2" TagPrefix="FCKeditorV2" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <link href="../slider/css/style.css" rel="stylesheet" />
+    <link href="../css/style_002.css" rel="stylesheet" />
+    <link href="../css/shortcodes.css" rel="stylesheet" />
+    <link href="../css/style_002.css" rel="stylesheet" />
+    <div class="wrapper_new">
+        <%--<asp:ScriptManager ID="scrptmngr1" runat="server">
+        </asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>--%>
+        <div class="property-search-container">
+            <div class="dt-sc-tabs-container" style="width: 100%;">
+                <ul class="dt-sc-tabs-frame">
+                    <li><a class="current" href="#">Create Blog</a></li>
+                </ul>
+                <div style="display: block;" class="dt-sc-tabs-frame-content">
+                    <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <label>
+                                Blog Name</label>
+                            <asp:TextBox ID="txtBlogName" runat="server" MaxLength="50" PlaceHolder="Blog Name"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="rfvBlogName" runat="server" ErrorMessage="BlogName is Required"
+                                ControlToValidate="txtBlogName" ForeColor="Red" ValidationGroup="SavePage" Display="Dynamic"></asp:RequiredFieldValidator>
+                        </div>
+                    </div>
+                    <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <label>
+                                Blog Title</label>
+                            <asp:TextBox ID="txtBlogTitle" runat="server" MaxLength="355" PlaceHolder="Blog Title"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="rfvBlogTitle" runat="server" ErrorMessage="Blog Title is Required"
+                                ControlToValidate="txtBlogTitle" ForeColor="Red" ValidationGroup="SavePage" Display="Dynamic"></asp:RequiredFieldValidator>
+                        </div>
+                    </div>
+                    <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <label>
+                                Blog Description</label>
+                            <FCKeditorV2:FCKeditor ID="txtBlogDescription" Value="Add Content To Your Blog" Height="250px" 
+                                Width="100%" runat="server">
+                            </FCKeditorV2:FCKeditor>
+                        </div>
+                    </div>
+                    <div class="login_inputs" style="float:left;clear:both;">
+                        <asp:Label ID="lblmsg" ForeColor="Red" runat="server"></asp:Label>
+                        <asp:Button ID="btnSave" runat="server" Text="Submit" ValidationGroup="SavePage"
+                            OnClick="btnSave_Click" />
+                        <asp:Button ID="btnBack" style="clear:none;" runat="server" Text="Back" OnClick="btnBack_Click" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%-- </ContentTemplate>
+        </asp:UpdatePanel>--%>
+    </div>
+</asp:Content>

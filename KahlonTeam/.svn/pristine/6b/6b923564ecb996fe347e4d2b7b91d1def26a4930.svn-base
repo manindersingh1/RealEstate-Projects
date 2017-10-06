@@ -1,0 +1,111 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Property_New.Master" AutoEventWireup="true" CodeBehind="Property_Looking_For.aspx.cs" Inherits="Property.Property_Looking_For" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+    <link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-theme.css" rel="stylesheet">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="css/font.css" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="slider/css/style.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="kahlon_new_frmm">
+    <div class="container">
+ <div class="col-md-3">
+     
+ </div>
+ <div class="col-md-6">
+      <div class="khln_frm_hdng">
+         <h2>Property Looking for</h2>
+     </div>
+ <div class="khlon_frm_bg">    
+  <fieldset class="form-group khln_frm_sction">
+    <label for="exampleInput">First Name</label>
+      <asp:TextBox  ID="txtFirstName" class="form-control" runat="server" placeholder="First Name"></asp:TextBox>
+    <%--<input type="text" class="form-control" id="exampleInputFirstname" placeholder="First Name">--%>
+  </fieldset>
+  <fieldset class="form-group khln_frm_sction">
+    <label for="exampleInput">Last Name</label>
+      <asp:TextBox  ID="txtLastName" class="form-control" runat="server" placeholder="Last Name"></asp:TextBox>
+    <%--<input type="text" class="form-control" id="exampleInputLastname" placeholder="Last Name">--%>
+  </fieldset>
+   <fieldset class="form-group khln_frm_sction">
+    <label for="exampleInput">E-Mail</label>
+       <asp:TextBox  ID="txtEmail" class="form-control" runat="server" placeholder="E-Mail"></asp:TextBox>
+    <%--<input type="email" class="form-control" id="exampleInputEmail" placeholder="E-Mail">--%>
+  </fieldset>
+   <fieldset class="form-group khln_frm_sction">
+    <label for="exampleInput">Phone Number</label>
+        <asp:TextBox  ID="txtPhoneno" class="form-control" runat="server"  placeholder="Phone Number"></asp:TextBox>
+    <%--<input type="text" class="form-control" id="exampleInputPhone" placeholder="Phone Number">--%>
+  </fieldset>
+  <fieldset class="form-group khln_frm_sction">
+    <label for="exampleSelect1">Desired Property Type</label>
+      <asp:DropDownList ID="ddltype" runat="server">
+          <asp:ListItem>1</asp:ListItem>
+          <asp:ListItem>2</asp:ListItem>
+          <asp:ListItem>3</asp:ListItem>
+          <asp:ListItem>4</asp:ListItem>
+
+      </asp:DropDownList>
+<%--    <select class="form-control" id="exampleSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>--%>
+  </fieldset>
+  <fieldset class="form-group khln_frm_sction">
+    <label for="exampleSelect2">Price Range</label>
+        <asp:DropDownList ID="ddlrange" runat="server">
+            <asp:ListItem>1</asp:ListItem>
+          <asp:ListItem>2</asp:ListItem>
+          <asp:ListItem>3</asp:ListItem>
+          <asp:ListItem>4</asp:ListItem>
+        </asp:DropDownList>
+<%--    <select class="form-control" id="exampleSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>--%>
+  </fieldset>
+  <fieldset class="form-group khln_frm_sction">
+    <label for="exampleSelect2">Preffered Location</label>
+        <asp:DropDownList ID="ddllocation" runat="server">
+        <asp:ListItem>1</asp:ListItem>
+          <asp:ListItem>2</asp:ListItem>
+          <asp:ListItem>3</asp:ListItem>
+          <asp:ListItem>4</asp:ListItem>
+        </asp:DropDownList>
+   <%-- <select class="form-control" id="exampleSelect3">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>--%>
+  </fieldset>
+  <fieldset class="form-group khln_frm_sction">
+    <label for="exampleTextarea">Additional Comments</label>
+      <asp:TextBox TextMode="MultiLine" runat="server" class="form-control" id="txtMessage"></asp:TextBox>
+    <%--<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>--%>
+  </fieldset>
+     <asp:Button ID="btnsubmit" runat="server" CssClass="btn btn-primary khln_frm_btn" Text="Submit" OnClick="btnsubmit_Click" />
+ <%--<button type="submit" class="btn btn-primary khln_frm_btn">Submit</button>--%>
+ </div>
+ </div>
+ <div class="col-md-3">
+ </div>
+ 
+ 
+ 
+ 
+ 
+</div>
+        </div>
+</asp:Content>

@@ -1,0 +1,28 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/AdminMaster.Master" AutoEventWireup="true" CodeBehind="Createfeature.aspx.cs" Inherits="Property.Admin.Createfeature" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+        <link href="../slider/css/bootstrap.css" rel="stylesheet" />
+       <link href="../css/shortcodes.css" rel="stylesheet" />
+    <link href="../css/style_002.css" rel="stylesheet" />
+  <link href="../slider/css/style.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+<div class="wrapper_new">
+        <div class="property-search-container">
+            <div class="dt-sc-tabs-container" style="width: 100%;">
+                <ul class="dt-sc-tabs-frame">
+                    <li><a class="current" href="#">Create new feature property</a></li>
+                </ul>
+                <div style="display: block; padding: 23px 2% 28px" class="dt-sc-tabs-frame-content">
+                    <div>
+                    <p>MLS-ID :<asp:TextBox ID="txtFeature" runat="server" PlaceHolder="Enter MLS-ID"></asp:TextBox></p>
+                        <asp:Button ID="btnCreateFeature" runat="server" Text="Save" style="float:left;" 
+                            onclick="btnCreateFeature_Click"/>
+                        <asp:Button ID="btnBack" runat="server" style="clear:none;float:left;" Text="Back" OnClick="btnBack_Click" />
+                    </div>
+                   <asp:Label ID="lblError" runat="server" ForeColor="Red"></asp:Label>
+                </div>
+            </div>
+        </div>
+    </div>
+</asp:Content>

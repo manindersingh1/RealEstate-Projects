@@ -1,0 +1,125 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Property_New.Master" AutoEventWireup="true"
+    CodeBehind="Registration.aspx.cs" Inherits="Property.Registration" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+
+    <link href="../css/style_002.css" rel="stylesheet" />
+    <link href="../slider/css/style.css" rel="stylesheet" />
+    <link href="../css/shortcodes.css" rel="stylesheet" />
+    <%--<asp:ScriptManager runat="server" ID="update"></asp:ScriptManager>--%>
+   <%-- <asp:UpdatePanel ID="updatepanel" runat="server">
+        <ContentTemplate>--%>
+            <div class="wrapper_new">
+                <div class="property-search-container">
+                    <div class="dt-sc-tabs-container" style="width: 100%;">
+                        <ul class="dt-sc-tabs-frame">
+                            <li><a class="current" href="#">User Registration</a></li>
+                        </ul>
+                        <div style="display: block;" class="dt-sc-tabs-frame-content">
+                            <div class="property-type-module medium-module">
+                                <div class="login_input">
+                                    <label>
+                                        Name</label>
+                                    <label style="color: red">*</label>
+                                    <asp:TextBox ID="txtName" runat="server" MaxLength="50" PlaceHolder="Name"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvName" runat="server" ErrorMessage="Name is Required"
+                                        ControlToValidate="txtName" ForeColor="Red" ValidationGroup="SaveRegInfo" Display="Dynamic"></asp:RequiredFieldValidator>
+                                </div>
+                            </div>
+                            <div class="property-type-module medium-module">
+                                <div class="login_input">
+                                    <label>
+                                        Address</label>
+                                    <label style="color: red">*</label>
+                                    <asp:TextBox ID="txtAddress" runat="server" MaxLength="140" PlaceHolder="Address"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvAddress" runat="server" ErrorMessage="Address is Required"
+                                        ControlToValidate="txtAddress" ForeColor="Red" ValidationGroup="SaveRegInfo"
+                                        Display="Dynamic"></asp:RequiredFieldValidator>
+                                </div>
+                            </div>
+                            <div class="property-type-module medium-module">
+                                <div class="login_input">
+                                    <label>
+                                        City</label>
+                                    <label style="color: red">*</label>
+                                    <asp:TextBox ID="txtCity" runat="server" MaxLength="50" PlaceHolder="City"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvCity" runat="server" ErrorMessage="City is Required"
+                                        ControlToValidate="txtCity" ForeColor="Red" ValidationGroup="SaveRegInfo" Display="Dynamic"></asp:RequiredFieldValidator>
+                                </div>
+                            </div>
+                            <div class="property-type-module medium-module">
+                                <div class="login_input">
+                                    <label>
+                                        State</label>
+                                    <label style="color: red">*</label>
+                                    <asp:TextBox ID="txtState" runat="server" MaxLength="50" PlaceHolder="State"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvState" runat="server" ErrorMessage="State is Required"
+                                        ControlToValidate="txtState" ForeColor="Red" ValidationGroup="SaveRegInfo" Display="Dynamic"></asp:RequiredFieldValidator>
+                                </div>
+                            </div>
+                            <div class="property-type-module medium-module">
+                                <div class="login_input">
+                                    <label>Phone Number</label>
+                                    <label style="color: red">*</label>
+                                    <asp:TextBox ID="txtPhoneNo" runat="server" MaxLength="50" PlaceHolder="Phone Number"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="reqPhoneno" runat="server" ErrorMessage="*" ControlToValidate="txtPhoneNo"
+                                        ValidationGroup="SaveRegInfo" ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
+                                    <asp:RegularExpressionValidator ID="RegularExpressionValidator2" ValidationGroup="SaveRegInfo" runat="server" ErrorMessage="Invalid Phone no."
+                                        ControlToValidate="txtPhoneNo" ForeColor="Red" ValidationExpression="[0-9]{10}"></asp:RegularExpressionValidator>
+                                </div>
+                            </div>
+                            <div class="property-type-module medium-module">
+                                <div class="login_input">
+                                    <label>
+                                        E-mail/User Name</label>
+                                    <label style="color: red">*</label>
+                                    <asp:TextBox ID="txtUserName" runat="server" MaxLength="50" PlaceHolder="E-mail"  OnTextChanged="txtUserName_TextChanged"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvUserName" runat="server" ErrorMessage="*" ControlToValidate="txtUserName"
+                                        ValidationGroup="SaveRegInfo" ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
+                                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"
+                                        ControlToValidate="txtUserName" ForeColor="Red" ErrorMessage="Invalid email!" ValidationGroup="SaveRegInfo">  
+                                    </asp:RegularExpressionValidator>
+                                    <asp:Label ID="lblUserMsg" runat="server" ForeColor="Red"></asp:Label>
+                                </div>
+                            </div>
+                            <div class="property-type-module medium-module">
+                                <div class="login_input">
+                                    <label>
+                                        Password</label>
+                                    <label style="color: red">*</label>
+                                    <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" MaxLength="50" PlaceHolder="Password"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ErrorMessage="Password is Required"
+                                        ControlToValidate="txtPassword" ForeColor="Red" ValidationGroup="SaveRegInfo"
+                                        ></asp:RequiredFieldValidator>
+                                </div>
+                            </div>
+                            <div class="property-type-module medium-module">
+                                <div class="login_input">
+                                    <label>
+                                        Confirm Password</label>
+                                    <label style="color: red">*</label>
+                                    <asp:TextBox ID="txtConfirm" runat="server" TextMode="Password" MaxLength="50" Placeholder="Confirm Passowrd"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="reqConfirmPassword" runat="server" ErrorMessage="Confirm Password is Required"
+                                        ControlToValidate="txtConfirm" ValidationGroup="SaveRegInfo" Display="Dynamic"
+                                        ForeColor="Red"></asp:RequiredFieldValidator>
+                                    <asp:CompareValidator ID="cmpPassword" runat="server" ControlToValidate="txtConfirm"
+                                        ControlToCompare="txtPassword" ForeColor="Red" ValidationGroup="SaveRegInfo"
+                                        Display="Dynamic" ErrorMessage="Password Don't Match"></asp:CompareValidator>
+                                </div>
+                            </div>
+                            <div class="login_input">
+                                <asp:Label ID="lblmsg" runat="server"></asp:Label>
+                                <asp:Button ID="btnSave" runat="server" Text="Save" ValidationGroup="SaveRegInfo"
+                                    OnClick="btnSave_Click" />
+                                <asp:Button ID="btnBack" runat="server" Style="clear: none;" Text="Back" OnClick="btnBack_Click" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <%--</ContentTemplate>
+    </asp:UpdatePanel>--%>
+
+</asp:Content>

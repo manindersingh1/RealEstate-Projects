@@ -1,0 +1,162 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Property_New.Master.cs" Inherits="Property.Property_New" %>
+<%@ Register TagName="BannerImage" TagPrefix="uc" Src="~/Controls/BannerImage.ascx" %>
+<%@ Register TagName="Logo" TagPrefix="uc" Src="~/Controls/logo.ascx" %>
+<%@ Register TagName="SearchControl" TagPrefix="uc" Src="~/Controls/SearchControl.ascx" %>
+<%@ Register TagName="SearchBar" TagPrefix="uc" Src="~/Controls/SearchBar.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE HTML>
+<html>
+<head runat="server">
+    <style type="text/css">
+        #shadowElem {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0.3;
+        }
+        .modalBackground {
+            background-color: Black;
+            filter: alpha(opacity=90);
+            opacity: 0.8;
+        }
+        .modalPopup {
+            background-color: #FFFFFF;
+            border-width: 3px;
+            border-style: solid;
+            border-color: black;
+            padding-top: 10px;
+            padding-left: 10px;
+            width: 300px;
+            height: 140px;
+        }
+    </style>
+    <link id="favicon" runat="server" rel="shortcut icon" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- disable iPhone inital scale -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%-- <meta name="description" content ="<%=tag %>"--%>
+    <title>
+        <asp:Literal ID="siteTitle" runat="server"></asp:Literal></title>
+    <link href="slider/css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="slider/css/media-queries.css" rel="stylesheet" />
+    <link href="slider/css/ihover.min.css" rel="stylesheet" />
+    <link href="slider/css/ihover.css" rel="stylesheet" />
+    <link href="slider/css/font-awesome.css" rel="stylesheet" />
+    <link href="slider/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="slider/css/bootstrap.css" rel="stylesheet" />
+
+    <link href="slider/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="slider/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="slider/css/style.css" rel="stylesheet" />
+    <link href="css/font.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/nivo-slider.css" rel="stylesheet" />
+    <script type="text/javascript" src="slider/js/jquery-1.11.1.min.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+
+</head>
+<body>
+    <form id="Form1" runat="server">
+<div class="headder_bg">
+            <div class="container">
+               
+       
+         
+                 <div class="col-md-6 col-sm-6">
+                     <div class="frnt_logo_new">
+                  <img src="images/ltst_logo.png" />
+                     </div>
+                     </div>
+                       <div class="col-md-6 col-sm-6">
+                      <div class="menu_bg_new">
+                        <div role="navigation">
+                            <div class="navbar-header">
+                                <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <header class="header">
+                 <div class="menu_new">
+                <asp:Literal ID="dynamicmenus" runat="server"></asp:Literal>
+            <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>       
+            </div>                   
+                </header>
+                        </div>
+                    </div>
+                </div>
+                 <%--<div class="col-md-3 col-sm-3">
+                    <div class="header_adress2">  
+                         <p>Cell:416-893-2061</p>
+                        <p>Cell:647-892-2323</p>
+
+                    </div>
+                </div>--%>
+            
+            </div>
+        </div>
+                     <div class="bnner_sct_bg">
+                    <div class="banner_section">
+                        <div id="wrapper">
+                            <div class="slider-wrapper theme-default">                    
+                                <div id="slider" class="nivoSlider">
+                                    <img src="images/banner1.jpg" " data-thumb="images//banner1.jpg"  alt="" />         
+                                    <img src="images/banner2.jpg" " data-thumb="images//banner2.jpg" alt="" data-transition="slideInLeft" />
+                                    <img src="images/banner3.jpg" " data-thumb="images//banner3.jpg" alt="" />
+                                  
+                                </div>
+                            </div>
+                <script type="text/javascript" src="slider/js/jquery.nivo.slider.js"></script>
+                <script type="text/javascript">
+                    $(window).load(function () {
+                        $('#slider').nivoSlider();
+                    });
+                </script>
+                        </div>
+                    </div>
+                </div>
+     
+        <div class="container" id="containerdiv">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+   
+
+       <div>
+    <footer class="footer_bg">
+        <div class="container">
+            <div class="row">
+         <div class="col-md-6 col-sm-6">
+                 <div class="footer_menu">
+                        <ul>
+                            <li><a runat="server" href="../Buyers.aspx"><span>B</span>uyers</a></li>
+                            <li><a href="http://kahlonteam.tejassolutions.ca/StaticPages.aspx?PageID=22"><span>S</span>ellers</a></li>      
+                            <li><a href="../Free-home-evaluation.aspx"><span>H</span>ome Evaluation</a></li>
+                            <li><a href="../ContactUs.aspx"><span>C</span>ontact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                     <div class="header_logo">
+                        <uc:Logo ID="logo" runat="server" />
+                    </div>
+                    </div>             
+        </div>
+            </div>
+    </footer>
+        </div>
+
+    </form>
+    <script type="text/javascript" src="js/jquery_009.js"></script>
+    <script type="text/javascript" src="js/shortcodes.js"></script>
+</body>
+</html>

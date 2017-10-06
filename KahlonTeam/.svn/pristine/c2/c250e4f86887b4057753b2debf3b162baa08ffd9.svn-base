@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<configuration>
+  <appSettings>
+    <add key="RegFromMailAddress" value="info.kahlonteam@gmail.com"/>
+    <add key="FromEmailPassword" value="Info@123"/>
+    <add key="ToEmailID" value="jasveerkahlon@gmail.com"/>
+    <add key="ToEmailPassword" value="9653288508"/>
+    <add key="SmtpServer" value="smtp.gmail.com"/>
+    <add key="Port" value="587"/>
+    <add key="UseDefaultCredentials" value="true"/>
+    <add key="EnableSsl" value="true"/>
+    <add key="BuyerPageId" value="25"/>
+    <add key="WebSiteUrl" value="http://teamkahlon.com"/>
+  </appSettings>
+  <connectionStrings>
+    <add name="ApplicationServices" connectionString="data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnetdb.mdf;User Instance=true" providerName="System.Data.SqlClient"/>
+    <add name="Constr" connectionString="Data Source=169.45.133.92;Initial Catalog=kahlonteam_Realtors; User ID=sa;Password=!nd!@123"/>
+    <add name="AdminConStr" connectionString="Data Source=169.45.133.92;Initial Catalog=RealtorBrickAdmin;User ID=sa;Password=!nd!@123"/>
+
+
+    <add name="ServiceDataBase" connectionString="Data Source=169.45.133.92;Initial Catalog=MLSDatanew;User ID=sa;Password=!nd!@123"/>
+  </connectionStrings>
+  <system.web>
+    <compilation debug="true" targetFramework="4.0"/>
+    <pages validateRequest="false"/>
+    <httpRuntime requestValidationMode="2.0"/>
+  </system.web>
+  <system.serviceModel>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="MLSDataWebServiceSoap" maxReceivedMessageSize="209715227" />
+        <binding name="MLSDataWebServiceSoap" />
+      </basicHttpBinding>
+    </bindings>
+    <client>
+      <endpoint address="http://169.45.133.92:8060/MLSDataWebService.asmx"
+        binding="basicHttpBinding" bindingConfiguration="MLSDataWebServiceSoap"
+        contract="Property1.MLSDataWebServiceSoap" name="MLSDataWebServiceSoap" />
+    </client>
+  </system.serviceModel>
+  <system.webServer>
+    <defaultDocument>
+      <files>
+        <clear/>
+        <add value="default.aspx"/>
+        <add value="ViewPanics.aspx"/>
+        <add value="Default.htm"/>
+        <add value="Default.asp"/>
+        <add value="index.htm"/>
+        <add value="index.html"/>
+        <add value="iisstart.htm"/>
+        <add value="index.php"/>
+      </files>
+    </defaultDocument>
+  </system.webServer>
+</configuration>

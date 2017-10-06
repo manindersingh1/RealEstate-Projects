@@ -1,0 +1,70 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/AdminMaster.Master" AutoEventWireup="true"
+    CodeBehind="Features.aspx.cs" Inherits="Property.Admin.Features" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+     <link href="../slider/css/style.css" rel="stylesheet" />
+    <link href="../css/style_002.css" rel="stylesheet" />
+    <link href="../css/shortcodes.css" rel="stylesheet" />
+    <link href="../css/style_002.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+
+    <div class="wrapper_new">     
+        <div class="property-search-container">
+            <div class="dt-sc-tabs-container" style="width: 100%;">
+                <ul class="dt-sc-tabs-frame">
+                    <li><a class="current" href="#">Scheduled Features</a></li>
+                </ul>
+                <div style="display: block; padding: 23px 2% 28px" class="dt-sc-tabs-frame-content">
+                    <div>
+                        <asp:Button ID="btnCreate" runat="server" Text="Create Features" OnClick="btnCreate_Click" />
+                    </div>
+                    <br />
+                    <div style="margin-top: 34px;">
+                        <asp:GridView ID="grdFeatures" AllowPaging="true" AllowSorting="true" AutoGenerateColumns="False"
+                            runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" Width="100%"
+                            OnPageIndexChanging="grdFeatures_PageIndexChanging" OnSorting="grdFeatures_Sorting"
+                            OnRowCommand="grdFeatures_RowCommand" OnRowDeleting="grdFeatures_RowDeleting">
+                            <AlternatingRowStyle BackColor="White" />
+                            <Columns>
+                                <asp:BoundField DataField="MLS" HeaderText="MLS" SortExpression="MLS">
+                                    <ItemStyle HorizontalAlign="Left" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Address" HeaderText="Address" SortExpression="Address">
+                                    <ItemStyle HorizontalAlign="Left" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="PostalCode" HeaderText="Postal Code" SortExpression="PostalCode">
+                                    <ItemStyle HorizontalAlign="Left" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Province" HeaderText="Province" SortExpression="Province">
+                                    <ItemStyle HorizontalAlign="Left" />
+                                </asp:BoundField>
+                                <asp:TemplateField>
+                                    <ItemTemplate>
+                                        <asp:ImageButton ID="lnkDelete" runat="server" CommandName="Delete" CommandArgument='<%#Eval("MLS") %>'
+                                            OnClientClick="return confirm('Are You Sure You Want to Delete this Record');"
+                                            ImageUrl="~/images/negative.png" />
+                                    </ItemTemplate>
+                                </asp:TemplateField>
+                            </Columns>
+                            <EditRowStyle BackColor="#2461BF" />
+                            <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                            <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" HorizontalAlign="Left" />
+                            <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+                            <RowStyle BackColor="#EFF3FB" />
+                            <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                            <SortedAscendingCellStyle BackColor="#F5F7FB" />
+                            <SortedAscendingHeaderStyle BackColor="#6D95E1" />
+                            <SortedDescendingCellStyle BackColor="#E9EBEF" />
+                            <SortedDescendingHeaderStyle BackColor="#4870BE" />
+                        </asp:GridView>
+                    </div>
+                    <div>
+                        <asp:Button ID="btnBack" runat="server" Text="Back" OnClick="btnBack_Click" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</asp:Content>

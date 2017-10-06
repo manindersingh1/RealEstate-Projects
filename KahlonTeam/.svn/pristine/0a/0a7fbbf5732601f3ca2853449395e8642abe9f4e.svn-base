@@ -1,0 +1,47 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="login.ascx.cs" Inherits="Property.Controls.login" %>
+
+
+   <link href="../css/style_002.css" rel="stylesheet" />
+    <link href="../slider/css/style.css" rel="stylesheet" />
+    <link href="../css/shortcodes.css" rel="stylesheet" />
+
+<div class="wrapper_new">
+
+  
+    <div class="property-search-container_new">
+        <div class="dt-sc-tabs-container" style="width: 100%;">
+            <div style="display: block;" class="dt-sc-tabs-frame-content">
+                <div class="property-type-module medium-module">
+                    <h2 style="text-align: center;">
+                        Login</h2>
+                    <div class="login_input">
+                        <label>
+                            Email</label>
+                        <asp:TextBox ID="txtUserName" runat="server" PlaceHolder="Email" MaxLength="50"></asp:TextBox>
+                    </div>
+                </div>
+                <div class="property-type-module medium-module">
+                    <div class="login_input">
+                        <label>
+                            Password</label>
+                        <asp:TextBox ID="txtPassword" runat="server" PlaceHolder="Password" TextMode="Password"
+                            MaxLength="50"></asp:TextBox>
+                    </div>
+                    <div>
+                        <div class="login_input">
+                            <asp:HyperLink ID="hlCreateAdmin" runat="server" NavigateUrl="../Registration.aspx">Create new account</asp:HyperLink>&nbsp<br />
+                             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="../ForgetPassword.aspx">Forgot Password?</asp:HyperLink>&nbsp<br />
+                            <asp:Button ID="btnLogin" runat="server" Text="Login" ValidationGroup="LoginAdmin"
+                                OnClick="btnLogin_Click" />
+                        </div>
+                    </div>
+                </div>
+                <div class="property-type-module medium-module">
+                    <div class="login_input">
+                        <asp:Label ID="lblerror" runat="server" ForeColor="Red" Style="float: left; width: 100%;"></asp:Label>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+    </div>

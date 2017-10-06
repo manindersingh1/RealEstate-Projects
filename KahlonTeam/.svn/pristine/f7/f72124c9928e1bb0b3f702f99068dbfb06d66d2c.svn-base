@@ -1,0 +1,2314 @@
+
+/************************************************************************************
+smaller than 1280
+*************************************************************************************/
+@media screen and (max-width: 1280px) {
+
+
+
+}
+
+
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+@media screen and (max-width: 1024px) 
+{
+.contact_number {
+    float: left;
+    height: 100px;
+    margin-left: 135px;
+    padding: 20px;
+    position: static;
+    top: 536px;
+    z-index: 99999;
+}
+.Residential_section_box {
+    background-color: #f2f4f4;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    float: left;
+    margin: 0 !important;
+    padding: 10px;
+    width: 100% !important;
+}
+.top_section ul {
+    float: left;
+    margin-left: 61px !important;
+    width: 100%;
+}
+#map {
+    height: 123px;
+    width: 100% !important;
+}
+.top_section {
+    float: right;
+    padding: 10px;
+    width: 88% !important;
+}
+.count_label {
+    color: #f70c2d;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    font-style: normal;
+    margin: -39px 0 0;
+    text-decoration: none;
+    width: 82%;
+}
+}
+
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+@media screen and (max-width: 768px) 
+{
+	
+.contact_number span {
+    color: black !important;
+    font-size: 17px !important;
+}
+.contact_in_right {
+    float: left;
+    margin: 0 !important;
+    width: 100% !important;
+}
+.contact_in_left {
+    background: white none repeat scroll 0 0;
+    border: 3px solid #eaeaea;
+    float: left;
+    margin: 0 0 35px !important;
+    padding: 15px;
+    width: 99% !important;
+}
+
+}
+
+/************************************************************************************
+smaller than 736
+*************************************************************************************/
+
+
+
+
+
+@media screen and (max-width: 736px) 
+{
+.nav > li {
+    background: rgba(0, 0, 0, 0) url("../images/menu-strip.png") no-repeat scroll 10px 14px;
+    float: left;
+    width: 100% !important;
+	z-index:none !important;
+}
+.Residential_section {
+    float: left;
+    margin: 20px 12px 0 0 !important;
+    width: 23% !important;
+}
+.roco_cnts_us {
+    float: left;
+    margin: 14px 0 0;
+    width: 100%;
+}
+.frnt_logo_new {
+    float: right;
+    margin: 10px 0 0 -15px;
+    text-align: center;
+    width: 78%;
+}
+.Infomation > span {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    margin: 13px 0 1px !important;
+    width: 100% !important;
+}
+.Infomation_1_email > span {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    margin: 13px 0 0 !important;
+    width: 100% !important;
+}
+#ontarioTax {
+    background: #eff0f5 none repeat scroll 0 0;
+    border: 1px solid #b6bac7;
+    float: left;
+    text-align: center;
+    width: 100% !important;
+}
+#torontoTax {
+    background: #eff0f5 none repeat scroll 0 0;
+    border: 1px solid #b6bac7;
+    float: right;
+    text-align: center;
+    width: 100% !important;
+}
+.infor_list_2 > span {
+    color: black;
+    float: left;
+    font-size: 13px;
+    font-style: normal;
+    margin: 5px 0 0 7px !important;
+    text-decoration: none;
+}
+#landCalcBox {
+    color: #000000 !important;
+    margin: auto;
+    width: 100% !important;
+}
+.seaarch_Property_in {
+    float: left;
+    height: 399px !important;
+    margin: 0 0 0 2px;
+    width: 51%;
+}
+.Free-Home_new_1 > ul li {
+    background: rgba(0, 0, 0, 0) url("../images/arrow-1.png") no-repeat scroll 2px 6px;
+    color: #151515;
+    float: left;
+    line-height: 25px;
+    list-style: outside none none;
+    padding: 0 0 0 32px;
+    width: 94%;
+}
+.imagebtn {
+    border: 6px solid grey;
+    border-radius: 0;
+    float: left;
+    height: 228px;
+    margin: 0;
+    padding: 3px;
+    width: 100% !important;
+}
+.nav li ul {
+    left: -9999px;
+    margin: 0 !important;
+    padding: 0;
+    position: absolute;
+    width: 100% !important;
+}
+.pricewin {
+    float: left;
+    height: 0px;
+    position: relative !important;
+    right: 37px;
+    text-align: right;
+    top: -190px !important;
+    width: 18%;
+    z-index: 99;
+}
+.feature_section_box p {
+    color: #838b92;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 0 0 7px 6px;
+    width: 0% !important;
+}
+.footer_menu ul li a {
+    color: #373737;
+    font-family: "TrajanPro-Regular";
+    font-size: 16px !important;
+}
+.feature_listing {
+    float: left;
+    margin: 10px 0 0 !important;
+    width: 100%;
+}
+.para {
+    float: left;
+    width: 100% !important;
+}
+.favorate {
+    float: left;
+    padding: 0 0 23px 26px;
+    width: 32% !important;
+}
+.contact_number {
+ 
+    float: left;
+    height: 100px;
+    padding: 20px;
+    position: static !important;
+    top: 585px;
+    z-index: 99999;
+    margin:0px !important;
+}
+.navbar-header
+{
+	display:none;
+}
+.garages-module.small-module {
+    float: left;
+    margin: 0 0 0 10px;
+    width: 18% !important;
+}
+.MainContentSearchBar {
+    height: 30px !important;
+    margin-top: 6px !important;
+    padding: 3px !important;
+}
+.property_new_details {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    margin: 8px 0 0 22px !important;
+    width: 220px;
+}
+.Detail_Email {
+    float: left;
+    margin: 8px 0 0;
+    width: 100%;
+}
+.boxx
+{
+	float:left;
+	width:100% !important;
+	margin: 0 0 0 0px !important;
+}
+.box_right1 > a > img {
+        background: white none repeat scroll 0 0;
+    height: 228px;
+    margin: 0px 0 0;
+    padding: 4px;
+    width: 275px;
+}
+.right_section {
+   
+    float: right;
+    margin-bottom: 0;
+    margin-right: 0px !important;
+    margin-top: 0;
+    margin-bottom:30px;
+   width: 280px !important;
+}
+#map-canvas {
+    width: 100% !important;
+}
+.dt-sc-tabs-container {
+    clear: both;
+    float: left;
+    margin: 0 0 0 -3px !important;
+    padding: 0;
+    width: 100% !important;
+}
+.seaarch_Property_in {
+    float: left;
+    height: 270px;
+    margin: 0 0 0 2px;
+    width: 100% !important;
+}
+.sell_house {
+    border: 1px solid #336666;
+    float: left;
+    margin: 0 7px 14px 0 !important;
+    padding: 9px;
+    width: 100% !important;
+}
+.top_section ul {
+    float: left;
+    margin-left: 0px !important;
+    width: 100%;
+}
+#Homebanner {
+    background: #3a4d3b none repeat scroll 0 0;
+    height: 750px !important;
+    margin-bottom: 12px;
+}
+.logo {
+    float: left;
+    padding: 7px 0 0;
+    text-align: left;
+    width: 100%;
+}
+.feature_listing {
+    float: left;
+    margin: 0;
+    width: 71% !important;
+}
+.logo {
+    display: none;
+    float: left;
+    padding: 14px 0 0;
+    width: 100%;
+}
+.top_section {
+    float: right;
+    padding: 10px;
+    width: 100% !important;
+}
+.header_logo {
+    float: left;
+    margin: 16px 0;
+    text-align: center;
+    width: 100%;
+}
+.Residential_section_bg {
+    float: left;
+    margin-top: 12px;
+    width: 100%;
+	margin-bottom:12px;
+}
+.header_middle_1 {
+    background: #252525 none repeat scroll 0 0;
+    color: white;
+    float: left;
+    padding: 8px;
+    width: 40%;
+}
+.mail_header {
+    float: left;
+    width: 100%;
+	padding-left:0px;
+}
+.top_sct_cntnt h2 {
+    color: #373737;
+    float: left;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom:12px;
+	text-transform:uppercase;
+	 font-family: 'open_sansbold';
+	 text-align: center !important;
+}
+.header_adress2 {
+    float: left;
+    margin-top: 9px;
+    width: 100%;
+}
+.header_image > img {
+    margin: 0px !important;
+}
+.nav > li > a
+{
+	padding:10px 23px !important;
+}
+.menu_bg_new {
+    float: left ;
+    margin: 0px !important;
+    width: 100%;
+}
+.setbgmenu {
+       
+    font-size: 10px;
+    width: 80%;
+}
+}
+
+/************************************************************************************
+smaller than 767
+*************************************************************************************/
+@media screen and (max-width: 667px) {
+.Free-Home_new_1 {
+    float: left;
+    margin: 0 !important;
+    padding: 10px 0 23px 18px;
+    width: 100% !important;
+}
+.Free-Home_new {
+    float: left;
+    margin: 0 !important;
+    padding: 10px 0 23px 18px;
+    width: 100% !important;
+}
+
+.beds-module.small-module {
+    float: left;
+    margin-top: 1px;
+    width: 43% !important;
+}
+.seaarch_Property_in {
+    float: left;
+    height: 361px !important;
+    margin: 0 0 0 2px;
+    width: 51%;
+}
+.feature_listing {
+    float: left;
+    margin: 0;
+    width: 72% !important;
+}
+.container
+{
+	margin:0px;
+	padding:0px;
+}
+#landCalcBox {
+    color: #000000 !important;
+    float: left;
+    margin: auto;
+    width: 100% !important;
+}
+#calculatorForm {
+    margin: auto;
+    width: 100% !important;
+}
+#headerCalc {
+
+    width: 100% !important;
+}
+#purchasePrice {
+
+    width: 100% !important;
+}
+#purchasePrice > input {
+    width: 100% !important;
+}
+#checkBox {
+
+    width: 100% !important;
+}
+#resultBox {
+ 
+    width: 100% !important;
+}
+#ontarioTax {
+
+    width: 100% !important;
+}
+#torontoTax {
+ 
+    float: left !important;
+    width: 100% !important;
+}
+.wrapper_top {
+    float: left;
+    margin: 0 !important;
+    width: 100%;
+}
+.header_logo {
+    float: left;
+    text-align: center;
+    width: 100%;
+	margin-bottom:80px;
+}
+.footer_menu ul li {
+    display: inline;
+    margin: 0 16px 0 5px !important;
+}
+}
+
+/************************************************************************************
+smaller than 767
+*************************************************************************************/
+@media screen and (max-width: 640px) {
+	#householdBudgetIframe, #mortgagePaymentIframe, #mortgageAffordabilityIframe, #premiumCalculatorIframe, #debtServiceIframe, #householdBudgetIframe2, #mortgagePaymentIframe2, #mortgageAffordabilityIframe2, #premiumCalculatorIframe2, #debtServiceIframe2
+{
+	width:100% !important;
+}
+	.container
+{
+	margin:0px;
+	padding:0px;
+}
+.virtul_btn {
+    background: #373737 none repeat scroll 0 0;
+    color: white;
+    font-family: "TrajanPro-Bold";
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    width: 140px;
+}
+.pricewin {
+    float: left;
+    height: 0px;
+    position: absolute;
+    right: 37px;
+    text-align: right;
+    top: 115px;
+    width: 18%;
+    z-index: 99;
+}
+#landCalcBox {
+    color: #000000 !important;
+    float: left;
+    margin: auto;
+    width: 100% !important;
+}
+#calculatorForm {
+    margin: auto;
+    width: 100% !important;
+}
+#headerCalc {
+
+    width: 100% !important;
+}
+#purchasePrice {
+
+    width: 100% !important;
+}
+#purchasePrice > input {
+    width: 100% !important;
+}
+#checkBox {
+
+    width: 100% !important;
+}
+#resultBox {
+ 
+    width: 100% !important;
+}
+#ontarioTax {
+
+    width: 100% !important;
+}
+#torontoTax {
+ 
+    float: left !important;
+    width: 100% !important;
+}
+		.top_section ul li {
+    color: white;
+    display: inline;
+    font-family: arial;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 1px 0 0;
+    padding: 6px;
+    text-align: center;
+    width: 93%;
+}
+.header_middle {
+    border-bottom: 1px solid #343132;
+    border-top: 1px solid #343132;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.top_section {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.boxx
+{
+	float:left;
+	width:100% !important;
+	margin: 0 0 0 7px !important;
+}
+.property_logo h4 {
+    color: white;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 10px;
+    font-style: italic;
+    line-height: 16px;
+    margin: 36px 0 0 11px;
+    width: 58%;
+}
+.property_logo img {
+    float: left;
+    margin: 18px 0 11px;
+}
+.useful_link {
+    float: left;
+    margin: 21px 0 0;
+    width: 100%;
+}
+.useful_link > ul li a {
+    border-right: 1px solid;
+    color: white;
+    font-family: arial;
+    font-size: 13px;
+    padding: 0 8px;
+}
+.Residential_section_box {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #bdbdbd;
+    float: left;
+    margin: 0 20px 42px 7px;
+    width: 95%;
+}
+	
+.footer_menu ul li {
+    display: inline;
+    margin: 0 12px 0 5px !important;
+}
+	.Residential_section_box > img {
+    width: 100%;
+}
+.feature_section_box > img
+{
+	width:100%;
+}
+
+.Residential_section_bg h3 {
+    border-bottom: 1px solid #c2c3c4;
+    color: #3a4d3b;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px;
+    margin-bottom: 1px;
+    padding: 1px 0 11px;
+    text-align: center;
+    width: 100%;
+}
+.Residential_section_bg h3 {
+    border-bottom: 1px solid #c2c3c4;
+    color: #3a4d3b;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px;
+    margin-bottom: 1px;
+    padding: 0px 0 0px;
+    text-align: center;
+    width: 100%;
+}
+.top_section ul li {
+    color: white;
+    display: inline;
+    font-family: arial;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 1px 0 0;
+    padding: 6px;
+    text-align: center;
+    width: 93%;
+}
+.box5 > h2 {
+    color: #457066;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    margin: 5px 3px 0 18px;
+    width: 100% !important;
+}
+.search_boxx_right_bg {
+    float: left;
+    margin: 0 0 0 3px;
+    width: 100% !important;
+}
+.para {
+    float: left;
+    width: 100% !important;
+}
+.favorate {
+    float: left;
+    padding: 0 0 23px 26px !important;
+    width: 65% !important;
+}
+.search_boxx_right_bg_2 {
+    float: left;
+    padding: 2px 17px 7px !important;
+    width: 100% !important;
+}
+.calculator_hidden
+{
+	display:none;
+}
+.contact_number span {
+    color: black !important;
+    float: left;
+    font-size: 11px !important;
+    text-align: center;
+    width: 100%;
+}
+.wrapper_top {
+    float: left;
+    margin: 0 !important;
+    width: 100%;
+}
+.header_image img {
+    margin-bottom: 12px;
+    width: 21%;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 0 14px !important;
+    width: 100% !important;
+}
+.en {
+    display: none !important;
+}
+
+.cal_none {
+    display: none;
+}
+.virtul_btn span {
+    color: #f00;
+    font-size: 14px !important;
+}
+
+}
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+	.container
+{
+	margin:0px;
+	padding:0px;
+}
+#landCalcBox {
+    color: #000000 !important;
+    float: left;
+    margin: auto;
+    width: 100% !important;
+}
+.seaarch_Property_in {
+    float: left;
+    height: 251px !important;
+    margin: 0 0 0 2px;
+    width: 51%;
+}
+.Infomation > input {
+    border: 1px solid gray;
+    float: left;
+    font-size: 12px;
+    margin: 6px 0;
+    padding: 6px;
+    width: 54%;
+}
+.Infomation > textarea {
+    border: 1px solid gray;
+    width: 100% !important;
+}
+.Infomation_1_email > p {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 14px;
+    text-align: justify;
+    width: 100% !important;
+}
+.Infomation_1_email {
+    float: left;
+    margin: 20px 0 0 !important;
+    width: 100%;
+}
+.right_section_new {
+    background: #f4f4f4 none repeat scroll 0 0;
+    float: left;
+    margin-top: 12px;
+    padding-bottom: 10px;
+    width: 100% !important;
+}
+#calculatorForm {
+    margin: auto;
+    width: 100% !important;
+}
+.top_sct_imggg5 {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.top_sct_imggg5 img {
+    border: 5px solid grey;
+    min-height: 229px;
+    padding: 3px;
+    width: 281px;
+}
+.virtul_btn span {
+    color: #f00;
+    font-size: 15px;
+}
+#headerCalc {
+
+    width: 100% !important;
+}
+#purchasePrice {
+
+    width: 100% !important;
+}
+#purchasePrice > input {
+    width: 100% !important;
+}
+#checkBox {
+
+    width: 100% !important;
+}
+#resultBox {
+ 
+    width: 100% !important;
+}
+#ontarioTax {
+
+    width: 100% !important;
+}
+#torontoTax {
+ 
+    float: left !important;
+    width: 100% !important;
+}
+	.right_section {
+    float: left;
+    margin: 0px 0 30px -10px;
+    width: 100% !important;
+}
+/*	.contact_number {
+    float: left;
+    padding: 4px;
+    position: absolute;
+    top: 457px !important;
+    z-index: 99999;
+}
+.contact_number span {
+    color: white;
+    float: left;
+    font-size: 16px !important;
+    text-align: center;
+    width: 91%;
+	margin-top:100px;
+}*/
+	.top_section ul li {
+    color: white;
+    display: inline;
+    font-family: arial;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 1px 0 0;
+    padding: 6px;
+    text-align: center;
+    width: 93%;
+}
+.header_middle {
+    border-bottom: 1px solid #343132;
+    border-top: 1px solid #343132;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.top_section {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.property_logo h4 {
+    color: white;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 10px;
+    font-style: italic;
+    line-height: 16px;
+    margin: 36px 0 0 11px;
+    width: 58%;
+}
+.pricewin {
+    float: left;
+    height: 0px;
+    position: relative !important;
+    right: 37px;
+    text-align: right;
+    top: -141px !important;
+    width: 18%;
+    z-index: 99;
+}
+.property_logo img {
+    float: left;
+    margin: 18px 0 11px;
+}
+.useful_link {
+    float: left;
+    margin: 21px 0 0;
+    width: 100%;
+}
+.useful_link > ul li a {
+    border-right: 1px solid;
+    color: white;
+    font-family: arial;
+    font-size: 13px;
+    padding: 0 8px;
+}
+.Residential_section_box {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #bdbdbd;
+    float: left;
+    margin: 0 20px 42px 7px;
+    width: 95%;
+}
+
+.banner {
+    border: medium none;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+.top_section_services {
+    float: left;
+    margin: 20px 0 0;
+    width: 100% !important;
+}
+	
+.Residential_section {
+    float: left;
+    margin: 20px 0 0;
+    width: 100% !important;
+}	
+.Detail_Email {
+    float: left;
+    margin: 8px 0 0;
+    width: 100%;
+}
+#slider1_container
+{
+	 width: 100% !important;
+}
+#map-canvas
+{
+	width:100% !important;
+}
+.Images {
+    float: left;
+    margin: 0 15px 10px 9px;
+    width: 92% !important;
+}
+ .Free-Home {
+    border: 2px solid #457066;
+    float: left;
+    margin: 41px 0 40px !important;
+    padding: 20px;
+    width: 99% !important;
+}
+.Infomation > input {
+    border: 1px solid gray;
+    float: left;
+    margin-bottom: 17px;
+    width: 100% !important;
+}
+.Infomation {
+    float: left;
+    width: 100% !important;
+	height:auto !important;
+}
+.feature_listing {
+    float: left;
+    margin: 22px 0 0px !important;
+    width: 100% !important;
+}
+.Residential_section_bg h3 {
+    border-bottom: 1px solid #c2c3c4;
+    color: #3a4d3b;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px;
+    margin-bottom: 1px;
+    padding: 1px 0 11px;
+    text-align: center;
+    width: 100%;
+}
+.Residential_section_bg h3 {
+    border-bottom: 1px solid #c2c3c4;
+    color: #3a4d3b;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px;
+    margin-bottom: 1px;
+    padding: 0px;;
+    text-align: center;
+    width: 100%;
+}
+.top_section ul li {
+    color: white;
+    display: inline;
+    font-family: arial;
+    font-size: 13px !important;
+    padding: 3px !important;
+    text-align: left;
+}
+.box5 > h2 {
+    color: #457066;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    margin: 5px 3px 0 18px;
+    width: 100% !important;
+}
+.search_boxx_right_bg {
+    float: left;
+    margin: 0 0 0 3px;
+    width: 100% !important;
+}
+.para {
+    float: left;
+    width: 100% !important;
+}
+.favorate {
+    float: left;
+    padding: 0 0 23px 15px !important;
+    width: 65% !important;
+}
+.search_boxx_right_bg_2 {
+    float: left;
+    padding: 2px 17px 7px !important;
+    width: 100% !important;
+}
+.sell_house {
+    border: 1px solid #336666;
+    float: left;
+    margin: 0 0 6px -10px !important;
+    padding: 10px;
+    width: 100% !important;
+}
+.property-search-container .medium-module {
+    height: auto;
+    width: 90% !important;
+}
+.beds-module.small-module {
+    float: left;
+    margin-top: 1px;
+    width: 92% !important;
+}
+#Homebanner {
+    background: #3a4d3b none repeat scroll 0 0;
+    height: 653px !important;
+    margin-bottom: 12px;
+}
+#householdBudgetIframe, #mortgagePaymentIframe, #mortgageAffordabilityIframe, #premiumCalculatorIframe, #debtServiceIframe, #householdBudgetIframe2, #mortgagePaymentIframe2, #mortgageAffordabilityIframe2, #premiumCalculatorIframe2, #debtServiceIframe2
+{
+	width:100% !important;
+}
+.calculator_hidden
+{
+	display:none;
+}
+.contact_number span {
+    color: black !important;
+    float: left;
+    font-size: 10px !important;
+    text-align: center;
+    width: 100%;
+}
+.wrapper_top {
+    float: left;
+    margin: 0px!important;
+    width: 100%;
+}
+.header_middle_1 {
+    background: #252525 none repeat scroll 0 0;
+    color: white;
+    float: left;
+    padding: 8px 9px;
+    text-align: left;
+    width: 48%;
+}
+.box_right1 {
+    float: left;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.property_areaadd > span
+{
+	text-align:center;
+	float:left;
+	width:100%;
+}
+.header_image {
+    float: left;
+    margin: 2px 0 10px;
+    width: 100%;
+}
+.footer_menu ul li a {
+    color: #373737;
+    font-family: "open_sansregular";
+    font-size: 12px !important;
+    line-height: 31px;
+}
+.menu_new {
+    margin: 0px 0 0 !important;
+    width: 100%;
+}  
+.header_image img {
+    width: 30% !important;
+}
+.fuutr_phne_bg {
+    bottom: 0;
+    display: block !important;
+    position: fixed;
+    z-index:99;
+	width:100%;
+}
+.futer_mail_bg {
+    background:#343434;
+    border-radius: 0;
+    display: block !important;
+    float: left;
+    margin: 1px 0 0;
+    padding: 10px 0 10px 0px;
+    width: 100%;
+	text-align:center;
+}
+.futer_mail > ul {
+    float: left;
+    width: 100%;
+}
+.futer_mail > ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 7px 0 12px;
+}
+.futer_mail > ul li a {
+    border: 0 none;
+    border-radius: 14px;
+    color: white;
+    font-size: 18px;
+    padding: 5px 2px;
+    width: auto;
+}
+.fuutr_phne_bg {
+    display: block;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 0 14px !important;
+    width: 100% !important;
+}
+.en {
+    display: none !important;
+}
+
+.cal_none {
+    display: none;
+}
+.changer {
+    float: left !important;
+    margin: 11px 15px 17px 0 !important;
+}
+
+.propert_header_cntntt_box {
+    float: left;
+    margin: 6px 0;
+    width: 100%;
+}
+.propert_header_cntntt h2 {
+    color: #d00808;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px;
+    margin: 4px 0 12px;
+    width: 100%;
+}
+.propert_top_details {
+    float: left;
+    margin: 8px 0;
+    width: 100%;
+}
+.proprty_price {
+    border-right: medium none;
+    float: left;
+    width: 100%;
+}
+.proprty_details_boxx > h2 {
+    color: #7e7e7e;
+    float: left;
+    font-family: open_sansbold;
+    font-size: 12px;
+    margin: 6px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.proprty_details_boxx > span {
+    float: left;
+    font-family: open_sansbold;
+    font-size: 11px;
+    margin: 6px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.proprty_details_boxx {
+    border-bottom: 1px solid #b7b7b7;
+    border-right: medium none;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+}
+
+
+@media screen and (max-width: 414px) {
+.property_logo h4 {
+    color: white;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 14px;
+    font-style: italic;
+    line-height: 26px;
+    margin: 3px 0 0 11px !important;
+    width: 83% !important;
+	text-align:left;
+}
+.propert_header_cntntt_box {
+    float: left;
+    margin: 6px 0;
+    width: 100%;
+}
+.propert_header_cntntt h2 {
+    color: #d00808;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px;
+    margin: 4px 0 12px;
+    width: 100%;
+}
+.propert_top_details {
+    float: left;
+    margin: 8px 0;
+    width: 100%;
+}
+.proprty_price {
+    border-right: medium none;
+    float: left;
+    width: 100%;
+}
+.proprty_details_boxx > h2 {
+    color: #7e7e7e;
+    float: left;
+    font-family: open_sansbold;
+    font-size: 12px;
+    margin: 6px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.proprty_details_boxx > span {
+    float: left;
+    font-family: open_sansbold;
+    font-size: 11px;
+    margin: 6px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.proprty_details_boxx {
+    border-bottom: 1px solid #b7b7b7;
+    border-right: medium none;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.Infomation > span {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    margin: 7px 0 0 !important;
+    width: 100% !important;
+}
+.Infomation > input {
+    border: 1px solid gray;
+    float: left;
+    font-size: 12px;
+    margin: 5px 0 !important;
+    padding: 2px;
+    width: 100% !important;
+}
+ul.dt-sc-tabs-frame > li > a {
+    background: #1c1c1c none repeat scroll 0 0;
+    border-bottom: 0 none;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    float: left;
+    font-family: Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px !important;
+    font-weight: bold;
+    line-height: 38px;
+    margin: 0;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.Free-Home_new_1 {
+    float: left;
+    margin: 5px 0;
+    padding: 8px !important;
+    text-align: justify;
+    width: 100%;
+}
+.left_section_in_5 {
+    background-color: #f2f4f4;
+    border-radius: 8px;
+    box-shadow: 0 5px 16px -5px gray;
+    float: left;
+    margin: 14px 0 17px !important;
+    padding: 5px;
+    width: 100%;
+}
+.wrapper_new {
+    float: left;
+    margin-bottom: 60px !important;
+    margin-top: 20px;
+    min-height: 412px !important;
+    width: 100%;
+}
+.seaarch_Property_in {
+    float: left;
+    height: 221px !important;
+    margin: 0 0 0 2px;
+    width: 51%;
+}
+.loginlabel {
+    color: #d00808;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 15px;
+    margin: 12px 0;
+    text-align: center;
+    width: 100%;
+}
+.property-search-container .small-module, .property-search-container .medium-module, .property-search-container .large-module {
+    float: left;
+    margin: 0 0 0 10px !important;
+    padding: 0;
+}
+.search_boxx_left {
+    border: 2px solid #34393d;
+    float: left;
+    height: 180px !important;
+    margin: 12px 0 24px 12px !important;
+    width: 90% !important;
+}
+.count_label {
+    color: #f70c2d;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    font-style: normal;
+    margin: 12px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100% !important;
+}
+.In_bg {
+    float: left;
+    margin: 0 0 27px !important;
+    width: 100%;
+}
+.imagebtn {
+    border: 6px solid grey;
+    border-radius: 0;
+    float: none !important;
+    height: 248px;
+    margin: 0;
+    padding: 3px;
+    width: 74% !important;
+}
+.detl div {
+    float: left;
+    margin: 0 46px 2px 0;
+    width: 100% !important;
+}
+#slider1_container {
+    top: 9px !important;
+    width: 100% !important;
+}
+.detail_left_section div {
+    margin: 0 !important;
+}
+.pricewin {
+    float: left;
+    height: 16px;
+    position: relative !important;
+    right: 37px;
+    text-align: right;
+    top: -121px !important;
+    width: 18%;
+    z-index: 99;
+}
+.header_bg {
+    background: transparent linear-gradient(to bottom, #3b4e3d 0%, #253a27 100%, #253a27 100%) repeat scroll 0 0;
+    float: left;
+    margin-bottom: 12px;
+    width: 100%;
+}
+#Homebanner {
+    background: #3a4d3b none repeat scroll 0 0;
+    max-height: 590px !important;
+    margin-bottom: 12px;
+}
+.name_logo {
+     float: left;
+    margin: 14px 0 0;
+    text-align: center;
+    width: 100%;
+}
+.logo img {
+    float: left;
+    margin: 13px 0 10px !important;
+    width: 88% !important;
+}
+.container
+{
+	margin:0px;
+	padding:0px;
+}
+#landCalcBox {
+    color: #000000 !important;
+    float: left;
+    margin: auto;
+    width: 100% !important;
+}
+#calculatorForm {
+    margin: auto;
+    width: 100% !important;
+}
+#headerCalc {
+
+    width: 100% !important;
+}
+#purchasePrice {
+
+    width: 100% !important;
+}
+#purchasePrice > input {
+    width: 100% !important;
+}
+#checkBox {
+
+    width: 100% !important;
+}
+#resultBox {
+ 
+    width: 100% !important;
+}
+#ontarioTax {
+
+    width: 100% !important;
+}
+#torontoTax {
+ 
+    float: left !important;
+    width: 100% !important;
+}
+#householdBudgetIframe, #mortgagePaymentIframe, #mortgageAffordabilityIframe, #premiumCalculatorIframe, #debtServiceIframe, #householdBudgetIframe2, #mortgagePaymentIframe2, #mortgageAffordabilityIframe2, #premiumCalculatorIframe2, #debtServiceIframe2
+{
+	width:100% !important;
+}
+.calculator_hidden
+{
+	display:none;
+}
+.contact_number span {
+    color: black !important;
+    float: left;
+    font-size: 9px !important;
+    text-align: center;
+    width: 100%;
+}
+.wrapper_top {
+    float: left;
+    margin:  0px!important;
+    width: 100%;
+}
+.header_mail_adress {
+    float: left;
+    margin-top: 7px;
+    width: 100%;
+}
+.phne_header {
+    border-right: none !important;
+    float: left;
+    text-align: center !important;
+    width: 100% !important;
+}
+.mail_header {
+    float: left;
+    margin-top: 12px;
+    text-align: center !important;
+    width: 100% !important;
+}
+.header_logo {
+   float: left;
+    margin-bottom: 80px;
+    text-align: center;
+    width: 100%;
+}
+.header_adress {
+    float: left;
+    text-align: center;
+    width: 100% !important;
+}
+.top_section_services {
+    float: left;
+    margin: 0px !important;
+    width: 100% !important;
+}
+.header_image {
+    float: left;
+    margin: 2px 0 10px !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+.header_adress2 {
+    float: left;
+    margin-top: 9px;
+    text-align: center;
+    width: 100% !important;
+}
+.frnt_logo_new {
+      float: right;
+    margin: 6px !important;
+    text-align: center;
+    width: 57%;
+}
+.Free-Home > b
+{
+	margin:0px !important;
+}
+.header_logo img {
+    width: 65%;
+}
+.footer_menu ul li a {
+    color: #373737;
+    font-family: "open_sansregular";
+    font-size: 15px !important;
+    line-height: 31px;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 0 14px !important;
+    width: 100% !important;
+}
+.en {
+    display: none !important;
+}
+
+.cal_none {
+    display: none;
+}
+}
+
+@media screen and (max-width: 375px) {
+
+ul.dt-sc-tabs-frame > li > a {
+    background: #1c1c1c none repeat scroll 0 0;
+    border-bottom: 0 none;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    float: left;
+    font-family: Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px !important;
+    font-weight: bold;
+    line-height: 38px;
+    margin: 0;
+    padding: 0 15px !important;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.imagebtn {
+    border: 6px solid grey;
+    border-radius: 0;
+    float: none !important;
+    height: 258px;
+    margin: 0;
+    padding: 3px;
+    width: 80% !important;
+}
+.seaarch_Property_in {
+    float: left;
+    height: 191px !important;
+    margin: 0 0 0 2px;
+    width: 51%;
+}
+.pricewin {
+    float: left;
+    height: 100px;
+    position: absolute;
+    right: 37px;
+    text-align: right;
+    top: 92px;
+    width: 18%;
+    z-index: 999999;
+}
+.pricewin {
+    float: left;
+    height: 0px;
+    position: relative !important;
+    right: 37px;
+    text-align: right;
+    top: -116px !important;
+    width: 18%;
+    z-index: 99;
+}
+.virtul_btn {
+    background: #373737 none repeat scroll 0 0;
+    color: white;
+    font-family: "TrajanPro-Bold";
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 140px;
+}
+.floors-module.small-module {
+    float: left;
+    margin: 0 0 0 10px;
+    width: 46% !important;
+}
+.baths-module.small-module {
+    clear: both;
+    float: left;
+    margin: 0 0 0 10px;
+    width: 42% !important;
+}
+.garages-module.small-module {
+    float: left;
+    margin: 0 0 0 10px;
+    width: 43% !important;
+}
+.property_logo img {
+    float: left;
+    margin: 18px 0 11px;
+    width: 19% !important;
+}
+.property_logo h4 {
+    color: white;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 11px !important;
+    font-style: italic;
+    line-height: 20px !important;
+    margin: 10px 0 0 11px !important;
+	width: 77% !important;
+	text-align:left;
+}
+.logo {
+    float: left;
+    padding: 14px 0 0;
+    width: 100%;
+}
+.right_section_new {
+    background: #f4f4f4 none repeat scroll 0 0;
+    float: left;
+    padding-bottom: 10px;
+    width: 100% !important;
+}
+.detail_left_Section_top {
+    float: left;
+    margin: 0 4px 0 7px;
+    width: 100% !important;
+}
+#Homebanner {
+    background: #3a4d3b none repeat scroll 0 0;
+    max-height: 455px !important;
+    margin-bottom: 12px;
+}
+.container
+{
+	margin:0px;
+	padding:0px;
+}
+#landCalcBox {
+    color: #000000 !important;
+    float: left;
+    margin: auto;
+    width: 100% !important;
+}
+.boxx
+{
+	float:left;
+	width:100% !important;
+	margin: 0 0 0 11px !important;
+}
+#calculatorForm {
+    margin: auto;
+    width: 100% !important;
+}
+#headerCalc {
+
+    width: 100% !important;
+}
+#purchasePrice {
+
+    width: 100% !important;
+}
+#purchasePrice > input {
+    width: 100% !important;
+}
+#checkBox {
+
+    width: 100% !important;
+}
+#resultBox {
+ 
+    width: 100% !important;
+}
+#ontarioTax {
+
+    width: 100% !important;
+}
+#torontoTax {
+ 
+    float: left !important;
+    width: 100% !important;
+}
+.calculator_hidden
+{
+	display:none;
+}
+.contact_number span {
+    color: black !important;
+    float: left;
+    font-size: 9px !important;
+    text-align: center;
+    width: 100%;
+}
+.wrapper_top {
+    float: left;
+    margin:  0px!important;
+    width: 100%;
+}
+.header_middle_1 {
+     background: #252525 none repeat scroll 0 0;
+    color: yellow;
+    float: left;
+    padding: 8px 9px;
+    text-align: left;
+    width: 60%;
+}
+ .top_text h1
+{
+    float: left;
+    text-align: center;
+    width: 100%;
+        font-size: 18px !important;
+}
+.Sendbutton
+{
+	width:40% !important;
+}
+.header_logo img {
+    width: 65%;
+}
+.footer_menu ul li a {
+    color: #373737;
+    font-family: "open_sansregular";
+    font-size: 12px !important;
+    line-height: 31px;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 0 14px !important;
+    width: 100% !important;
+}
+.en {
+    display: none !important;
+}
+
+.cal_none {
+    display: none;
+}
+}
+
+
+
+@media screen and (max-width: 360px) {
+ul.dt-sc-tabs-frame > li > a {
+    background: #1c1c1c none repeat scroll 0 0;
+    border-bottom: 0 none;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    float: left;
+    font-family: Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px !important;
+    font-weight: bold;
+    line-height: 38px;
+    margin: 0;
+    padding: 0 15px !important;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.imagebtn {
+    border: 6px solid grey;
+    border-radius: 0;
+    float: none !important;
+    height: 258px;
+    margin: 0;
+    padding: 3px;
+    width: 83% !important;
+}
+.virtul_btn {
+    background: #373737 none repeat scroll 0 0;
+    color: white;
+    font-family: "TrajanPro-Bold";
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 140px;
+}
+.pricewin {
+    float: left;
+    height: 0;
+    position: relative !important;
+    right: 37px;
+    text-align: right;
+    top: -111px !important;
+    width: 18%;
+    z-index: 99;
+}
+.footer_menu ul li {
+    display: inline;
+    margin: 0 8px 0 5px !important;
+}
+.container
+{
+	margin:0px;
+	padding:0px;
+}
+#landCalcBox {
+    color: #000000 !important;
+    float: left;
+    margin: auto;
+    width: 100% !important;
+}
+#calculatorForm {
+    margin: auto;
+    width: 100% !important;
+}
+#headerCalc {
+
+    width: 100% !important;
+}
+#purchasePrice {
+
+    width: 100% !important;
+}
+#purchasePrice > input {
+    width: 100% !important;
+}
+#checkBox {
+
+    width: 100% !important;
+}
+#resultBox {
+ 
+    width: 100% !important;
+}
+#ontarioTax {
+
+    width: 100% !important;
+}
+#torontoTax {
+ 
+    float: left !important;
+    width: 100% !important;
+}
+#householdBudgetIframe, #mortgagePaymentIframe, #mortgageAffordabilityIframe, #premiumCalculatorIframe, #debtServiceIframe, #householdBudgetIframe2, #mortgagePaymentIframe2, #mortgageAffordabilityIframe2, #premiumCalculatorIframe2, #debtServiceIframe2
+{
+	width:100% !important;
+}
+.calculator_hidden
+{
+	display:none;
+}
+.contact_number span {
+    color: black !important;
+    float: left;
+    font-size: 10px !important;
+    text-align: center;
+    width: 100%;
+}
+.wrapper_top {
+    float: left;
+    margin:  0px!important;
+    width: 100%;
+}
+.header_logo img {
+    width: 65%;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 0 14px !important;
+    width: 100% !important;
+}
+.en {
+    display: none !important;
+}
+
+.cal_none {
+    display: none;
+}
+}
+
+/************************************************************************************
+smaller than 320
+*************************************************************************************/
+@media screen and (max-width: 640px) {
+.frnt_logo_new {
+    float: right !important;
+    margin: 10px 0 0 -100px !important;
+    text-align: center;
+    width: 65% !important;
+}
+.frnt_logo_new {
+    float: right;
+    margin: 10px 0 0 -15px;
+    text-align: center;
+    width: 36%;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 0 14px !important;
+    width: 100% !important;
+}
+.en {
+    display: none !important;
+}
+
+.cal_none {
+    display: none;
+}
+}
+@media screen and (max-width: 480px) {
+frnt_logo_new {
+    float: right !important;
+    margin: 10px 0 0 -100px !important;
+    text-align: center;
+    width: 47% !important;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 0 14px !important;
+    width: 100% !important;
+}
+.en {
+    display: none !important;
+}
+
+.cal_none {
+    display: none;
+}
+}
+@media screen and (max-width: 320px) {
+	.top_section ul li {
+     color: white;
+    display: inline;
+    font-family: arial;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 1px 0 0;
+    padding: 6px;
+    text-align: center;
+    width: 93%;
+}
+.header_middle {
+    border-bottom: 1px solid #343132;
+    border-top: 1px solid #343132;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.left_section_info {
+    float: left;
+    margin: 0 !important;
+    width: 100% !important;
+}
+.top_section {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.footer_menu ul li a {
+    color: #373737;
+    font-family: "open_sansregular";
+    font-size: 12px !important;
+    line-height: 31px;
+}
+.property_logo h4 {
+    color: white;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 10px !important;
+    font-style: italic;
+    line-height: 22px !important;
+    margin: 10px 0 0 11px !important;
+	width: 76% !important;
+	text-align:left;
+}
+.imagebtn {
+    border: 6px solid grey;
+    border-radius: 0;
+    float: none !important;
+    height: 258px;
+    margin: 0;
+    padding: 3px;
+    width: 96% !important;
+}
+.property_logo img {
+    float: left;
+    margin: 18px 0 11px;
+}
+.useful_link {
+    float: left;
+    margin: 21px 0 0;
+    width: 100%;
+}
+.useful_link > ul li a {
+    border-right: 1px solid;
+    color: white;
+    font-family: arial;
+    font-size: 13px;
+    padding: 0 8px;
+}
+.Residential_section_box {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #bdbdbd;
+    float: left;
+    margin: 0 20px 42px 7px;
+    width: 95%;
+}
+
+.banner {
+    border: medium none;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+	
+.Residential_section {
+    float: left;
+    margin: 20px 0 0;
+    width: 100% !important;
+}	
+.Detail_Email {
+    float: left;
+    margin: 8px 0 0;
+    width: 100%;
+}
+.footer_menu ul li {
+    display: inline;
+    margin: 0 8px 0 5px !important;
+}
+
+#map-canvas
+{
+	width:100% !important;
+}
+.Images {
+    float: left;
+    margin: 0 15px 10px 9px;
+    width: 92% !important;
+}
+ .Free-Home {
+    float: left;
+    margin: 41px 0 40px !important;
+    padding: 20px;
+    width: 99% !important;
+}
+.Infomation > input {
+    border: 1px solid gray;
+    float: left;
+    margin-bottom: 17px;
+    width: 100% !important;
+}
+.Infomation {
+    float: left;
+    width: 100% !important;
+	height:auto !important;
+}
+/*.contact_number {
+    float: left;
+    padding: 4px;
+    position: absolute;
+    top: 457px !important;
+    z-index: 99999;
+}
+.contact_number span {
+    color: white;
+    float: left;
+    font-size: 16px !important;
+    text-align: center;
+    width: 91%;
+}*/
+.property-search-container .medium-module {
+    height: 65px;
+    width: 93% !important;
+}
+.feature_listing {
+    float: left;
+    margin: 22px 0 0px !important;
+    width: 100%;
+}
+.Residential_section_bg h3 {
+    border-bottom: 1px solid #c2c3c4;
+    color: #3a4d3b;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px;
+    margin-bottom: 1px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+.top_section ul li {
+  color: white;
+    display: inline;
+    font-family: arial;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 1px 0 0;
+    padding: 6px;
+    text-align: center;
+    width: 93%;
+}
+.box5 > h2 {
+    color: #457066;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    margin: 5px 3px 0 18px;
+    width: 100% !important;
+}
+.search_boxx_right_bg {
+    float: left;
+    margin: 0 0 0 3px;
+    width: 100% !important;
+}
+.para {
+    float: left;
+    width: 100% !important;
+}
+
+.search_boxx_right_bg_2 {
+    float: left;
+    padding: 2px 17px 7px !important;
+    width: 100% !important;
+}
+ul.dt-sc-tabs-frame > li > a {
+    background: #1c1c1c none repeat scroll 0 0;
+    border-bottom: 0 none;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    float: left;
+    font-family: Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px !important;
+    font-weight: bold;
+    line-height: 38px;
+    margin: 0;
+    padding: 0 8px !important;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.detail_left_Desfeatures {
+    float: left;
+    margin: 0 4px 0 7px;
+    width: 100% !important;
+}
+#Homebanner {
+    background: #3a4d3b none repeat scroll 0 0;
+    max-height: 455px !important;
+    margin-bottom: 12px;
+}
+.container
+{
+	margin:0px;
+	padding:0px;
+}
+#landCalcBox {
+    color: #000000 !important;
+    float: left;
+    margin: auto;
+    width: 100% !important;
+}
+#calculatorForm {
+    margin: auto;
+    width: 100% !important;
+}
+#headerCalc {
+
+    width: 100% !important;
+}
+#purchasePrice {
+
+    width: 100% !important;
+}
+#purchasePrice > input {
+    width: 100% !important;
+}
+#checkBox {
+
+    width: 100% !important;
+}
+#resultBox {
+ 
+    width: 100% !important;
+}
+#ontarioTax {
+
+    width: 100% !important;
+}
+#torontoTax {
+ 
+    float: left !important;
+    width: 100% !important;
+}
+#householdBudgetIframe, #mortgagePaymentIframe, #mortgageAffordabilityIframe, #premiumCalculatorIframe, #debtServiceIframe, #householdBudgetIframe2, #mortgagePaymentIframe2, #mortgageAffordabilityIframe2, #premiumCalculatorIframe2, #debtServiceIframe2
+{
+	width:100% !important;
+}
+.calculator_hidden
+{
+	display:none;
+}
+.contact_number span {
+    color: black !important;
+    float: left;
+    font-size: 9px !important;
+    text-align: center;
+    width: 100%;
+}
+.wrapper_top {
+    float: left;
+    margin: 0px!important;
+    width: 100%;
+}
+.header_middle_1 {
+     background: #252525 none repeat scroll 0 0;
+    color: yellow;
+    float: left;
+    padding: 8px 9px;
+    text-align: left;
+    width: 68%;
+}
+.banner_section {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.header_logo img {
+    width: 65%;
+}
+.footer_menu ul li {
+    display: inline;
+    margin: 0 5px !important;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 0 14px !important;
+    width: 100% !important;
+}
+.en {
+    display: none !important;
+}
+
+.cal_none {
+    display: none;
+}
+.pricewin {
+    float: left;
+    height: 0;
+    position: relative !important;
+    right: 37px;
+    text-align: right;
+    top: -100px !important;
+    width: 18%;
+    z-index: 99;
+}
+}

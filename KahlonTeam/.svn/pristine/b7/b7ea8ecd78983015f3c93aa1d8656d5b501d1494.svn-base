@@ -1,0 +1,155 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/AdminMaster.Master" AutoEventWireup="true"
+    CodeBehind="SiteSettings.aspx.cs" Inherits="Property.Admin.SiteSettings" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxtoolkit" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <link href="../slider/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../slider/css/bootstrap.css" rel="stylesheet" />
+    <link href="../slider/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="../slider/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="../slider/css/media-queries.css" rel="stylesheet" />
+    <link href="../slider/css/font.css" rel="stylesheet" />
+    <link href="../slider/css/style.css" rel="stylesheet" />
+    <link href="../slider/css/ihover.css" rel="stylesheet" />
+    <link href="../slider/css/ihover.min.css" rel="stylesheet" />
+    <link href="../slider/css/font-awesome.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/shortcodes.css" rel="stylesheet" />
+    <link href="../css/style_002.css" rel="stylesheet" />
+    <div class="wrapper_new">
+         <ajaxtoolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </ajaxtoolkit:ToolkitScriptManager>
+        <div class="property-search-container">
+            <div class="dt-sc-tabs-container" style="width: 100%;">
+                <ul class="dt-sc-tabs-frame">
+                    <li><a class="current" href="#">Site Settings</a></li>
+                </ul>
+                <div style="display: block;" class="dt-sc-tabs-frame-content">
+                    <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <label>
+                                Title</label>
+                            <asp:TextBox ID="txtTitle" runat="server" MaxLength="50" PlaceHolder="Title"></asp:TextBox>
+                            <%--<ajaxtoolkit:FilteredTextBoxExtender ID="fltrtitle" runat="server" TargetControlID="txtTitle" FilterMode="ValidChars" FilterType="LowercaseLetters,UppercaseLetters,custom" ValidChars="" ></ajaxtoolkit:FilteredTextBoxExtender>--%>
+                        </div>
+                    </div>
+                    <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <label>
+                                Description</label>
+                            <asp:TextBox ID="txtDescription" runat="server" style="height:100px;" TextMode="MultiLine" PlaceHolder="Description"></asp:TextBox>
+                           <%--<ajaxtoolkit:FilteredTextBoxExtender ID="FilteredTextBoxExtender1" runat="server" TargetControlID="txtDescription" FilterMode="ValidChars" FilterType="LowercaseLetters,UppercaseLetters,custom" ValidChars="_,@,#,$,!,%,^,&,*,(,),+" ></ajaxtoolkit:FilteredTextBoxExtender>--%>
+                        </div>
+                    </div>
+                    <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <label>
+                                Keywords</label>
+                            <asp:TextBox ID="txtKeywords" runat="server" PlaceHolder="Keywords"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <label>
+                                Copyright</label>
+                            <asp:TextBox ID="txtCopyright" runat="server" PlaceHolder="Copyright"></asp:TextBox>
+                              <%--<ajaxtoolkit:FilteredTextBoxExtender ID="FilteredTextBoxExtender1" runat="server" TargetControlID="txtCopyright" FilterMode="ValidChars" FilterType="LowercaseLetters,UppercaseLetters,custom" ValidChars="@" ></ajaxtoolkit:FilteredTextBoxExtender>--%>
+                        </div>
+                    </div>
+                     <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <label>
+                                Owner Phone Number</label>
+                            <asp:TextBox ID="txtphone" runat="server" PlaceHolder="Owner Phone Number"></asp:TextBox>
+                              <%--<ajaxtoolkit:FilteredTextBoxExtender ID="FilteredTextBoxExtender4" runat="server" TargetControlID="txtCopyright" FilterMode="ValidChars" FilterType="Numbers" ValidChars="Number" ></ajaxtoolkit:FilteredTextBoxExtender>--%>
+                        </div>
+                    </div>
+                     <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <label>
+                                Owner Mobile Number</label>
+                            <asp:TextBox ID="txtmobile" runat="server" PlaceHolder="Owner Mobile Number"></asp:TextBox>
+                              <%--<ajaxtoolkit:FilteredTextBoxExtender ID="FilteredTextBoxExtender5" runat="server" TargetControlID="txtCopyright" FilterMode="ValidChars" FilterType="LowercaseLetters,UppercaseLetters,custom" ValidChars="@,_" ></ajaxtoolkit:FilteredTextBoxExtender>--%>
+                        </div>
+                    </div>
+                     <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <label>
+                                Owner Email</label>
+                            <asp:TextBox ID="txtemail" runat="server" PlaceHolder=" Owner Email"></asp:TextBox>
+                              <%--<ajaxtoolkit:FilteredTextBoxExtender ID="FilteredTextBoxExtender5" runat="server" TargetControlID="txtCopyright" FilterMode="ValidChars" FilterType="LowercaseLetters,UppercaseLetters,custom" ValidChars="@,_" ></ajaxtoolkit:FilteredTextBoxExtender>--%>
+                        </div>
+                    </div>
+                    <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <label>
+                                Fax</label>
+                            <asp:TextBox ID="txtfax" runat="server" PlaceHolder=" Owner Email"></asp:TextBox>
+                              <%--<ajaxtoolkit:FilteredTextBoxExtender ID="FilteredTextBoxExtender5" runat="server" TargetControlID="txtCopyright" FilterMode="ValidChars" FilterType="LowercaseLetters,UppercaseLetters,custom" ValidChars="@,_" ></ajaxtoolkit:FilteredTextBoxExtender>--%>
+                        </div>
+                    </div>
+                    <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <br />
+                            <label>
+                                Upload Logo</label>
+                            <asp:FileUpload ID="UpdLogo" runat="server" />
+                            <asp:Image ID="imgLogo" Width="100px" Height="100px" runat="server" Visible="false" />
+                        </div>
+                    </div>
+                    <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <br />
+                            <label>Favicon.ico</label>
+                                
+                            <asp:FileUpload ID="UpdFavicon" runat="server" />
+                            <asp:Image ID="imgfavicon" Width="100px" Height="100px" runat="server" Visible="false" />
+                        </div>
+                    </div>  
+                       <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <br />
+                            <label>
+                               Header Image</label>
+                            <asp:FileUpload ID="updbanner" runat="server" />
+                            <asp:Image ID="Imgheader" Width="100px" Height="100px" runat="server" Visible="false" />
+                        </div>
+                    </div>
+                            <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <br />
+                            <label>
+                              Upload Banners</label>
+                            <asp:FileUpload ID="FileUpload1" MaxLength="3"  runat="server" class="multi" />
+                            <asp:Label ID="Label1" runat="server"></asp:Label>
+                            <asp:Image ID="Image1" Width="100px" Height="100px" runat="server" Visible="false" />
+                        </div>
+                    </div>
+                      <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <br />
+                            <label>
+                                Site Template</label>
+                            <asp:TextBox ID="txtSiteTemplate" runat="server" PlaceHolder="Site Template"></asp:TextBox>
+                             <%--<ajaxtoolkit:FilteredTextBoxExtender ID="FilteredTextBoxExtender2" runat="server" TargetControlID="txtSiteTemplate" FilterMode="ValidChars" FilterType="LowercaseLetters,UppercaseLetters,custom" ValidChars="@,_" ></ajaxtoolkit:FilteredTextBoxExtender>--%>
+                        </div>
+                    </div>
+                    <div class="property-type-module medium-module">
+                        <div class="login_input">
+                            <label>
+                                Banner Settings</label>
+                            <asp:TextBox ID="txtBanner" runat="server" PlaceHolder="Banner Settings"></asp:TextBox>
+                            <%--<ajaxtoolkit:FilteredTextBoxExtender ID="FilteredTextBoxExtender3" runat="server" TargetControlID="txtBanner" FilterMode="ValidChars" FilterType="LowercaseLetters,UppercaseLetters,custom" ValidChars="@,_" ></ajaxtoolkit:FilteredTextBoxExtender>--%>
+                        </div>
+                        <div class="login_input">
+                            <asp:Label ID="lblerror" runat="server" ForeColor="Red"></asp:Label>
+                            <asp:Button ID="btnSave"  runat="server" Text="Save" onclick="btnSave_Click" />
+                             <asp:Button ID="btnBack" style="clear:none;" runat="server" Text="Back" onclick="btnBack_Click"  />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</asp:Content>

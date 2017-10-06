@@ -1,0 +1,54 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Property_New.Master" AutoEventWireup="true" CodeBehind="VirtualTour.aspx.cs" Inherits="Property.VirtualTour" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <link href="slider/css/style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style_002.css" rel="stylesheet" />
+    <link href="css/shortcodes.css" rel="stylesheet" />
+     <div class="container">
+    <div class="wrapper_new">
+        <div class="Free-Home_new">
+            <div class="wrapper_new">
+                <div class="property-search-container">
+                    <div class="dt-sc-tabs-container" style="width: 100%;">
+                        <ul class="dt-sc-tabs-frame">
+                            <li><a class="current" href="#">Virtual Tour</a></li>
+                        </ul>
+                        <div style="display: block;" class="dt-sc-tabs-frame-content">
+                            <div class="Free-Home_new">
+                             <asp:GridView ID="grdvirtual" AllowPaging="true" PageSize="10" AutoGenerateColumns="False"
+                            runat="server" OnPageIndexChanging="grdFeatures_PageIndexChanging" OnSorting="grdFeatures_Sorting"
+                            OnRowCommand="grdFeatures_RowCommand" OnRowDeleting="grdFeatures_RowDeleting">
+
+                            <Columns>
+                          <%--      <asp:BoundField DataField="Name"  SortExpression="Name"></asp:BoundField>--%>
+                                 <asp:TemplateField>
+                                    <ItemTemplate>
+                                        <asp:LinkButton ID="lbllink" Text='<%# Eval("Link") %>' runat="server"></asp:LinkButton>
+                                    </ItemTemplate>
+                                </asp:TemplateField>
+                               <%-- <asp:TemplateField>
+                                    <ItemTemplate>
+                                        <asp:ImageButton ID="lnkDelete" runat="server" CommandName="Delete" CommandArgument='<%#Eval("Link") %>'
+                                            OnClientClick="return confirm('Are You Sure You Want to Delete this Record');"
+                                            ImageUrl="~/images/negative.png" />
+                                    </ItemTemplate>
+                                </asp:TemplateField>--%>
+                               
+                                  
+                            </Columns>
+                        </asp:GridView>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+         </div>
+</asp:Content>
+
+
+

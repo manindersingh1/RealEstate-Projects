@@ -1,0 +1,15 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="AdminMaster.Master" AutoEventWireup="true" ValidateRequest="false"
+    CodeBehind="AdminLogin.aspx.cs" Inherits="Property.Admin.AdminLogin" %>
+
+<%@ Register TagName="UserLogin" TagPrefix="uc" Src="~/Controls/login.ascx" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+
+    <link href="../css/shortcodes.css" rel="stylesheet" />
+    <link href="../css/style_002.css" rel="stylesheet" />
+    <link href="slider/css/style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <uc:UserLogin ID="UserLogin" runat="server"></uc:UserLogin>
+</asp:Content>

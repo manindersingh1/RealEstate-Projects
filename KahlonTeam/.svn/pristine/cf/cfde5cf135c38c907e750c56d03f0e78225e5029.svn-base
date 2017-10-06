@@ -1,0 +1,109 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Net.Mail;
+using System.Configuration;
+using System.Net;
+using System.Data;
+using Property_cls;
+
+namespace Property
+{
+    public partial class ContactInfo : System.Web.UI.UserControl
+    {
+
+        #region Page Load
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                LoadImageandName();
+            }
+        }
+
+        #endregion PageLoad
+
+        #region Other Methods
+
+        private void LoadImageandName()
+        {
+            cls_Property clsp = new cls_Property();       
+            DataTable dt = new DataTable();
+            dt = clsp.GetUserInfo();
+            if (dt.Rows.Count > 0)
+            {
+                //lblDealerName.Text = Convert.ToString(dt.Rows[0]["firstname"]) + " " + Convert.ToString(dt.Rows[0]["LastName"]);
+                //lblDealerAddress.Text = Convert.ToString(dt.Rows[0]["Address"]);
+                byte[] imagedata = (byte[])dt.Rows[0]["image"];
+
+                if (imagedata.Length > 0)
+                {
+
+                    Session["ContactImage"] = imagedata;
+                    imgDealer.Visible = true;
+                    imgDealer.ToolTip = " Admin Pic";
+                    imgDealer.ImageUrl = "~/ShowImage.aspx";
+
+                }
+                else
+                {
+                    imgDealer.Visible = false;
+                }
+            }
+        }
+
+        #endregion Other Methods
+
+        #region Button Click
+
+        protected void btnSend_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                cls_Property clsp = new cls_Property();
+                clsp.Insert_ContactUS(txtFirstName.Text, txtLastName.Text, txtEmail.Text, txtPhoneno.Text, txtMessage.Text + "<br/>" + HttpContext.Current.Request.Url.AbsoluteUri);
+                //int indextilldel = Request.Url.AbsoluteUri.IndexOf("Posting");
+
+                //string Url = Request.Url.AbsoluteUri.Substring(0, indextilldel) + "Search.aspx";
+                //Create the msg object to be sent
+                //MailAddress mailFrom = new MailAddress(ConfigurationManager.AppSettings["RegFromMailAddress"].ToString(), "Real Property");
+                MailAddress mailFrom = new MailAddress(ConfigurationManager.AppSettings["RegFromMailAddress"].ToString());
+                MailAddress mailToUser = new MailAddress(txtEmail.Text);
+                MailMessage mailUser = new MailMessage(mailFrom, mailToUser);
+                mailUser.IsBodyHtml = true;
+                mailUser.Subject = txtFirstName.Text + " :  " + txtPhoneno.Text;
+                mailUser.Body = txtMessage.Text;
+                SmtpClient client = new SmtpClient();//create new smtp client object to send the mail using SMTP protocol
+                client.UseDefaultCredentials = false;
+                client.Credentials = new System.Net.NetworkCredential(ConfigurationManager.AppSettings["RegFromMailAddress"].ToString(), ConfigurationManager.AppSettings["RegPassword"].ToString());
+                client.Host = ConfigurationManager.AppSettings["SmtpServer"].ToString();//host server
+                client.Port = Convert.ToInt32(ConfigurationManager.AppSettings["Port"].ToString());//port number of host server
+                client.EnableSsl = true;//secured connection
+                client.DeliveryMethod = SmtpDeliveryMethod.Network;
+                client.Send(mailUser);
+                txtFirstName.Text = "";
+                txtLastName.Text = "";
+                txtPhoneno.Text = "";
+                txtEmail.Text = "";
+                txtMessage.Text = "";
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "Congrts!", "alert('Your E-mail has been sent sucessfully - Thank You');", true);
+                return;
+
+            }
+            catch (Exception ex)
+            {
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "Failure", "alert('Your message failed to send, please try again.');", true);
+                return;
+                //If the message failed at some point, let the user know
+                //lblResult.Text = "Your message failed to send, please try again.";
+            }
+        }
+
+        #endregion Button Click
+
+    }
+}
