@@ -1,0 +1,1773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetResidentialProperties">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSID_City_PostalCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="propertyType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MinPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MaxPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BedRooms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BathRooms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SaleLease" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetResidentialPropertiesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetResidentialPropertiesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetResidentialPropertiesDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSID_City_PostalCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="propertyType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MinPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MaxPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BedRooms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BathRooms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SaleLease" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetResidentialPropertiesDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetResidentialPropertiesDetailResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetResidentialPropertiesTop3">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSID_City_PostalCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="propertyType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MinPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MaxPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BedRooms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BathRooms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SaleLease" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetResidentialPropertiesTop3Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetResidentialPropertiesTop3Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetResidentialPropertiesTop10">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSID_City_PostalCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="propertyType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MinPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MaxPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BedRooms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BathRooms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SaleLease" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetResidentialPropertiesTop10Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetResidentialPropertiesTop10Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPropertyTypesResidential">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPropertyTypesResidentialResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPropertyTypesResidentialResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPropertyTypesCommercial">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPropertyTypesCommercialResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPropertyTypesCommercialResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPropertyTypesCondo">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPropertyTypesCondoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPropertyTypesCondoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPropertyTypesByMLSID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mlsid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPropertyTypesByMLSIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPropertyTypesByMLSIDResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSaleLeaseResidential">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetSaleLeaseResidentialResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSaleLeaseResidentialResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSaleLeaseCommercial">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetSaleLeaseCommercialResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSaleLeaseCommercialResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSaleLeaseCondo">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetSaleLeaseCondoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSaleLeaseCondoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetImageByMLSID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSID_City_PostalCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetImageByMLSIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetImageByMLSIDResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCommercialPropertiesByMLSID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCommercialPropertiesByMLSIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCommercialPropertiesByMLSIDResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllCommercialProperties">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSID_City_PostalCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="propertyType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MinPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MaxPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BathRooms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SaleLease" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllCommercialPropertiesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllCommercialPropertiesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllCommercialPropertiesTop3">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSID_City_PostalCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="propertyType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MinPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MaxPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BathRooms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SaleLease" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllCommercialPropertiesTop3Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllCommercialPropertiesTop3Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FeatureListing">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSIDs" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FeatureListingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FeatureListingResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProperties_Condo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSID_City_PostalCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="propertyType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MinPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MaxPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BedRooms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BathRooms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SaleLease" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProperties_CondoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProperties_CondoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProperties_CondoTop3">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSID_City_PostalCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="propertyType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MinPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MaxPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BedRooms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BathRooms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SaleLease" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Top" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProperties_CondoTop3Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProperties_CondoTop3Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPropertiesByMLSID_Condo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPropertiesByMLSID_CondoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPropertiesByMLSID_CondoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAutoCompleteData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="prefixText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAutoCompleteDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAutoCompleteDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAutoCompleteData_Comm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="prefixText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAutoCompleteData_CommResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAutoCompleteData_CommResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAutoCompleteData_Condo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="prefixText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAutoCompleteData_CondoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAutoCompleteData_CondoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllFeatures">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllFeaturesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllFeaturesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFeatures">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSIDs" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFeaturesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteFeaturesResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllVirtualTourData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="startindex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pagesize" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllVirtualTourDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllVirtualTourDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVirtualTourData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVirtualTourDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetVirtualTourDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertVertualTourImages">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VimageBase64" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertVertualTourImagesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertVertualTourImagesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsValidMLSID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MLSID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsValidMLSIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IsValidMLSIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Registration">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="emailID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistrationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegistrationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenticateUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="emailid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenticateUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AuthenticateUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertVertualDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="virtualname" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="userid" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertVertualDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertVertualDetailsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertImageByVirtualName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VirtualID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="userid" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="VimageBase64" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertImageByVirtualNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertImageByVirtualNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllOrSingleVirtDetailsByVid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="userid" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="startindex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="endindex" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="VirtualID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllOrSingleVirtDetailsByVidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllOrSingleVirtDetailsByVidResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ForgotPassword">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="emailid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ForgotPasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ForgotPasswordResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllImagesByVid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="userid" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="VirtualID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllImagesByVidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllImagesByVidResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteImagesByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ImageID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ImageName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="virtualID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="userid" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteImagesByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeleteImagesByIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteTourByVID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="virtualID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="userid" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteTourByVIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeleteTourByVIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetResidentialPropertiesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetResidentialProperties" />
+  </wsdl:message>
+  <wsdl:message name="GetResidentialPropertiesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetResidentialPropertiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetResidentialPropertiesDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetResidentialPropertiesDetail" />
+  </wsdl:message>
+  <wsdl:message name="GetResidentialPropertiesDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetResidentialPropertiesDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetResidentialPropertiesTop3SoapIn">
+    <wsdl:part name="parameters" element="tns:GetResidentialPropertiesTop3" />
+  </wsdl:message>
+  <wsdl:message name="GetResidentialPropertiesTop3SoapOut">
+    <wsdl:part name="parameters" element="tns:GetResidentialPropertiesTop3Response" />
+  </wsdl:message>
+  <wsdl:message name="GetResidentialPropertiesTop10SoapIn">
+    <wsdl:part name="parameters" element="tns:GetResidentialPropertiesTop10" />
+  </wsdl:message>
+  <wsdl:message name="GetResidentialPropertiesTop10SoapOut">
+    <wsdl:part name="parameters" element="tns:GetResidentialPropertiesTop10Response" />
+  </wsdl:message>
+  <wsdl:message name="GetPropertyTypesResidentialSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPropertyTypesResidential" />
+  </wsdl:message>
+  <wsdl:message name="GetPropertyTypesResidentialSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPropertyTypesResidentialResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPropertyTypesCommercialSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPropertyTypesCommercial" />
+  </wsdl:message>
+  <wsdl:message name="GetPropertyTypesCommercialSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPropertyTypesCommercialResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPropertyTypesCondoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPropertyTypesCondo" />
+  </wsdl:message>
+  <wsdl:message name="GetPropertyTypesCondoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPropertyTypesCondoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPropertyTypesByMLSIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPropertyTypesByMLSID" />
+  </wsdl:message>
+  <wsdl:message name="GetPropertyTypesByMLSIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPropertyTypesByMLSIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleLeaseResidentialSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSaleLeaseResidential" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleLeaseResidentialSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSaleLeaseResidentialResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleLeaseCommercialSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSaleLeaseCommercial" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleLeaseCommercialSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSaleLeaseCommercialResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleLeaseCondoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSaleLeaseCondo" />
+  </wsdl:message>
+  <wsdl:message name="GetSaleLeaseCondoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSaleLeaseCondoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetImageByMLSIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetImageByMLSID" />
+  </wsdl:message>
+  <wsdl:message name="GetImageByMLSIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetImageByMLSIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCommercialPropertiesByMLSIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCommercialPropertiesByMLSID" />
+  </wsdl:message>
+  <wsdl:message name="GetCommercialPropertiesByMLSIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCommercialPropertiesByMLSIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllCommercialPropertiesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllCommercialProperties" />
+  </wsdl:message>
+  <wsdl:message name="GetAllCommercialPropertiesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllCommercialPropertiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllCommercialPropertiesTop3SoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllCommercialPropertiesTop3" />
+  </wsdl:message>
+  <wsdl:message name="GetAllCommercialPropertiesTop3SoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllCommercialPropertiesTop3Response" />
+  </wsdl:message>
+  <wsdl:message name="FeatureListingSoapIn">
+    <wsdl:part name="parameters" element="tns:FeatureListing" />
+  </wsdl:message>
+  <wsdl:message name="FeatureListingSoapOut">
+    <wsdl:part name="parameters" element="tns:FeatureListingResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProperties_CondoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProperties_Condo" />
+  </wsdl:message>
+  <wsdl:message name="GetProperties_CondoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProperties_CondoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProperties_CondoTop3SoapIn">
+    <wsdl:part name="parameters" element="tns:GetProperties_CondoTop3" />
+  </wsdl:message>
+  <wsdl:message name="GetProperties_CondoTop3SoapOut">
+    <wsdl:part name="parameters" element="tns:GetProperties_CondoTop3Response" />
+  </wsdl:message>
+  <wsdl:message name="GetPropertiesByMLSID_CondoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPropertiesByMLSID_Condo" />
+  </wsdl:message>
+  <wsdl:message name="GetPropertiesByMLSID_CondoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPropertiesByMLSID_CondoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAutoCompleteDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAutoCompleteData" />
+  </wsdl:message>
+  <wsdl:message name="GetAutoCompleteDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAutoCompleteDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAutoCompleteData_CommSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAutoCompleteData_Comm" />
+  </wsdl:message>
+  <wsdl:message name="GetAutoCompleteData_CommSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAutoCompleteData_CommResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAutoCompleteData_CondoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAutoCompleteData_Condo" />
+  </wsdl:message>
+  <wsdl:message name="GetAutoCompleteData_CondoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAutoCompleteData_CondoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllFeaturesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllFeatures" />
+  </wsdl:message>
+  <wsdl:message name="GetAllFeaturesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllFeaturesResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFeaturesSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteFeatures" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFeaturesSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteFeaturesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllVirtualTourDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllVirtualTourData" />
+  </wsdl:message>
+  <wsdl:message name="GetAllVirtualTourDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllVirtualTourDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetVirtualTourDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetVirtualTourData" />
+  </wsdl:message>
+  <wsdl:message name="GetVirtualTourDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetVirtualTourDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertVertualTourImagesSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertVertualTourImages" />
+  </wsdl:message>
+  <wsdl:message name="InsertVertualTourImagesSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertVertualTourImagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsValidMLSIDSoapIn">
+    <wsdl:part name="parameters" element="tns:IsValidMLSID" />
+  </wsdl:message>
+  <wsdl:message name="IsValidMLSIDSoapOut">
+    <wsdl:part name="parameters" element="tns:IsValidMLSIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegistrationSoapIn">
+    <wsdl:part name="parameters" element="tns:Registration" />
+  </wsdl:message>
+  <wsdl:message name="RegistrationSoapOut">
+    <wsdl:part name="parameters" element="tns:RegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateUserSoapIn">
+    <wsdl:part name="parameters" element="tns:AuthenticateUser" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateUserSoapOut">
+    <wsdl:part name="parameters" element="tns:AuthenticateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertVertualDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertVertualDetails" />
+  </wsdl:message>
+  <wsdl:message name="InsertVertualDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertVertualDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertImageByVirtualNameSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertImageByVirtualName" />
+  </wsdl:message>
+  <wsdl:message name="InsertImageByVirtualNameSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertImageByVirtualNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllOrSingleVirtDetailsByVidSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllOrSingleVirtDetailsByVid" />
+  </wsdl:message>
+  <wsdl:message name="GetAllOrSingleVirtDetailsByVidSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllOrSingleVirtDetailsByVidResponse" />
+  </wsdl:message>
+  <wsdl:message name="ForgotPasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:ForgotPassword" />
+  </wsdl:message>
+  <wsdl:message name="ForgotPasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:ForgotPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllImagesByVidSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllImagesByVid" />
+  </wsdl:message>
+  <wsdl:message name="GetAllImagesByVidSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllImagesByVidResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteImagesByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteImagesByID" />
+  </wsdl:message>
+  <wsdl:message name="DeleteImagesByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteImagesByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteTourByVIDSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteTourByVID" />
+  </wsdl:message>
+  <wsdl:message name="DeleteTourByVIDSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteTourByVIDResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MLSDataWebServiceSoap">
+    <wsdl:operation name="GetResidentialProperties">
+      <wsdl:input message="tns:GetResidentialPropertiesSoapIn" />
+      <wsdl:output message="tns:GetResidentialPropertiesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResidentialPropertiesDetail">
+      <wsdl:input message="tns:GetResidentialPropertiesDetailSoapIn" />
+      <wsdl:output message="tns:GetResidentialPropertiesDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResidentialPropertiesTop3">
+      <wsdl:input message="tns:GetResidentialPropertiesTop3SoapIn" />
+      <wsdl:output message="tns:GetResidentialPropertiesTop3SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResidentialPropertiesTop10">
+      <wsdl:input message="tns:GetResidentialPropertiesTop10SoapIn" />
+      <wsdl:output message="tns:GetResidentialPropertiesTop10SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyTypesResidential">
+      <wsdl:input message="tns:GetPropertyTypesResidentialSoapIn" />
+      <wsdl:output message="tns:GetPropertyTypesResidentialSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyTypesCommercial">
+      <wsdl:input message="tns:GetPropertyTypesCommercialSoapIn" />
+      <wsdl:output message="tns:GetPropertyTypesCommercialSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyTypesCondo">
+      <wsdl:input message="tns:GetPropertyTypesCondoSoapIn" />
+      <wsdl:output message="tns:GetPropertyTypesCondoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyTypesByMLSID">
+      <wsdl:input message="tns:GetPropertyTypesByMLSIDSoapIn" />
+      <wsdl:output message="tns:GetPropertyTypesByMLSIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleLeaseResidential">
+      <wsdl:input message="tns:GetSaleLeaseResidentialSoapIn" />
+      <wsdl:output message="tns:GetSaleLeaseResidentialSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleLeaseCommercial">
+      <wsdl:input message="tns:GetSaleLeaseCommercialSoapIn" />
+      <wsdl:output message="tns:GetSaleLeaseCommercialSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleLeaseCondo">
+      <wsdl:input message="tns:GetSaleLeaseCondoSoapIn" />
+      <wsdl:output message="tns:GetSaleLeaseCondoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetImageByMLSID">
+      <wsdl:input message="tns:GetImageByMLSIDSoapIn" />
+      <wsdl:output message="tns:GetImageByMLSIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCommercialPropertiesByMLSID">
+      <wsdl:input message="tns:GetCommercialPropertiesByMLSIDSoapIn" />
+      <wsdl:output message="tns:GetCommercialPropertiesByMLSIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCommercialProperties">
+      <wsdl:input message="tns:GetAllCommercialPropertiesSoapIn" />
+      <wsdl:output message="tns:GetAllCommercialPropertiesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCommercialPropertiesTop3">
+      <wsdl:input message="tns:GetAllCommercialPropertiesTop3SoapIn" />
+      <wsdl:output message="tns:GetAllCommercialPropertiesTop3SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FeatureListing">
+      <wsdl:input message="tns:FeatureListingSoapIn" />
+      <wsdl:output message="tns:FeatureListingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProperties_Condo">
+      <wsdl:input message="tns:GetProperties_CondoSoapIn" />
+      <wsdl:output message="tns:GetProperties_CondoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProperties_CondoTop3">
+      <wsdl:input message="tns:GetProperties_CondoTop3SoapIn" />
+      <wsdl:output message="tns:GetProperties_CondoTop3SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertiesByMLSID_Condo">
+      <wsdl:input message="tns:GetPropertiesByMLSID_CondoSoapIn" />
+      <wsdl:output message="tns:GetPropertiesByMLSID_CondoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAutoCompleteData">
+      <wsdl:input message="tns:GetAutoCompleteDataSoapIn" />
+      <wsdl:output message="tns:GetAutoCompleteDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAutoCompleteData_Comm">
+      <wsdl:input message="tns:GetAutoCompleteData_CommSoapIn" />
+      <wsdl:output message="tns:GetAutoCompleteData_CommSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAutoCompleteData_Condo">
+      <wsdl:input message="tns:GetAutoCompleteData_CondoSoapIn" />
+      <wsdl:output message="tns:GetAutoCompleteData_CondoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllFeatures">
+      <wsdl:input message="tns:GetAllFeaturesSoapIn" />
+      <wsdl:output message="tns:GetAllFeaturesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFeatures">
+      <wsdl:input message="tns:DeleteFeaturesSoapIn" />
+      <wsdl:output message="tns:DeleteFeaturesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllVirtualTourData">
+      <wsdl:input message="tns:GetAllVirtualTourDataSoapIn" />
+      <wsdl:output message="tns:GetAllVirtualTourDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVirtualTourData">
+      <wsdl:input message="tns:GetVirtualTourDataSoapIn" />
+      <wsdl:output message="tns:GetVirtualTourDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertVertualTourImages">
+      <wsdl:input message="tns:InsertVertualTourImagesSoapIn" />
+      <wsdl:output message="tns:InsertVertualTourImagesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsValidMLSID">
+      <wsdl:input message="tns:IsValidMLSIDSoapIn" />
+      <wsdl:output message="tns:IsValidMLSIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Registration">
+      <wsdl:input message="tns:RegistrationSoapIn" />
+      <wsdl:output message="tns:RegistrationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateUser">
+      <wsdl:input message="tns:AuthenticateUserSoapIn" />
+      <wsdl:output message="tns:AuthenticateUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertVertualDetails">
+      <wsdl:input message="tns:InsertVertualDetailsSoapIn" />
+      <wsdl:output message="tns:InsertVertualDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertImageByVirtualName">
+      <wsdl:input message="tns:InsertImageByVirtualNameSoapIn" />
+      <wsdl:output message="tns:InsertImageByVirtualNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllOrSingleVirtDetailsByVid">
+      <wsdl:input message="tns:GetAllOrSingleVirtDetailsByVidSoapIn" />
+      <wsdl:output message="tns:GetAllOrSingleVirtDetailsByVidSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ForgotPassword">
+      <wsdl:input message="tns:ForgotPasswordSoapIn" />
+      <wsdl:output message="tns:ForgotPasswordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllImagesByVid">
+      <wsdl:input message="tns:GetAllImagesByVidSoapIn" />
+      <wsdl:output message="tns:GetAllImagesByVidSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteImagesByID">
+      <wsdl:input message="tns:DeleteImagesByIDSoapIn" />
+      <wsdl:output message="tns:DeleteImagesByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTourByVID">
+      <wsdl:input message="tns:DeleteTourByVIDSoapIn" />
+      <wsdl:output message="tns:DeleteTourByVIDSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MLSDataWebServiceSoap" type="tns:MLSDataWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetResidentialProperties">
+      <soap:operation soapAction="http://tempuri.org/GetResidentialProperties" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResidentialPropertiesDetail">
+      <soap:operation soapAction="http://tempuri.org/GetResidentialPropertiesDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResidentialPropertiesTop3">
+      <soap:operation soapAction="http://tempuri.org/GetResidentialPropertiesTop3" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResidentialPropertiesTop10">
+      <soap:operation soapAction="http://tempuri.org/GetResidentialPropertiesTop10" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyTypesResidential">
+      <soap:operation soapAction="http://tempuri.org/GetPropertyTypesResidential" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyTypesCommercial">
+      <soap:operation soapAction="http://tempuri.org/GetPropertyTypesCommercial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyTypesCondo">
+      <soap:operation soapAction="http://tempuri.org/GetPropertyTypesCondo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyTypesByMLSID">
+      <soap:operation soapAction="http://tempuri.org/GetPropertyTypesByMLSID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleLeaseResidential">
+      <soap:operation soapAction="http://tempuri.org/GetSaleLeaseResidential" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleLeaseCommercial">
+      <soap:operation soapAction="http://tempuri.org/GetSaleLeaseCommercial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleLeaseCondo">
+      <soap:operation soapAction="http://tempuri.org/GetSaleLeaseCondo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetImageByMLSID">
+      <soap:operation soapAction="http://tempuri.org/GetImageByMLSID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommercialPropertiesByMLSID">
+      <soap:operation soapAction="http://tempuri.org/GetCommercialPropertiesByMLSID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCommercialProperties">
+      <soap:operation soapAction="http://tempuri.org/GetAllCommercialProperties" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCommercialPropertiesTop3">
+      <soap:operation soapAction="http://tempuri.org/GetAllCommercialPropertiesTop3" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FeatureListing">
+      <soap:operation soapAction="http://tempuri.org/FeatureListing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProperties_Condo">
+      <soap:operation soapAction="http://tempuri.org/GetProperties_Condo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProperties_CondoTop3">
+      <soap:operation soapAction="http://tempuri.org/GetProperties_CondoTop3" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertiesByMLSID_Condo">
+      <soap:operation soapAction="http://tempuri.org/GetPropertiesByMLSID_Condo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAutoCompleteData">
+      <soap:operation soapAction="http://tempuri.org/GetAutoCompleteData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAutoCompleteData_Comm">
+      <soap:operation soapAction="http://tempuri.org/GetAutoCompleteData_Comm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAutoCompleteData_Condo">
+      <soap:operation soapAction="http://tempuri.org/GetAutoCompleteData_Condo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllFeatures">
+      <soap:operation soapAction="http://tempuri.org/GetAllFeatures" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFeatures">
+      <soap:operation soapAction="http://tempuri.org/DeleteFeatures" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllVirtualTourData">
+      <soap:operation soapAction="http://tempuri.org/GetAllVirtualTourData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVirtualTourData">
+      <soap:operation soapAction="http://tempuri.org/GetVirtualTourData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertVertualTourImages">
+      <soap:operation soapAction="http://tempuri.org/InsertVertualTourImages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsValidMLSID">
+      <soap:operation soapAction="http://tempuri.org/IsValidMLSID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Registration">
+      <soap:operation soapAction="http://tempuri.org/Registration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateUser">
+      <soap:operation soapAction="http://tempuri.org/AuthenticateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertVertualDetails">
+      <soap:operation soapAction="http://tempuri.org/InsertVertualDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertImageByVirtualName">
+      <soap:operation soapAction="http://tempuri.org/InsertImageByVirtualName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllOrSingleVirtDetailsByVid">
+      <soap:operation soapAction="http://tempuri.org/GetAllOrSingleVirtDetailsByVid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ForgotPassword">
+      <soap:operation soapAction="http://tempuri.org/ForgotPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllImagesByVid">
+      <soap:operation soapAction="http://tempuri.org/GetAllImagesByVid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteImagesByID">
+      <soap:operation soapAction="http://tempuri.org/DeleteImagesByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTourByVID">
+      <soap:operation soapAction="http://tempuri.org/DeleteTourByVID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MLSDataWebServiceSoap12" type="tns:MLSDataWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetResidentialProperties">
+      <soap12:operation soapAction="http://tempuri.org/GetResidentialProperties" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResidentialPropertiesDetail">
+      <soap12:operation soapAction="http://tempuri.org/GetResidentialPropertiesDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResidentialPropertiesTop3">
+      <soap12:operation soapAction="http://tempuri.org/GetResidentialPropertiesTop3" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResidentialPropertiesTop10">
+      <soap12:operation soapAction="http://tempuri.org/GetResidentialPropertiesTop10" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyTypesResidential">
+      <soap12:operation soapAction="http://tempuri.org/GetPropertyTypesResidential" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyTypesCommercial">
+      <soap12:operation soapAction="http://tempuri.org/GetPropertyTypesCommercial" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyTypesCondo">
+      <soap12:operation soapAction="http://tempuri.org/GetPropertyTypesCondo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyTypesByMLSID">
+      <soap12:operation soapAction="http://tempuri.org/GetPropertyTypesByMLSID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleLeaseResidential">
+      <soap12:operation soapAction="http://tempuri.org/GetSaleLeaseResidential" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleLeaseCommercial">
+      <soap12:operation soapAction="http://tempuri.org/GetSaleLeaseCommercial" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSaleLeaseCondo">
+      <soap12:operation soapAction="http://tempuri.org/GetSaleLeaseCondo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetImageByMLSID">
+      <soap12:operation soapAction="http://tempuri.org/GetImageByMLSID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommercialPropertiesByMLSID">
+      <soap12:operation soapAction="http://tempuri.org/GetCommercialPropertiesByMLSID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCommercialProperties">
+      <soap12:operation soapAction="http://tempuri.org/GetAllCommercialProperties" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCommercialPropertiesTop3">
+      <soap12:operation soapAction="http://tempuri.org/GetAllCommercialPropertiesTop3" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FeatureListing">
+      <soap12:operation soapAction="http://tempuri.org/FeatureListing" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProperties_Condo">
+      <soap12:operation soapAction="http://tempuri.org/GetProperties_Condo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProperties_CondoTop3">
+      <soap12:operation soapAction="http://tempuri.org/GetProperties_CondoTop3" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertiesByMLSID_Condo">
+      <soap12:operation soapAction="http://tempuri.org/GetPropertiesByMLSID_Condo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAutoCompleteData">
+      <soap12:operation soapAction="http://tempuri.org/GetAutoCompleteData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAutoCompleteData_Comm">
+      <soap12:operation soapAction="http://tempuri.org/GetAutoCompleteData_Comm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAutoCompleteData_Condo">
+      <soap12:operation soapAction="http://tempuri.org/GetAutoCompleteData_Condo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllFeatures">
+      <soap12:operation soapAction="http://tempuri.org/GetAllFeatures" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFeatures">
+      <soap12:operation soapAction="http://tempuri.org/DeleteFeatures" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllVirtualTourData">
+      <soap12:operation soapAction="http://tempuri.org/GetAllVirtualTourData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVirtualTourData">
+      <soap12:operation soapAction="http://tempuri.org/GetVirtualTourData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertVertualTourImages">
+      <soap12:operation soapAction="http://tempuri.org/InsertVertualTourImages" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsValidMLSID">
+      <soap12:operation soapAction="http://tempuri.org/IsValidMLSID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Registration">
+      <soap12:operation soapAction="http://tempuri.org/Registration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateUser">
+      <soap12:operation soapAction="http://tempuri.org/AuthenticateUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertVertualDetails">
+      <soap12:operation soapAction="http://tempuri.org/InsertVertualDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertImageByVirtualName">
+      <soap12:operation soapAction="http://tempuri.org/InsertImageByVirtualName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllOrSingleVirtDetailsByVid">
+      <soap12:operation soapAction="http://tempuri.org/GetAllOrSingleVirtDetailsByVid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ForgotPassword">
+      <soap12:operation soapAction="http://tempuri.org/ForgotPassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllImagesByVid">
+      <soap12:operation soapAction="http://tempuri.org/GetAllImagesByVid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteImagesByID">
+      <soap12:operation soapAction="http://tempuri.org/DeleteImagesByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTourByVID">
+      <soap12:operation soapAction="http://tempuri.org/DeleteTourByVID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MLSDataWebService">
+    <wsdl:port name="MLSDataWebServiceSoap" binding="tns:MLSDataWebServiceSoap">
+      <soap:address location="http://169.45.133.92:8060/MLSDataWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MLSDataWebServiceSoap12" binding="tns:MLSDataWebServiceSoap12">
+      <soap12:address location="http://169.45.133.92:8060/MLSDataWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

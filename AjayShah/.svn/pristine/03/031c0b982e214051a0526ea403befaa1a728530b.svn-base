@@ -1,0 +1,224 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PropertyNew.master.cs" Inherits="Property.PropertyNew" %>
+<%@ Register TagName="Logo" TagPrefix="uc" Src="~/Controls/logo.ascx" %>
+<%@ Register TagName="ContactInfo" TagPrefix="uc" Src="~/Controls/ContactInfo.ascx" %>
+<%@ Register TagName="SearchControl" TagPrefix="uc" Src="~/Controls/SearchControl.ascx" %>
+<%@ Register TagName="SearchBar" TagPrefix="uc" Src="~/Controls/SearchBar.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE HTML>
+<html>
+<head runat="server">
+    <link id="Link1" runat="server" rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- disable iPhone inital scale -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+    <title>Real Estate</title>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styleBackup.css" rel="stylesheet" />
+    <link href="css/style_002.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/shortcodes.css" rel="stylesheet" />
+    <link href="css/font.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+    <script type ="text/javascript">
+        $(document).ready(function () {
+            initialize();
+        });
+        var geocoder;
+        var map;
+        function initialize() {
+
+            geocoder = new google.maps.Geocoder();
+            var latlng = new google.maps.LatLng(-34.397, 150.644);
+            var mapOptions = {
+                zoom: 8,
+                center: latlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            map = new google.maps.Map(document.getElementById('map'), mapOptions);
+            codeAddress();
+        }
+        function codeAddress() {
+            var address = "2250 Bovaird Drive East Unit #502";
+            geocoder.geocode({ 'address': address }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    map.setCenter(results[0].geometry.location);
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        position: results[0].geometry.location
+                    });
+                    var contentString = address;
+                    var infowindow = new google.maps.InfoWindow({
+                        content: '<div class="mylabel">' + contentString + '</div>'
+                    });
+                    infowindow.open(map, marker);
+                } else {
+                }
+            });
+        }
+</script>
+    <link href="css/media-queries.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery_009.js"></script>
+    <script type="text/javascript" src="js/shortcodes.js"></script>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .contact_number {
+            float: left;
+            height: 100px;
+            padding: 20px;
+            position: absolute;
+            top: 512px;
+            z-index: 99999;
+        }
+
+            .contact_number span {
+                color: white;
+                font-size: 24px;
+            }
+
+        /*#Homebanner {
+            margin-bottom: 40px;
+            height: 576px;
+        }*/
+           #map {
+    border: 2px solid #3f6f55;
+    height: 201px;
+    width: 90%;
+}
+
+    
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            var docHeight = $(window).height();
+            var footerHeight = $('#one-footer').height();
+            var footerTop = $('#one-footer').position().top + footerHeight;
+
+            if (footerTop < docHeight) {
+                $('#one-footer').css('margin-top', 10 + (docHeight - footerTop) + 'px');
+            }
+        });
+    </script>
+</head>
+<body>
+<div class="header_bg">
+        <div class="container">
+            <div class="col-md-3 col-sm-3">
+                <div class="header_detail">
+                    <h2><asp:Label ID="lblBrkrOneName" runat="server" ></asp:Label></h2>
+                    <span>Broker</span>
+                    <span>
+                        <asp:Label ID="lblbrkerOnephn" runat="server" Text="Label"></asp:Label></span>
+                </div>
+            </div>
+           <%-- <div class="col-md-6 col-sm-6">
+                <div class="logo_section">
+                    <a href="#">
+                        <img src="images/LOGO1.png" alt="" title="" />
+                    </a>
+
+                </div>
+            </div>--%>
+            <div class="col-md-3 col-sm-3">
+                              <figure class="logo">
+                                   <uc:Logo ID="logo" runat="server" />
+                            </figure>
+                       </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="header_detail">
+                    <h2><asp:Label ID="lblBrkrTwoNme" runat="server" ></asp:Label></h2>
+                    <span>Broker of record</span>
+                    <span><asp:Label ID="lblbrkrTwoPhn" runat="server" ></asp:Label></span>
+                <%--   <a style="color:white" href="admin/adminlogin.aspx">login</a>--%>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="top_menu_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <div class="menu_section">
+
+                    <asp:Literal ID="dynamicmenus" runat="server"></asp:Literal>
+
+                </div>
+                <script type="text/javascript" src="js/script.js"></script>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="container">
+        <div class="inner_banner">
+            <img src="images/rajiv-new.png" />
+        </div>
+    </div>
+
+
+    <form id="Form1" runat="server">
+        <div class="container" id="containerdiv">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+     <div class="fuuter_bg" id="one-footer">
+        <div class="container">
+             <div class="col-md-8 col-sm-8">
+      <div class="fuuter_adress">
+      <div class="fuuter_name">
+      <h2>Rajiv Datta and Sandy Gill</h2>
+      <span>Broker Of Record/Broker</span>
+      </div>
+      <div class="fuuter_adress">
+      <h3>Homelife Lifetime Realty Inc., Brokerage</h3>
+      <p>2250 Bovaird Dr East,502 Brampton, Ontario, Canada L6R 0W3 </p>
+      </div>
+    <div class="fuuter_dtl">
+      <p><b class="ftr_hdng">Email:</b><a href="#">team@live.ca</a></p> 
+      <p><b class="ftr_hdng">Cell:</b><a href="#">647-297-0699</a></p> 
+      <p><b class="ftr_hdng">Office:</b><a href="#">905-497-2300</a></p> 
+      <p><b class="ftr_hdng">Fax:</b><a href="#">905-497-0400</a></p>         
+    </div>
+    
+      </div>
+    </div>
+             <div class="col-md-4 col-sm-4">
+     <div class="fuuter_map">
+     <div id="map">
+                    </div>
+     <%--//map--%>
+     </div>
+    </div>
+       <%--     <div class="col-md-12 col-sm-12">
+                <div class="footer_social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/"><img src="images/social1.png" alt="" title="" /></a>
+                        <li><a href="https://twitter.com/"><img src="images/social2.png" alt="" title="" /></a>
+                        <li><a href="https://instagram.com/"><img src="images/social3.png" alt="" title="" /></a>
+                        <li><a href="https://in.linkedin.com/"><img src="images/social4.png" alt="" title="" /></a>
+                        <li><a href="https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dgplp0#identifier"><img src="images/social5.png" alt="" title="" /></a>
+                        <li><a href="https://www.pinterest.com/"><img src="images/social6.png" alt="" title="" /></a>
+                    </ul>
+                </div>
+            </div>--%>
+        </div>
+    </div>
+
+
+</body>
+</html>
