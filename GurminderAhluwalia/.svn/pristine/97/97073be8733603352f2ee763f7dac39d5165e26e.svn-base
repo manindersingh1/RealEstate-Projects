@@ -1,0 +1,399 @@
+﻿<!DOCTYPE html>
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style="" lang="en-US">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Real Property</title>
+<script src="html/js/ga.js" async="" type="text/javascript"></script>
+<script type="text/javascript">
+	var mytheme_urls = {
+		 theme_base_url:'http://wedesignthemes.com/themes/dt-realhome/wp-content/themes/realproperty/'
+ 		,framework_base_url:'http://wedesignthemes.com/themes/dt-realhome/wp-content/themes/realproperty/framework/'
+ 		,ajaxurl:'http://wedesignthemes.com/themes/dt-realhome/wp-admin/admin-ajax.php'
+ 		,url:'http://wedesignthemes.com/themes/dt-realhome'
+ 		,scroll:'disable'
+ 		,stickynav:'disable'
+ 		,mobilestickynav:'disable'
+ 		,is_admin:''
+ 		,skin:'blue'
+ 		,layout:''
+ 		,isResponsive:'enable'
+ 		,layout_pattern:''
+	};
+ </script>
+<link rel="stylesheet" id="dt-sc-css-css" href="html/css/shortcodes.css" type="text/css" media="all">
+<link rel="stylesheet" id="ls-google-fonts-css" href="html/css/css.css" type="text/css" media="all">
+<link rel="stylesheet" id="meanmenu-css-css" href="html/css/meanmenu.css" type="text/css" media="all">
+<link rel="stylesheet" id="realproperty-default-css" href="html/css/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="skin-css" href="html/css/style_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="realproperty-print-css" href="html/css/print.css" type="text/css" media="print">
+<link rel="stylesheet" id="custom-font-awesome-css" href="html/css/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="responsive-css" href="html/css/responsive.css" type="text/css" media="all">
+<link rel="stylesheet" id="mytheme-google-fonts-css" href="html/css/css_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="ws-plugin--s2member-css" href="html/css/s2member-o.css" type="text/css" media="all">
+<script src="html/js/bl.js"></script>
+<style type="text/css"></style>
+<script src="html/js/mixpanel-2.js" async="" type="text/javascript"></script>
+<style media="screen" type="text/css">
+#dddContent {
+	visibility: hidden
+}
+</style>
+<script src="html/js/lang.js"></script><script src="html/js/fo.js"></script><script src="html/js/wl.js"></script>
+<script src="html/js/ga.js"></script>
+<script src="html/js/jquery_016.js"></script>
+<link href="html/css/main.css" rel="stylesheet">
+<link href="html/css/new-css.css" rel="stylesheet">
+<script type="text/javascript" src="html/js/jquery_009.js"></script>
+<script type="text/javascript" src="html/js/shortcodes.js"></script>
+<script type="text/javascript" src="html/js/jquery_010.js"></script>
+<script type="text/javascript" src="html/js/scripts.js"></script>
+<script type="text/javascript" src="html/js/jquery_008.js"></script>
+<script type="text/javascript" src="html/js/easing.js"></script>
+<script type="text/javascript" src="html/js/jquery_003.js"></script>
+<script type="text/javascript" src="html/js/jquery_011.js"></script>
+<script type="text/javascript" src="html/js/jquery_006.js"></script>
+<script type="text/javascript" src="html/js/jquery_002.js"></script>
+<script type="text/javascript" src="html/js/jquery_004.js"></script>
+<script type="text/javascript" src="html/js/jquery_005.js"></script>
+<script type="text/javascript" src="html/jstoucheffects.js"></script>
+<script type="text/javascript" src="html/js/custom.js"></script>
+<script type="text/javascript" src="html/js/s2member-o.js"></script>
+<script type="text/javascript" src="html/js/comment-reply.js"></script> 
+</head><body>
+<div class="wrapper"> 
+  <div class="inner-wrapper"> 
+    <div id="header-wrapper">
+      <header id="header" class="header1">
+        <div class="top-bar">
+          <div class="container">
+            <ul id="menu-top-menu" class="top-menu">
+              <li id="menu-item-1577" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1577"><a href="#">Terms</a></li>
+              <li id="menu-item-1578" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1578"><a href="#">Privacy Policy</a></li>
+              <li id="menu-item-1579" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1579"><a href="#">Legal Agreement</a></li>
+            </ul>
+            <div class="top-right">
+              <ul class="user-account">
+                <li> <a href="#"> <span class="fa fa-user"> </span> Login </a> </li>
+              </ul>
+              <div class="contact-number"> <span class="fa fa-phone-square"> </span> 1 (800) 567 8765 </div>
+            </div>
+          </div>
+        </div>
+        <div class="container"> 
+          <div id="logo"> <a href="index.htm" title="Real Property"> <img src="html/images/logo.png" alt="Real Property" title="Real Property"> </a> </div>
+          <div id="primary-menu">
+            <nav id="main-menu">
+              <ul id="menu-main-menu" class="menu">
+                <li id="menu-item-1541" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-depth-0 menu-item-simple-parent "><a href="#"><i class="fa fa-home"></i>Home<span class="menu-item-description">get started</span></a>
+                </li>
+                <li id="menu-item-1607" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-megamenu-parent  megamenu-4-columns-group"><a href="#"><i class="fa fa-trophy"></i>Properties<span class="menu-item-description">we have</span></a>
+                </li>
+                <li id="menu-item-1609" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent "><a href="#"><i class="fa fa-gears"></i>IDX<span class="menu-item-description">plugin</span></a>
+                </li>
+                <li id="menu-item-1605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent "><a href="#"><i class="fa fa-paste"></i>Pages<span class="menu-item-description">we have</span></a>
+                </li>
+                <li id="menu-item-1542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-megamenu-parent  megamenu-4-columns-group"><a href="#"><i class="fa fa-pencil"></i>Blog<span class="menu-item-description">on the fly</span></a>
+                </li>
+                <li id="menu-item-1544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-megamenu-parent  megamenu-4-columns-group"><a href="#"><i class="fa fa-camera"></i>Gallery<span class="menu-item-description">we have done</span></a>
+                </li>
+                <li id="menu-item-1606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-megamenu-parent  megamenu-3-columns-group"><a href="#"><i class="fa fa-rocket"></i>Shortcodes<span class="menu-item-description">we provide</span></a> 
+                </li>
+                <li id="menu-item-1543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent "><a href="#"><i class="fa fa-location-arrow"></i>Contact<span class="menu-item-description">get in touch</span></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+       </div>
+    <div id="main"> 
+<div class="fullwidth-section ">
+            <div class="container">
+              <h2 style="text-align: center;">View a list of Featured Properties.</h2>
+              <p style="text-align: center; font-weight: 300; font-size: 16px; color: #a0a0a0;">Lorem
+                ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+                eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+              <p style="text-align: center; font-weight: 300; font-size: 16px; color: #a0a0a0;">erat, sed&nbsp;diam voluptua.</p>
+              <div class="dt-sc-hr-invisible  "></div>
+              <div class="dt-sc-tabs-container property-item-list-tab">
+                <ul class="dt-sc-tabs-frame">
+                  <li><a class="current" href="#">Property Type</a></li>
+                  <li><a href="#">Contract Type</a></li>
+                  <li><a href="#">By Location</a></li>
+                </ul>
+                <div style="display: block;" class="dt-sc-tabs-frame-content">
+                  <ul class="property-item-list-container">
+                    <li class="property-item-list">
+                      <div class="property-thumb"> <a href="#"><img src="html/images/property11.jpg" alt="Condo In Financial District"></a> </div>
+                      <div class="property-details">
+                        <h2><a href="#">Condo In Financial District</a></h2>
+                        <h3>98-106 Golden Highway, Dubbo NSW 2830, Australia</h3>
+                      </div>
+                      <div class="property-price">$45000</div>
+                      <ul class="property-meta">
+                        <li>45000/m<sup>2</sup><span>Area</span></li>
+                        <li>3<span>Beds</span></li>
+                        <li>2<span>Baths</span></li>
+                        <li>2<span>Floors</span></li>
+                      </ul>
+                    </li>
+                    <li class="property-item-list">
+                      <div class="property-thumb"> <a href="#"><img src="html/images/property8.jpg" alt="Beautiful apartment for rent"></a> </div>
+                      <div class="property-details">
+                        <h2><a href="#">Beautiful apartment for rent</a></h2>
+                        <h3>Uudenmaankatu 36, 00120 Helsinki, Finland</h3>
+                      </div>
+                      <div class="property-price">$35000</div>
+                      <ul class="property-meta">
+                        <li>65000/m<sup>2</sup><span>Area</span></li>
+                        <li>5<span>Beds</span></li>
+                        <li>2<span>Baths</span></li>
+                        <li>4<span>Floors</span></li>
+                      </ul>
+                    </li>
+                    <li class="property-item-list">
+                      <div class="property-thumb"> <a href="#"><img src="html/images/property2.jpg" alt="Greenland Center"></a> </div>
+                      <div class="property-details">
+                        <h2><a href="#">Greenland Center</a></h2>
+                        <h3>100 Bathurst Street, NSW 2000, Australia</h3>
+                      </div>
+                      <div class="property-price">$1,100,000</div>
+                      <ul class="property-meta">
+                        <li>8500/m<sup>2</sup><span>Area</span></li>
+                        <li>3<span>Beds</span></li>
+                        <li>2<span>Baths</span></li>
+                        <li>12<span>Floors</span></li>
+                      </ul>
+                    </li>
+                    <li class="property-item-list">
+                      <div class="property-thumb"> <a href="#"><img src="html/images/property2.jpg" alt="Breathtaking luxury"></a> </div>
+                      <div class="property-details">
+                        <h2><a href="#">Breathtaking luxury</a></h2>
+                        <h3>1 Macquarie Street, Sydney NSW 2000, Australia</h3>
+                      </div>
+                      <div class="property-price">$20,000</div>
+                      <ul class="property-meta">
+                        <li>2500/m<sup>2</sup><span>Area</span></li>
+                        <li>2<span>Beds</span></li>
+                        <li>2<span>Baths</span></li>
+                        <li>2<span>Floors</span></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div style="display: none;" class="dt-sc-tabs-frame-content">
+                  <ul class="property-item-list-container">
+                    <li class="property-item-list">
+                      <div class="property-thumb"> <a href="#"><img src="html/images/property1.jpg" alt="Luxury Villa In Rego Park"></a> </div>
+                      <div class="property-details">
+                        <h2><a href="#">Luxury Villa In Rego Park</a></h2>
+                        <h3>Franzensbrückenstraße 6, 1020 Vienna, Austria</h3>
+                      </div>
+                      <div class="property-price">$56000</div>
+                      <ul class="property-meta">
+                        <li>37000/m<sup>2</sup><span>Area</span></li>
+                        <li>6<span>Beds</span></li>
+                        <li>4<span>Baths</span></li>
+                        <li>5<span>Floors</span></li>
+                      </ul>
+                    </li>
+                    <li class="property-item-list">
+                      <div class="property-thumb"> <a href="#"><img src="html/images/property8.jpg" alt="Land In Central Park"></a> </div>
+                      <div class="property-details">
+                        <h2><a href="#">Land In Central Park</a></h2>
+                        <h3>Doktor-Karl-Lueger-Platz 2, 1010 Vienna, Austria</h3>
+                      </div>
+                      <div class="property-price">$55000</div>
+                      <ul class="property-meta">
+                        <li>56000/m<sup>2</sup><span>Area</span></li>
+                        <li>3<span>Beds</span></li>
+                        <li>2<span>Baths</span></li>
+                        <li>4<span>Floors</span></li>
+                      </ul>
+                    </li>
+                    <li class="property-item-list">
+                      <div class="property-thumb"> <a href="#"><img src="html/images/property6.jpg" alt="Snowy Mountain Cabin"></a> </div>
+                      <div class="property-details">
+                        <h2><a href="#">Snowy Mountain Cabin</a></h2>
+                        <h3>302 Church Street, Ryerson University, Toronto, ON M5B 1E9, Canada</h3>
+                      </div>
+                      <div class="property-price">$55000</div>
+                      <ul class="property-meta">
+                        <li>35000/m<sup>2</sup><span>Area</span></li>
+                        <li>4<span>Beds</span></li>
+                        <li>5<span>Baths</span></li>
+                        <li>3<span>Floors</span></li>
+                      </ul>
+                    </li>
+                    <li class="property-item-list">
+                      <div class="property-thumb"> <a href="#"><img src="html/images/property4.jpg" alt="Snowy Mountain Cabin"></a> </div>
+                      <div class="property-details">
+                        <h2><a href="#">Snowy Mountain Cabin</a></h2>
+                        <h3>34-80 B82, Cessnock NSW 2325, Australia</h3>
+                      </div>
+                      <div class="property-price">$50000</div>
+                      <ul class="property-meta">
+                        <li>33000/m<sup>2</sup><span>Area</span></li>
+                        <li>2<span>Beds</span></li>
+                        <li>3<span>Baths</span></li>
+                        <li>2<span>Floors</span></li>
+                      </ul>
+                    </li>
+                    <li class="property-item-list">
+                      <div class="property-thumb"> <a href="#"><img src="html/images/property10.jpg" alt="6 Acre Lake Property"></a> </div>
+                      <div class="property-details">
+                        <h2><a href="#">6 Acre Lake Property</a></h2>
+                        <h3>250 Bourke Street Mall, Melbourne's GPO, Melbourne VIC 3000, Australia</h3>
+                      </div>
+                      <div class="property-price">$45000</div>
+                      <ul class="property-meta">
+                        <li>60000/m<sup>2</sup><span>Area</span></li>
+                        <li>5<span>Beds</span></li>
+                        <li>2<span>Baths</span></li>
+                        <li>3<span>Floors</span></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div style="display: none;" class="dt-sc-tabs-frame-content">
+                  <ul class="property-item-list-container">
+                    <li class="property-item-list">
+                      <div class="property-thumb"> <a href="#"><img src="html/images/property3.jpg" alt="Majestic Residence in Valencia"></a> </div>
+                      <div class="property-details">
+                        <h2><a href="#">Majestic Residence in Valencia</a></h2>
+                        <h3>22 Laurence Street, Dover Gardens SA 5048</h3>
+                      </div>
+                      <div class="property-price">$350,210</div>
+                      <ul class="property-meta">
+                        <li>55000/m<sup>2</sup><span>Area</span></li>
+                        <li>4<span>Beds</span></li>
+                        <li>5<span>Baths</span></li>
+                        <li>1<span>Floors</span></li>
+                      </ul>
+                    </li>
+                    <li class="property-item-list">
+                      <div class="property-thumb"> <a href="#"><img src="html/images/property8.jpg" alt="Splendid Country House"></a> </div>
+                      <div class="property-details">
+                        <h2><a href="#">Splendid Country House</a></h2>
+                        <h3>6 Station Lane, North Haven SA 5018, Australia</h3>
+                      </div>
+                      <div class="property-price">$358,500</div>
+                      <ul class="property-meta">
+                        <li>55000/m<sup>2</sup><span>Area</span></li>
+                        <li>2<span>Beds</span></li>
+                        <li>3<span>Baths</span></li>
+                        <li>2<span>Floors</span></li>
+                      </ul>
+                    </li>
+                    <li class="property-item-list">
+                      <div class="property-thumb"> <a href="#"><img src="html/images/property6.jpg" alt="Gorgeous Country House"></a> </div>
+                      <div class="property-details">
+                        <h2><a href="#">Gorgeous Country House</a></h2>
+                        <h3>17 Blanden Avenue, Marden SA 5070, Australia</h3>
+                      </div>
+                      <div class="property-price">$895,000</div>
+                      <ul class="property-meta">
+                        <li>5400/m<sup>2</sup><span>Area</span></li>
+                        <li>3<span>Beds</span></li>
+                        <li>4<span>Baths</span></li>
+                        <li>2<span>Floors</span></li>
+                      </ul>
+                    </li>
+                    <li class="property-item-list">
+                      <div class="property-thumb"> <a href="#"><img src="html/images/property8.jpg" alt="Unique Villa With Private Beach"></a> </div>
+                      <div class="property-details">
+                        <h2><a href="#">Unique Villa With Private Beach</a></h2>
+                        <h3>5 Grove Avenue, Everard Park SA 5035, Australia</h3>
+                      </div>
+                      <div class="property-price">$250,000</div>
+                      <ul class="property-meta">
+                        <li>5400/m<sup>2</sup><span>Area</span></li>
+                        <li>3<span>Beds</span></li>
+                        <li>4<span>Baths</span></li>
+                        <li>2<span>Floors</span></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <p><span style="line-height: 1.5em;"> </span></p>
+            </div>
+          </div>
+    <footer id="footer">
+      <div class="footer-widgets-wrapper">
+        <div class="container">
+          <div class="column dt-sc-one-fourth first">
+            <aside id="categories-3" class="widget widget_categories">
+              <h3 class="widgettitle">Categories</h3>
+              <ul>
+                <li class="cat-item cat-item-2"><a href="#" title="View all posts filed under Apartment">Apartment<span> 4</span></a> </li>
+                <li class="cat-item cat-item-14"><a href="#" title="View all posts filed under Audio">Audio<span> 4</span></a> </li>
+                <li class="cat-item cat-item-9"><a href="#" title="View all posts filed under Cottage">Cottage<span> 7</span></a> </li>
+                <li class="cat-item cat-item-21"><a href="#" title="View all posts filed under Magazine">Magazine<span> 1</span></a> </li>
+                <li class="cat-item cat-item-3"><a href="#" title="View all posts filed under Retail">Retail<span> 10</span></a> </li>
+                <li class="cat-item cat-item-5"><a href="#" title="View all posts filed under Technical">Technical<span> 4</span></a> </li>
+                <li class="cat-item cat-item-4"><a href="#" title="View all posts filed under Video">Video<span> 3</span></a> </li>
+              </ul>
+            </aside>
+          </div>
+          <div class="column dt-sc-one-fourth ">
+            <aside id="my_property_widget-2" class="widget widget_popular_entries">
+              <h3 class="widgettitle">Latest Properties</h3>
+              <div class="recent-property-widget">
+                <ul>
+                  <li><a href="#" class="thumb"><img src="html/images/property2-150x150.jpg" alt="Limestone Estate"></a>
+                    <h6><a href="#">Limestone Estate</a></h6>
+                    <span class="property-price">$ 45000 </span></li>
+                  <li><a href="#" class="thumb"><img src="html/images/property6-150x150.jpg" alt="Snowy Mountain Cabin"></a>
+                    <h6><a href="#">Snowy Mountain Cabin</a></h6>
+                    <span class="property-price">$ 55000 </span></li>
+                  <li><a href="#" class="thumb"><img src="html/images/property4-150x150.jpg" alt="The Urban Life"></a>
+                    <h6><a href="#">The Urban Life</a></h6>
+                    <span class="property-price">$ 35000 </span></li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+          <div class="column dt-sc-one-fourth ">
+            <aside id="my_twitter-2" class="widget tweetbox">
+              <h3 class="widgettitle"><a href="#" title="Latest Tweets">Latest Tweets</a></h3>
+              <ul class="tweet_list">
+                <li class="tweet"><span class="tweet-time">May 23, 2014</span> <span class="tweet-thumb"><a href="#" title=""><img src="html/images/1316a31c9c4481517fbb3fca65e96f3d_normal.png" alt=""></a></span><span class="tweet-text avatar_1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span></li>
+                <li class="tweet"><span class="tweet-time">May 21, 2014</span> <span class="tweet-thumb"><a href="#" title=""><img src="html/images/1316a31c9c4481517fbb3fca65e96f3d_normal.png" alt=""></a></span><span class="tweet-text avatar_1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span></li>
+              </ul>
+            </aside>
+          </div>
+          <div class="column dt-sc-one-fourth ">
+            <aside id="my_mailchimp-2" class="widget mailchimp">
+              <h3 class="widgettitle">Get in touch</h3>
+              <p>Vestibulum viverra leo eget dolor tincidunt ullamcorper. Phasellus lobortis, velit non dictum.</p>
+              <form method="post" class="mailchimp-form">
+                <input placeholder="Enter Email Address" name="mythem_mc_emailid" required="" type="email">
+                <input name="mythem_mc_listid" value="314bbca712" type="hidden">
+                <input name="submit" class="nl-submit" value="Signup" type="submit">
+              </form>
+            </aside>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="copyright-info">Copyright © 2014 </div>
+          <div class="footer-links">
+            <p>Follow us</p>
+            <ul class="dt-sc-social-icons">
+              <li class="flickr"><a href="#" target="_blank"><img src="html/images/flickr_002.png" alt="flickr.png"><img src="html/images/flickr.png" alt="flickr.png"> </a></li>
+              <li class="google"><a href="#" target="_blank"><img src="html/images/google_002.png" alt="google.png"><img src="html/images/google.png" alt="google.png"> </a></li>
+              <li class="technorati"><a href="#" target="_blank"><img src="html/images/technorati_002.png" alt="technorati.png"><img src="html/images/technorati.png" alt="technorati.png"> </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+</div>
+</body>
+</html>

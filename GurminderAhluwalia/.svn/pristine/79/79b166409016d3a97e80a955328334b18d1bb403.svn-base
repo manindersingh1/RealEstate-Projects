@@ -1,0 +1,56 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PropertyNew.Master" AutoEventWireup="true" CodeBehind="UpcomingProjects.aspx.cs" Inherits="Property.UpcomingProjects" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="../fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="../fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="../fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.fancybox').fancybox();
+        });
+	</script>
+    <style type="text/css">
+        .fancybox-custom .fancybox-skin {
+            box-shadow: 0 0 50px #222;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="container" id="containerdiv">
+        <div>
+            <div id="MainContent_cmnsoon" class="vrtual_bg">
+                <div class="property-search-container">
+                    <div class="dt-sc-tabs-container" style="width: 100%;">
+                        <ul class="dt-sc-tabs-frame">
+                            <li><a class="current" href="#">Upcoming Projects</a></li>
+                        </ul>
+                        <div style="display: block;" class="dt-sc-tabs-frame-content">
+                            <div class="projectsbg">
+                                <div class="col-md-6">
+                                    <div class="projects">
+                                        <%--<img alt="" class="virtl_image_cmgsoon" src="images/Grand-Palace-Condo.jpg" /> --%>
+                                        <a class="fancybox" href="images/Grand-Palace-Condo.jpg" data-fancybox-group="gallery">
+                                            <img src="images/Grand-Palace-Condo.jpg" alt="" /></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="projects">
+                                        <%-- <img alt="" class="virtl_image_cmgsoon" src="images/Spring-Luxary.jpg"/>--%>
+                                        <a class="fancybox" href="images/Spring-Luxary.jpg" data-fancybox-group="gallery">
+                                            <img src="images/Spring-Luxary.jpg" alt="" /></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</asp:Content>

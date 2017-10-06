@@ -1,0 +1,66 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*----*****---- << Color >> ----*****----*/
+
+a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .fullwidth-section.dark-bg h1 a:hover, .fullwidth-section.dark-bg h2 a:hover, .fullwidth-section.dark-bg h3 a:hover, .fullwidth-section.dark-bg h4 a:hover, .fullwidth-section.dark-bg h5 a:hover, .fullwidth-section.dark-bg h6 a:hover, #main-menu > ul > li > a:hover, #main-menu > ul > li:hover > a, #main-menu > ul > li.current_page_item > a, #main-menu > ul > li.current_page_ancestor > a, #main-menu > ul > li.current-menu-item > a, #main-menu > ul > li.current-menu-ancestor > a, #main-menu > ul > li.current_page_item > a:hover, #main-menu > ul > li.current_page_ancestor > a:hover, #main-menu > ul > li.current-menu-item > a:hover, #main-menu > ul > li.current-menu-ancestor > a:hover, #main-menu ul li.menu-item-simple-parent ul li a:hover, .megamenu-child-container ul.sub-menu > li > ul li a:hover, .dt-sc-ico-content.type1 .icon span, .content-slider .rating span, .ajax-controls a:hover, .ajax-controls .ajax-close, .entry-details .entry-metadata p a:hover, .dt-sc-contact-info p a:hover, .recent-posts-widget ul li .entry-details .entry-title h4 a:hover, .widget ul li a:hover, .widget ul#recentcomments li a:hover, ul.tweet_list li a, .dt-sc-ico-content.type4 .icon span, .dt-sc-ico-content.type6 .icon span, .dt-sc-ico-content.type8 .icon span, .dt-sc-callout-box.type2 .icon, .dt-sc-callout-box.type3 .icon, .dt-sc-callout-box.type4 .icon, .dt-sc-pr-tb-col.selected .dt-sc-buy-now .dt-sc-button, .dt-sc-ico-content.type2:hover .icon span, .dt-sc-ico-content.type3:hover .icon, .dt-sc-ico-content.type5 .icon, .dt-sc-ico-content.type9 .icon, .dt-sc-ico-content.type7:hover .icon span, .contact-details p a:hover, .contact-details p, .pagination ul li a, .pagination .next-post a, .pagination .prev-post a, .property-pagination a, .dt-sc-callout-box.type1:hover .icon, .dt-sc-callout-box.type5:hover .icon, .dt-sc-testimonial .author-detail, .dt-sc-ico-content.type10 .icon span, .dt-sc-ico-content.type11 .icon, p span, .dt-sc-callout-box.type1 .dt-sc-button:hover, .dt-sc-callout-box.type5 .dt-sc-button:hover, .project-details p a:hover, .entry-details .entry-metadata p a:hover span, .dt-sc-contact-info .icon, .widget .tagcloud a, .widget .recent-portfolio-widget li h6 a:hover, #footer .widget .recent-portfolio-widget li h6 a:hover, ul.side-nav > li.current_page_item > a:hover, ul.side-nav > li > ul > li.current_page_item > a:hover, ul.side-nav > li > ul > li > ul > li.current_page_item > a:hover, .top-bar a:hover, .property-search-container .search-content, .megamenu-child-container > ul.sub-menu > li > a:hover, .dt-sc-services h4 span, .property-item-list .property-details h2 a, .bottom-properties-list .dt-sc-tabs-frame > li > a:hover, .property-countries-list li a:hover, .property-countries-list li a:hover span, #footer .widget ul#recentcomments li a:hover, #footer .widget.widget_rss li a:hover, #footer .widget .tweet_list a:hover, .breadcrumb .current, .breadcrumb a:hover, .fullwidth-background.dark-bg .breadcrumb a:hover, .dt-sc-agency-list .dt-sc-agent-contact p span, .property-single-detail .amenities-list li:before, .property-item .property-thumb-meta .property-type a:hover, .property-single-detail .amenities-list li a:hover, .ls-slide h2 span, .dsidx-results li.dsidx-prop-summary .dsidx-prop-title, .dsidx-results li.dsidx-prop-summary .dsidx-prop-title a:hover, ul.side-nav > li > a:hover, ul.side-nav > li > ul > li > a:hover, ul.side-nav > li.current_page_item > a, ul.side-nav li > ul > li.current_page_item > a { color:#000000; }
+
+.megamenu-child-container ul.sub-menu > li > ul li.current_page_item a, .megamenu-child-container ul.sub-menu > li > ul li.current_page_ancestor a, .megamenu-child-container ul.sub-menu > li > ul li.current-menu-item a, .megamenu-child-container ul.sub-menu > li > ul li.current-menu-ancestor a, #main-menu ul li.menu-item-simple-parent ul li.current_page_item > a, #main-menu ul li.menu-item-simple-parent ul li.current_page_ancestor > a, #main-menu ul li.menu-item-simple-parent ul li.current-menu-item > a, #main-menu ul li.menu-item-simple-parent ul li.current-menu-ancestor > a { color:#333333; }
+
+/*----*****---- << Background Color >> ----*****----*/
+
+.border-title span, .dt-sc-team .dt-sc-social-icons li a:after, .dt-sc-bar, .ajax-controls .ajax-close:hover, .portfolio .fig-overlay a:after, .dt-sc-contact-info span, .social-icons li a:after, #footer .copyright, #searchform input[type="submit"], .dt-sc-ico-content.type2 .icon span, .dt-sc-ico-content.type7 .icon, h5.dt-sc-toggle.active:before, h5.dt-sc-toggle-accordion.active:before, .dt-sc-callout-box.type4, .dt-sc-titled-box h6.dt-sc-titled-box-title, .dt-sc-pr-tb-col.selected .dt-sc-tb-header .dt-sc-price, .dt-sc-pr-tb-col.selected .dt-sc-buy-now .dt-sc-button:after, th, .dt-sc-ico-content.type3 .icon:after, .dt-sc-ico-content.type5 .icon, .dt-sc-ico-content.type9 .icon, .dt-sc-ico-content.type8:hover .icon, .dt-sc-ico-content.type3 .icon, .dt-sc-callout-box.type1 .icon, .pagination ul li a:hover, .pagination .next-post a:hover, .pagination .prev-post a:hover, .pagination ul li.active-page, .property-pagination a:hover, .property-pagination .current, .dt-sc-sorting-container a:after, .dt-sc-sorting-container a.active-sort, ul.commentlist li .reply a.comment-reply-link:after, .dt-sc-callout-box.type5 .icon, .dt-sc-callout-box.type2:hover .icon, .dt-sc-callout-box.type3:hover .icon, .dt-sc-callout-box.type1 .dt-sc-button, .dt-sc-callout-box.type5 .dt-sc-button, .bx-controls a.bx-prev:hover, .bx-controls a.bx-next:hover, .widget .tagcloud a:hover, .widget.flickrbox .flickr-widget div, .sticky .featured-post, .featured-post, .mean-container a.meanmenu-reveal, .mean-container .mean-nav, .page-link span, ul.side-nav li a:hover:before, ul.side-nav > li.current_page_item > a:before, ul.side-nav > li > ul > li.current_page_item > a:before, ul.side-nav > li > ul > li > ul > li.current_page_item > a:before, ul.dt-sc-tabs-frame li a.current, .dt-sc-services:hover, .entry-meta .date .day, .property-thumb-meta .property-price, #footer input[type="submit"]:hover, #footer .dt-sc-button:hover, #footer .widget.widget_search #searchform input[type="submit"], .dt-sc-agent-contact, .add-property-form h2, .grey-box-form .dt-sc-button.filled, .single-property-info li.price, .property-item .property-thumb .property-overlay a span, ul.dt-sc-tabs-vertical-frame > li > a.current, .dt-sc-pr-tb-col.selected .dt-sc-buy-now .dt-sc-button:hover, #lang_sel ul ul *:hover > a, .widget .recent-property-widget ul li .thumb, .top-map-info-window .thumb span, .property-view-type a:hover, .property-view-type a.active, .property-slider-buttons .property-slider-price { background-color:#a82c2a; }
+
+/*----*****---- << Secondary Background Color >> ----*****----*/
+	
+	input[type="submit"], button, input[type="button"], .widget.widget_search #searchform input[type="submit"], .grey-box-form .dt-sc-button.filled:hover { background: #c9700a none repeat scroll 0 0;
+    padding: 8px;
+    width: auto !important;   }
+	
+	.dt-sc-button:hover, .dt-sc-button.filled { background-color:#27ae60; }	
+	.dt-sc-button, .property-item-list .property-price, .dsidx-results li.dsidx-prop-summary .dsidx-prop-features div:before { color:#27ae60; }	
+	.dt-sc-button { border-color:#27ae60; }
+
+/*----*****---- << Border Color >> ----*****----*/
+
+ul.dt-sc-tabs-frame > li > a.current:before, #main-menu ul li.menu-item-simple-parent ul, .megamenu-child-container, blockquote.type2 { border-top-color:#9a1e06; }
+ul.dt-sc-tabs-vertical-frame > li > a.current:before, .dt-sc-callout-box.type1, .dt-sc-callout-box.type3, #main-menu ul li.menu-item-simple-parent ul li ul { border-left-color:#3498db; }
+
+.entry-meta .date:before { border-bottom-color:#3498db; }
+
+#main-menu > ul > li.current_page_item > a:before, #main-menu > ul > li.current_page_ancestor > a:before, #main-menu > ul > li.current-menu-item > a:before, #main-menu > ul > li.current-menu-ancestor > a:before { border-top-color:#3498db; }
+#main-menu > ul > li.current_page_item > a, #main-menu > ul > li.current_page_ancestor > a, #main-menu > ul > li.current-menu-item > a, #main-menu > ul > li.current-menu-ancestor > a { border-bottom-color:#3498db; }
+
+.ajax-controls .ajax-close:hover, .portfolio .fig-overlay a:hover, blockquote.type4, .dt-sc-pr-tb-col.selected, .dt-sc-pr-tb-col.selected .dt-sc-buy-now .dt-sc-button, .dt-sc-ico-content.type7 .icon, .dt-sc-ico-content.type2 .icon span, .pagination ul li a, .pagination .next-post a, .pagination .prev-post a, .pagination ul li.active-page, .property-pagination a, .property-pagination .current, .dt-sc-sorting-container a:hover, .dt-sc-sorting-container a.active-sort, ul.commentlist li .reply a.comment-reply-link, .dt-sc-callout-box.type1 .icon, .dt-sc-callout-box.type5 .icon, .dt-sc-testimonial:hover .author img, .widget .tagcloud a, .bottom-properties-list .dt-sc-tabs-frame > li > a.current, .dt-sc-callout-box.type1 .dt-sc-button, .dt-sc-callout-box.type5 .dt-sc-button, .property-gallery-container #bx-pager a.active, .property-gallery-container #bx-pager a:hover, .property-gallery-container #bx-pager a.active:before, .property-view-type a:hover, .property-view-type a.active { border-color:#3498db; }
+
+.dt-sc-pullquote5 { border-left:3px solid #3498db; }
+.dt-sc-pullquote6 { border-top:3px solid #3498db; }
+
+/*----*****---- << Box Shadow >> ----*****----*/
+
+.dt-sc-ico-content.type3 .icon { box-shadow:0 0 0 1px #3498db; }
+
+/*----*****---- << Image >> ----*****----*/
+select {
+    background-image: url("../images/select-box.png");
+  
+}
+
+/*----*****---- << BuddyPress Styles >> ----*****----*/
+.members .pagination a, #buddypress div.item-list-tabs ul li a span, #buddypress div#subnav.item-list-tabs ul li a, #buddypress li span.unread-count, #buddypress tr.unread span.unread-count, #buddypress .activity-list li.load-more a, .pagination-links a, .widget.buddypress div.item-options a.selected { color:#3498db; }
+
+.members .pagination a:after, .members .pagination span.current, .pagination-links a:after, .pagination-links span.current, #buddypress span.activity, #item-buttons .generic-button a:after, #buddypress div.item-list-tabs ul li a:hover span, #buddypress div.item-list-tabs#subnav ul li.selected a, #buddypress div.item-list-tabs#subnav ul li.current a, #buddypress div.item-list-tabs#subnav ul li a:after, #buddypress .activity-list li.load-more a:after { background-color:#3498db; }
+
+.members .pagination a, .members .pagination span.current, .pagination-links a, .pagination-links span.current, #buddypress div.item-list-tabs ul li a span, #item-buttons .generic-button a, #buddypress div#subnav.item-list-tabs ul li a, #buddypress div.activity-meta a:hover, #buddypress li span.unread-count, #buddypress tr.unread span.unread-count, #buddypress .activity-list li.load-more a { border-color:#3498db; }
+
+#buddypress div.item-list-tabs ul li.selected a, #buddypress div.item-list-tabs ul li.current a { border-top-color:#3498db; }
+
+/*----*****---- << dsIDXpress Plugin Styles >> ----*****----*/
+#dsidx #dsidx-map-control a:before, #dsidx-secondary-data .dsidx-secondary-row th a, .widget.dsidx-widget-single-listing-wrap .dsidx-widget-single-listing .dsidx-widget-single-listing-meta .dsidx-widget-single-listing-price { color:#3498db; }
+
+#dsidx-listings .dsidx-secondary-data div:before { color:#27ae60; }	
+
+#dsidx-listings li.dsidx-listing .dsidx-price, .widget.dsidx-widget-listings .dsidx-results-widget .dsidx-slideshow-control { background:#3498db; }
+.Btn_Info > input {
+    width: 100% !important;
+}

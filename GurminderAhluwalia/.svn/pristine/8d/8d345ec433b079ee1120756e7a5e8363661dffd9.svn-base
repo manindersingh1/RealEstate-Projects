@@ -1,0 +1,115 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PropertyNew.Master" AutoEventWireup="true"
+    CodeBehind="Blogs.aspx.cs" Inherits="Property.Blogs" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <div>
+
+        <div class="property-search-container">
+            <div class="dt-sc-tabs-container" style="width: 100%;">
+                <ul class="dt-sc-tabs-frame">
+                    <li><a class="current" href="#">Blogs</a></li>
+                </ul>
+                <div style="display: block;" class="dt-sc-tabs-frame-content">
+                    <div class="Blog_bg">
+                        <div class="Blog_section">
+                            <h1>Major MISTAKES IN COMMON HOME BUYERS MAKE.</h1>
+
+                            <h2>#1 Not knowing what they can afford before making an offer.</h2>
+                            <p>
+                                The best way to avoid this is to get pre-approved for a mortgage so you
+                            know exactly how much you can afford. Usually pre-approvals are free.
+                            </p>
+
+                            <h2>#2 not knowing who the agent represents.</h2>
+                            <p>
+                                Unless an agent is working as your buyer representative, they represent the
+                            seller. Many people don't realize this.
+                            </p>
+
+                            <h2>#3 choosing the wrong mortgage.</h2>
+                            <p>
+                                A bad mortgage can cost you thousands in taxes and interest. Consult an
+                            accountant before you choose your mortgage.
+                            </p>
+
+                            <h2>#4 Not finding problems with the home before buying it.</h2>
+                            <p>
+                                You should always have a professional inspector look at the home before
+                            buying it, otherwise you could be looking at huge repair costs later on.
+                            Read this guide to avoiding a money pit.
+                            </p>
+
+                            <h2>#5 Not understanding how their credit can impact their ability to purchase
+                            or refinance a home.</h2>
+
+                            <p>
+                                Get a mortgage professional to help you go over and prepare your credit
+                            file before you buy a home.
+                            </p>
+                        </div>
+                        <div class="Blog_section">
+
+                            <h1>*How to choose a home, major things to watch*</h1>
+                            <h2>*HOW TO AVOID A MONEY PIT: BE ON THE LOOKOUT FOR THESE 6 WARNING SIGNS THAT
+                            COULD MEAN EXPENSIVE REPAIRS...*</h2>
+                            Many people think that serious defects in a home are easy to spot, but the
+                            truth is, often the most serious and costly problems can only be detected
+                            upon very close inspection. When you are considering buying a home, look
+                            for the following six telltale signs of serious problems...
+                        <h2>*1. Roof*</h2>
+                            <p>
+                                Leaks are the most common problem with roofs, and are tough to detect from
+                            outside. However, from inside an attic, you can often see water marks where
+                            there is a leak.
+                            </p>
+                            <h2>*2. Plumbing System*</h2>
+                            <p>
+                                Make sure you are confident that both water systems: the one that brings
+                            fresh water in and the one that takes sewage out are functioning well
+                            before signing on the dotted line.
+                            </p>
+                            <h2>*3. Electrical Systems*</h2>
+                            <p>
+                                Before you agree to buy you should make sure that you can run all of the
+                            appliances you want to and even power tools at the same time without having
+                            a power failure. You also want to make sure that the electrical system is
+                            safe and does not present a fire hazard.
+                            </p>
+                            <h2>*4. Heating and Cooling Systems*</h2>
+                            <p>
+                                Be sure to thoroughly inspect the heating and air conditioning systems in
+                            any home you are considering purchasing.
+                            </p>
+                            <h2>*5. Bad Paint and Signs of Rotting*</h2>
+                            <p>
+                                The paint inside and outside the house can reveal a lot about the condition
+                            of the underlying material. Check several places on several walls, using
+                            your eyes and a screwdriver for poking.
+                            </p>
+                            <h2>*6. Cracks and other important signs*</h2>
+                            <p>
+                                Cracks in walls, doors not closing properly and uneven floors can all be
+                            signs that there is a problem with the foundation. If the foundation is not
+                            strong, the entire house could literally collapse, so you should carefully
+                            check for these signs. A bad foundation may not mean imminent disaster, but
+                            it could be used to bargain for a lower sale price, or you could ask to
+                            have the owner repair it before the sale.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</asp:Content>
+
+
+
+
+
+
