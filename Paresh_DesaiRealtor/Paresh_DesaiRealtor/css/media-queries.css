@@ -1,0 +1,2973 @@
+
+/************************************************************************************
+smaller than 1280
+*************************************************************************************/
+@media screen and (max-width: 1280px) {
+
+
+
+}
+
+
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+@media screen and (max-width: 1366px) 
+{
+	.main_sct_bg {
+    float: left;
+    width: 100%;
+}
+
+.main_sction {
+   float: left;
+    left: 0 !important;
+    position: relative;
+    top: 0;
+    width: 100% !important;
+}
+
+}
+@media screen and (max-width: 1280px) 
+{
+	.main_sct_bg {
+    float: left;
+    width: 100%;
+	 top: 673px !important;
+}
+
+.main_sction {
+    float: left;
+    left: 0 !important;
+    position: relative;
+    top: 0;
+    width: 100% !important;
+}
+}
+@media screen and (max-width: 1024px) 
+{
+
+
+}
+
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+@media screen and (max-width: 768px) 
+{
+}
+
+
+
+/************************************************************************************
+smaller than 767
+*************************************************************************************/
+@media screen and (max-width: 736px) 
+{
+.favorate {
+    float: left;
+    padding: 0 0 23px;
+    width: 28%;
+}
+.count_date {
+    float: left;
+    margin: 12px 0 !important;
+    text-align: center;
+}
+.p_tag_1 {
+    display: none;
+}
+.p_tag_2 {
+    display: none;
+}
+.etail_Email {
+    background: white none repeat scroll 0 0;
+}
+.header_detail1 {
+    float: left;
+    padding-top: 0;
+    text-align: center;
+    width: 100% !important;
+}
+.header_detail1 span {
+    color: #414040;
+    float: left;
+     font-family: 'latobold';
+    font-size: 16px;
+    margin: 0;
+}
+.header_detail p {
+    color: #292929;
+    float: left;
+    font-family: "latobold";
+    font-size: 16px;
+    margin: 9px 0 0 30px;
+    text-transform: uppercase;
+    width: auto !important;
+}
+.hide_cal_new
+{
+	display:none;
+}
+.header_detail1 h5 {
+    float: left;
+    margin: 11px 0;
+    text-align: center;
+    width: 39%;
+}
+.futer_mennu ul li {
+    display: inline;
+    line-height: 28px;
+    list-style-type: none;
+    margin: 0 34px 0 0;
+}
+.box_sct_bg {
+    float: left;
+    width: 100%;
+    margin: 14px 0;
+}
+.propert_header_img {
+    display: none;
+    float: left;
+    margin: 7px 0;
+    width: 100%;
+}
+.propert_header_cntntt_box {
+    display: none;
+    float: left;
+    margin: 0 22px 0 0;
+    width: 33%;
+}
+.propert_top_details {
+    display: none;
+    float: right;
+    margin: 29px 0 0;
+}
+.roco_pro_img {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.main_sct_bg {
+    float: left;
+    margin: 8px 0 0 !important;
+    padding-top: 10px;
+    width: 100%;
+    z-index: 999999;
+}
+.toggleMenu {
+    background: rgba(0, 0, 0, 0) url("../images/menu-icon.png") no-repeat scroll 0 0;
+    color: #f0b310;
+    display: none;
+    margin: 5px 0 0 8px !important;
+    padding: 16px 30px;
+}
+.fuuter_name {
+    float: left;
+    margin: 25px 0 0 !important;
+    width: 100% !important;
+}
+.roco_pro_info > h2 {
+    color: white;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.email_profile_r {
+    color: white;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+.roco_pro_info > p {
+    color: white;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.header_detail {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.proprty_price {
+    border-right: medium none;
+    float: left;
+    width: 100%;
+}
+.rr {
+    display: none;
+    float: right;
+    margin: 0 24px 0 0;
+}
+.count_label {
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 16px;
+    font-style: normal;
+    margin: 7px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+.search_boxx_left {
+    border: 2px solid #34393d;
+    float: left;
+    height: 163px !important;
+    margin: 21px 0 24px 14px;
+    width: 88% !important;
+}
+.para {
+    float: left;
+    width: 95%;
+}
+.login_input_1 > input {
+    float: left !important;
+    width: 45% !important;
+}	
+    .top_menu_bg {
+        background: #128e1e   none repeat scroll 0 0;
+        float: left;
+        height: 52px !important;
+        width: 100%;
+		  margin-top: 4px;
+    }
+	.header_bg_1 {
+    display: none;
+    float: left;
+    padding: 8px;
+    width: 100%;
+}
+.header_detail span {
+    border-bottom: none !important;
+    color: #d2202f;
+    float: left;
+    font-family: "latobold";
+    font-size: 28px;
+    text-transform: uppercase;
+    width: 100% !important;
+}
+.seaarch_Property_in {
+    float: left;
+    height: 270px;
+    margin: 0 0 0 2px;
+    width: 100%;
+}
+.property_new_details {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    margin: 69px 0 0 7px;
+    padding: 10px;
+    width: 50%;
+}
+.right_section_new {
+    background: #f4f4f4 none repeat scroll 0 0;
+    float: left;
+    margin-top: 62px;
+    padding-bottom: 10px;
+    width: 48%;
+}
+#slider1_container {
+    top: 9px !important;
+    width: 100% !important;
+}	
+#map-canvas
+{
+	float:left;
+	width:100% !important;
+}
+.propert_header_cntntt h2 {
+    color: #7c952d;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px;
+    margin-bottom: 12px;
+    width: 100%;
+    text-align: center;
+}
+.propert_top_details_scnd {
+    display: inline-table !important;
+    float: right;
+    margin: 18px 0 0;
+    width: 75%;
+}
+}
+
+/************************************************************************************
+smaller than 736
+*************************************************************************************/
+
+
+
+
+@media screen and (max-width: 667px) {
+.futr_menu_sect ul li {
+    display: inline;
+    font-family: "CenturyGothic-Regular";
+    list-style-type: none;
+    padding: 0 32px 0 0 !important;
+}
+.searchButton {
+    width: 40% !important;
+}
+.lt_calculator iframe
+{
+	margin:0px !important;
+	height:460px !important;
+	display:block !important;
+}
+.header_logo {
+    float: left;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 640px) {
+    .video_sction {
+        float: left;
+        margin-top: 271px !important;
+        width: 100%;
+    }
+
+
+    .top_section ul li {
+        color: #ffca06;
+        display: inline;
+        float: left;
+        font-family: arial;
+        font-size: 13px;
+        padding: 1px;
+        width: 100%;
+    }
+	.futer_mail {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+    .header_middle {
+        border-bottom: 1px solid #343132;
+        border-top: 1px solid #343132;
+        float: left;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .top_section {
+        float: left;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .property_logo h4 {
+        color: white;
+        float: left;
+        font-family: "open_sansbold";
+        font-size: 10px;
+        font-style: italic;
+        line-height: 16px;
+        margin: 36px 0 0 11px;
+        width: 58%;
+    }
+
+    .property_logo img {
+        float: left;
+        margin: 18px 0 11px;
+    }
+
+    .useful_link {
+        float: left;
+        margin: 21px 0 0;
+        width: 100%;
+    }
+
+        .useful_link > ul li a {
+            border-right: 1px solid;
+            color: white;
+            font-family: arial;
+            font-size: 13px;
+            padding: 0 8px;
+        }
+
+    .Residential_section_box {
+        background: #ffffff none repeat scroll 0 0;
+        border: 1px solid #bdbdbd;
+        float: left;
+        margin: 0 20px 42px 7px;
+        width: 95%;
+    }
+
+        .Residential_section_box > img {
+            width: 100%;
+        }
+
+    .feature_section_box > img {
+        width: 100%;
+    }
+
+    .feature_listing {
+        float: left;
+        margin: 22px 0 0px !important;
+        width: 100%;
+    }
+
+    .Residential_section_bg h3 {
+        border-bottom: 1px solid #c2c3c4;
+        color: #3a4d3b;
+        float: left;
+        font-family: "open_sansbold";
+        font-size: 18px;
+        margin-bottom: 1px;
+        padding: 1px 0 11px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .Residential_section_bg h3 {
+        border-bottom: 1px solid #c2c3c4;
+        color: #3a4d3b;
+        float: left;
+        font-family: "open_sansbold";
+        font-size: 18px;
+        margin-bottom: 1px;
+        padding: 1px 0 11px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .top_section ul li {
+        color: white;
+        display: inline;
+        font-family: arial;
+        font-size: 13px !important;
+        padding: 3px !important;
+        text-align: left;
+    }
+
+    .box5 > h2 {
+        color: #457066;
+        float: left;
+        font-family: "open_sansbold";
+        font-size: 20px;
+        margin: 5px 3px 0 18px;
+        width: 100% !important;
+    }
+
+    .search_boxx_right_bg {
+        float: left;
+        margin: 0 0 0 3px;
+        width: 100% !important;
+    }
+
+.scoico_icns_frnt {
+    display: inline;
+    float: left;
+    margin: 12px 0 22px !important;
+    width: 100%;
+}
+    .para {
+        float: left;
+        width: 100% !important;
+    }
+
+    .favorate {
+        float: left;
+        padding: 0 0 5px 17px !important;
+        width: 65% !important;
+    }
+
+    .search_boxx_right_bg_2 {
+        float: left;
+        padding: 2px 17px 7px !important;
+        width: 100% !important;
+    }
+
+    .logo_section {
+        float: left;
+        margin: 49px 0 0;
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        display: none;
+    }
+
+    .main_sct_bg {
+        float: left;
+        width: 100%;
+		margin:0px !important;
+    }
+
+.fuuter_name {
+    float: left;
+    margin: 0 !important;
+    width: 100% !important;
+}
+    .main_sction {
+        float: left;
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+
+    .box_sct_bg {
+       float: left;
+    margin: 30px 0 2px !important;
+    text-align: center;
+    width: 100% !important;
+    }
+
+    .video_sction {
+        float: left;
+        margin-top: 45px;
+        width: 100%;
+    }
+
+    .nav > li {
+        background: rgba(0, 0, 0, 0) url("../images/menu-strip.png") no-repeat scroll 10px 14px;
+        float: left;
+        width: 100%;
+    }
+
+    .Residential_section_bg {
+        float: left;
+        margin: 50px 0 0;
+        width: 100%;
+    }
+
+    .Residential_section {
+        float: left;
+        margin: 20px 0 0;
+        width: 100% !important;
+    }
+
+    .main_sction {
+        float: left;
+        position: relative;
+        top: 0 !important;
+        width: 100% !important;
+        left: 0px !important;
+    }
+
+    .header_details h3 {
+        color: white;
+        float: left;
+        font-family: bebas;
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header_detail {
+        margin-bottom: 2px;
+		margin-top:2px;
+        text-align: center;
+        float: left;
+        width: 100% !important;
+    }
+
+    iframe {
+        margin: 50px 0 0 -8px !important;
+        width: 100% !important;
+    }
+
+    .footer_social li {
+        display: inline;
+        list-style-type: none;
+        margin: 0 6px 0 0 !important;
+    }
+
+    .property_new_details {
+        margin: 89px 0 0 0px !important;
+    }
+
+    .right_section_new {
+        background: #f4f4f4 none repeat scroll 0 0;
+        float: left;
+        margin-top: 10px !important;
+        padding-bottom: 10px;
+        width: 100% !important;
+    }
+
+    .menu_section {
+        float: left;
+        position: absolute;
+        width: 95% !important;
+        z-index: 9999999;
+        background: #128e1e;
+    }
+
+    .top_menu_bg {
+        background: #128e1e   none repeat scroll 0 0;
+        float: left;
+        height: 52px !important;
+        width: 100%;
+		  margin-top: 4px;
+    }
+
+    .property-search-container_new {
+        float: left;
+        padding: 6px 0 25px;
+        width: 97%;
+    }
+
+    .bottom_section_bg {
+        background: white !important;
+    }
+
+    .Free-Home_new {
+        float: left;
+        margin: 10px 9px 26px 0px;
+        padding: 5px;
+        width: 100%;
+    }
+
+    .sell_house {
+        border: 1px solid #336666;
+        float: left;
+        margin: 0 18px 20px 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .contact_in_left {
+        background: white none repeat scroll 0 0;
+        border: 3px solid #eaeaea;
+        float: left;
+        margin:0 0 25px 0px !important;
+        padding: 15px;
+        width: 100% !important;
+    }
+
+    .contact_in_right {
+        float: left;
+        margin: 0 0 12px 0 !important;
+        width: 100% !important;
+    }
+
+    .detl div {
+        float: right;
+        margin: 0 46px 2px 0;
+        width: 157px;
+    }
+
+    .infor_list_3 {
+        color: #666666;
+        float: left;
+        font-size: 16px;
+        margin: 4px 11px 0 -9px;
+        width: 100%;
+    }
+
+    .header_detail h2 {
+        color: #7c952d;
+        float: left;
+     font-family: 'latobold';
+        font-size: 17px !important;
+        margin: 5px 0;
+    }
+
+    .logo_section img {
+        margin: 25px 0 0 31px;
+        width: 67% !important;
+    }
+
+    .header_detail span {
+        color: #d2202f;
+        float: left;
+          font-family: 'latobold';
+        font-size: 25px !important;
+        width: 100%;
+    }
+
+    .header_detail1 span {
+       color: #414040;
+    float: left;
+  font-family: 'latobold';
+    }
+
+
+
+    .box_sct_bg2 {
+        float: left;
+        margin-bottom: 25px !important;
+        width: 100%;
+    }
+
+    .toggleMenu {
+        background: rgba(0, 0, 0, 0) url("../images/menu-icon.png") no-repeat scroll 0 0;
+        color: #f0b310;
+        display: none;
+        margin: 5px 0 0 8px !important;
+        padding: 16px 30px;
+    }
+
+/*    .logo {
+        display: none;
+    }*/
+
+    #landCalcBox {
+        color: #000000 !important;
+        float: left;
+        margin: auto;
+        width: 100%;
+    }
+
+    #calculatorForm {
+        margin: auto;
+        width: 100% !important;
+    }
+
+    #headerCalc {
+        width: 100%;
+    }
+
+    #purchasePrice {
+        width: 100%;
+    }
+
+        #purchasePrice > input {
+            width: 100% !important;
+        }
+
+    #checkBox {
+        width: 100%;
+    }
+
+    #resultBox {
+        width: 100%;
+    }
+
+    #ontarioTax {
+        width: 100%;
+    }
+
+    #torontoTax {
+        float: left;
+        width: 100%;
+    }
+
+    .fuuter_name h2 {
+        color: #3f6f55;
+        float: left;
+        font-family: "open_sansbold";
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .header_detail1 {
+        float: right;
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .fuutr_phne_bg {
+        bottom: 0;
+        display: block !important;
+        position: fixed;
+    }
+
+    .futer_phn {
+        background: #3f6f55 none repeat scroll 0 0;
+        border-radius: 2px;
+        color: white;
+        float: left;
+        margin: 0 42px 0 0;
+        padding: 5px;
+        width: 44%;
+    }
+
+    .futer_phn1 {
+        background: #3f6f55 none repeat scroll 0 0;
+        border-radius: 2px;
+        color: white;
+        float: left;
+        margin: 0 6px 0 0px;
+        padding: 5px;
+        width: 44%;
+    }
+
+    .futer_phn span {
+        color: white !important;
+        margin: 0 5px 4px 0;
+        padding: 5px;
+    }
+
+    .futer_phn1 span {
+        color: white !important;
+        margin: 0 5px 4px 0;
+        padding: 5px;
+    }
+
+    .futer_mail_bg {
+        background: #343434 none repeat scroll 0 0;
+        border-radius: 0px;
+        display: block !important;
+        float: left;
+        margin: 15px 0 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .futer_mail span {
+        padding: 8px;
+    }
+
+    .smpc-div > input {
+        float: left;
+        margin: 10px 13px 14px 0;
+        width: 100%;
+    }
+
+    .search_boxx_left {
+        border: 2px solid #34393d;
+        float: left;
+        margin: 21px 0 24px 14px;
+        width: 93% !important;
+        height: 250px !important;
+    }
+
+    .search_boxx_list_5 {
+        background-color: white;
+        box-shadow: 0 3px 16px -11px black;
+        float: left;
+        margin: 12px 0 0 0px;
+        width: 100%;
+    }
+
+    .mobile-phone {
+        display: none !important;
+    }
+
+    .header_bg_1 {
+        display: none;
+        float: left;
+        padding: 8px;
+        width: 100%;
+    }
+
+    #mortgageAffordabilityIframe {
+        display: none;
+    }
+
+    #premiumCalculatorIframe {
+        display: none;
+    }
+
+    .box_sct_bg3 {
+        float: left;
+        margin: 0px !important;
+        width: 100%;
+    }
+    .box_sct_bg2
+{
+	   float: left;
+    margin: 0px !important;
+    width: 100%;
+}
+    .futer_mail > ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 7px 0 12px;
+}
+.detail_left_Section_top {
+    float: left;
+    margin: 0 4px 0 7px;
+    width: 100%;
+}
+.detail_left_Desfeatures {
+    float: left;
+    margin: 0 4px 0 7px;
+    width: 100%;
+}
+.virtl_image_cmgsoon
+{
+	margin:0px;
+}
+.fuuter_bg {
+    background: white;
+    float: left;
+    height: 175px;
+    padding: 8px;
+    width: 100%;
+}
+}
+
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+	.video_sction {
+    float: left;
+       margin-top:0px !important;
+    width: 100%;
+}
+
+.frnt_line_cls
+{
+	margin:0px;
+}
+.propert_header_cntntt {
+    float: left;
+    margin: 4px 0 0 !important;
+    width: 100%;
+}
+.landing_page_p_pge
+{
+	margin:0;
+}
+
+.review_home_worth_di {
+    float: left;
+    margin: 20px 0 !important;
+    width: 100%;
+}
+.propert_top_details_scnd {
+    display: inline-table;
+    float: right;
+    margin: 18px 0 0;
+    width: 89%;
+}
+	.right_section {
+    float: left;
+    margin: 28px 0 30px -10px;
+    width: 100%;
+}
+.Infomation > textarea {
+    border: 1px solid gray;
+    width: 100%;
+}
+.header_detail1 h5 {
+    float: left;
+    margin: 10px 15px 0 0 !important;
+    text-align: center;
+    width: 45%;
+}
+.Infomation_1_Email_Listing > p {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 14px;
+    text-align: justify;
+    width: 100% !important;
+}
+.property-search-container input[type="submit"] {
+    clear: both;
+    color: white !important;
+    float: right;
+    margin-right: 4px;
+    width: auto;
+}
+
+.totalrecorslabe {
+    color: red;
+    float: left;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    text-align: center;
+    width: 100%;
+}
+.changer {
+    float: left !important;
+    margin: 0 20px 20px 0 !important;
+	width:95% !important;
+}
+	.contact_number {
+    float: left;
+    padding: 4px;
+    position: absolute;
+    top: 457px !important;
+    z-index: 99999;
+}
+.property_new_details {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    margin: 69px 0 0 7px;
+    padding: 10px;
+    width: 100%;
+}
+.contact_number span {
+    color: white;
+    float: left;
+    font-size: 16px !important;
+    text-align: center;
+    width: 91%;
+	margin-top:100px;
+}
+	.top_section ul li {
+    color: #ffca06;
+    display: inline;
+    float: left;
+    font-family: arial;
+    font-size: 13px;
+    padding: 1px;
+    width: 100%;
+}
+.header_middle {
+    border-bottom: 1px solid #343132;
+    border-top: 1px solid #343132;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.top_section {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.property_logo h4 {
+    color: white;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 10px;
+    font-style: italic;
+    line-height: 16px;
+    margin: 36px 0 0 11px;
+    width: 58%;
+}
+.property_logo img {
+    float: left;
+    margin: 18px 0 11px;
+}
+.useful_link {
+    float: left;
+    margin: 21px 0 0;
+    width: 100%;
+}
+.useful_link > ul li a {
+    border-right: 1px solid;
+    color: white;
+    font-family: arial;
+    font-size: 13px;
+    padding: 0 8px;
+}
+.Residential_section_box {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #bdbdbd;
+    float: left;
+    margin: 0 20px 42px 7px;
+    width: 95%;
+}
+
+.banner {
+    border: medium none;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+.top_section_services {
+    float: left;
+    margin: 20px 0 0;
+    width: 100% !important;
+}
+	
+.Residential_section {
+    float: left;
+    margin: 20px 0 0;
+    width: 100% !important;
+}	
+.Detail_Email {
+    float: left;
+    margin: 8px 0 0;
+    width: 100%;
+}
+
+#map-canvas
+{
+	width:100% !important;
+}
+.Images {
+    float: left;
+    margin: 0 15px 10px 9px;
+    width: 92% !important;
+}
+ .Free-Home {
+    border: 2px solid #7c952d;
+    float: left;
+    margin: 41px 0 40px !important;
+    padding: 15px 14px 0 15px !important;
+    width: 100% !important;
+}
+.Infomation > input {
+    border: 1px solid gray;
+    float: left;
+    margin-bottom: 0px;
+    width: 100% !important;
+}
+.Infomation {
+    float: left;
+    width: 100% !important;
+	height:71px !important;
+}
+.feature_listing {
+    float: left;
+    margin: 22px 0 0px !important;
+    width: 100%;
+}
+.Residential_section_bg h3 {
+    border-bottom: 1px solid #c2c3c4;
+    color: #3a4d3b;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px;
+    margin-bottom: 1px;
+    padding: 1px 0 11px;
+    text-align: center;
+    width: 100%;
+}
+.Residential_section_bg h3 {
+    border-bottom: 1px solid #c2c3c4;
+    color: #3a4d3b;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px;
+    margin-bottom: 1px;
+    padding: 1px 0 11px;
+    text-align: center;
+    width: 100%;
+}
+.top_section ul li {
+    color: white;
+    display: inline;
+    font-family: arial;
+    font-size: 13px !important;
+    padding: 3px !important;
+    text-align: left;
+}
+.box5 > h2 {
+    color: #457066;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    margin: 5px 3px 0 18px;
+    width: 100% !important;
+}
+.search_boxx_right_bg {
+    float: left;
+    margin: 0 0 0 3px;
+    width: 100% !important;
+}
+.para {
+    float: left;
+    width: 100% !important;
+}
+.favorate {
+    float: left;
+    padding: 0 0 0px 17px !important;
+    width: 65% !important;
+}
+.search_boxx_right_bg_2 {
+    float: left;
+    padding: 2px 17px 7px !important;
+    width: 100% !important;
+}
+.logo_section {
+     float: left;
+    margin: 49px 0 0;
+    position: absolute;
+    text-align: center;
+    width: 80%;
+	display:none;
+}
+.main_sct_bg {
+     float: left;
+    position: relative !important;
+    top: -25px !important;
+    width: 100%;
+	margin:0px !important;
+}
+.main_sction {
+    float: left;
+    position: relative;
+    top: 592px !important;
+    width: 100%;
+}
+.box_sct_bg {
+    float: left;
+    margin: 44px 0 2px !important;
+    text-align: center;
+    width: 100% !important;
+}
+.video_sction {
+    float: left;
+    margin-top:204px !important;
+    width: 100%;
+}
+.nav > li {
+    background: rgba(0, 0, 0, 0) url("../images/menu-strip.png") no-repeat scroll 10px 14px;
+    float: left;
+    width: 100%;
+}
+
+.Residential_section_bg {
+    float: left;
+    margin: 227px 0 0 !important;
+    width: 100%;
+}
+.Residential_section {
+    float: left;
+    margin: 20px 0 0;
+    width: 97% !important;
+}
+.main_sction {
+ float: left;
+    position: relative;
+    top:0 !important;
+    width: 100% !important;
+	left:0px !important;
+}
+.header_details h3 {
+    color: white;
+    float: left;
+    font-family: bebas;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
+.header_detail {
+    margin-bottom: 2px;
+text-align: center;
+    width: 100%;
+	 float: left;
+    width:100% !important;
+}
+iframe
+{
+	margin: 50px 0 0 0px !important;
+    width: 100% !important;
+}
+.footer_social li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 6px 0 0 !important;
+}
+.property_new_details
+{
+	margin:129px 0 0 0px !important; 
+}
+.right_section_new {
+    background: #f4f4f4 none repeat scroll 0 0;
+    float: left;
+    margin-top: 10px !important;
+    padding-bottom: 10px;
+    width: 100% !important;
+}
+    .menu_section {
+        float: left;
+        position: absolute;
+        width: 95% !important;
+        z-index: 9999999;
+        background: #128e1e  ;
+    }
+.top_menu_bg {
+    background: #128e1e none repeat scroll 0 0;
+    float: left;
+    height: 52px !important;
+    width: 100%;
+	  margin-top: 4px;
+}
+.property-search-container_new
+{
+float: left;
+    padding: 6px 0 25px;
+    width: 97%;
+}
+.bottom_section_bg
+{
+	background:white !important   ;
+	}
+
+.Free-Home_new {
+    float: left;
+    margin: 10px 9px 26px 0px;
+    padding: 5px;
+    width: 100%;
+}
+.sell_house {
+    border: 1px solid #336666;
+    float: left;
+    margin: 0 18px 20px 0;
+    padding: 10px;
+    width: 96%;
+}
+.contact_in_left {
+    background: white none repeat scroll 0 0;
+    border: 3px solid #eaeaea;
+    float: left;
+    padding: 15px;
+  width: 100% !important;
+  }
+  .seaarch_Property_in {
+    float: left;
+    height: 209px;
+    margin: 0 0 0 0px;
+    width: 100%;
+}
+.Infomation > span {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    margin: 13px 0 0;
+    width: 100%;
+}
+.property-search-container .medium-module {
+    height: auto;
+    width: 100%;
+}
+.detl div {
+    float: right;
+    margin: 0 46px 2px 0;
+    width: 157px;
+}
+.infor_list_3 {
+    color: #666666;
+    float: left;
+    font-size: 16px;
+    margin: 4px 11px 0 -9px;
+    width: 100%;
+}
+.header_detail h2 {
+    color: #d2202f;
+    float: left;
+      font-family: 'latobold';
+    font-size: 20px !important;
+    margin: 5px 0;
+}
+.logo_section img {
+ margin: 25px 0 0 31px;
+    width: 67% !important;
+}
+.header_detail span {
+    color: #d2202f;
+    float: left;
+      font-family: 'latobold';
+    font-size: 25px !important;
+    width: 100%;
+}
+.header_detail1 span {
+  color: #414040;
+    float: left;
+        font-family: 'latobold';
+    font-size: 16px !important;
+	margin:0px !important;
+}
+
+.box_sct_bg2 {
+    float: left;
+       margin: 51px 0 67px 10px !important;
+    width: 100%;
+}
+.header_bg {
+    float: left;
+    padding: 8px;
+    width: 100%;
+}
+/*.logo
+{
+	display:none;
+}*/
+.container
+{
+	padding:0px;
+}
+
+#landCalcBox {
+    color: #000000 !important;
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+#calculatorForm {
+    margin: auto;
+    width: 100% !important;
+}
+#headerCalc {
+
+    width: 100%;
+}
+#purchasePrice {
+
+    width: 100%;
+}
+#purchasePrice > input {
+    width: 100% !important;
+}
+#checkBox {
+
+    width: 100%;
+}
+#resultBox {
+ 
+    width: 100%;
+}
+#ontarioTax {
+
+    width: 100%;
+}
+#torontoTax {
+ 
+    float: left;
+    width: 100%;
+}
+.fuuter_name h2 {
+    color: #3f6f55;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    width: 100%;
+}
+.header_detail1 {
+     float: right;
+    text-align: center !important;
+    width: 100% !important;
+}
+.fuutr_phne_bg {
+     bottom: 0;
+    display: block !important;
+ position: fixed;
+}
+.futer_phn {
+     background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 44%;
+}
+.futer_phn1
+{
+	   background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 44%;
+
+}
+.futer_phn span {
+    color: white !important;
+    margin: 0 5px 4px 0;
+    padding: 5px;
+}
+.futer_phn1 span
+{
+	 color: white !important;
+    margin: 0 5px 4px 0;
+    padding: 5px;
+}
+.futer_mail_bg {
+    background: #343434 none repeat scroll 0 0;
+    border-radius: 0px;
+    display: block !important;
+    float: left;
+    margin: 15px 0 0;
+    padding: 10px;
+    width: 100%;
+}
+.futer_mail span {
+    padding: 8px;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 13px 14px 0;
+    width: 100%;
+}
+.fuuter_map {
+    float: left;
+    margin: 0px 0 0;
+    width: 100%;
+}
+.futr_menu_sect ul li {
+    display: inline;
+    font-family: "CenturyGothic-Regular";
+    font-size: 13px;
+    list-style-type: none;
+    padding: 0 12px 0 0 !important;
+}
+.futer_mail {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.search_boxx_left {
+    border: 2px solid #34393d;
+    float: left;
+    margin: 21px 0 24px 7px !important;
+    width: 90%;
+	height:auto;
+}
+.search_boxx_list_5 {
+    background-color: white;
+    box-shadow: 0 3px 16px -11px black;
+    float: left;
+    margin: 12px 0 0 0px;
+    width: 100%;
+}
+.search_boxx_right_bg > span > a {
+    color: #34393d;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    margin: -22px 0 15px 7px;
+    padding: 30px 0 0;
+    text-align: justify;
+    text-decoration: none;
+    width: 90%;
+}
+.mobile-phone
+{
+	display:none !important;
+}
+.header_bg_1 {
+    display: none;
+    float: left;
+    padding: 8px;
+    width: 100%;
+}
+.box_sct_bg2 {
+    float: left;
+   margin: 51px 0 67px 10px !important;
+    width: 100%;
+}
+.futer_mail > ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 7px 0 12px;
+}
+.buyer_section > div {
+ border: 2px solid grey;
+    float: left;
+  
+    width: 100%;
+}
+.bx-wrapper .bx-viewport {
+    background: #fff none repeat scroll 0 0;
+    border: 5px solid #fff;
+    height: 153px !important;
+    left: 0;
+    transform: translateZ(0px);
+}
+.fuuter_bg {
+    background: white none repeat scroll 0 0;
+    float: left;
+    padding: 8px;
+    width: 100%;
+}
+.propert_header_img {
+    display: none;
+    float: left;
+    margin: 7px 0;
+    width: 100%;
+}
+.propert_header_cntntt_box {
+    display: none;
+    float: left;
+    margin: 3px 0;
+    text-align: center;
+    width: 100%;
+}
+.propert_top_details {
+    display: none;
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+.futer_mail > ul {
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+
+.logo_landing {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+}
+
+
+@media screen and (max-width: 414px) {
+.box_shadow {
+    float: left;
+    margin: 0px !important;
+    width: 100%;
+}	
+
+.scoico_icns_frnt {
+    display: inline;
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.nbs-flexisel-item img {
+    cursor: pointer;
+    height: 260px !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 320px !important;
+    position: relative;
+    width: 100%;
+}
+.header_detail h2 {
+    color: #d2202f;
+    float: left;
+    font-family: "latobold";
+    font-size: 20px !important;
+    margin: 0 0 0 0px !important;
+    width: 100%;
+}
+.header_detail h5 {
+    color: #292929;
+    float: left;
+    font-family: "latobold";
+    font-size: 18px !important;
+    margin: 6px 0 0 8px !important;
+    text-transform: uppercase;
+}
+.header_detail p {
+    color: #292929;
+    float: left;
+    font-family: "latobold";
+    font-size: 16px;
+    margin: 7px 0 0 0px;
+    text-transform: uppercase;
+    width: 100% !important;
+}
+.free_home_top p {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 14px;
+    line-height: 24px;
+    margin: 6px 0;
+    padding: 8px;
+    text-align: justify;
+    width: 100%;
+}
+.Design_and_developed {
+    float: left;
+    margin: 16px 0 0 !important;
+    text-align: center;
+    width: 100%;
+}
+.header_detail1 {
+    display: none;
+    float: left !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+.header_detail {
+    float: left;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 100% !important;
+}
+.main_sct_bg {
+    float: left;
+    margin: 0 !important;
+    position: relative !important;
+    top: 0 !important;
+    width: 100%;
+}
+.roco_pro_info > p {
+    color: white;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 12px;
+    margin: 0 0 10px !important;
+    text-align: center;
+    width: 100%;
+}
+.property_top_box_sctn h3 {
+    font-family: "MyriadProRegular";
+    font-size: 12px;
+    margin: 4px 0;
+}
+.mortgge_clc h4 {
+    color: #7c952d;
+    float: left;
+    font-family: "CenturyGothic-Bold";
+    font-size: 18px !important;
+    line-height: 26px;
+    margin: 12px 0 0;
+    text-align: center;
+    width: 100%;
+}
+.free_nw_cls_bg {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #c8c6c6;
+    border-radius: 5px;
+    float: left;
+    margin-bottom: 15px;
+    padding: 3px !important;
+    width: 100%;
+}
+.schedule_appointment h2 {
+    color: #7c952d;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    font-size: 20px !important;
+    margin: 0 0 10px;
+    text-align: center;
+    width: 100%;
+}
+.Free-Home_calculator {
+    border: 1px solid #818181;
+    float: left;
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 100%;
+}
+.Infomation_new_frm span {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    margin-top: 0 !important;
+    width: 100%;
+}
+.Infomation_new_frm > input {
+    color: grey;
+    float: left;
+    font-size: 12px;
+    margin: 0 !important;
+    padding: 9px;
+    width: 100%;
+}
+.left_section_info_new {
+    float: left;
+    margin: 6px 0 !important;
+    width: 100%;
+}
+
+.nav li ul {
+    left: -9999px;
+    margin: 0 0 0 17px !important;
+    padding: 0;
+    position: absolute;
+    width: 90% !important;
+    z-index: 999999999;
+}
+.box_sct_bg {
+    float: left;
+    margin: 20px 0 2px !important;
+    text-align: center;
+    width: 100% !important;
+}
+.header_detail1 h5 {
+    float: left;
+    margin: 0px!important;
+    width:100% !important;
+}
+.propert_top_details_scnd {
+   display: inline-table;
+    float: right;
+    margin: 18px 0 0;
+    width: 96%;
+}
+.futer_mail > ul {
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+.buyer_section > div {
+    border: 2px solid grey;
+    float: left;
+   
+    width: 100%;
+}
+.w4rlisting-list-b li.a span {
+    font-family: "open_sansbold";
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 -1px;
+}
+.propert_top_details {
+    float: left;
+    width: 100%;
+	margin:0px;
+}
+.propert_header_cntntt_box {
+    float: left;
+    margin: 3px 0;
+    text-align: center;
+    width: 100%;
+}
+.proprty_price {
+    border: medium none;
+    float: left;
+    width: 100%;
+}
+.propert_header_cntntt h2 {
+    color: #dc1f16;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 16px;
+    margin: 6px 0;
+    width: 100%;
+}
+.propert_header_img {
+    float: left;
+    margin: 7px 0;
+    width: 100%;
+}
+.proprty_details_boxx {
+    border-bottom: 1px solid grey;
+    border-right: medium none;
+    float: left;
+    margin: 8px 0;
+    text-align: center;
+    width: 100%;
+}
+.proprty_details_boxx > h2 {
+    color: #7e7e7e;
+    float: left;
+    font-family: open_sansbold;
+    font-size: 12px;
+    margin-top: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.proprty_details_boxx > span {
+    float: left;
+    font-family: open_sansbold;
+    font-size: 11px;
+    margin: 4px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.roco_cnts_us {
+    float: left;
+    width: 100%;
+	margin:22px 0 0;
+}
+.bx-wrapper .bx-viewport {
+    background: #fff none repeat scroll 0 0;
+    border: 5px solid #fff;
+    height: 153px !important;
+    left: 0 !important;
+    transform: translateZ(0px);
+}
+.txtar_fre_hme {
+    margin-bottom: 32px;
+}
+.left_section_info {
+    float: left;
+    margin: 12px 0 !important;
+    width: 100% !important;
+}
+.frr_hme_evl {
+    height: 780px;
+}
+.box_sct_bg2 {
+    float: left;
+      margin: 51px 0 67px 10px !important;
+    width: 90% !important;
+}
+.box_sct_bg3 {
+    float: left;
+    margin: 0 0 20px 30px !important;
+    width: 90% !important;
+}
+.login_input_1 > input {
+    float: left !important;
+    width: 47% !important;
+}
+.para > p {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    line-height: 20px;
+    margin: -8px 0 0;
+    padding: 0 27px 14px 7px !important;
+    text-align: justify;
+    width: 100%;
+}
+.In_bg {
+    float: left;
+    margin: 0 0 27px !important;
+    width: 100%;
+}
+.search_boxx_list_5 {
+    background-color: white;
+    box-shadow: 0 3px 16px -11px black;
+    float: left;
+    margin: 12px 0 0 !important;
+    width: 100% !important;
+}
+
+
+.logo_landing {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+	
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+	iframe
+{
+	 margin: 250px 0 0 -8px !important;
+    width: 103% !important;
+}
+.footer_social a {
+    line-height: 51px;
+}
+.red {
+    background-color: #5a6d21;
+    font-family: "CenturyGothic-Regular";
+    font-size: 13px !important;
+}
+.property_top_box_sctn {
+    float: left;
+    margin: 5px 8px !important;
+    text-align: center;
+}
+.propert_top_details_scnd {
+    display: inline-table;
+    float: right;
+    margin: 18px 0 0;
+    width: 100%;
+}
+.buyer_section {
+    float: left;
+
+    width: 100%;
+}
+.login_input_1 > input {
+    float: left !important;
+    width: 35% !important;
+}
+.header_detail1 h5 {
+    float: left;
+    margin: 0px!important;
+    width: 100% !important;
+}
+.footer_social li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 6px 0 0 !important;
+}
+.right_section_new {
+    background: #f4f4f4 none repeat scroll 0 0;
+    float: left;
+    margin-top: 10px !important;
+    padding-bottom: 10px;
+    width: 100% !important;
+}
+.Residential_section_bg {
+    float: left;
+    margin:216px 0 0 0px !important;
+    width: 100%;
+}
+.video_sction {
+    float: left;
+       margin-top: 290px !important;
+    width: 100%;
+}
+    .menu_section {
+        float: left;
+        position: absolute;
+        width: 95% !important;
+        z-index: 9999999;
+        background: #128e1e  ;
+    }
+.top_menu_bg {
+    background: #128e1e  none repeat scroll 0 0;
+    float: left;
+    height: 52px !important;
+    width: 100%;
+	  margin-top: 4px;
+}
+.property-search-container_new
+{
+float: left;
+    padding: 6px 0 25px;
+    width: 97%;
+}
+.bottom_section_bg
+{
+	background:white !important   ;
+	}
+
+.Free-Home_new {
+       float: left;
+    margin: 10px 9px 0 -2px;
+    padding: 10px;
+    width: 100%;
+}
+.sell_house {
+    border: 1px solid #336666;
+    float: left;
+    margin: 0 18px 20px 0;
+    padding: 10px;
+    width: 100%;
+}
+.contact_in_left {
+    background: white none repeat scroll 0 0;
+    border: 3px solid #eaeaea;
+    float: left;
+    padding: 15px;
+  width: 100% !important;
+  }
+  ul.dt-sc-tabs-frame > li > a {
+    background: #1c1c1c none repeat scroll 0 0;
+    border-bottom: 0 none;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    float: left;
+    font-family: Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px !important;
+    line-height: 38px;
+    margin: 0;
+    padding: 0 10px !important;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.seaarch_Property_in {
+    float: left;
+    height: 209px;
+    margin: 0 0 0 0px;
+    width: 100%;
+}
+.infor_list_2 {
+    color: #666666;
+    float: left;
+    font-size: 16px;
+    margin: 14px 0 0 -6px;
+    width: 100%;
+}
+.Infomation > span {
+    color: #808080;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    margin: 13px 0 0;
+    width: 100%;
+}
+.property-search-container .medium-module {
+    height: auto;
+    width: 100%;
+}
+.detl div {
+    float: right;
+    margin: 0 46px 2px 0;
+    width: 157px;
+}
+.infor_list_3 {
+    color: #666666;
+    float: left;
+    font-size: 16px;
+    margin: 4px 11px 0 -9px;
+    width: 100%;
+}
+.srch_btn_upr input {
+    width: 67% !important;
+}
+.header_detail h2 {
+    color: #d2202f;
+    float: left;
+    font-family: 'latobold';
+    font-size: 20px !important;
+    margin: 5px 0;
+}
+.logo_section img {
+   margin: 25px 0 0 31px;
+    width: 67% !important;
+}
+.header_detail span {
+    color: #d2202f;
+    float: left;
+    font-family: 'latobold';
+    font-size: 26px !important;
+    width: 100%;
+}
+.header_detail1 span {
+     color: #7c952d;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    font-size: 19px !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.box_sct_bg2 {
+    float: left;
+    margin: 0 0 25px 10px !important;
+    width: 100% !important;
+}
+.header_bg {
+    float: left;
+    padding: 8px;
+    width: 100%;
+}
+
+    .box_sct_bg3 {
+        float: left;
+        margin: 0 0 0 10px !important;
+        width: 100% !important;
+    }
+/*.logo
+{
+	display:none;
+}*/
+.container
+{
+	padding:0px;
+}
+
+#landCalcBox {
+    color: #000000 !important;
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+#calculatorForm {
+    margin: auto;
+    width: 100% !important;
+}
+#headerCalc {
+
+    width: 100%;
+}
+#purchasePrice {
+
+    width: 100%;
+}
+#purchasePrice > input {
+    width: 100% !important;
+}
+#checkBox {
+
+    width: 100%;
+}
+#resultBox {
+ 
+    width: 100%;
+}
+#ontarioTax {
+
+    width: 100%;
+}
+#torontoTax {
+ 
+    float: left;
+    width: 100%;
+}
+.fuuter_name h2 {
+    color: #3f6f55;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    width: 100%;
+}
+.header_detail1 {
+   float: right;
+    text-align: center !important;
+    width: 100% !important;
+}
+.fuutr_phne_bg {
+     bottom: 0;
+    display: block !important;
+ position: fixed;
+}
+.futer_phn {
+     background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 44%;
+}
+.futer_phn1
+{
+	   background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 46%;
+
+}
+.futer_phn span {
+    color: white !important;
+    margin: 0 5px 4px 0;
+    padding: 5px;
+}
+.futer_phn1 span
+{
+	 color: white !important;
+    margin: 0 5px 4px 0;
+    padding: 5px;
+}
+.futer_mail_bg {
+    background: #343434 none repeat scroll 0 0;
+    border-radius: 0px;
+    display: block !important;
+    float: left;
+    margin: 15px 0 0;
+    padding: 10px;
+    width: 100%;
+}
+.futer_mail span {
+    padding: 8px;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 13px 14px 0;
+    width: 100%;
+}
+.srch_btn_upr {
+    float: right;
+    width: 80%;
+}
+.futr_menu_sect ul {
+    float: left;
+    line-height: 26px;
+    width: 100%;
+}
+.search_boxx_left {
+    border: 2px solid #34393d;
+    float: left;
+    margin: 21px 0 24px 14px;
+    width: 90%;
+	height:auto;
+}
+.search_boxx_list_5 {
+    background-color: white;
+    box-shadow: 0 3px 16px -11px black;
+    float: left;
+    margin: 12px 0 0;
+    width: 99%;
+}
+.search_boxx_right_bg > span > a {
+    color: #34393d;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    margin: -22px 0 15px 7px;
+    padding: 30px 0 0;
+    text-align: justify;
+    text-decoration: none;
+    width: 90%;
+}
+.mobile-phone
+{
+	display:none !important;
+}
+.header_bg_1 {
+    display: none;
+    float: left;
+    padding: 8px;
+    width: 100%;
+}
+
+.futer_mail > ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 7px 0 12px;
+}
+.Sendbutton
+{
+	width:40% !important;
+}
+.fuuter_bg {
+    background:white;
+    float: left;
+    padding: 8px;
+    width: 100%;
+}
+
+.logo_landing {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+}
+
+
+@media screen and (max-width: 360px) {
+
+
+.property_top_box_sctn {
+    float: left;
+    margin: 5px 6px !important;
+    text-align: center;
+}
+
+}
+
+/************************************************************************************
+smaller than 320
+*************************************************************************************/
+@media screen and (max-width: 320px) {
+	.top_section ul li {
+    color: #ffca06;
+    display: inline;
+    float: left;
+    font-family: arial;
+    font-size: 13px;
+    padding: 1px;
+    width: 100%;
+}
+.property_top_box_sctn {
+    float: left;
+    margin: 5px 3px !important;
+    text-align: center;
+}
+.header_middle {
+    border-bottom: 1px solid #343132;
+    border-top: 1px solid #343132;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.top_section {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.property_logo h4 {
+    color: white;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 10px;
+    font-style: italic;
+    line-height: 16px;
+    margin: 36px 0 0 11px;
+    width: 58%;
+}
+.property_logo img {
+    float: left;
+    margin: 18px 0 11px;
+}
+.useful_link {
+    float: left;
+    margin: 21px 0 0;
+    width: 100%;
+}
+.useful_link > ul li a {
+    border-right: 1px solid;
+    color: white;
+    font-family: arial;
+    font-size: 13px;
+    padding: 0 8px;
+}
+.Residential_section_box {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #bdbdbd;
+    float: left;
+    margin: 0 20px 42px 7px;
+    width: 95%;
+}
+
+.banner {
+    border: medium none;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+.top_section_services {
+    float: left;
+    margin: 20px 0 0;
+    width: 100% !important;
+}
+	
+.Residential_section {
+    float: left;
+    margin: 20px 0 0;
+    width: 100% !important;
+}	
+.Detail_Email {
+    float: left;
+    margin: 8px 0 0;
+    width: 100%;
+}
+
+
+.Images {
+    float: left;
+    margin: 0 15px 10px 9px;
+    width: 92% !important;
+}
+.Free-Home {
+    border: 2px solid #7c952d;
+    float: left;
+    margin: 41px 0 40px !important;
+    padding: 15px 14px 0 15px !important;
+    width: 100% !important;
+}
+.Infomation > input {
+    border: 1px solid gray;
+    float: left;
+    margin-bottom: 17px;
+    width: 100% !important;
+}
+.Infomation {
+    float: left;
+    width: 100% !important;
+	height:auto !important;
+}
+.contact_number {
+    float: left;
+    padding: 4px;
+    position: absolute;
+    top: 457px !important;
+    z-index: 99999;
+}
+.contact_number span {
+    color: white;
+    float: left;
+    font-size: 16px !important;
+    text-align: center;
+    width: 91%;
+}
+ul.dt-sc-tabs-frame > li > a {
+    background: #1c1c1c none repeat scroll 0 0;
+    border-bottom: 0 none;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    float: left;
+    font-family: Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 8px !important;
+    line-height: 38px;
+    margin: 0;
+    padding: 0 10px !important;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.property-search-container .medium-module {
+    height: 90px;
+    width: 100% !important;
+}
+.feature_listing {
+    float: left;
+    margin: 22px 0 0px !important;
+    width: 100%;
+}
+.Residential_section_bg h3 {
+    border-bottom: 1px solid #c2c3c4;
+    color: #3a4d3b;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px !important;
+    margin-bottom: 1px;
+    padding: 1px 0 11px;
+    text-align: center;
+    width: 100%;
+}
+.top_section ul li {
+    color: white;
+    display: inline;
+    font-family: arial;
+    font-size: 13px !important;
+    padding: 3px !important;
+    text-align: left;
+}
+.box5 > h2 {
+    color: #457066;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    margin: 5px 3px 0 18px;
+    width: 100% !important;
+}
+.search_boxx_right_bg {
+    float: left;
+    margin: 0 0 0 3px;
+    width: 100% !important;
+}
+.para {
+    float: left;
+    width: 100% !important;
+}
+.favorate {
+    float: left;
+    padding: 0 0 0px 17px !important;
+    width: 65% !important;
+}
+.search_boxx_right_bg_2 {
+    float: left;
+    padding: 2px 17px 7px !important;
+    width: 100% !important;
+}
+.logo_section {
+    float: left;
+    margin: 62px 0 8px;
+    text-align: left !important;
+    width: 100% !important;
+	display:none;
+
+}
+.main_sct_bg {
+      float: left;
+    position: relative !important;
+    top: -15px !important;
+    width: 100%;
+    z-index: 999999;
+	margin:0px !important;
+}
+.main_sction {
+    float: left;
+    position: relative;
+    top: 23px !important;
+    width: 100%;
+}
+
+/*.video_sction {
+    float: left;
+       margin-top: 81px !important;
+    width: 100%;
+}*/
+.nav > li {
+    background: rgba(0, 0, 0, 0) url("../images/menu-strip.png") no-repeat scroll 10px 14px;
+    float: left;
+    width: 100%;
+}
+
+.Residential_section_bg {
+    float: left;
+    margin:140px 0px 0 !important;
+    width: 100%;
+}
+.Residential_section {
+    float: left;
+    margin: 20px 0 0;
+    width: 100% !important;
+}
+.main_sction {
+    float: left;
+    position: relative;
+    top: 0 !important;
+    width: 100% !important;
+	left:0px !important;
+}
+.header_details h3 {
+    color: white;
+    float: left;
+    font-family: bebas;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
+.header_detail {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+iframe
+{
+	 margin: 150px 0 0 -9px !important;
+    width: 104% !important;
+}
+.footer_social li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 5px 0 0 !important;
+}
+.right_section_new {
+    background: #f4f4f4 none repeat scroll 0 0;
+    float: left;
+    margin-top: 10px !important;
+    padding-bottom: 10px;
+    width: 100% !important;
+}
+.box_sct_bg3 {
+    float: left;
+    margin: 0px 0 47px !important;
+    width: 100% !important;
+}
+    .menu_section {
+        float: left;
+        position: absolute;
+        width: 95% !important;
+        z-index: 9999999;
+        background: #128e1e   ;
+    }
+.top_menu_bg {
+    background: #128e1e  none repeat scroll 0 0;
+    float: left;
+    height: 52px !important;
+    width: 100%;
+	  margin-top: 4px;
+}
+
+.property-search-container_new
+{
+float: left;
+    padding: 6px 0 25px;
+    width: 97%;
+}
+.bottom_section_bg
+{
+	background:white !important   ;
+}
+
+.Free-Home_new {
+    float: left;
+    margin: 10px 9px 0px -2px;
+    padding: 5px;
+    width: 100%;
+}
+.sell_house {
+   border: 1px solid #336666;
+    float: left;
+    margin: 0 18px 20px 0;
+    padding: 10px;
+    width: 98%;
+}
+.contact_in_left {
+    background: white none repeat scroll 0 0;
+    border: 3px solid #eaeaea;
+    float: left;
+    margin: 0 0 25px 0px !important;
+    padding: 15px;
+  width: 100% !important;
+  }
+  .seaarch_Property_in {
+    float: left;
+    height: 209px;
+    margin: 0 0 0 0px;
+    width: 100%;
+}
+.Infomation > span {
+    color: #808080;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    margin: 13px 0 0;
+    width: 100%;
+}
+.property-search-container .medium-module {
+    height: auto;
+    width: 100%;
+}
+.detl div {
+    float: right;
+    margin: 0 46px 2px 0;
+    width: 157px;
+}
+.infor_list_3 {
+    color: #666666;
+    float: left;
+    font-size: 16px;
+    margin: 4px 11px 0 -9px;
+    width: 100%;
+}
+.header_detail h2 {
+   color: #d2202f;
+    float: left;
+   font-family: 'latobold';
+    font-size: 26px !important;
+    margin: 0 !important;
+}
+.logo_section img {
+    width: 62%  !important;
+}
+.header_detail span {
+    color: #d2202f;
+    float: left;
+   font-family: 'latobold';
+    font-size: 26px !important;
+    width: 100%;
+}
+.header_detail1 span {
+  color: #7c952d;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    font-size: 19px !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+.box_sct_bg2 {
+    float: left;
+    margin-bottom: 25px !important;
+    width: 100% !important;
+}
+
+.container
+{
+	padding:0px;
+}
+
+#landCalcBox {
+    color: #000000 !important;
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+#calculatorForm {
+    margin: auto;
+    width: 100% !important;
+}
+#headerCalc {
+
+    width: 100%;
+}
+#purchasePrice {
+
+    width: 100%;
+}
+#purchasePrice > input {
+    width: 100% !important;
+}
+#checkBox {
+
+    width: 100%;
+}
+#resultBox {
+ 
+    width: 100%;
+}
+#ontarioTax {
+
+    width: 100%;
+}
+#torontoTax {
+ 
+    float: left;
+    width: 100%;
+}
+.fuuter_name h2 {
+    color: #3f6f55;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px !important;
+    width: 100%;
+}
+.header_detail1 {
+    float: right;
+    text-align: center !important;
+    width: 100% !important;
+}
+.fuutr_phne_bg {
+   bottom: 0;
+    display: block !important;
+     position: fixed;
+}
+.futer_phn {
+     background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 44%;
+}
+.futer_phn1
+{
+	   background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 46%;
+
+}
+
+.futer_phn span {
+    color: white !important;
+    margin: 0 5px 4px 0;
+    padding: 5px;
+}
+.futer_phn1 span
+{
+	 color: white !important;
+    margin: 0 5px 4px 0;
+    padding: 5px;
+}
+.futer_mail_bg {
+    background: #343434 none repeat scroll 0 0;
+    border-radius: 0px;
+    display: block !important;
+    float: left;
+    margin: 1px 0 0;
+    padding: 10px;
+    width: 100%;
+}
+.futer_mail span {
+    padding: 8px;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 13px 14px 0;
+    width: 100% !important;
+}
+.search_boxx_left {
+    border: 2px solid #34393d;
+    float: left;
+    margin: 21px 0 24px 14px;
+    width: 90%;
+	height:auto;
+}
+.search_boxx_list_5 {
+    background-color: white;
+    box-shadow: 0 3px 16px -11px black;
+    float: left;
+    margin: 12px 0 0 1px;
+    width: 95%;
+}
+.search_boxx_right_bg > span > a {
+    color: #34393d;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    margin: -22px 0 15px 7px;
+    padding: 30px 0 0;
+    text-align: justify;
+    text-decoration: none;
+    width: 90%;
+}
+.mobile-phone
+{
+	display:none !important;
+}
+.header_bg_1 {
+    display: none;
+    float: left;
+    padding: 8px;
+    width: 100%;
+}
+.box_sct_bg2 {
+    float: left;
+    margin: 0 0 25px 2px !important;
+    width: 100%;
+}
+
+.fuutr_phne_bg {
+    bottom: 0;
+    display: block !important;
+    position: fixed;
+    z-index:9999999;
+	width:100%;
+}
+.futer_mail_bg {
+    background:#343434;
+    border-radius: 0;
+    display: block !important;
+    float: left;
+    margin: 1px 0 0;
+    padding: 10px 0 10px 0px;
+    width: 100%;
+	text-align:center;
+}
+.futer_mail > ul {
+    float: left;
+    width: 100%;
+}
+.futer_mail > ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 7px 0 12px;
+}
+.futer_mail > ul li a {
+    border: 0 none;
+    border-radius: 14px;
+    color: white;
+    font-size: 18px;
+    padding: 5px 2px;
+    width: auto;
+}
+.fuutr_phne_bg {
+    display: block;
+}
+.Infomation_1_Email_Listing {
+    float: left;
+    margin-top: 11px !important;
+    width: 100%;
+}
+.frr_hme_evl {
+    height: 960px;
+}
+.buyer_section > div {
+    border: 2px solid grey;
+    float: left;
+    
+    width: 100%;
+}
+.header_detail1 h5 {
+    float: left;
+    margin:0px!important;
+    width: 100%!important;
+}
+
+.logo_landing {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.w4rlisting-list-b li.a span {
+    font-family: "open_sansbold";
+    font-size: 10px;
+    font-weight: 400;
+    margin: 0 0 -1px;
+}
+.futer_mennu ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 18px 0 0 !important;
+}
+.futer_mennu ul li a {
+    color: white;
+    font-family: "latoregular";
+    font-size: 13px !important;
+    text-transform: uppercase;
+}
+.nbs-flexisel-item img {
+    cursor: pointer;
+    height: 220px !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 260px !important;
+    position: relative;
+    width: 100%;
+}
+}
