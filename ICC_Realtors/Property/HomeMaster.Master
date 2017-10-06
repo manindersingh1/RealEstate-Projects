@@ -1,0 +1,394 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeMaster.Master.cs" Inherits="Property.HomeMaster" %>
+
+<%@ Register TagName="FeaturedProperties" TagPrefix="uc" Src="~/Controls/FeaturedProperties.ascx" %>
+<%@ Register TagName="Logo" TagPrefix="uc" Src="~/Controls/logo.ascx" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link id="favicon" runat="server" rel="shortcut icon" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+    <meta name="google-translate-customization" content="18e07a495bcfdebb-6e21f50c844b7cb0-g60562cca66703d3b-3b"></meta>
+    <title><asp:Literal ID="siteTitle" runat="server"></asp:Literal></title> 
+    <script type="text/javascript"  src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/jquery_009.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/media-queries.css" rel="stylesheet" />
+    <link href="css/font.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/styleBackup.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/nivo-slider.css" rel="stylesheet" />
+    <link href="css/shortcodes.css" rel="stylesheet" />
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .contact_number {
+            float: left;
+            height: 100px;
+            padding: 20px;
+            position: absolute;
+            top: 512px;
+            z-index: 99999;
+        }
+            .contact_number span {
+                color: white;
+                font-size: 24px;
+            }
+        #Homebanner {
+            float: left;
+            margin-bottom: 0px;
+            width: 100%;
+        }
+        #map {
+            border: 2px solid #3f6f55;
+            height: 229px;
+            width: 90%;
+        }
+    </style>
+      <style type="text/css">
+        blockquote {
+            clear: both;
+            font-style: italic;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 10px 10px 0 50px;
+            quotes: none;
+            background: url(https://dl.dropbox.com/u/96099766/RotatingTestimonial/open-quote.png) 0 0 no-repeat;
+            border: 0px;
+            font-size: 120%;
+            line-height: 200%;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="header_bg">
+        <div class="container">
+            <div class="col-md-3 col-sm-3">
+                <div class="header_detail">
+                   <%-- <h2><asp:Label ID="lblBrkrOneName" runat="server"></asp:Label></h2>
+                    <p>Sales Representative</p>--%>
+                    <img src="images/static_logo.png" />
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="middle_logo">
+			   <img src="images/save_max_logo.png" />
+			  </div> 
+            </div>
+            <div class="col-md-3 col-sm-3">
+                
+                <div class="header_detail1_lang">
+                    <div id="google_translate_element"></div>
+                    <script type="text/javascript">
+                        function googleTranslateElementInit() {
+                            new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element');
+                        }
+                </script>
+                  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                </div>
+         
+                <div class="header_detail1">
+                    <h5>
+                        <a href="tel:905-461-2424">
+                            <asp:Label ID="lblphn" runat="server"></asp:Label></a></h5>
+                    <h5><asp:Label ID="headerlblemailid" runat="server" ></asp:Label> </h5>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <div class="top_menu_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <div class="menu_section">
+                    <asp:Literal ID="dynamicmenus" runat="server"></asp:Literal>
+                </div>
+                <script type="text/javascript" src="../js/script.js"></script>
+            </div>
+        </div>
+    </div>
+    <div class="banner_bg_sct">
+          <div class="col-md-6 col-sm-6 nopdng">
+              <div id="Homebanner" runat="server">
+            <div class="banner_section">
+                <div class="slider-wrapper theme-default">
+                    <div id="slider" class="nivoSlider">
+                        <asp:Literal ID="ltrImgsf" runat="server"></asp:Literal>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(window).load(function () {
+                    $('#slider').nivoSlider();
+                });
+            </script>
+        </div>
+              </div>
+          <div class="col-md-6 col-sm-6 nopdng">
+              <div class="main_sction">
+                <div>
+                    <div class="col-md-4 col-sm-4 nopdng">
+                        <div class="box_sct_bg">
+                            <a href="Search.aspx?PropertyType=Residential">
+                                <div class="box_shadow">
+                                    <img src="images/residential_img.jpg" alt="" title="" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 nopdng">
+                        <div class="box_sct_bg">
+                            <a href="Search.aspx?PropertyType=Commercial">
+                                <div class="box_shadow">
+                                    <img src="images/commercial_img.jpg" alt="" title="" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 nopdng">
+                        <div class="box_sct_bg">
+                            <a href="Search.aspx?PropertyType=Condo">
+                                <div class="box_shadow">
+                                    <img src="images/condo_img.jpg" alt="" title="" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="main_sction">
+                <div>
+                    <div class="col-md-4 col-sm-4 nopdng">
+                        <div class="box_sct_bg">
+                            <a href="BankSale.aspx">
+                                <div class="box_shadow">
+                                    <img src="images/bank_sale.jpg" alt="" title="" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 nopdng">
+                        <div class="box_sct_bg">
+                            <a href="Calculators.aspx">
+                                <div class="box_shadow">
+                                    <img src="images/calculators_img.jpg" alt="" title="" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 nopdng">
+                        <div class="box_sct_bg">
+                            <a href="#">
+                                <div class="box_shadow">
+                                    <img src="images/overseas_img.jpg" alt="" title="" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              </div>
+    </div>
+    <div class="main_sct_bg_new">
+        <div class="container">
+            <div class="services_sect_lne">
+                <div class="row frnt_line_cls">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="services_sct_bg1">
+                            <img src="images/service_icon1.png" />
+                            <h2><a href="#">Home Staging</a></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="services_sct_bg2">
+                            <img src="images/service_icon2.png" />
+                            <h2><a href="#">Open House</a></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="services_sct_bg3">
+                            <img src="images/service_icon3.png" />
+                           <h2><a href="#">New Constructions</a></h2>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services_sect_lne">
+                <div class="row frnt_line_cls">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="services_sct_bg4">
+                            <img src="images/service_icon4.png" />
+                             <h2><a href="#">Recently Sold</a></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="services_sct_bg5">
+                            <img src="images/service_icon5.png" />
+                            <h2><a href="#">Pre Listing Inspection</a></h2>
+                            </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="services_sct_bg6">
+                            <img src="images/service_icon6.png" />
+                          <h2><a href="#">Buying & Leasing</a></h2>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main_sct_bg">
+        <div class="container">
+            <div class="main_sction">
+                <div class="row frnt_line_cls">
+                     <div class="col-md-3 col-sm-3">
+                        <div class="below_projct_bg">
+                            <div class="currnt_p">
+                                <a href="#">
+                                    <img src="images/fb_box.jpg" alt="" title="" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="below_projct_bg">
+                            <div class="about_section">
+                                <h2>About Team ICC</h2>
+                                <%--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                     a type specimen book. It has survived not only five centuries. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing</p>
+                               <button type="button" class="btn btn-primary redd_more">Read more</button>--%>
+                                <img src="images/frnt_cmng.png" alt="" title="" />
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-md-3 col-sm-3">
+                        <div class="below_projct_bg">
+                            <div class="upcmng_p">
+                               <a href="Featured_Properties.aspx">
+                                    <h2>Featured Properties</h2>
+                                <img src="images/upcoming.jpg" alt="" title="" />
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <form id="Form1" runat="server">
+        <div class="container" id="containerdiv">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div class="bottom_futer_sect_bg">
+        <div class="container">
+            <div class="bottom_futer_sect">
+             <div class="row frnt_line_cls">
+                 <div class="col-md-4 col-sm-4">
+                     <div class="futer_sect">
+                         <h2>Address</h2>
+                         <div class="futer_box_sect">
+                             <img src="images/adress_icon.png" alt="" title=""/>
+                             <p>1137 Derry Road East, Mississauga, <br />
+                             Ontario, Canada L5T 1P3 
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+                    <div class="col-md-2 col-sm-2">
+                     <div class="futer_sect">
+                         <h2>Phone</h2>
+                         <div class="futer_box_sect2">
+                             <img src="images/futer_phne_icon.png" alt="" title=""/>
+                             <p><asp:Label ID="lblph" runat="server"></asp:Label></p>
+                         </div>
+                     </div>
+                 </div>
+                    <div class="col-md-3 col-sm-3">
+                     <div class="futer_sect">
+                         <h2>Email</h2>
+                         <div class="futer_box_sect2">
+                             <img src="images/futer_email_icon.png" alt="" title="" />
+                             <p><asp:Label ID="lblemailid" runat="server"></asp:Label> </p>
+                         </div>
+                     </div>
+                 </div>
+                    <div class="col-md-3 col-sm-3">
+                     <div class="futer_sect">
+                         <h2>Follow us</h2>
+                         <div class="futer_box_sect">
+                             <ul>
+                                 <li><a href="#"><img src="images/futer_socio1.png" alt="" title="" /></a></li>
+                                  <li><a href="#"><img src="images/futer_socio2.png" alt="" title="" /></a></li>
+                                  <li><a href="#"><img src="images/futer_socio3.png" alt="" title="" /></a></li>
+                                  <li><a href="#"><img src="images/futer_socio4.png" alt="" title="" /></a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+                 </div>
+             </div>
+        </div>
+    </div>
+    <div class="fuuter_bg" id="one-footer">
+        <div class="container">
+            <div class="futer_sctnn">
+                <div class="col-md-12 col-sm-12">
+                    <div class="futer_mennu">
+                        <ul>
+                            <li><a href="Home.aspx">Home</a></li>
+                            <li><a href="../StaticPages.aspx?PageID=22">Sellers</a></li>
+                            <li><a href="../Buyers.aspx">Buyers</a></li>
+                            <li><a href="#">About Team ICC</a></li>
+                            <li><a href="../Free-home-evaluation.aspx">Home Evaluation</a></li>
+                             <li><a href="../Calculators.aspx">Calculators</a></li>
+                            <li><a href="../VirtualTour.aspx">Virtual Tour</a></li>
+                            <li><a href="../ContactUs.aspx">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12">
+                <div class="Designed_and_Developed">
+                    <div>
+                        <b>Designed & Developed by <a href="http://only4agents.com/">Only4Agents</a>
+                        </b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fuutr_phne_bg">
+        <div class="futer_mail_bg">
+            <div class="futer_mail">
+                <ul>
+                    <li><a href="mailto:sales@iccrealtors.com">
+                        <img alt="" src="images/mail_icnnn.png" /></a></li>
+                    <li><a href="tel:905-461-2424">
+                        <img alt="" src="images/mbl_icnnn.png" /></a></li>
+                    <li><a href="sms:905-461-2424">
+                        <img alt="" src="images/sms.png" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
