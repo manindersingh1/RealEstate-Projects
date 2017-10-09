@@ -1,0 +1,180 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PropertyNew.master.cs" Inherits="Property.PropertyNew" %>
+
+<%@ Register TagName="Logo" TagPrefix="uc" Src="~/Controls/logo.ascx" %>
+<%@ Register TagName="ContactInfo" TagPrefix="uc" Src="~/Controls/ContactInfo.ascx" %>
+<%@ Register TagName="SearchControl" TagPrefix="uc" Src="~/Controls/SearchControl.ascx" %>
+<%@ Register TagName="SearchBar" TagPrefix="uc" Src="~/Controls/SearchBar.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE HTML>
+<html>
+<head runat="server">
+    <link id="favicon" runat="server" rel="shortcut icon" type="image/x-icon" />
+ 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+    <title><asp:Literal ID="siteTitle" runat="server"></asp:Literal></title> 
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script type="text/javascript" src="js/jssor.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/styleBackup.css" rel="stylesheet" />
+    <link href="css/style_002.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/shortcodes.css" rel="stylesheet" />
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+    <link href="css/font.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/media-queries.css" rel="stylesheet" />
+    <link href="slider/css/media-queries.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+    <body>
+   <div class="header_bg">
+            <div class="container">
+                <div class="col-md-3 col-sm-3">
+                  <div class="header_detail">
+                      <img src="images/sb_logo.png" alt="" />
+                    <h2>
+                        <asp:Label ID="lblBrkrOneName" CssClass="gjfdhg" runat="server"></asp:Label></h2>
+                    <p>Sales Representative</p>
+                </div>  
+                </div>
+                <div class="col-md-9 col-sm-9">
+                    <div class="top_header_section">
+                        <div class="top_marquee">
+                            <marquee>Multiple Awards Winner</marquee>
+                        </div>
+                        <div class="top_social">
+                           <p><i class="fa fa-phone ftr_hdng"></i><a href="tel:416-902-8589">
+                                <asp:Label ID="lblmobile" runat="server"></asp:Label></a></p>
+                            <p><i class="fa fa-envelope ftr_hdng2"></i><a href="mailto:sharan@propertydealsfinder.com">
+                                <asp:Label ID="lblemail" runat="server"></asp:Label></a></p>
+                            <ul class="social">
+                <li><a href="#" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+                        </div>
+                    </div>
+              <div class="top_menu_bg">
+                  <div class="row frnt_line_cls">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="menu_section">
+                            <asp:Literal ID="dynamicmenus" runat="server"></asp:Literal>
+                        </div>
+                        <script type="text/javascript" src="../js/script.js"></script>
+                    </div>
+                </div>
+                  </div>
+            </div>
+      </div>
+        </div>
+       
+    <div>
+        <div class="inner_banner">
+        <img alt="" src="images/inner-banner.jpg" />
+    </div>
+        </div>
+    <form id="Form1" runat="server">
+        <div class="container" id="containerdiv">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+	   <div class="fuutr_menu_bg mrgn_top">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <div class="futer_mennu">
+                    <ul>
+                        <li><a href="../StaticPages.aspx?PageID=22">Sellers</a></li>
+                        <li><a href="../Buyers.aspx">Buyers</a></li>
+                        <li><a href="../Calculators.aspx">Calculators</a></li>
+                        <li><a href="../virtualtour.aspx">Virtual Tour</a></li>
+                        <li><a href="../RealEstateNews.aspx">Real Estate News</a></li>
+						<li><a href="../view_testimonials.aspx">Testimonials</a></li>
+                        <li><a href="../ContactUs.aspx">Contact Us</a></li>
+						 <li><a href="../admin/adminlogin.aspx">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="fuuter_bg" id="one-footer">
+        <div class="container">
+		<div class="row no_paddnggg">
+            <div class="futer_sctnn">
+                <div class="col-md-3 col-sm-3">
+                     <div class="frnt_logo">
+                        <uc:Logo ID="logo2" runat="server" />
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="futer_addres">
+                     <h2>Contact info</h2>
+					
+					 <div class="futer_detail">
+					 <img src="images/futer_icon2.png" alt="" /><p>  <a href="tel:416-902-8589">
+                                <asp:Label ID="lblphn" runat="server"></asp:Label></a></p>
+					 </div>
+                        <div class="futer_detail">
+					 <img src="images/futer_icon3.png" alt="" />
+					 <p> <a href="mailto:sharan@propertydealsfinder.com">
+                                <asp:Label ID="lblemailid" runat="server"></asp:Label></a></p>
+					 </div>
+                    </div>
+                </div>
+                 <div class="col-md-3 col-sm-3">
+                    <div class="futer_addres">
+                     <h2>Address</h2>
+					 <div class="futer_detail">
+					 <img src="images/futer_icon1.png" alt="" /><p>470 Chrysler Dr # 20, <br />
+Brampton, L6S0C1</p>
+					 </div>
+					</div>
+                </div>
+               <div class="col-md-3 col-sm-3">
+               <div class="fuuter_map">
+                <a href="https://www.google.co.in/maps/place/Mushtaq+Khan,+real+estate+broker/@43.7472116,-79.7164857,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3d0a5285dc29:0xd36285823ecd7eda!8m2!3d43.7472116!4d-79.714297" target="_blank"><img src="images/map_img.png" alt="" /></a>
+			  </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+  <div class="bottom_futer">
+	<div class="col-md-12 col-sm-12">
+                <div class="Designed_and_Developed">
+                    <div>
+                        <b>Designed & Developed by <a href="http://only4Agents.com/">Only4Agents</a>
+                        </b>
+                    </div>
+                </div>
+            </div>
+	</div>
+
+    <div class="fuutr_phne_bg">
+        <div class="futer_mail_bg">
+            <div class="futer_mail">
+                <ul>
+                        <li><a href="mailto: sharan@propertydealsfinder.com">
+                            <img alt="" src="images/mail_icnnn.png" /></a></li>
+                        <li><a href="tel:416-902-8589">
+                            <img alt="" src="images/mbl_icnnn.png" /></a></li>
+                        <li><a href="sms:416-902-8589">
+                            <img alt="" src="images/sms.png" /></a></li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery_009.js"></script>
+    <script type="text/javascript" src="js/shortcodes.js"></script>
+</body>
+</html>

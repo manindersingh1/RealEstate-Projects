@@ -1,0 +1,10 @@
+C:\sites\Sharan Butan\Property\obj\Debug\Property.csprojResolveAssemblyReference.cache
+C:\sites\Sharan Butan\Property\bin\Property.dll.config
+C:\sites\Sharan Butan\Property\bin\Property.dll
+C:\sites\Sharan Butan\Property\bin\Property.pdb
+C:\sites\Sharan Butan\Property\bin\Cls_Property.dll
+C:\sites\Sharan Butan\Property\bin\Newtonsoft.Json.dll
+C:\sites\Sharan Butan\Property\bin\Cls_Property.pdb
+C:\sites\Sharan Butan\Property\bin\Newtonsoft.Json.xml
+C:\sites\Sharan Butan\Property\obj\Debug\Property.dll
+C:\sites\Sharan Butan\Property\obj\Debug\Property.pdb
