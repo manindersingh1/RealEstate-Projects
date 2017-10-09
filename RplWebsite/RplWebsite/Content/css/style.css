@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul, dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object, a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span, strong, sub, sup, tt, var, legend, fieldset, p {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+a, input, select, textarea {
+	outline: none;
+	margin: 0;
+	padding: 0;
+}
+img, fieldset {
+	border: 0;
+}
+a {
+	outline: none;
+	border: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+	vertical-align: middle;
+	border: none;
+	outline: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+div, h1, h2, h3, h4, span, p, input, form, img, hr, img, a {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.clear {
+	clear: both;
+}
+body {
+    margin: 0;
+    padding: 0;
+	 font-family: 'Lato', sans-serif;
+}
+.register_frm_logo
+{
+	float:left;
+	width:100%;
+	margin:12px 0;
+	text-align:center;
+}
+.register_frm_bg
+{
+	float:left;
+	width:100%;
+	background:#f1efef;
+	margin:12px 0;
+	padding:16px;
+}
+.register_frm_bg h1{
+	float: left;
+width: 100%;
+font-size: 22px;
+text-align: center;
+margin-bottom: 30px;
+text-transform: uppercase;
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+.modal-header {
+    background-color: #20A12E;
+}
+.modal-header button {
+    font-size: 30px;
+}
+
+.modal-header button, h4.modal-title {
+    color: #fff !important;
+    opacity: 1;
+}
+.buttons, button, .btn {
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.bigButton {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #20A12E;
+    border-color: -moz-use-text-color #2B2B2B #2B2B2B -moz-use-text-color;
+    border-image: none;
+    border-radius: 5px;
+    border-style: none solid solid none;
+    border-width: medium 2px 3px medium;
+    color: #ffffff !important;
+    display: inline-block;
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    /* margin-top: 30px; */
+    padding: 5px 12px;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+}
+
+
+.list_sect_bg {
+    float: left;
+    width: 100%;
+}
+.section_bg {
+    float: left;
+    width: 100%;
+    border: 1px solid #dadada;
+	margin:20px 0 0;
+}
+.list_sect {
+    float: left;
+    width: 100%;
+}
+.list_sect_pagin {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #dadada;
+}
+.list_sect_pagin nav {
+    margin: 0 0px 0 9px;
+}
+.total_count{
+        background: red none repeat scroll 0 0;
+    border-radius: 37px;
+    font-weight: bold;
+    height: 25px;
+    margin: 0 0 0 10px;
+    padding: 5px 9px;
+    width: 25px;
+    color: white !important;
+}
+
+.lbl_clssss{
+    float: right;
+    margin: 40px 11px 0 0;
+}
+
+.pagedisplay {
+    width: 50px !important;
+    opacity: 0.5;
+    pointer-events: none;
+}
+.pagesize {
+    width: 60px !important;
+}
+select {
+    border: 2px solid #E5E7E9;
+    border-radius: 6px;
+    height: 33px;
+    padding: 2px;
+    outline: none;
+}

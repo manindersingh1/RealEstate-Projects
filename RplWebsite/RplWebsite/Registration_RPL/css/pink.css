@@ -1,0 +1,21 @@
+/* 
+Pink Color Skin
+*/
+
+
+/* Logo and CountDown Area */
+.logo-countdown {
+	padding:50px 0;
+	margin:0 0 0 0;
+	background:rgba(255,104,181,0.8);
+}
+
+
+/* Footer Area Styles */
+.social li a:hover {
+	border:1px solid #ff68b5;
+	color:#ffffff;
+	background:#ff68b5;
+}
+
+

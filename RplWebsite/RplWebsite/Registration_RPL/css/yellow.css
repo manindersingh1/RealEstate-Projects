@@ -1,0 +1,21 @@
+/* 
+Yellow Color Skin
+*/
+
+
+/* Logo and CountDown Area */
+.logo-countdown {
+	padding:50px 0;
+	margin:0 0 0 0;
+	background:rgba(254,242,0,0.8);
+}
+
+
+/* Footer Area Styles */
+.social li a:hover {
+	border:1px solid #fef200;
+	color:#ffffff;
+	background:#fef200;
+}
+
+

@@ -1,0 +1,1010 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{93323048-C253-4696-A23C-267D31483990}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RplWebsite</RootNamespace>
+    <AssemblyName>RplWebsite</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.0\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.30506.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.30506.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebMatrix.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.2.0.30506.0\lib\net40\WebMatrix.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.OAuth.2.0.30506.0\lib\net40\Microsoft.Web.WebPages.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.WebData.2.0.30506.0\lib\net40\WebMatrix.WebData.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.1.4.12333\lib\net45-full\DotNetOpenAuth.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.Core, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.OData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.OData.4.0.30506\lib\net40\System.Web.Http.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Edm, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.Edm.5.2.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.OData.5.2.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Spatial, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\System.Spatial.5.2.0\lib\net40\System.Spatial.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.3.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.3.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\AuthConfig.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RegistrationController.cs" />
+    <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\PersonModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap-theme.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\font-awesome.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\font.css" />
+    <Content Include="Content\css\media-queries.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\fonts\Bebas_gdi.svg" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\fonts\ftrabk__-webfont.svg" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\fonts\myriadpro-regular.svg" />
+    <Content Include="Content\fonts\opensans-bold-webfont.svg" />
+    <Content Include="Content\fonts\opensans-regular-webfont.svg" />
+    <Content Include="Content\fonts\oswald-regular-webfont.svg" />
+    <Content Include="Content\fonts\robotocondensed-regular-webfont.svg" />
+    <Content Include="Content\images\logo.png" />
+    <Content Include="Content\js\bootstrap.js" />
+    <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="Content\js\jquery.tablesorter.min.js" />
+    <Content Include="Content\js\jquery.tablesorter.pager.js" />
+    <Content Include="Content\js\npm.js" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\loader.gif" />
+    <Content Include="Images\pagination\first.png" />
+    <Content Include="Images\pagination\last.png" />
+    <Content Include="Images\pagination\next.png" />
+    <Content Include="Images\pagination\prev.png" />
+    <Content Include="Registration_RPL\css\black.css" />
+    <Content Include="Registration_RPL\css\blue.css" />
+    <Content Include="Registration_RPL\css\bootstrap.css" />
+    <Content Include="Registration_RPL\css\green.css" />
+    <Content Include="Registration_RPL\css\jquery.vegas.css" />
+    <Content Include="Registration_RPL\css\orange.css" />
+    <Content Include="Registration_RPL\css\pink.css" />
+    <Content Include="Registration_RPL\css\style.css" />
+    <Content Include="Registration_RPL\css\switcher.css" />
+    <Content Include="Registration_RPL\css\yellow.css" />
+    <Content Include="Registration_RPL\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Registration_RPL\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Registration_RPL\img\1.png" />
+    <Content Include="Registration_RPL\img\2.png" />
+    <Content Include="Registration_RPL\img\3.png" />
+    <Content Include="Registration_RPL\img\4.png" />
+    <Content Include="Registration_RPL\img\5.png" />
+    <Content Include="Registration_RPL\img\6.png" />
+    <Content Include="Registration_RPL\img\7.png" />
+    <Content Include="Registration_RPL\img\8.png" />
+    <Content Include="Registration_RPL\img\9.png" />
+    <Content Include="Registration_RPL\img\logo.png" />
+    <Content Include="Registration_RPL\img\main_sponsor1.png" />
+    <Content Include="Registration_RPL\img\main_sponsor2.png" />
+    <Content Include="Registration_RPL\img\road1.jpg" />
+    <Content Include="Registration_RPL\img\road2.jpg" />
+    <Content Include="Registration_RPL\img\road3.jpg" />
+    <Content Include="Registration_RPL\img\road4.jpg" />
+    <Content Include="Registration_RPL\img\sponsor1.jpg" />
+    <Content Include="Registration_RPL\img\sponsor2.jpg" />
+    <Content Include="Registration_RPL\img\sponsor3.jpg" />
+    <Content Include="Registration_RPL\img\sponsor4.jpg" />
+    <Content Include="Registration_RPL\img\sponsor5.jpg" />
+    <Content Include="Registration_RPL\img\sponsor6.jpg" />
+    <Content Include="Registration_RPL\img\sponsor7.jpg" />
+    <Content Include="Registration_RPL\img\sponsor8.jpg" />
+    <Content Include="Registration_RPL\index.html" />
+    <Content Include="Registration_RPL\js\bootstrap.js" />
+    <Content Include="Registration_RPL\js\countdown.js" />
+    <Content Include="Registration_RPL\js\jquery-1.10.2.js" />
+    <Content Include="Registration_RPL\js\jquery.flexisel.js" />
+    <Content Include="Registration_RPL\js\jquery.flexslider.js" />
+    <Content Include="Registration_RPL\js\jquery.vegas.js" />
+    <Content Include="Registration_RPL\js\styleswitcher.js" />
+    <Content Include="Registration_RPL\js\system.js" />
+    <Content Include="rpl\css\style.css" />
+    <Content Include="rpl\extra-images\first_semi\1.jpg" />
+    <Content Include="rpl\extra-images\first_semi\10.jpg" />
+    <Content Include="rpl\extra-images\first_semi\11.jpg" />
+    <Content Include="rpl\extra-images\first_semi\12.jpg" />
+    <Content Include="rpl\extra-images\first_semi\13.jpg" />
+    <Content Include="rpl\extra-images\first_semi\2.jpg" />
+    <Content Include="rpl\extra-images\first_semi\3.jpg" />
+    <Content Include="rpl\extra-images\first_semi\4.jpg" />
+    <Content Include="rpl\extra-images\first_semi\5.jpg" />
+    <Content Include="rpl\extra-images\first_semi\6.jpg" />
+    <Content Include="rpl\extra-images\first_semi\7.jpg" />
+    <Content Include="rpl\extra-images\first_semi\8.jpg" />
+    <Content Include="rpl\extra-images\first_semi\9.jpg" />
+    <Content Include="rpl\extra-images\first_semi\thumb_1.jpg" />
+    <Content Include="rpl\extra-images\first_semi\thumb_10.jpg" />
+    <Content Include="rpl\extra-images\first_semi\thumb_11.jpg" />
+    <Content Include="rpl\extra-images\first_semi\thumb_12.jpg" />
+    <Content Include="rpl\extra-images\first_semi\thumb_13.jpg" />
+    <Content Include="rpl\extra-images\first_semi\thumb_2.jpg" />
+    <Content Include="rpl\extra-images\first_semi\thumb_3.jpg" />
+    <Content Include="rpl\extra-images\first_semi\thumb_4.jpg" />
+    <Content Include="rpl\extra-images\first_semi\thumb_5.jpg" />
+    <Content Include="rpl\extra-images\first_semi\thumb_6.jpg" />
+    <Content Include="rpl\extra-images\first_semi\thumb_7.jpg" />
+    <Content Include="rpl\extra-images\first_semi\thumb_8.jpg" />
+    <Content Include="rpl\extra-images\first_semi\thumb_9.jpg" />
+    <Content Include="rpl\extra-images\second_semi\1.jpg" />
+    <Content Include="rpl\extra-images\second_semi\10.jpg" />
+    <Content Include="rpl\extra-images\second_semi\11.jpg" />
+    <Content Include="rpl\extra-images\second_semi\12.jpg" />
+    <Content Include="rpl\extra-images\second_semi\13.jpg" />
+    <Content Include="rpl\extra-images\second_semi\14.jpg" />
+    <Content Include="rpl\extra-images\second_semi\15.jpg" />
+    <Content Include="rpl\extra-images\second_semi\16.jpg" />
+    <Content Include="rpl\extra-images\second_semi\17.jpg" />
+    <Content Include="rpl\extra-images\second_semi\18.jpg" />
+    <Content Include="rpl\extra-images\second_semi\19.jpg" />
+    <Content Include="rpl\extra-images\second_semi\2.jpg" />
+    <Content Include="rpl\extra-images\second_semi\20.jpg" />
+    <Content Include="rpl\extra-images\second_semi\21.jpg" />
+    <Content Include="rpl\extra-images\second_semi\22.jpg" />
+    <Content Include="rpl\extra-images\second_semi\23.jpg" />
+    <Content Include="rpl\extra-images\second_semi\24.jpg" />
+    <Content Include="rpl\extra-images\second_semi\25.jpg" />
+    <Content Include="rpl\extra-images\second_semi\26.jpg" />
+    <Content Include="rpl\extra-images\second_semi\27.jpg" />
+    <Content Include="rpl\extra-images\second_semi\28.jpg" />
+    <Content Include="rpl\extra-images\second_semi\29.jpg" />
+    <Content Include="rpl\extra-images\second_semi\3.jpg" />
+    <Content Include="rpl\extra-images\second_semi\30.jpg" />
+    <Content Include="rpl\extra-images\second_semi\31.jpg" />
+    <Content Include="rpl\extra-images\second_semi\32.jpg" />
+    <Content Include="rpl\extra-images\second_semi\33.jpg" />
+    <Content Include="rpl\extra-images\second_semi\34.jpg" />
+    <Content Include="rpl\extra-images\second_semi\35.jpg" />
+    <Content Include="rpl\extra-images\second_semi\36.jpg" />
+    <Content Include="rpl\extra-images\second_semi\37.jpg" />
+    <Content Include="rpl\extra-images\second_semi\38.jpg" />
+    <Content Include="rpl\extra-images\second_semi\4.jpg" />
+    <Content Include="rpl\extra-images\second_semi\5.jpg" />
+    <Content Include="rpl\extra-images\second_semi\6.jpg" />
+    <Content Include="rpl\extra-images\second_semi\7.jpg" />
+    <Content Include="rpl\extra-images\second_semi\8.jpg" />
+    <Content Include="rpl\extra-images\second_semi\9.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_1.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_10.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_11.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_12.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_13.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_14.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_15.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_16.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_17.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_18.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_19.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_2.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_20.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_21.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_22.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_23.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_24.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_25.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_26.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_27.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_28.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_29.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_3.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_30.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_31.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_32.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_33.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_34.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_35.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_36.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_37.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_38.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_4.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_5.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_6.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_7.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_8.jpg" />
+    <Content Include="rpl\extra-images\second_semi\thumb_9.jpg" />
+    <Content Include="rpl\extra-images\warriors\1.png" />
+    <Content Include="rpl\extra-images\warriors\2.png" />
+    <Content Include="rpl\extra-images\warriors\3.png" />
+    <Content Include="rpl\extra-images\warriors\4.png" />
+    <Content Include="rpl\fonts\AvenirLTStd-Heavy.eot" />
+    <Content Include="rpl\fonts\AvenirLTStd-Heavy.ttf" />
+    <Content Include="rpl\fonts\AvenirLTStd-Heavy.woff" />
+    <Content Include="rpl\fonts\fontawesome-webfont.eot" />
+    <Content Include="rpl\fonts\fontawesome-webfont.ttf" />
+    <Content Include="rpl\fonts\fontawesome-webfont.woff" />
+    <Content Include="rpl\fonts\FontAwesome.otf" />
+    <Content Include="rpl\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="rpl\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="rpl\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="rpl\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="rpl\fonts\glyphicons-halflings-regular_6464C2B1" />
+    <Content Include="rpl\fonts\Poppins-Medium.eot" />
+    <Content Include="rpl\fonts\Poppins-Medium.otf" />
+    <Content Include="rpl\fonts\Poppins-Medium.ttf" />
+    <Content Include="rpl\fonts\Poppins-Medium.woff" />
+    <Content Include="Registration_RPL\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Registration_RPL\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Registration_RPL\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Registration_RPL\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Content\css\bootstrap-theme.css.map" />
+    <Content Include="Content\css\bootstrap.css.map" />
+    <Content Include="Content\fonts\Bebas_gdi.eot" />
+    <Content Include="Content\fonts\Bebas_gdi.ttf" />
+    <Content Include="Content\fonts\Bebas_gdi.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\fonts\ftrabk__-webfont.ttf" />
+    <Content Include="Content\fonts\ftrabk__-webfont.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\myriadpro-regular.eot" />
+    <Content Include="Content\fonts\myriadpro-regular.ttf" />
+    <Content Include="Content\fonts\myriadpro-regular.woff" />
+    <Content Include="Content\fonts\opensans-bold-webfont.eot" />
+    <Content Include="Content\fonts\opensans-bold-webfont.ttf" />
+    <Content Include="Content\fonts\opensans-bold-webfont.woff" />
+    <Content Include="Content\fonts\opensans-regular-webfont.eot" />
+    <Content Include="Content\fonts\opensans-regular-webfont.ttf" />
+    <Content Include="Content\fonts\opensans-regular-webfont.woff" />
+    <Content Include="Content\fonts\oswald-regular-webfont.eot" />
+    <Content Include="Content\fonts\oswald-regular-webfont.ttf" />
+    <Content Include="Content\fonts\oswald-regular-webfont.woff" />
+    <Content Include="Content\fonts\robotocondensed-regular-webfont.eot" />
+    <Content Include="Content\fonts\robotocondensed-regular-webfont.ttf" />
+    <Content Include="Content\fonts\robotocondensed-regular-webfont.woff" />
+    <Content Include="Content\fonts\robotocondensed-regular-webfont.woff2" />
+    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="rpl\css\bootstrap.css" />
+    <Content Include="rpl\css\color.css" />
+    <Content Include="rpl\css\dl-menu.css" />
+    <Content Include="rpl\css\flexslider.css" />
+    <Content Include="rpl\css\font-awesome.css" />
+    <Content Include="rpl\css\owl.carousel.css" />
+    <Content Include="rpl\css\prettyphoto.css" />
+    <Content Include="rpl\css\responsive.css" />
+    <Content Include="rpl\extra-images\about-match-1.jpg" />
+    <Content Include="rpl\extra-images\admin-1.jpg" />
+    <Content Include="rpl\extra-images\banner-1.jpg" />
+    <Content Include="rpl\extra-images\banner-2.jpg" />
+    <Content Include="rpl\extra-images\banner-static.png" />
+    <Content Include="rpl\extra-images\banner-static2.png" />
+    <Content Include="rpl\extra-images\banner-static3.png" />
+    <Content Include="rpl\extra-images\banner-static4.png" />
+    <Content Include="rpl\extra-images\blog-detail-1.jpg" />
+    <Content Include="rpl\extra-images\blog-grid-1.jpg" />
+    <Content Include="rpl\extra-images\blog-grid-2.jpg" />
+    <Content Include="rpl\extra-images\blog-grid-3.jpg" />
+    <Content Include="rpl\extra-images\blog-grid-4.jpg" />
+    <Content Include="rpl\extra-images\blog-grid-5.jpg" />
+    <Content Include="rpl\extra-images\blog-grid-6.jpg" />
+    <Content Include="rpl\extra-images\blog-medium-1.jpg" />
+    <Content Include="rpl\extra-images\blog-medium-2.jpg" />
+    <Content Include="rpl\extra-images\blog-medium-3.jpg" />
+    <Content Include="rpl\extra-images\blog-mediumtwo-1.jpg" />
+    <Content Include="rpl\extra-images\blog-mediumtwo-2.jpg" />
+    <Content Include="rpl\extra-images\blog-mediumtwo-3.jpg" />
+    <Content Include="rpl\extra-images\blog-mediumtwo-4.jpg" />
+    <Content Include="rpl\extra-images\blog-mediumtwo-5.jpg" />
+    <Content Include="rpl\extra-images\blog1.jpg" />
+    <Content Include="rpl\extra-images\blog2.jpg" />
+    <Content Include="rpl\extra-images\blog3.jpg" />
+    <Content Include="rpl\extra-images\blog4.jpg" />
+    <Content Include="rpl\extra-images\blog5.jpg" />
+    <Content Include="rpl\extra-images\blog6.jpg" />
+    <Content Include="rpl\extra-images\call-to-action-fullbg.jpg" />
+    <Content Include="rpl\extra-images\co-sponsor1.png" />
+    <Content Include="rpl\extra-images\co-sponsor2.png" />
+    <Content Include="rpl\extra-images\comment1.jpg" />
+    <Content Include="rpl\extra-images\comment2.jpg" />
+    <Content Include="rpl\extra-images\comment3.jpg" />
+    <Content Include="rpl\extra-images\comment4.jpg" />
+    <Content Include="rpl\extra-images\counter-bg.jpg" />
+    <Content Include="rpl\extra-images\fixer-flag-1.png" />
+    <Content Include="rpl\extra-images\fixer-flag-2.png" />
+    <Content Include="rpl\extra-images\fixer-flag-3.png" />
+    <Content Include="rpl\extra-images\fixer-flag-4.png" />
+    <Content Include="rpl\extra-images\fixer-flag-5.png" />
+    <Content Include="rpl\extra-images\fixer-flag-6.png" />
+    <Content Include="rpl\extra-images\fixer-flag-7.png" />
+    <Content Include="rpl\extra-images\fixer-flag-8.png" />
+    <Content Include="rpl\extra-images\fixture-detail-1.jpg" />
+    <Content Include="rpl\extra-images\futer_img1.png" />
+    <Content Include="rpl\extra-images\futer_img2.png" />
+    <Content Include="rpl\extra-images\gallery-list-1.jpg" />
+    <Content Include="rpl\extra-images\gallery-list-2.jpg" />
+    <Content Include="rpl\extra-images\gallery-list-3.jpg" />
+    <Content Include="rpl\extra-images\gallery-list-4.jpg" />
+    <Content Include="rpl\extra-images\gallery-list-5.jpg" />
+    <Content Include="rpl\extra-images\gallery-list-6.jpg" />
+    <Content Include="rpl\extra-images\gallery-list-7.jpg" />
+    <Content Include="rpl\extra-images\gallery-list-8.jpg" />
+    <Content Include="rpl\extra-images\gallery-widget-1.jpg" />
+    <Content Include="rpl\extra-images\gallery-widget-2.jpg" />
+    <Content Include="rpl\extra-images\gallery-widget-3.jpg" />
+    <Content Include="rpl\extra-images\gallery-widget-4.jpg" />
+    <Content Include="rpl\extra-images\gallery-widget-5.jpg" />
+    <Content Include="rpl\extra-images\gallery-widget-6.jpg" />
+    <Content Include="rpl\extra-images\gallery3\1.jpg" />
+    <Content Include="rpl\extra-images\gallery3\2.jpg" />
+    <Content Include="rpl\extra-images\gallery3\3.jpg" />
+    <Content Include="rpl\extra-images\gallery3\4.jpg" />
+    <Content Include="rpl\extra-images\gallery3\thumb_1.jpg" />
+    <Content Include="rpl\extra-images\gallery3\thumb_2.jpg" />
+    <Content Include="rpl\extra-images\gallery3\thumb_3.jpg" />
+    <Content Include="rpl\extra-images\gallery3\thumb_4.jpg" />
+    <Content Include="rpl\extra-images\latest-result-1.png" />
+    <Content Include="rpl\extra-images\latest-result-2.png" />
+    <Content Include="rpl\extra-images\main_sponsor3.png" />
+    <Content Include="rpl\extra-images\miracle1\1.png" />
+    <Content Include="rpl\extra-images\miracle1\10.png" />
+    <Content Include="rpl\extra-images\miracle1\11.png" />
+    <Content Include="rpl\extra-images\miracle1\2.png" />
+    <Content Include="rpl\extra-images\miracle1\3.png" />
+    <Content Include="rpl\extra-images\miracle1\4.png" />
+    <Content Include="rpl\extra-images\miracle1\5.png" />
+    <Content Include="rpl\extra-images\miracle1\6.png" />
+    <Content Include="rpl\extra-images\miracle1\7.png" />
+    <Content Include="rpl\extra-images\miracle1\8.png" />
+    <Content Include="rpl\extra-images\miracle1\9.png" />
+    <Content Include="rpl\extra-images\miracle2\10.png" />
+    <Content Include="rpl\extra-images\miracle2\2.png" />
+    <Content Include="rpl\extra-images\miracle2\3.png" />
+    <Content Include="rpl\extra-images\miracle2\4.png" />
+    <Content Include="rpl\extra-images\miracle2\5.png" />
+    <Content Include="rpl\extra-images\miracle2\6.png" />
+    <Content Include="rpl\extra-images\miracle2\7.png" />
+    <Content Include="rpl\extra-images\miracle2\8.png" />
+    <Content Include="rpl\extra-images\miracle2\9.png" />
+    <Content Include="rpl\extra-images\new_banner-1.jpg" />
+    <Content Include="rpl\extra-images\new_banner-2.jpg" />
+    <Content Include="rpl\extra-images\new_banner-3.jpg" />
+    <Content Include="rpl\extra-images\new_banner-4.jpg" />
+    <Content Include="rpl\extra-images\next-match-1.png" />
+    <Content Include="rpl\extra-images\next-match-2.png" />
+    <Content Include="rpl\extra-images\next-match-3.png" />
+    <Content Include="rpl\extra-images\opening_ceremony\1.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\10.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\11.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\12.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\13.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\14.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\15.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\16.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\17.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\18.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\19.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\2.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\20.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\21.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\22.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\23.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\24.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\25.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\26.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\27.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\3.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\4.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\5.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\6.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\7.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\8.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\9.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_1.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_10.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_11.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_12.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_13.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_14.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_15.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_16.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_17.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_18.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_19.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_2.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_20.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_21.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_22.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_23.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_24.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_25.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_26.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_27.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_3.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_4.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_5.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_6.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_7.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_8.jpg" />
+    <Content Include="rpl\extra-images\opening_ceremony\thumb_9.jpg" />
+    <Content Include="rpl\extra-images\partner-logo-1.jpg" />
+    <Content Include="rpl\extra-images\partner-logo-2.jpg" />
+    <Content Include="rpl\extra-images\partner-logo-3.jpg" />
+    <Content Include="rpl\extra-images\partner-logo-4.jpg" />
+    <Content Include="rpl\extra-images\partner-logo-5.jpg" />
+    <Content Include="rpl\extra-images\partner-logo-6.jpg" />
+    <Content Include="rpl\extra-images\partner-logo-7.jpg" />
+    <Content Include="rpl\extra-images\partner-logo-8.jpg" />
+    <Content Include="rpl\extra-images\partner-logo-9.jpg" />
+    <Content Include="rpl\extra-images\plyer-detail-1.jpg" />
+    <Content Include="rpl\extra-images\promobox-1.jpg" />
+    <Content Include="rpl\extra-images\promobox-2.jpg" />
+    <Content Include="rpl\extra-images\random pics\1.jpg" />
+    <Content Include="rpl\extra-images\random pics\10.jpg" />
+    <Content Include="rpl\extra-images\random pics\11.jpg" />
+    <Content Include="rpl\extra-images\random pics\12.jpg" />
+    <Content Include="rpl\extra-images\random pics\13.jpg" />
+    <Content Include="rpl\extra-images\random pics\14.jpg" />
+    <Content Include="rpl\extra-images\random pics\15.jpg" />
+    <Content Include="rpl\extra-images\random pics\16.jpg" />
+    <Content Include="rpl\extra-images\random pics\17.jpg" />
+    <Content Include="rpl\extra-images\random pics\18.jpg" />
+    <Content Include="rpl\extra-images\random pics\19.jpg" />
+    <Content Include="rpl\extra-images\random pics\2.jpg" />
+    <Content Include="rpl\extra-images\random pics\20.jpg" />
+    <Content Include="rpl\extra-images\random pics\21.jpg" />
+    <Content Include="rpl\extra-images\random pics\22.jpg" />
+    <Content Include="rpl\extra-images\random pics\23.jpg" />
+    <Content Include="rpl\extra-images\random pics\24.jpg" />
+    <Content Include="rpl\extra-images\random pics\25.jpg" />
+    <Content Include="rpl\extra-images\random pics\26.jpg" />
+    <Content Include="rpl\extra-images\random pics\27.jpg" />
+    <Content Include="rpl\extra-images\random pics\28.jpg" />
+    <Content Include="rpl\extra-images\random pics\29.jpg" />
+    <Content Include="rpl\extra-images\random pics\3.jpg" />
+    <Content Include="rpl\extra-images\random pics\30.jpg" />
+    <Content Include="rpl\extra-images\random pics\31.jpg" />
+    <Content Include="rpl\extra-images\random pics\4.jpg" />
+    <Content Include="rpl\extra-images\random pics\5.jpg" />
+    <Content Include="rpl\extra-images\random pics\6.jpg" />
+    <Content Include="rpl\extra-images\random pics\7.jpg" />
+    <Content Include="rpl\extra-images\random pics\8.jpg" />
+    <Content Include="rpl\extra-images\random pics\9.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_1.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_10.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_11.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_12.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_13.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_14.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_15.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_16.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_17.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_18.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_19.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_2.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_20.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_21.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_22.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_23.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_24.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_25.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_26.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_27.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_28.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_29.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_3.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_30.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_31.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_4.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_5.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_6.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_7.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_8.jpg" />
+    <Content Include="rpl\extra-images\random pics\thumb_9.jpg" />
+    <Content Include="rpl\extra-images\recent-widget-1.jpg" />
+    <Content Include="rpl\extra-images\recent-widget-2.jpg" />
+    <Content Include="rpl\extra-images\recent-widget-3.jpg" />
+    <Content Include="rpl\extra-images\Remax Gold\1.png" />
+    <Content Include="rpl\extra-images\Remax Gold\10.png" />
+    <Content Include="rpl\extra-images\Remax Gold\2.png" />
+    <Content Include="rpl\extra-images\Remax Gold\3.png" />
+    <Content Include="rpl\extra-images\Remax Gold\4.png" />
+    <Content Include="rpl\extra-images\Remax Gold\5.png" />
+    <Content Include="rpl\extra-images\Remax Gold\6.png" />
+    <Content Include="rpl\extra-images\Remax Gold\7.png" />
+    <Content Include="rpl\extra-images\Remax Gold\8.png" />
+    <Content Include="rpl\extra-images\Remax Gold\9.png" />
+    <Content Include="rpl\extra-images\remax_lions\1.png" />
+    <Content Include="rpl\extra-images\remax_lions\10.png" />
+    <Content Include="rpl\extra-images\remax_lions\2.png" />
+    <Content Include="rpl\extra-images\remax_lions\3.png" />
+    <Content Include="rpl\extra-images\remax_lions\4.png" />
+    <Content Include="rpl\extra-images\remax_lions\5.png" />
+    <Content Include="rpl\extra-images\remax_lions\6.png" />
+    <Content Include="rpl\extra-images\remax_lions\7.png" />
+    <Content Include="rpl\extra-images\remax_lions\8.png" />
+    <Content Include="rpl\extra-images\remax_lions\9.png" />
+    <Content Include="rpl\extra-images\royal star\1.png" />
+    <Content Include="rpl\extra-images\royal star\10.png" />
+    <Content Include="rpl\extra-images\royal star\11.png" />
+    <Content Include="rpl\extra-images\royal star\12.png" />
+    <Content Include="rpl\extra-images\royal star\13.png" />
+    <Content Include="rpl\extra-images\royal star\14.png" />
+    <Content Include="rpl\extra-images\royal star\15.png" />
+    <Content Include="rpl\extra-images\royal star\2.png" />
+    <Content Include="rpl\extra-images\royal star\3.png" />
+    <Content Include="rpl\extra-images\royal star\4.png" />
+    <Content Include="rpl\extra-images\royal star\5.png" />
+    <Content Include="rpl\extra-images\royal star\6.png" />
+    <Content Include="rpl\extra-images\royal star\7.png" />
+    <Content Include="rpl\extra-images\royal star\8.png" />
+    <Content Include="rpl\extra-images\royal star\9.png" />
+    <Content Include="rpl\extra-images\royallepage\1.png" />
+    <Content Include="rpl\extra-images\royallepage\10.png" />
+    <Content Include="rpl\extra-images\royallepage\11.png" />
+    <Content Include="rpl\extra-images\royallepage\12.png" />
+    <Content Include="rpl\extra-images\royallepage\2.png" />
+    <Content Include="rpl\extra-images\royallepage\3.png" />
+    <Content Include="rpl\extra-images\royallepage\4.png" />
+    <Content Include="rpl\extra-images\royallepage\5.png" />
+    <Content Include="rpl\extra-images\royallepage\6.png" />
+    <Content Include="rpl\extra-images\royallepage\7.png" />
+    <Content Include="rpl\extra-images\royallepage\8.png" />
+    <Content Include="rpl\extra-images\royallepage\9.png" />
+    <Content Include="rpl\extra-images\slider-gallery-1.jpg" />
+    <Content Include="rpl\extra-images\slider-gallery-2.jpg" />
+    <Content Include="rpl\extra-images\slider-gallery-3.jpg" />
+    <Content Include="rpl\extra-images\slider-gallery-4.jpg" />
+    <Content Include="rpl\extra-images\sponsor1.png" />
+    <Content Include="rpl\extra-images\sponsor2.png" />
+    <Content Include="rpl\extra-images\sponsor3.png" />
+    <Content Include="rpl\extra-images\sponsr_img1.png" />
+    <Content Include="rpl\extra-images\sponsr_img2.png" />
+    <Content Include="rpl\extra-images\sponsr_img3.png" />
+    <Content Include="rpl\extra-images\sponsr_img4.png" />
+    <Content Include="rpl\extra-images\sponsr_img5.png" />
+    <Content Include="rpl\extra-images\sponsr_img6.png" />
+    <Content Include="rpl\extra-images\subheader-bg.jpg" />
+    <Content Include="rpl\extra-images\superstar\1.png" />
+    <Content Include="rpl\extra-images\superstar\10.png" />
+    <Content Include="rpl\extra-images\superstar\11.png" />
+    <Content Include="rpl\extra-images\superstar\12.png" />
+    <Content Include="rpl\extra-images\superstar\13.png" />
+    <Content Include="rpl\extra-images\superstar\2.png" />
+    <Content Include="rpl\extra-images\superstar\3.png" />
+    <Content Include="rpl\extra-images\superstar\4.png" />
+    <Content Include="rpl\extra-images\superstar\5.png" />
+    <Content Include="rpl\extra-images\superstar\6.png" />
+    <Content Include="rpl\extra-images\superstar\7.png" />
+    <Content Include="rpl\extra-images\superstar\8.png" />
+    <Content Include="rpl\extra-images\superstar\9.png" />
+    <Content Include="rpl\extra-images\team-grid-1.jpg" />
+    <Content Include="rpl\extra-images\team-grid-2.jpg" />
+    <Content Include="rpl\extra-images\team-grid-3.jpg" />
+    <Content Include="rpl\extra-images\team-grid-4.jpg" />
+    <Content Include="rpl\extra-images\team-grid-rajiv.jpg" />
+    <Content Include="rpl\extra-images\team-grid-team2.jpg" />
+    <Content Include="rpl\extra-images\team-grid-team3.jpg" />
+    <Content Include="rpl\extra-images\team-grid-team4.jpg" />
+    <Content Include="rpl\extra-images\team-grid-team5.jpg" />
+    <Content Include="rpl\extra-images\team-grid-team6.jpg" />
+    <Content Include="rpl\extra-images\team-grid-team7.jpg" />
+    <Content Include="rpl\extra-images\team-grid-team8.jpg" />
+    <Content Include="rpl\extra-images\team-grid-team9.jpg" />
+    <Content Include="rpl\extra-images\teamrajiv\1.png" />
+    <Content Include="rpl\extra-images\teamrajiv\10.png" />
+    <Content Include="rpl\extra-images\teamrajiv\2.png" />
+    <Content Include="rpl\extra-images\teamrajiv\3.png" />
+    <Content Include="rpl\extra-images\teamrajiv\4.png" />
+    <Content Include="rpl\extra-images\teamrajiv\5.png" />
+    <Content Include="rpl\extra-images\teamrajiv\6.png" />
+    <Content Include="rpl\extra-images\teamrajiv\7.png" />
+    <Content Include="rpl\extra-images\teamrajiv\8.png" />
+    <Content Include="rpl\extra-images\teamrajiv\9.png" />
+    <Content Include="rpl\extra-images\teamrajiv\ajay_shah.png" />
+    <Content Include="rpl\extra-images\testimonial-1.jpg" />
+    <Content Include="rpl\extra-images\testimonial-2.jpg" />
+    <Content Include="rpl\fonts\fontawesome-webfont.svg" />
+    <Content Include="rpl\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="rpl\fonts\Poppins-Medium.svg" />
+    <Content Include="rpl\images\footer-logo.png" />
+    <Content Include="rpl\images\logo-1.png" />
+    <Content Include="rpl\images\nav-border.png" />
+    <Content Include="rpl\images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="rpl\images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="rpl\images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="rpl\images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="rpl\images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="rpl\images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="rpl\images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="rpl\images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="rpl\images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="rpl\images\prettyPhoto\default\default_thumb.png" />
+    <Content Include="rpl\images\prettyPhoto\default\loader.gif" />
+    <Content Include="rpl\images\prettyPhoto\default\sprite.png" />
+    <Content Include="rpl\images\prettyPhoto\default\sprite_next.png" />
+    <Content Include="rpl\images\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="rpl\images\prettyPhoto\default\sprite_x.png" />
+    <Content Include="rpl\images\prettyPhoto\default\sprite_y.png" />
+    <Content Include="rpl\images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="rpl\images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="rpl\images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="rpl\images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="rpl\images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="rpl\images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="rpl\images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="rpl\images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="rpl\images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="rpl\images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="rpl\images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="rpl\images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="rpl\images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="rpl\images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="rpl\images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="rpl\images\prettyPhoto\light_square\sprite.png" />
+    <Content Include="rpl\images\ticcker-arrow.png" />
+    <Content Include="rpl\images\transparent-pattren.png" />
+    <Content Include="rpl\script\bootstrap.min.js" />
+    <Content Include="rpl\script\fitvideo.js" />
+    <Content Include="rpl\script\flexslider-min.js" />
+    <Content Include="rpl\script\functions.js" />
+    <Content Include="rpl\script\jquery.countdown.min.js" />
+    <Content Include="rpl\script\jquery.dlmenu.js" />
+    <Content Include="rpl\script\jquery.js" />
+    <Content Include="rpl\script\jquery.prettyphoto.js" />
+    <Content Include="rpl\script\modernizr.js" />
+    <Content Include="rpl\script\newsticker.js" />
+    <Content Include="rpl\script\owl.carousel.min.js" />
+    <Content Include="rpl\script\skills.js" />
+    <Content Include="rpl\script\waypoints-min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\knockout-2.2.0.debug.js" />
+    <Content Include="Scripts\knockout-2.2.0.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <None Include="Views\Home\about_us.cshtml" />
+    <None Include="Views\Home\contact_us.cshtml" />
+    <None Include="Views\Home\gallery2.cshtml" />
+    <None Include="Views\Home\gallery3.cshtml" />
+    <Content Include="Views\Home\gallery4.cshtml" />
+    <Content Include="Views\Home\gallery5.cshtml" />
+    <None Include="Views\Home\index.cshtml" />
+    <None Include="Views\Home\main_gallery.cshtml" />
+    <None Include="Views\Home\match_result.cshtml" />
+    <None Include="Views\Home\match_scedule.cshtml" />
+    <None Include="Views\Home\opening_gallery.cshtml" />
+    <None Include="Views\Home\points_table.cshtml" />
+    <None Include="Views\Home\team1.cshtml" />
+    <None Include="Views\Home\team2.cshtml" />
+    <None Include="Views\Home\team3.cshtml" />
+    <None Include="Views\Home\team4.cshtml" />
+    <None Include="Views\Home\team5.cshtml" />
+    <None Include="Views\Home\team6.cshtml" />
+    <None Include="Views\Home\team7.cshtml" />
+    <None Include="Views\Home\team8.cshtml" />
+    <None Include="Views\Home\team9.cshtml" />
+    <Content Include="Template\index.html" />
+    <Content Include="TicketImg\bar_code.png" />
+    <Content Include="TicketImg\logo.png" />
+    <Content Include="TicketImg\main_sponsor1.png" />
+    <Content Include="TicketImg\main_sponsor2.png" />
+    <Content Include="TicketImg\main_sponsor3.png" />
+    <Content Include="TicketImg\side_bar.jpg" />
+    <Content Include="TicketImg\sponsor1.png" />
+    <Content Include="TicketImg\sponsor2.png" />
+    <Content Include="TicketImg\sponsor3.png" />
+    <Content Include="TicketImg\sponsor4.png" />
+    <Content Include="TicketImg\sponsor5.png" />
+    <Content Include="TicketImg\sponsor6.png" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Images\accent.png" />
+    <Content Include="Images\bullet.png" />
+    <Content Include="Images\heroAccent.png" />
+    <Content Include="Images\orderedList0.png" />
+    <Content Include="Images\orderedList1.png" />
+    <Content Include="Images\orderedList2.png" />
+    <Content Include="Images\orderedList3.png" />
+    <Content Include="Images\orderedList4.png" />
+    <Content Include="Images\orderedList5.png" />
+    <Content Include="Images\orderedList6.png" />
+    <Content Include="Images\orderedList7.png" />
+    <Content Include="Images\orderedList8.png" />
+    <Content Include="Images\orderedList9.png" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\_RemoveExternalLoginsPartial.cshtml" />
+    <Content Include="Views\Account\_SetPasswordPartial.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Manage.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\Registration\RealtorForm.cshtml" />
+    <Content Include="Views\Registration\SponserForm.cshtml" />
+    <Content Include="Views\Registration\Index.cshtml" />
+    <Content Include="Views\Registration\ClosingCermony.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51485</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51485/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
