@@ -1,0 +1,17 @@
+D:\Maninder\ParamSites\SendNewsLetters\SendNewsLetters\bin\Debug\SendNewsLetters.exe.config
+D:\Maninder\ParamSites\SendNewsLetters\SendNewsLetters\bin\Debug\SendNewsLetters.exe
+D:\Maninder\ParamSites\SendNewsLetters\SendNewsLetters\bin\Debug\SendNewsLetters.pdb
+D:\Maninder\ParamSites\SendNewsLetters\SendNewsLetters\obj\Debug\SendNewsLetters.csprojResolveAssemblyReference.cache
+D:\Maninder\ParamSites\SendNewsLetters\SendNewsLetters\obj\Debug\SendNewsLetters.exe
+D:\Maninder\ParamSites\SendNewsLetters\SendNewsLetters\obj\Debug\SendNewsLetters.pdb
+C:\Sites\Paramsites\SendNewsLetters\SendNewsLetters\bin\Debug\SendNewsLetters.exe.config
+C:\Sites\Paramsites\SendNewsLetters\SendNewsLetters\obj\Debug\SendNewsLetters.exe
+C:\Sites\Paramsites\SendNewsLetters\SendNewsLetters\obj\Debug\SendNewsLetters.pdb
+C:\Sites\Paramsites\SendNewsLetters\SendNewsLetters\bin\Debug\SendNewsLetters.exe
+C:\Sites\Paramsites\SendNewsLetters\SendNewsLetters\bin\Debug\SendNewsLetters.pdb
+C:\sites\SendNewsLetters\SendNewsLetters\SendNewsLetters\bin\Debug\SendNewsLetters.exe.config
+C:\sites\SendNewsLetters\SendNewsLetters\SendNewsLetters\obj\Debug\SendNewsLetters.exe
+C:\sites\SendNewsLetters\SendNewsLetters\SendNewsLetters\obj\Debug\SendNewsLetters.pdb
+C:\sites\SendNewsLetters\SendNewsLetters\SendNewsLetters\bin\Debug\SendNewsLetters.exe
+C:\sites\SendNewsLetters\SendNewsLetters\SendNewsLetters\bin\Debug\SendNewsLetters.pdb
+C:\sites\SendNewsLetters\SendNewsLetters\SendNewsLetters\obj\Debug\SendNewsLetters.csprojResolveAssemblyReference.cache
