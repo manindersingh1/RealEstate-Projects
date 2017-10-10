@@ -1,0 +1,250 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ravi dhaliwal</title>
+    <!-- Bootstrap -->
+    <link href="~/RaviDhaliwal/css/bootstrap.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/font.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/font-awesome.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/style.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/media-queries.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/RaviDhaliwal/css/nivo-slider.css" type="text/css" media="screen" />
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="~/RaviDhaliwal/js/npm.js"></script>
+    <script src="~/RaviDhaliwal/js/bootstrap.js"></script>
+    <script src="~/RaviDhaliwal/js/bootstrap.min.js"></script> 
+    <script src="~/RaviDhaliwal/js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript" src="~/RaviDhaliwal/js/jquery.flexisel.js"></script>
+
+</head>
+<body>
+
+    <div class="background_sect">
+
+        <div class="container">
+            <div class="top_logo_sect">
+                <div class="col-md-12 col-sm-12">
+                    <div class="logo_sctn">
+                        <a href="#" onclick="location.href='@Url.Action("Index")'">
+                            <img src="../RaviDhaliwal/images/logo.png" alt="" title="" />
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="back_border">
+                <div class="middle_bg">
+                    <div class="top_sect_bg">
+                        <div class="col-md-9 col-sm-9">
+                            <div class="menu_section">
+                                <nav class="navbar navbar-inverse" role="navigation">
+                                    <div>
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+
+                                        </div>
+
+                                        <!-- Collect the nav links, forms, and other content for toggling -->
+                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                            <ul class="nav navbar-nav">
+                                                <li><a href="#" onclick="location.href='@Url.Action("Index")'">Home</a></li>
+                                                <li><a href="#" onclick="location.href='@Url.Action("profile")'">Profile</a></li>
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Area of Practice <b class="caret"></b></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#" onclick="location.href='@Url.Action("service1")'">Real Estate Law - Commercial & Residential</a></li>
+                                                        <li><a href="#" onclick="location.href='@Url.Action("service2")'">Business / Corporate / Commercial Law</a></li>
+                                                        <li><a href="#" onclick="location.href='@Url.Action("service3")'">Immigration Law</a></li>
+                                                        <li><a href="#" onclick="location.href='@Url.Action("service4")'">Civil Litigation</a></li>
+                                                        <li><a href="#" onclick="location.href='@Url.Action("service5")'">Wills & Estate Planning</a></li>
+                                                        <li><a href="#" onclick="location.href='@Url.Action("service6")'">Other Legal Services</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Calculators <b class="caret"></b></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#" onclick="location.href='@Url.Action("land_taxcalculator")'">Land Transfer Tax Calculator</a></li>
+                                                        <li><a href="#" onclick="location.href='@Url.Action("mortgage_payment")'">Mortgage Payment Calculator</a></li>
+                                                        <li><a href="#" onclick="location.href='@Url.Action("cmhc_premium")'">CMHC Premium Calculator</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#" onclick="location.href='@Url.Action("resources")'">Resources</a></li>
+                                                <li><a href="#" onclick="location.href='@Url.Action("disclaimer")'">Disclaimer</a></li>
+                                                <li><a href="#" onclick="location.href='@Url.Action("Contact")'">Contact us</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /.navbar-collapse -->
+                                    </div>
+                                    <!-- /.container-fluid -->
+                                </nav>
+
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <div class="top_right_sect">
+                                <h2>CALL: 905-795-1117</h2>
+                                <h2>E-MAIL: info@rdpclaw.com</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner_sct_bg">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="banner_sect">
+                                <div id="slider" class="nivoSlider">
+                                    <img src="../RaviDhaliwal/images/banner1.jpg" data-thumb="../RaviDhaliwal/images/toystory.jpg" alt="" />
+                                    <img src="../RaviDhaliwal/images/banner2.jpg" data-thumb="../RaviDhaliwal/images/up.jpg" alt="" />
+                                    <img src="../RaviDhaliwal/images/banner3.jpg" data-thumb="../RaviDhaliwal/images/banner1.jpg" alt="" />
+                                </div>
+                                <!--<img src="images/banner1.jpg" data-thumb="images/banner1.jpg" alt="" title="" />-->
+                            </div>
+
+                            <div class="main_content">
+                                <h2>Welcome to our website</h2>
+                                <p>
+                                    We are focused on providing legal services with the highest levels of client satisfaction and we will do everything we can to meet your expectations. We will help you to affordably cope with an increasingly complex legal system with the services of an analytical legal professionals who takes a mathematical approach to the study of rules, regulations, codes, acts and the case laws.<br />
+                                    Our law firm represents private and business interests; we treat our clients as real people facing real-world challenges who deserve our time, attention and respect. We will provide you with an informed understanding of your legal rights and obligations, and explain the practical implications and options. We will make every effort to expedite your legal needs in a very convenient and cost-effective way.
+                                    <br />We take our responsibility very seriously and we always make our client's needs our top priority. We are uniquely committed to securing positive results for our clients in their all legal needs, and representing them in all level of courts and tribunals. We will fight for your rights and help you to find a way through.
+                                </p>
+                            </div>
+
+                            <div class="services_sect">
+                                <h2>Area of Practices</h2>
+                                <div class="services_slider">
+                                    <ul id="flexiselDemo3">
+                                        <li><a href="#" onclick="location.href='@Url.Action("service1")'"><img src="../RaviDhaliwal/images/service1.png" /><h2>Real Estate Law </h2></a></li>
+                                        <li><a href="#" onclick="location.href='@Url.Action("service2")'"><img src="../RaviDhaliwal/images/service2.png" /><h2>Business / Corporate Law </h2></a></li>
+                                        <li><a href="#" onclick="location.href='@Url.Action("service3")'"><img src="../RaviDhaliwal/images/service3.png" /><h2>Immigration Law  </h2></a></li>
+                                        <li><a href="#" onclick="location.href='@Url.Action("service4")'"><img src="../RaviDhaliwal/images/service4.png" /><h2>Civil Litigation</h2></a></li>
+                                        <li><a href="#" onclick="location.href='@Url.Action("service5")'"><img src="../RaviDhaliwal/images/service5.png" /><h2>Wills & Estate Planning</h2></a></li>
+                                        <li><a href="#" onclick="location.href='@Url.Action("service6")'"><img src="../RaviDhaliwal/images/service6.png" /><h2>Other Legal Services</h2></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="futer_section">
+                                <div class="col-md-8 col-sm-8">
+                                    <div class="futer-menu">
+                                        <ul>
+                                            <li><a href="#" onclick="location.href='@Url.Action("Index")'">Home</a></li>
+                                            <li><a href="#" onclick="location.href='@Url.Action("profile")'">Profile</a></li>
+                                            <li><a href="#" onclick="location.href='@Url.Action("resources")'">Resources</a></li>
+                                            <li><a href="#" onclick="location.href='@Url.Action("disclaimer")'">Disclaimer</a></li>
+                                            <li><a href="#" onclick="location.href='@Url.Action("News")'">Mortgage News</a></li>
+                                            <li><a href="#" onclick="location.href='@Url.Action("Contact")'">Contact us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="futer_socio">
+                                        <ul>
+                                            <li><a href="#"><img src="../RaviDhaliwal/images/socio_1.png" alt="" title="" /></a></li>
+                                            <li><a href="#"><img src="../RaviDhaliwal/images/socio_2.png" alt="" title="" /></a></li>
+                                            <li><a href="#"><img src="../RaviDhaliwal/images/socio_3.png" alt="" title="" /></a></li>
+                                            <li><a href="#"><img src="../RaviDhaliwal/images/socio_4.png" alt="" title="" /></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+<script type="text/javascript">
+
+    $(window).load(function () {
+        $("#flexiselDemo1").flexisel();
+        $("#flexiselDemo2").flexisel({
+            enableResponsiveBreakpoints: true,
+            responsiveBreakpoints: {
+                portrait: {
+                    changePoint: 480,
+                    visibleItems: 1
+                },
+                landscape: {
+                    changePoint: 640,
+                    visibleItems: 2
+                },
+                tablet: {
+                    changePoint: 768,
+                    visibleItems: 3
+                }
+            }
+        });
+
+        $("#flexiselDemo3").flexisel({
+            visibleItems: 5,
+            animationSpeed: 2000,
+            autoPlay: true,
+            autoPlaySpeed: 5000,
+            pauseOnHover: true,
+            enableResponsiveBreakpoints: true,
+            responsiveBreakpoints: {
+                portrait: {
+                    changePoint: 480,
+                    visibleItems: 1
+                },
+                landscape: {
+                    changePoint: 640,
+                    visibleItems: 2
+                },
+                tablet: {
+                    changePoint: 768,
+                    visibleItems: 3
+                }
+            }
+        });
+
+        $("#flexiselDemo4").flexisel({
+            clone: false
+        });
+
+    });
+</script>
+
+<script type="text/javascript">
+    $('ul.nav li.dropdown').hover(function () {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+    }, function () {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+    });
+</script>
+
+
+<script type="text/javascript">
+    $(window).load(function () {
+        $('#slider').nivoSlider();
+    });
+</script>
+</html>

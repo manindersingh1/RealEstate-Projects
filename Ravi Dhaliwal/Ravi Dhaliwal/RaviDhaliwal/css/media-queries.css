@@ -1,0 +1,192 @@
+/************************************************************************************
+smaller than 1366
+*************************************************************************************/
+@media screen and (max-width: 1366px) {
+
+}
+/************************************************************************************
+smaller than 1280
+*************************************************************************************/
+@media screen and (max-width: 1280px) {
+
+
+
+}
+
+
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+
+}
+
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+@media screen and (max-width: 768px) {
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 736px) {
+.main_content h2 {
+    border-bottom: 2px solid;
+    color: white;
+    float: left;
+    font-family: "Conv_Poppins-Medium";
+    font-size: 24px;
+    margin: 6px 0;
+    padding-bottom: 3px;
+    width: 46%;
+}
+.middle_content_sct {
+    background-color: #fff;
+    float: left;
+    margin: 12px 0;
+    padding: 2px;
+    width: 100%;
+}
+.service_box_right {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 667px) {
+.main_content h2 {
+    border-bottom: 2px solid;
+    color: white;
+    float: left;
+    font-family: "Conv_Poppins-Medium";
+    font-size: 24px;
+    margin: 6px 0;
+    padding-bottom: 3px;
+    width: 100%;
+}
+.futer_socio ul {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.futer_socio {
+    float: left;
+    margin: 12px 0 0;
+    width: 100%;
+}
+
+}
+
+
+
+/************************************************************************************
+smaller than 767
+*************************************************************************************/
+
+@media screen and (max-width: 640px) {
+
+
+}
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+
+.top_right_sect {
+    float: left;
+    margin: 5px 0;
+    text-align: center;
+    width: 100%;
+}
+.profile_box p {
+    color: #363636;
+    float: left;
+    font-family: times new roman;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0 0 2px;
+    text-align: justify;
+    width: 100%;
+}
+.disclaimer_sect {
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+
+.mortgage_payment iframe {
+    float: left;
+    height: 800px;
+    width: 100%;
+}
+.land_calculator iframe {
+    float: left;
+    height: 440px;
+    width: 100%;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 414px) {
+.nbs-flexisel-item img {
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-height: 280px;
+    max-width: 260px;
+    position: relative;
+    width: 100%;
+}
+.services_slider h2 {
+    color: white;
+    float: left;
+    font-family: "Poppins";
+    font-size: 18px;
+    width: 100%;
+}
+
+
+
+}
+/************************************************************************************
+smaller than 360
+*************************************************************************************/
+@media screen and (max-width: 360px) {
+
+.main_content h2 {
+    border-bottom: 2px solid;
+    color: white;
+    float: left;
+    font-family: "Conv_Poppins-Medium";
+    font-size: 22px;
+    margin: 6px 0;
+    padding-bottom: 3px;
+    width: 100%;
+}
+
+
+}
+/************************************************************************************
+smaller than 320
+*************************************************************************************/
+@media screen and (max-width: 320px) {
+
+
+
+
+}

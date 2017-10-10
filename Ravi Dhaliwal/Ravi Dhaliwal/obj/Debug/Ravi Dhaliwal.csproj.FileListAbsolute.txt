@@ -1,0 +1,172 @@
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\Ravi Dhaliwal.dll.config
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\Ravi Dhaliwal.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\Ravi Dhaliwal.pdb
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\Antlr3.Runtime.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.AspNet.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.Core.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OAuth.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OpenId.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\EntityFramework.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Data.Edm.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Data.OData.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Web.Infrastructure.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\Newtonsoft.Json.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Net.Http.Formatting.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Spatial.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Helpers.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Http.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Http.OData.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Http.WebHost.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Mvc.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Optimization.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Razor.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.WebPages.Deployment.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.WebPages.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.WebPages.Razor.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\WebGrease.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\WebMatrix.Data.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\WebMatrix.WebData.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\EntityFramework.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\Newtonsoft.Json.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Net.Http.Formatting.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Helpers.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Http.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Http.WebHost.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Mvc.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Razor.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.WebPages.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.WebPages.Deployment.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.WebPages.Razor.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\WebMatrix.Data.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\WebMatrix.WebData.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.AspNet.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.Core.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OAuth.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OpenId.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Http.OData.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Data.Edm.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Data.OData.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Spatial.xml
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\de\Microsoft.Data.OData.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\es\Microsoft.Data.OData.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\it\Microsoft.Data.OData.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\de\System.Spatial.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\es\System.Spatial.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\fr\System.Spatial.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\it\System.Spatial.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\ja\System.Spatial.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\ko\System.Spatial.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\ru\System.Spatial.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\zh-Hans\System.Spatial.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\bin\zh-Hant\System.Spatial.resources.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\obj\Debug\Ravi Dhaliwal.csprojResolveAssemblyReference.cache
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\obj\Debug\Ravi Dhaliwal.dll
+D:\Maninder\Ravi Dhaliwal\Ravi Dhaliwal\obj\Debug\Ravi Dhaliwal.pdb
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\Ravi Dhaliwal.dll.config
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\Ravi Dhaliwal.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\Ravi Dhaliwal.pdb
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.Core.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Data.Edm.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Data.OData.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Spatial.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Http.OData.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\WebGrease.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\WebMatrix.Data.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\WebMatrix.WebData.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\WebMatrix.Data.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\WebMatrix.WebData.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.Core.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Web.Http.OData.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Data.Edm.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\Microsoft.Data.OData.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\System.Spatial.xml
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\de\System.Spatial.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\es\System.Spatial.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\fr\System.Spatial.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\it\System.Spatial.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\ja\System.Spatial.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\ko\System.Spatial.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\ru\System.Spatial.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\obj\Debug\Ravi Dhaliwal.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\obj\Debug\Ravi Dhaliwal.dll
+C:\Users\Admin\Desktop\Property Projects\Ravi Dhaliwal\Ravi Dhaliwal\obj\Debug\Ravi Dhaliwal.pdb

@@ -1,0 +1,5 @@
+User-agent:  *
+
+Disallow:
+
+sitemap: http://www.rdpclaw.com/sitemap.xml

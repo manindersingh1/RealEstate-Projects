@@ -1,0 +1,363 @@
+﻿@{
+    ViewBag.Title = "Contact";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ravi dhaliwal</title>
+    <!-- Bootstrap -->
+    <link href="~/RaviDhaliwal/css/bootstrap.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/font.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/font-awesome.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/style.css" rel="stylesheet">
+    <link href="~/RaviDhaliwal/css/media-queries.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/RaviDhaliwal/css/nivo-slider.css" type="text/css" media="screen" />
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="~/RaviDhaliwal/js/npm.js"></script>
+    <script src="~/RaviDhaliwal/js/bootstrap.js"></script>
+    <script src="~/RaviDhaliwal/js/bootstrap.min.js"></script>
+  
+
+
+</head>
+<body>
+
+    <div class="background_sect">
+
+        <div class="container">
+            <div class="top_logo_sect">
+                <div class="col-md-12 col-sm-12">
+                    <div class="logo_sctn">
+                        <a href="#" onclick="location.href='@Url.Action("Index")'">
+                            <img src="../RaviDhaliwal/images/logo.png" alt="" title="" />
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="back_border">
+                <div class="middle_bg">
+                    <div class="top_sect_bg">
+                        <div class="col-md-9 col-sm-9">
+                            <div class="menu_section">
+                                <nav class="navbar navbar-inverse" role="navigation">
+                                    <div>
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+
+                                        </div>
+
+                                        <!-- Collect the nav links, forms, and other content for toggling -->
+                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                            <ul class="nav navbar-nav">
+                                                <li><a href="#" onclick="location.href='@Url.Action("Index")'">Home</a></li>
+                                                <li><a href="#" onclick="location.href='@Url.Action("profile")'">Profile</a></li>
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Area of Practice <b class="caret"></b></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#" onclick="location.href='@Url.Action("service1")'">Real Estate Law </a></li>
+                                                        <li><a href="#" onclick="location.href='@Url.Action("service2")'">Immigration Law </a></li>
+                                                        <li><a href="#" onclick="location.href='@Url.Action("service3")'">Civil Litigation</a></li>
+                                                        <li><a href="#" onclick="location.href='@Url.Action("service4")'">Business / Corporate Law</a></li>
+                                                        <li><a href="#" onclick="location.href='@Url.Action("service5")'">Wills & Estate Planning</a></li>
+                                                        <li><a href="#" onclick="location.href='@Url.Action("service6")'">Other Legal Services</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Calculators <b class="caret"></b></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#" onclick="location.href='@Url.Action("land_taxcalculator")'">Land Transfer Tax Calculator</a></li>
+                                                        <li><a href="#" onclick="location.href='@Url.Action("mortgage_payment")'">Mortgage Payment Calculator</a></li>
+                                                        <li><a href="#" onclick="location.href='@Url.Action("cmhc_premium")'">CMHC Premium Calculator</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#" onclick="location.href='@Url.Action("resources")'">Resources</a></li>
+                                                <li><a href="#" onclick="location.href='@Url.Action("disclaimer")'">Disclaimer</a></li>
+                                                <li><a href="#" onclick="location.href='@Url.Action("Contact")'">Contact us</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /.navbar-collapse -->
+                                    </div>
+                                    <!-- /.container-fluid -->
+                                </nav>
+
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <div class="top_right_sect">
+                                <h2>CALL: 905-795-1117</h2>
+                                <h2>E-MAIL: info@rdpclaw.com</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner_sct_bg">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="inner_banner">
+                                <img src="../RaviDhaliwal/images/banner1.jpg" data-thumb="../RaviDhaliwal/images/banner1.jpg" alt="" title="" />
+                            </div>
+
+                            <div class="contact_sectn">
+                                <div class="row no_padding">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="contact_form">
+                                            <form id="contact" action="" method="post">
+                                                <h3>Quick Contact</h3>
+                                                <h4>Contact us today, and get reply with in 24 hours!</h4>
+                                                <fieldset>
+                                                    <input id="userName" placeholder="Your name" type="text" tabindex="1" autofocus>
+                                                </fieldset>
+                                                <fieldset>
+                                                    <input id="userEmail" placeholder="Your Email Address" type="email" tabindex="2">
+                                                </fieldset>
+                                                <fieldset>
+                                                    <input id="userPhone" placeholder="Your Phone Number" type="tel" tabindex="3">
+                                                </fieldset>
+                                                <fieldset>
+                                                    <input id="userSubject" placeholder="Subject" type="text" tabindex="4">
+                                                </fieldset>
+                                                <fieldset>
+                                                    <textarea id="Message" placeholder="Type your Message Here...." tabindex="5"></textarea>
+                                                </fieldset>
+                                                <fieldset>
+                                                    <button name="submit" type="button" onclick="send()" id="contact-submit" data-submit="...Sending">Submit</button>
+                                                </fieldset>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="right_cntct_sect">
+                                            <div class="contact_addrss">
+                                                <img src="../RaviDhaliwal/images/contact_logo.png" alt="" title="" />
+                                                <p>Call: 905-795-1117</p>
+                                                <p>E-Mail: info@rdpclaw.com</p>
+                                                <h2>Address:  # 29 - 1310 Mid - Way Blvd. Mississauga, L5T 2K5 Ontario, Canada</h2>
+
+                                            </div>
+                                            <div class="map_sect">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.200470209874!2d-79.6699492845019!3d43.66480037912087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3f20b973b841%3A0x231c1fbdeebcff87!2s1310+Mid-Way+Blvd+%2329%2C+Mississauga%2C+ON+L5T+2K5%2C+Canada!5e0!3m2!1sen!2sin!4v1486735144285" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="futer_section">
+                                <div class="col-md-8 col-sm-8">
+                                    <div class="futer-menu">
+                                        <ul>
+                                            <li><a href="#" onclick="location.href='@Url.Action("Index")'">Home</a></li>
+                                            <li><a href="#" onclick="location.href='@Url.Action("profile")'">Profile</a></li>
+                                            <li><a href="#" onclick="location.href='@Url.Action("resources")'">Resources</a></li>
+                                            <li><a href="#" onclick="location.href='@Url.Action("disclaimer")'">Disclaimer</a></li>
+                                            <li><a href="#" onclick="location.href='@Url.Action("News")'">Mortgage News</a></li>
+                                            <li><a href="#" onclick="location.href='@Url.Action("Contact")'">Contact us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="futer_socio">
+                                        <ul>
+                                            <li><a href="#"><img src="../RaviDhaliwal/images/socio_1.png" alt="" title="" /></a></li>
+                                            <li><a href="#"><img src="../RaviDhaliwal/images/socio_2.png" alt="" title="" /></a></li>
+                                            <li><a href="#"><img src="../RaviDhaliwal/images/socio_3.png" alt="" title="" /></a></li>
+                                            <li><a href="#"><img src="../RaviDhaliwal/images/socio_4.png" alt="" title="" /></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+
+<script type="text/javascript">
+    $('ul.nav li.dropdown').hover(function () {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+    }, function () {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+    });
+</script>
+
+
+</html>
+<script>
+    function send() {
+
+        if (ValidUsername() && ValidEmail() && ValidPhone() && ValidSubject() && Validmessage()) {
+            var person = {
+                name: $("#userName").val(),
+                email: $("#userEmail").val(),
+                phone: $("#userPhone").val(),
+                subject: $("#userSubject").val(),
+                Message: $("#Message").val(),
+            }
+
+            $('#target').html('sending..');
+
+            $.ajax({
+                url: '/home/sendmail',
+                type: 'post',
+                dataType: 'json',
+                success: function (data) {
+                    $('#target').html(data.msg);
+                    alert('mail send successfully.');
+                    $("#userName").val(''),
+                     $("#userEmail").val(''),
+                     $("#userPhone").val(''),
+                     $("#userSubject").val(''),
+                     $("#Message").val('')
+                },
+                data: person
+            });
+        }
+        else {
+            return false;
+        }
+    }
+    function ValidUsername() {
+
+        //first name validation
+        var firstname = $("#userName").val();
+        if (firstname !== '') {
+            if (!/^[a-zA-Z]*$/g.test(firstname)) {
+                $("#userName").addClass('validation_control');
+                alert("Invalid user name.");
+                return false;
+            } else if (firstname.length > 30) {
+                $("#userName").addClass('validation_control');
+                alert('firstname cannot exceed more than 30 characters.');
+                return false;
+            }
+            else {
+                $("#userName").removeClass('validation_control');
+                return true;
+            }
+        }
+        else {
+            $("#userName").addClass('validation_control');
+            alert('must enter username.');
+
+        }
+
+        //End
+
+    }
+    function ValidEmail() {
+        //Email validation
+        var Email = $("#userEmail").val();
+        if (Email !== '') {
+            var emailReg = /^([\w-\.]+@@([\w-]+\.)+[\w-]{2,4})?$/;
+            if (Email.length > 30) {
+                alert('email length cannot exceed more than 30 characters.');
+                $("#userEmail").addClass('validation_control');
+                return false;
+            } else if (!emailReg.test(Email)) {
+                alert('please enter the valid email.');
+                $("#userEmail").addClass('validation_control');
+                return false;
+            }
+            else {
+                $("#userEmail").removeClass('validation_control');
+                return true;
+            }
+        }
+        else {
+            $("#userEmail").addClass('validation_control');
+            alert('must enter emails.');
+            return false;
+        }
+
+        //End
+    }
+    function ValidPhone() {
+        //phone no. validation
+        var phone = $("#userPhone").val();
+        if (phone !== '') {
+            var phonereg = /^\d{3}-\d{3}-\d{4}$/;
+            if (phone.length > 12) {
+                $("#userPhone").addClass('validation_control');
+                alert('phone no. length cannot exceed more than 12 characters.');
+                return false;
+            } else if (!phonereg.test(phone)) {
+                $("#userPhone").addClass('validation_control');
+                alert('please enter only  123-123-1234   this format.');
+                return false;
+            }
+            else {
+                $("#userPhone").removeClass('validation_control');
+                return true;
+            }
+        }
+        else {
+            $("#userPhone").addClass('validation_control');
+            alert('must phone no.');
+            return false;
+        }
+
+
+        //end
+    }
+    function ValidSubject() {
+        //subject validation
+        var subject = $("#userSubject").val();
+        alert(subject);
+        if (subject !== '') {
+            if (subject.length > 50) {
+                $("#userSubject").addClass('validation_control');
+                alert(' subject length cannot exceed more than 50 characters.');
+                return false;
+            }
+            else {
+                $("#userSubject").removeClass('validation_control');
+                return true;
+            }
+        }
+        else {
+            $("#userSubject").addClass('validation_control');
+            alert('must enter subject.');
+        }
+
+        //end
+    }
+    function Validmessage() {
+        //subject validation
+        var subject = $("#userSubject").val();
+        if (subject.length > 500) {
+            alert(' Body length cannot exceed more than 500 characters.');
+            return false;
+        }
+        else {
+            return true;
+        }
+        //end
+    }
+</script>
