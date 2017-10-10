@@ -1,0 +1,134 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Property_detail.master.cs" Inherits="Property.Property_detail" %>
+
+<%@ Register TagName="Logo" TagPrefix="uc" Src="~/Controls/logo.ascx" %>
+<%@ Register TagName="ContactInfo" TagPrefix="uc" Src="~/Controls/ContactInfo.ascx" %>
+<%@ Register TagName="SearchControl" TagPrefix="uc" Src="~/Controls/SearchControl.ascx" %>
+<%@ Register TagName="SearchBar" TagPrefix="uc" Src="~/Controls/SearchBar.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE HTML>
+<html>
+<head runat="server">
+
+    <title><asp:Literal ID="siteTitle" runat="server"></asp:Literal></title> 
+    
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    
+   
+</head>
+<body>
+<%--    <div class="header_bg prprty_detail_new">
+        <div class="container">
+            <div class="col-md-4 col-sm-4">
+                <div class="header_detail_print">
+                    <h2>
+                        <asp:Label ID="lbllisted" Text="Just Listed" runat="server"></asp:Label></h2>
+                  
+                
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+            </div>
+            <div class="col-md-4 col-sm-4">
+               <div class="header_detail1_print">
+                    <h5>
+                        <i class="ftr_hdng_new_print"></i>
+                        <asp:Label ID="lbloffered" Text="Offered At" runat="server"></asp:Label></h5>
+                      <h5>
+                        <i class="ftr_hdng_new_print"></i>
+                        <asp:Label ID="lblPrice" runat="server"></asp:Label></h5>
+                </div>
+            </div>
+
+        </div>
+    </div>--%>
+ <%--    <div class="container">
+  <div class="top_menu_bg">
+       
+            <div class="col-md-12 col-sm-12">
+                <div class="menu_section">
+                     <asp:Literal ID="dynamicmenus" runat="server"></asp:Literal>
+                </div>
+                    <script type="text/javascript" src="../js/script.js"></script>
+            </div>
+        </div>
+    
+   
+        <div class="inner_banner">
+            <img alt="" src="images/banner-inner.jpg" />
+        </div>
+    </div>--%>
+
+   
+    <form id="Form1" runat="server">
+        <div class="container" id="containerdiv">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+<%--    <div class="fuuter_bg" id="one-footer">
+        <div class="container">
+            <div class="col-md-4 col-sm-4">
+                <figure class="logo">
+                    <uc:Logo ID="logo" runat="server" />
+                </figure>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="fuuter_name">
+                    <h5>Follow Me</h5>
+                </div>
+                <ul class="scoico_icns_frnt">
+                    <li><a href="https://www.facebook.com/">
+                        <img alt="" src="images/fb_icn_new.png" /></a></li>
+                    <li><a href="https://twitter.com/">
+                        <img alt="" src="images/twiter_icn_new.png" /></a></li>
+                    <li><a href="https://in.linkedin.com/">
+                        <img alt="" src="images/insta_new_icn.png" /></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="fuuter_name">
+                         <h5>Contact Info</h5>
+                    </div>
+                <div class="fuuter_map">
+                    <h5>Email:</h5>
+                    <a href="mailto:manbirsandhu07@gmail.com">
+                        <asp:Label ID="lblemail" runat="server"></asp:Label></a><br />
+                    <h5>Cell: </h5>
+                    <a href="tel:647-668-2278">
+                        <asp:Label ID="lblmobile" runat="server"></asp:Label></a>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12">
+                <div class="Design_and_developed">
+                    
+                        <p>
+                       Designed & Developed by <a href="http://only4agents.com/">Only4agents</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+ 
+
+     <div class="fuutr_phne_bg">
+                <div class="futer_mail_bg">
+                    <div class="futer_mail">
+                        <ul>
+                            <li><a href="mailto:manbirsandhu07@gmail.com">
+                                <img alt="" src="images/mail_icnnn.png" /></a></li>
+                            <li><a href="tel:647-403-4855">
+                                <img alt="" src="images/mbl_icnnn.png" /></a></li>
+                            <li><a href="sms:647-403-4855">
+                                <img alt="" src="images/sms.png" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>--%>
+      <script type="text/javascript" src="js/jquery_009.js"></script>
+    <script type="text/javascript" src="js/shortcodes.js"></script> 
+</body>
+</html>
+

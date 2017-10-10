@@ -1,0 +1,302 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeMaster.Master.cs" Inherits="Property.HomeMaster" %>
+
+<%@ Register TagName="FeaturedProperties" TagPrefix="uc" Src="~/Controls/FeaturedProperties.ascx" %>
+<%@ Register TagName="Logo" TagPrefix="uc" Src="~/Controls/logo.ascx" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <link id="favicon" runat="server" rel="shortcut icon" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+    
+    <title><asp:Literal ID="siteTitle" runat="server"></asp:Literal></title> 
+    <script type="text/javascript"  src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/jquery_009.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/media-queries.css" rel="stylesheet" />
+    <link href="css/font.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/styleBackup.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/nivo-slider.css" rel="stylesheet" />
+    <link href="css/shortcodes.css" rel="stylesheet" />
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .contact_number {
+            float: left;
+            height: 100px;
+            padding: 20px;
+            position: absolute;
+            top: 512px;
+            z-index: 99999;
+        }
+            .contact_number span {
+                color: white;
+                font-size: 24px;
+            }
+
+        #Homebanner {
+            float: left;
+            margin-bottom: 0px;
+            width: 100%;
+        }
+
+        #map {
+            border: 2px solid #3f6f55;
+            height: 229px;
+            width: 90%;
+        }
+    </style>
+      <style type="text/css">
+        blockquote {
+            clear: both;
+            font-style: italic;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 10px 10px 0 50px;
+           
+            quotes: none;
+            background: url(https://dl.dropbox.com/u/96099766/RotatingTestimonial/open-quote.png) 0 0 no-repeat;
+            border: 0px;
+            font-size: 120%;
+            line-height: 200%;
+        }
+
+    </style>
+</head>
+<body>
+     <!--header start-->
+
+    <div class="header_bg">
+        <div class="container">
+            <div class="col-md-4 col-sm-4">
+                <div class="header_detail">
+                    <h2>
+                        <asp:Label ID="lblBrkrOneName" CssClass="gjfdhg" runat="server"></asp:Label></h2>
+                    <p>Sales Representative</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="header_detail1">
+                    <h5>
+                        <i class="ftr_hdng_new"></i>
+                        <a href="tel:647-668-2278"><asp:Label ID="lblphn" runat="server"></asp:Label></a></h5>
+                      <h5>
+                        <i class="ftr_hdng_new"></i>
+                        <a href="mailto:manbirsandhu07@gmail.com"><asp:Label ID="lblemailid" runat="server"></asp:Label></a></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="container">
+  <div class="top_menu_bg">
+            <div class="col-md-12 col-sm-12">
+                <div class="menu_section">
+                     <asp:Literal ID="dynamicmenus" runat="server"></asp:Literal>
+                </div>
+                    <script type="text/javascript" src="../js/script.js"></script>
+            </div>
+        </div>
+       <div id="Homebanner" runat="server">
+                <div class="banner_section">
+                        <div class="slider-wrapper theme-default">
+                            <div id="slider" class="nivoSlider">
+                                   <asp:Literal ID="ltrImgsf" runat="server"></asp:Literal>     
+                            </div>
+                        </div>
+                </div>
+            <script type="text/javascript">
+                $(window).load(function () {
+                    $('#slider').nivoSlider();
+                });
+            </script>
+        </div>
+        </div>
+    <!--banner end-->
+     <div class="main_sct_bg">
+        <div class="container">
+            <div class="main_sction">
+                <div class="row frnt_line_cls">
+                <div class="col-md-3 col-sm-3">
+                    <div class="box_sct_bg">
+                        <a href="Search.aspx?PropertyType=Residential">
+                            <div class="box_shadow">
+                                <img src="images/residential.jpg" alt="" title="" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="box_sct_bg">
+                    <a href="Search.aspx?PropertyType=Commercial">
+                        <div class="box_shadow">
+                            <img src="images/commercial.jpg" alt="" title="" />
+                        </div>
+                        </a>
+                    </div>
+                </div>
+				  <div class="col-md-3 col-sm-3">
+                    <div class="box_sct_bg">
+                    <a href="Search.aspx?PropertyType=Condo">
+                        <div class="box_shadow">
+                            <img src="images/condo.jpg"  alt="" title="" />
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="box_sct_bg">
+                       <a href="Featured_Properties.aspx">
+                        <div class="box_shadow">
+                            <img src="images/feature.jpg" alt="" title="" />
+                        </div>
+                           </a>
+                    </div>
+                </div>
+                   
+            </div>
+            <div >
+                </div>
+  
+                </div>
+        </div>
+    </div>
+    <div class="main_sct_bg">
+        <div class="container">
+            <div class="main_sction">
+                <div class="row frnt_line_cls">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="box_sct_bg">
+                            <a href="Free-home-evaluation.aspx">
+                                <div class="box_shadow">
+                                    <img src="images/free.jpg" alt="" title="" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="box_sct_bg">
+                            <a href="Comm_Buying_Selling.aspx">
+                                <div class="box_shadow">
+                                    <img src="images/commleasing.jpg" alt="" title="" />
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="box_sct_bg">
+                            <a href="PreConstructionCondos.aspx">
+                                <div class="box_shadow">
+                                    <img src="images/newcons.jpg" alt="" title="" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="box_sct_bg">
+                         <a href="view_testimonials.aspx">
+                                <div class="box_shadow">
+                                    <img src="images/testimonials.jpg" alt="" title="" />
+                                </div>
+                             </a>
+                          
+                        </div>
+                    </div>
+            </div>
+            <div >
+                </div>
+  
+                </div>
+        </div>
+    </div>
+    <form id="Form1" runat="server">
+        <div class="container" id="containerdiv">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <div class="fuuter_bg" id="one-footer">
+        <div class="container">
+            <div class="col-md-4 col-sm-4">
+                <figure class="logo">
+                    <uc:Logo ID="logo" runat="server" />
+                </figure>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="fuuter_name">
+                        <h5>Address</h5>
+                    </div>
+                <div class="fuuter_map">
+                 <h4>2980 Drew Road Suite 215-218 <br/>
+                    Mississauga, ON-L4T 0A7</h4>
+                </div>
+            </div>
+			<div class="col-md-3 col-sm-3">
+                <div class="fuuter_name">
+                        <h5>Contact Info</h5>
+                    </div>
+                <div class="fuuter_map">
+                 <h5>Email:</h5><a href="mailto:manbirsandhu07@gmail.com"><asp:Label ID="lblemail" runat="server"></asp:Label></a><br />
+                  <h5>Cell: </h5> <a href="tel:647-403-4855"><asp:Label ID="lblmobile" runat="server"></asp:Label></a>
+                </div>
+            </div>
+			<div class="col-md-2 col-sm-2">
+                 <div class="fuuter_name">
+                        <h5>Follow Me</h5>
+                    </div>
+                    <ul class="scoico_icns_frnt">
+                        <li><a href="https://www.facebook.com/manbirsandhu21">
+                            <img alt="" src="images/fb_icn_new.png" /></a></li>
+                        <li><a href="https://twitter.com/">
+                            <img alt="" src="images/twiter_icn_new.png" /></a></li>
+                    <li><a href="https://in.linkedin.com/">
+                            <img alt="" src="images/insta_new_icn.png" /></a></li>
+                    </ul>
+               
+            </div>
+            <div class="col-md-12 col-sm-12">
+                <div class="Design_and_developed">
+
+                    <p>
+                        Designed & Developed by <a href="http://only4agents.com/">Only4Agents</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fuutr_phne_bg">
+                <div class="futer_mail_bg">
+                    <div class="futer_mail">
+                        <ul>
+                            <li><a href="mailto:manbirsandhu07@gmail.com">
+                                <img alt="" src="images/mail_icnnn.png" /></a></li>
+                            <li><a href="tel:647-403-4855">
+                                <img alt="" src="images/mbl_icnnn.png" /></a></li>
+                            <li><a href="sms:647-403-4855">
+                                <img alt="" src="images/sms.png" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+   
+             </div>
+        
+</body>
+   
+
+</html>
