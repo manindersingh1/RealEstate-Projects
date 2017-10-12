@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="landing_master.master.cs" Inherits="Property.landing_master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <link id="favicon" runat="server" rel="shortcut icon" type="image/x-icon" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><asp:Literal ID="siteTitle" runat="server"></asp:Literal></title> 
+    <link rel="stylesheet" href="css/main.css" />
+    <style type="text/css">
+    .AutoExtender {
+        background: none repeat scroll 0 0 hsl(0, 0%, 96%);
+        border: 1px solid #ccc;
+        font-family: Verdana,Arial Black;
+        font-size: 12px;
+        font-weight: normal;
+        height: auto;
+        line-height: 20px;
+        margin-top: -1px;
+        position: absolute;
+        width: 265px !important;
+        z-index: 600001;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .AutoExtenderList {
+        cursor: pointer;
+        color: Black;
+        width: 257px;
+        padding-left: 7px;
+        list-style-type:none;
+    }
+
+    .AutoExtenderHighlight {
+        color: White;
+        background-color: #006699;
+        cursor: pointer;
+        width: 257px;
+        padding-left: 7px;
+    }
+</style>
+     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

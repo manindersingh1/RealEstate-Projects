@@ -1,0 +1,8 @@
+C:\Sites\Paramsites\Ray Nanda\Paresh_DesaiRealtor\bin\Paresh_DesaiRealtor.dll.config
+C:\Sites\Paramsites\Ray Nanda\Paresh_DesaiRealtor\bin\Paresh_DesaiRealtor.dll
+C:\Sites\Paramsites\Ray Nanda\Paresh_DesaiRealtor\bin\Paresh_DesaiRealtor.pdb
+C:\Sites\Paramsites\Ray Nanda\Paresh_DesaiRealtor\bin\Cls_Property.dll
+C:\Sites\Paramsites\Ray Nanda\Paresh_DesaiRealtor\bin\Cls_Property.pdb
+C:\Sites\Paramsites\Ray Nanda\Paresh_DesaiRealtor\obj\Debug\Ray Nanda.csprojResolveAssemblyReference.cache
+C:\Sites\Paramsites\Ray Nanda\Paresh_DesaiRealtor\obj\Debug\Paresh_DesaiRealtor.dll
+C:\Sites\Paramsites\Ray Nanda\Paresh_DesaiRealtor\obj\Debug\Paresh_DesaiRealtor.pdb

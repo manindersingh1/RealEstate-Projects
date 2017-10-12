@@ -1,0 +1,8 @@
+D:\Maninder\ParamSites\Paresh_DesaiRealtor\Paresh_DesaiRealtor\bin\Paresh_DesaiRealtor.dll.config
+D:\Maninder\ParamSites\Paresh_DesaiRealtor\Paresh_DesaiRealtor\bin\Paresh_DesaiRealtor.dll
+D:\Maninder\ParamSites\Paresh_DesaiRealtor\Paresh_DesaiRealtor\bin\Paresh_DesaiRealtor.pdb
+D:\Maninder\ParamSites\Paresh_DesaiRealtor\Paresh_DesaiRealtor\bin\Cls_Property.dll
+D:\Maninder\ParamSites\Paresh_DesaiRealtor\Paresh_DesaiRealtor\bin\Cls_Property.pdb
+D:\Maninder\ParamSites\Paresh_DesaiRealtor\Paresh_DesaiRealtor\obj\Debug\Paresh_DesaiRealtor.csprojResolveAssemblyReference.cache
+D:\Maninder\ParamSites\Paresh_DesaiRealtor\Paresh_DesaiRealtor\obj\Debug\Paresh_DesaiRealtor.dll
+D:\Maninder\ParamSites\Paresh_DesaiRealtor\Paresh_DesaiRealtor\obj\Debug\Paresh_DesaiRealtor.pdb
