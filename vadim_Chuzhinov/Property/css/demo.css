@@ -1,0 +1,28 @@
+
+ol,ul {
+	list-style:none;
+}
+
+/* General Demo Style */
+body{
+
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.ie7 body{
+	overflow:hidden;
+}
+
+/* Header Style */
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+	.container > header{
+		text-align: center;
+	}
+	p.codrops-demos {
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+}
