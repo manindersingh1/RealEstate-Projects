@@ -1,0 +1,462 @@
+/* Health Coach - Health and Fitness HTML Template */
+
+
+@media only screen and (max-width: 1140px){
+	
+	.main-header .main-box{
+		position:relative;
+		margin:0px !important;
+	}
+	
+	.page-title{
+		padding:80px 0px;	
+	}
+	
+	.main-menu .navigation > li{
+		margin:0px 5px;
+	}
+	
+	.main-menu .navigation > li > a{
+		padding-left:8px;
+		padding-right:8px;	
+	}
+	
+	
+	.page-wrapper{
+		overflow:hidden;	
+	}
+	
+	.cart-table tbody tr .prod-column .column-box,
+	.cart-table tbody tr .prod-column .column-box h3{
+		padding-top:5px !important;	
+	}
+	
+	.events-section .schedule-box{
+		overflow-x:auto;
+		overflow-y:hidden;	
+	}
+	
+	.events-section .events-table .event-hover-popup{
+		bottom:auto;
+		top:60px;	
+	}
+	
+	.events-section .events-table .event-hover-popup:after{
+		content:'\f0d8';
+		position:absolute;
+		left:50px;
+		bottom:auto;
+		top:-13px;
+		font-size:32px;
+		color:#ffffff;	
+	}
+	
+	.events-section .events-table .table-cell:hover .event-hover-popup{
+		margin:0px;
+	}
+	
+	.events-section .events-header h2{
+		margin-bottom:30px;	
+	}
+	
+	
+}
+
+@media only screen and (min-width: 1025px){
+	.hidden-bar.right-align.visible-sidebar{
+		right:-400px !important;	
+	}
+}
+
+@media only screen and (min-width: 768px){
+	.main-menu .navigation > li > ul,
+	.main-menu .navigation > li > ul > li > ul{
+		display:block !important;
+		visibility:hidden;
+		opacity:0;
+	}
+}
+
+@media only screen and (max-width: 1023px){
+	
+	.main-header .main-box .logo-box {
+		position:relative;
+		left:0px;
+		top:0px;
+		right:0px;
+		bottom:0px;
+		width:200px;
+		margin:0px;
+		text-align:left;
+	}
+	
+	.main-header .main-box .outer-container{
+		padding-left:0px;	
+	}
+	
+	.main-header .nav-outer,
+	.nav-outer .main-menu{
+		display:none;
+	}
+	
+	.main-header .nav-toggler{
+		display:block;
+	}
+	
+	.fluid-section-one .video-column .video-box .image{
+		display:block;
+	}
+	
+	.fluid-section-one .video-column .video-box,
+	.fluid-section-one .video-column{
+		position:relative;
+		left:0px;
+		right:0px;
+		top:0px;
+		bottom:0px;
+		background:none;
+		width:100%;
+	}
+	
+	.fluid-section-one .column{
+		width:100%;
+		max-width:none;
+	}
+	
+	.fluid-section-one .content-column .content-outer{
+		width:100%;
+		max-width:none;
+	}
+	
+	.sec-title h2{
+		font-size:20px;	
+	}
+	
+	.gallery-single-post .info-column{
+		padding-left:15px;	
+	}
+	
+	.sidebar-page-container .blog-section{
+		padding-right:0px !important;	
+	}
+	
+	.sidebar-side .sidebar{
+		padding-left:0px;	
+	}
+	
+	.two-col-fluid .image-column,
+	.two-col-fluid .content-column{
+		width:100%;
+		position:relative;
+	}
+	
+	.two-col-fluid .image-column{
+		background:none !important;	
+	}
+	
+	.two-col-fluid .image-column .image-box{
+		display:block;	
+	}
+	
+	.two-col-fluid .content-column .inner-box{
+		max-width:none;
+		padding:50px 15px 30px;	
+	}
+	
+}
+
+@media only screen and (max-width: 767px){
+	
+	
+	.main-header .header-top .top-right ul.info-nav{
+		float:none;
+		left:-10px;	
+	}
+	
+	.header-upper .logo-outer {
+		position:relative;
+		left:0px;
+		top:0px;
+		right:0px;
+		bottom:0px;
+		width:100%;
+		margin:0px;
+	}
+	
+	.default-portfolio-item.masonry-item.big-item,
+	.default-portfolio-item.masonry-item.small-item{
+		width:100%;	
+	}
+	
+	.main-header .header-top .top-right ul li,
+	.main-header .header-top .top-left ul li{
+		margin:0px 10px;	
+	}
+	
+	.main-slider .tp-caption{
+		display:none !important;
+	}
+	
+	.main-header .header-top .top-left .dropdown{
+		max-width:170px;
+		margin:0 auto;	
+	}
+	
+	.main-header .header-top .top-left{
+		width:100%;
+		text-align:center;	
+	}
+	
+	.main-header .header-top .top-right{
+		width:100%;
+		text-align:center;
+	}
+	
+	.main-header .header-top .top-right ul,
+	.main-header .header-top .top-left ul,
+	.header-top .social-icon,
+	.header-top .top-right ul{
+		text-align:center;
+		width:100%;
+		margin:10px 0px;
+		padding:0px;	
+	}
+	
+	.news-style-one .image-column{
+		margin-bottom:25px;	
+	}
+	
+	.main-footer .footer-bottom .pull-left,
+	.main-footer .footer-bottom .pull-right{
+		width:100%;
+		text-align:center;	
+	}
+	
+	.main-footer .footer-nav li{
+		margin:5px 10px;	
+	}
+	
+	.sec-title h2,
+	.newsletter-style-one .title-column h2,
+	.project-details h2,
+	.sec-title.medium h2,
+	.appt-section .title-box h2,
+	.cart-section .sec-title h2,
+	.sidebar-page-container .sec-title h2{
+		font-size:24px;	
+	}
+	
+	.page-info .pull-left,
+	.page-info .pull-right{
+		width:100%;	
+	}
+	
+	.products-section .shop-upper-box .items-label,
+	.products-section .shop-upper-box .sort-by{
+		width:100%;
+		margin:0px;	
+	}
+	
+	.prod-tabs .reviews-container .rev-header h4,
+	.prod-tabs .reviews-container .rev-header .rating{
+		font-size:14px;	
+	}
+	
+	.prod-tabs .add-review .rating li::after{
+		display:none;	
+	}
+	
+	.prod-tabs .add-review .rating li{
+		display:block;
+		margin:0px 10px 0px 0px;	
+	}
+}
+
+@media only screen and (max-width: 599px){
+	
+	.prod-tabs .reviews-container .review-box{
+		padding:15px 20px;	
+	}
+	
+	.prod-tabs .reviews-container .rev-thumb{
+		position:relative;
+		left:0px;
+		top:0px;
+		margin-bottom:20px;
+	}
+	
+	.prod-tabs .tab-btns .tab-btn,
+	.contact-section .info-tabs .tab-btn{
+		display:block;
+		float:none;
+		width:100%;
+		margin:0px 0px 10px;
+		text-align:center;
+	}
+	
+	.sidebar-page-container .comments-area .reply-comment{
+		margin-left:0px;	
+	}
+	
+	.cart-section .coupon-outer .pull-left,
+	.cart-section .coupon-outer .pull-right{
+		width:100%;	
+	}
+	
+	.cart-section .coupon-outer .apply-coupon .form-group{
+		margin:0px 0px 15px;
+		width:100%;	
+	}
+	
+	.cart-section .coupon-outer .apply-coupon .form-group input[type="text"]{
+		width:100%;	
+	}
+	
+	.cart-section .coupon-outer .theme-btn{
+		width:100%;
+		display:block;
+		margin:0px 0px 10px;	
+	}
+	
+	.gallery-section .filters li{
+		border:1px solid #e0e0e0 !important;
+		display:block;
+		margin:0px 0px 10px;	
+	}
+	
+	.gallery-section .filters .filter-tabs{
+		display:block;
+		margin:0px 0px 10px;
+		border:none;	
+	}
+	
+	.news-style-one blockquote{
+		margin-left:0px;	
+	}
+	
+	.blog-details .post-bottom .share-options strong{
+		display:block;	
+	}
+	
+	.blog-details .post-bottom .post-controls{
+		padding-top:10px;
+		width:100%;	
+	}
+	
+	.blog-details .post-bottom .post-controls li{
+		margin:0px 20px 0px 0px;	
+	}
+	
+	.icon-column-default .inner-box{
+		padding:0px;
+		text-align:center;	
+	}
+	
+	.icon-column-default .inner-box .icon-box,
+	.testimonials-section .slide-item .author-thumb{
+		position:relative;
+		left:0px;
+		top:0px;
+		margin:0 auto 25px;	
+	}
+	
+	.testimonials-section .slide-item .slide-header{
+		padding:30px 20px;
+		text-align:center;	
+	}
+	
+	.testimonials-section .slide-item .slide-content{
+		padding:15px 20px;
+		text-align:center;	
+	}
+	
+	.featured-service .overlay-box .icon-box{
+		display:none;	
+	}
+	
+	.featured-service .overlay-box .overlay-inner{
+		padding-left:30px;
+		text-align:center;	
+	}
+	
+	.team-section .team-thumbs-carousel{
+		padding-right:150px;	
+	}
+	
+	.events-section .events-table .event-hover-popup{
+		width:270px;
+		height:350px;
+		overflow:auto;	
+	}
+	
+	.events-section .events-table .event-hover-popup .upper-content .image{
+		margin:0px 0px 20px;
+		float:none;
+		width:100%;	
+	}
+	
+	.events-section .events-table .event-hover-popup .upper-content .image img{
+		width:100%;	
+	}
+}
+
+@media only screen and (max-width: 499px) {
+	
+	
+	.main-header .main-box .logo-box .logo img{
+		max-width:70%;	
+	}
+	
+	.main-header .nav-toggler{
+		right:60px;	
+	}
+	
+	.page-title h1{
+		font-size:24px;	
+	}
+	
+	.prod-tabs .tabs-container .tab{
+		padding:20px 0px;
+	}
+	
+	.sidebar-page-container .comments-area .reply-comment,
+	.blog-details .comments-area .comment .comment-inner,
+	.post-details .comments-area .comment .comment-inner{
+		padding-left:0px;	
+	}
+	
+	.blog-details .post-author .inner-box{
+		padding:20px;	
+	}
+	
+	.blog-details .post-author .inner-box .author-thumb{
+		position:relative;
+		left:0px;
+		top:0px;
+		margin-bottom:20px;	
+	}
+	
+	.sidebar-page-container .comments-area .comment-box .author-thumb{
+		position:relative;
+		left:0px;
+		top:0px;
+		margin-bottom:20px;	
+	}
+	
+	.accordion-box .block .content .image{
+		margin:0px 0px 20px;
+		float:none;
+		width:100%;	
+	}
+	
+	.accordion-box .block .content .image img{
+		display:block;
+		width:100%;	
+	}
+	
+	.post-details .gallery-controls .next-btn,
+	.post-details .gallery-controls .prev-btn{
+		min-width:0px;
+		padding:8px 20px;	
+	}
+}
