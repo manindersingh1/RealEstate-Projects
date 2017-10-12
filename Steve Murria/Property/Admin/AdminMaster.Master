@@ -1,0 +1,172 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.Master.cs"
+    Inherits="Property.Admin.AdminMaster" %>
+
+<%@ Register TagName="HeaderLogo" TagPrefix="uc" Src="~/Controls/HeaderLogo.ascx" %>
+<%@ Register TagName="Logo" TagPrefix="uc" Src="~/Controls/logo.ascx" %>
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><asp:Literal ID="siteTitle" runat="server"></asp:Literal></title> 
+    <script src="../js/jquery-1.11.1.min.js"></script>
+      
+    <link type="text/css" href="admintemplate/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link type="text/css" href="admintemplate/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link type="text/css" href="admintemplate/css/theme.css" rel="stylesheet" />
+    <link type="text/css" href="admintemplate/images/icons/css/font-awesome.css" rel="stylesheet" />
+    <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet' />     
+    <link id="favicon" runat="server" rel="shortcut icon" type="image/x-icon" />
+    <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <style>
+        /*css for progressbar*/
+        #blocker {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: .5;
+            background-color: #000;
+            z-index: 1000;
+            overflow: auto;
+        }
+        .backend_logo{
+            margin: 12px;
+        }
+
+            #blocker div {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 5em;
+                height: 2em;
+                margin: -1em 0 0 -2.5em;
+                color: #fff;
+                font-weight: bold;
+            }
+
+        #ctl00_updatepanelloc {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script type="text/javascript" language="javascript">
+        var myEvent = window.attachEvent || window.addEventListener;
+        var chkevent = window.attachEvent ? 'onbeforeunload' : 'beforeunload'; 
+        myEvent(chkevent, function (e) { 
+            $("#blocker").show();
+        });      
+        window.onbeforeunload = function () {          
+
+            $("#blocker").show();            
+        }
+        window.onload = function () {
+            
+            $("#blocker").hide();     
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+        <div class="col-md-12 col-sm-12">
+            <div class="navbar navbar-fixed-top">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <div>
+                            <div class="span6">
+                                <a href="../Home.aspx">
+                                    <img src="../images/MyLogodd%20-%20Copy.png" />
+                                </a>
+                            </div>
+                            <div class="span5">
+                                <div class="backend_menu">
+                                    <div class="top_nav">
+                                        <div class="nav_menu">
+                                            <nav class="" role="navigation">
+                                                <div class="nav toggle">
+                                                    <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                                                </div>
+                                                <ul class="nav navbar-nav navbar-right">
+                                                    <li class="">
+                                                        <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                            <asp:Label ID="username" runat="server"></asp:Label>
+                                                            <span>
+                                                                <img src="admintemplate/images/img.png" />
+                                                            </span>
+                                                        </a>
+                                                        <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
+                                                            <li><a href="../Change_Password.aspx">Change Password</a>
+                                                            </li>
+                                                            <li><a href="../Home.aspx"><i class="fa fa-sign-out pull-right"></i>Log Out</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="span3">
+                        <div class="sidebar">
+                            <ul class="widget widget-menu unstyled">
+                                <li class="active"><a href="SiteSettings.aspx"><i class="menu-icon icon-dashboard"></i>Configuration</a>
+                                </li>
+                                <li><a href="ListOfPages.aspx"><i class="menu-icon icon-paste"></i>Page Manager</a>
+                                </li>
+                                <li><a href="RegisteredUsers.aspx"><i class="icon-eye-open" style="margin: 0px 9px 0px 0px !important;"></i>Registered Users</a>
+                                </li>
+                                <li><a href="ContactedUsers.aspx"><i class="icon-eye-close" style="margin: 0px 9px 0px 0px !important;"></i>Contacted Users</a>
+                                </li>
+                                <li><a href="Appointments.aspx"><i class="menu-icon icon-bullhorn"></i>Appointments</a>
+                                </li>
+                                <li><a href="Banner.aspx"><i class="menu-icon icon-book"></i>Manage Banner</a>
+                                </li>
+                                <li><a href="Features.aspx"><i class="menu-icon icon-home"></i>Featured Properties</a>
+                                </li>
+                                <li><a href="Virtual.aspx"><i class="menu-icon icon-home"></i>Virtual Tour</a>
+                                </li>
+                                <li><a href="Testimonials.aspx"><i class="menu-icon icon-home"></i>Testimonials</a>
+                                </li>
+                                <li><a href="AdminLogin.aspx"><i class="menu-icon icon-signout"></i>Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <b class="copyright">&copy;
+                    <asp:Label ID="lblCopyRight" runat="server"></asp:Label>
+                </b>All rights reserved.
+            </div>
+        </div>
+        <div id="blocker">
+            <div style="color: Green; font-size: 14px; width: 100px">
+                <img src="../images/ajax-loader.gif" width="50" alt="Please wait....." /><br />
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
+
+
+
